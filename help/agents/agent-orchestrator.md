@@ -1,0 +1,77 @@
+---
+title: Adobe Experience Platform Agent Orchestrator
+description: 了解 Adobe Experience Platform Agent Orchestrator。
+TQID: https://experienceleague.adobe.com/xv7K7636d65K0V8R1EG97xnZpZAjnNhfF7JgqQz1aoY
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+workflow-type: tm+mt
+source-wordcount: 966
+ht-degree: 20%
+
+---
+
+# Adobe Experience Platform Agent Orchestrator
+
+Adobe Experience Platform Agent Orchestrator 是 Adobe Experience Platform 全新的代理層。 Experience Platform Agent Orchestrator的設計宗旨是善用Experience Platform豐富的資料和客戶知識，其智慧和推理功能源自專門建置的Adobe Experience Platform代理程式，可讓他們快速且大規模地執行複雜的決策和問題解決任務，而且完全仰賴人力監管。 當您透過像 AI 助理這樣的對話式介面，用自然語言提出問題或要求協助時，Agent Orchestrator 會自動調用專門的代理，為您取得正確的答案。 Agent Orchestrator 會記住您的對話記錄，讓您可以不必複述相關背景資訊，即可自然地在先前問題的基礎上繼續提問，並且結合來自多個代理的洞察，為您提供清楚且統一的回答。
+
+您可以透過直覺式的對話介面完成複雜的端對端工作流程，而不需要知道哪些代理人在幕後工作。 系統瞭解您的目標、建立逐步計畫，並根據您的意見回應視需要調整方法。 在AI助理的對話中，您可以探索Agent Orchestrator推理面板，檢視逐步思考過程，並更瞭解處理請求的方式。
+
+>[!SLIDE](agent-orchestrator-overview)
+
+請閱讀本檔案以瞭解Agent Orchestrator。
+
+## Agent Orchestrator 元件 {#components}
+
+Agent Orchestrator由數個關鍵元件組成，包括AI Assistant對話介面、用於決策和規劃的推理引擎、專業的Adobe Experience Platform代理程式，以及可提供相關資訊存取權的知識庫。
+
+![Agent Orchestrator的行銷架構。](./images/agent-orchestrator/agentic-architecture.png)
+
+### AI 助理對話式介面 {#ai-assistant}
+
+AI Assistant是一種智慧型自然語言對話體驗，可讓使用已啟用的Experience Cloud應用程式的從業人員運用GenAI和Agentic AI功能，其廣度取決於客戶授權的Experience Cloud應用程式。 若要解除鎖定存取權，請閱讀[存取AI助理的指南](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access)。
+
+如需詳細資訊，請閱讀 [AI 助理使用者介面指南](../ai-assistant/ai-assistant-ui.md)。
+
+### 推理引擎 {#reasoning-engine}
+
+推理引擎會根據您的自然語言提示解譯您的目標、檢查任何限制或要求，並建立逐步計畫以幫助您達成目標。 不同於簡單的問答系統，它可以隨著情況變化調整計畫，並視需要返回嘗試不同的方法。 它建立的計畫會顯示在AI Assistant對話介面中，以便您檢視並遵循該流程，以及視需要介入。
+
+### Adobe Experience Platform代理程式 {#agents}
+
+Adobe Experience Platform代理是專門建置的AI代理程式群組，擅長於跨客戶體驗網域提供常見工作。 以下是Experience Cloud應用程式中目前可用的Adobe Experience Platform代理程式清單：
+
+| 代理程式 | 詳細資料 | 支援的應用程式 |
+| --- | --- | --- |
+| [Audience Agent](audience.md) | Audience Agent可讓您檢視對象的相關深入分析，包括偵測對象人數的重大變更、偵測重複的對象、探索您的對象詳細目錄，以及擷取對象人數。 | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> |
+| [Data Insights Agent](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Data Insights Agent可透過Customer Journey Analytics中的AI助理存取，是具創造性的AI交談代理程式，可快速並有效率地回答有關您資料的問題。 此代理會使用來自您資料視圖的元件以及您的實際資料，在 Analysis Workspace 中建置相關的視覺效果。 | Customer Journey Analytics |
+| [Experimentation Agent](./agent-experiment.md) | Experimentation Agent透過分析實驗結果、預測影響和建議新實驗，幫助團隊更快地學習。 它將過去和正在進行的實驗集中在一起，因此您可以根據已學到的內容來建構，找出差距，並排定下一個測試的優先順序。 | Adobe Journey Optimizer Experimentation Accelerator |
+| [Journey Agent](./ajo-agent.md) | Journey Agent可讓Adobe Journey Optimizer使用者使用自然語言介面建立、分析和最佳化歷程。 有了Journey Agent，您可以快速建立歷程、偵測並解決排程或對象衝突、分析效能和流失點，並找出表現最佳的歷程，以復寫給未來的行銷活動。 它可幫助您制定資料導向式決策、改善客戶參與度並簡化歷程協調。 | Adobe Journey Optimizer |
+| [產品支援代理程式](product-support.md) | 產品支援代理程式是自助式的偵錯和疑難排解功能，可協助您疑難排解Adobe Experience Platform功能和應用程式，而不會離開您的工作流程。 支援管理員可以使用您的AI助理互動中的內容來建立客戶支援票證，並且您可以透過AI助理來檢查票證更新。 | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
+
+如需Experience Cloud應用程式代理程式可用性的進一步資訊，請檢閱Experience Cloud檔案中的[代理程式AI](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/agentic-ai)。
+
+### 知識庫 {#knowledge-base}
+
+知識庫可讓代理商透過結構化和非結構化資料來源（包括Adobe產品檔案、有關業務物件的客戶中繼資料以及分析資料），安全地存取客戶業務情報。
+
+## 生態系統 {#ecosystem}
+
+Agent Orchestrator生態系統包含下列代理程式：
+
+| 代理程式 | 詳細資料 |
+| --- | --- |
+| [Adobe Marketing Agent for Microsoft 365 Copilot](ama-ms.md) | 使用適用於[!DNL Microsoft 365 Copilot]的Adobe Marketing Agent，在[!DNL Teams]、[!DNL Word]、[!DNL Powerpoint]和[!DNL Excel]等[!DNL Microsoft 365]個應用程式中擷取Experience Platform的行銷深入分析。 使用此代理程式，您可以： <ul><li>做出更快、資料導向的行銷決策。</li><li>減少在工具之間切換所花費的時間。</li><li>簡化存取跨團隊的對象和歷程深入分析。</li></ul> |
+
+## 存取權 {#access}
+
+所有使用者都能存取AI助理和相關聯的Experience Platform代理程式。
+
+* **Adobe Experience Manager**：您的管理員必須透過[Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)授與您存取AI小幫手的許可權。
+
+* **Customer Journey Analytics**：您的管理員必須透過[Customer Journey Analytics存取控制](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)授與您存取AI小幫手的許可權。 這可讓您詢問產品知識和資料見解問題。
+
+>[!NOTE]
+>
+>Customer Journey Analytics沒有運作見解問題；因此，不適用其他許可權。
