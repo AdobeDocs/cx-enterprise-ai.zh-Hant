@@ -31,7 +31,7 @@ ht-degree: 0%
 - 正確的組織和沙箱
 - 存取您要查詢的結構描述和資料集
 
-對於XDM結構描述以及欄位在分段或資料工作流程中的使用方式有基本的瞭解，可以幫助您更有效地解讀結果。 如需詳細資訊，請參閱[XDM概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home)和[結構描述編輯器檔案](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui)。
+對於XDM結構描述以及欄位在分段或資料工作流程中的使用方式有基本的瞭解，可以幫助您更有效地解讀結果。 如需詳細資訊，請參閱[XDM概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home)和[結構描述編輯器檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/tutorials/create-schema-ui)。
 
 如需啟用AI助理存取許可權和授與必要許可權的指示，請參閱[Agent Orchestrator存取指南](./agent-orchestrator.md#access)。
 
@@ -207,7 +207,7 @@ ht-degree: 0%
 - 儘可能新增欄位說明。
 - 將欄位與作用中資料集建立關聯，而不是將其保留為僅限結構描述的定義。
 
-如需在結構描述編輯器中編輯欄位顯示名稱和說明的指南，請參閱[在UI中建立和編輯結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas)。
+如需在結構描述編輯器中編輯欄位顯示名稱和說明的指南，請參閱[在UI中建立和編輯結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/resources/schemas)。
 
 如果您沒有結構描述編輯存取權，且結果持續不佳，請聯絡您的Experience Platform管理員或資料工程團隊，以檢閱您使用之結構描述的欄位中繼資料。
 
