@@ -2,10 +2,10 @@
 title: 與同事執行Customer Journey Analytics資料分析
 description: 瞭解如何與同事一起執行Customer Journey Analytics資料分析。
 hold: true
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 8b82dcb024ff528a86fbe782212a267610b46091
 workflow-type: tm+mt
-source-wordcount: '1760'
-ht-degree: 5%
+source-wordcount: '1865'
+ht-degree: 4%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 5%
 >
 >本文所述的功能處於發行的有限測試階段，可能尚未在您的環境中提供。 當功能正式可用時，將移除此附註。 如需Customer Journey Analytics發行程式的相關資訊，請參閱[Customer Journey Analytics功能發行](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/releases/latest)。
 
-Adobe CX Enterprise Co-worker Chat可以執行進階資料分析，而以前只能在Analysis Workspace中執行這種分析。 同事聊天可存取您Customer Journey Analytics資料檢視中的資料，讓您探索該資料並取得自然語言提示的答案。
+Adobe CX Enterprise Co-worker Chat可以執行進階資料分析，而以前只能在Analysis Workspace中執行這種分析。 Co-worker Chat會存取您Customer Journey Analytics資料檢視中的資料，讓您探索該資料並獲得自然語言提示的答案。
 
-開始分析之前，請先登入CX Enterprise帳戶存取同事聊天，然後確認Customer Journey Analytics MCP伺服器已連線。
+在開始分析之前，請先登入CX Enterprise帳戶來存取「同事聊天」，然後確認Customer Journey Analytics MCP伺服器已連線。
 
 ## 存取同事聊天
 
@@ -25,29 +25,25 @@ Adobe CX Enterprise Co-worker Chat可以執行進階資料分析，而以前只�
 
 1. 使用您的Adobe ID認證登入[Adobe CX Enterprise](https://experience.adobe.com)。
 
-1. 然後呢？
+1. 從CX Enterprise產品選擇器中選取&#x200B;[!UICONTROL **Co-worker**]。<!--not sure what this step should say-->
 
-## 連線Customer Journey Analytics MCP伺服器
+1. 在「同事」中，確認「同事」已連線至Customer Journey Analytics：
 
-1. 在Co-worker中，選取左側邊欄中的MCP圖示。
+   1. 在左側邊欄中選取MCP圖示，然後確定連線的MCP伺服器清單中有&#x200B;[!UICONTROL **cja-mcp**]。
 
-   ![Co-worker左側邊欄中反白的MCP圖示](images/data-validation-aa-cja/coworker-mcp.png)
+      ![Co-worker左側邊欄中反白的MCP圖示](images/data-validation-aa-cja/coworker-mcp-cja.png)
 
-1. 確定連線的MCP伺服器清單中有&#x200B;[!UICONTROL **cja-mcp**]。
-
-   ![Co-worker左側邊欄中反白的MCP圖示](images/data-validation-aa-cja/coworker-mcp-cja.png)
-
-1. （條件式）如果尚未連線&#x200B;[!UICONTROL **cja-mcp**]，請選取&#x200B;[!UICONTROL **新增MCP伺服器**]，在&#x200B;[!UICONTROL **伺服器名稱**]&#x200B;欄位中指定cja，並在它出現時加以選取，然後選取&#x200B;[!UICONTROL **新增伺服器**]。
+   1. （條件式）如果尚未連線&#x200B;[!UICONTROL **cja-mcp**]，請選取&#x200B;[!UICONTROL **新增MCP伺服器**]，在&#x200B;[!UICONTROL **伺服器名稱**]&#x200B;欄位中指定cja，並在它出現時加以選取，然後選取&#x200B;[!UICONTROL **新增伺服器**]。
 
 ## 連線到正確的資料檢視
-
-<!--I did this. Do users need to?-->
 
 資料檢視是Customer Journey Analytics中的容器，可決定如何解譯資料。
 
 您可能會存取Customer Journey Analytics中的各種資料檢視，每個檢視都包含Co-worker在分析資料時可使用的不同維度和量度。
 
-告訴同事您要回答的問題型別，並詢問您有權存取哪些資料檢視最適合提供該資訊。
+### 決定您要使用哪些資料檢視
+
+告訴同事您要回答的問題型別，並詢問您有權存取哪些資料檢視最適合提供該資訊。 您也可以[將資料檢視設定為記憶體](#add-a-data-view-preference-in-memory)中的偏好設定。
 
 **您：**
 
@@ -80,6 +76,16 @@ Adobe CX Enterprise Co-worker Chat可以執行進階資料分析，而以前只�
 好的，我將使用`Customer lifecycle`資料檢視來回答此聊天工作階段中未來的問題。
 
 >[!ENDSHADEBOX]
+
+### 在記憶體中新增資料檢視偏好設定
+
+Co-worker Chat包含記憶體功能，可讓您存取跨越所有聊天內容的資訊。 將您偏好的資料檢視新增為同事記憶體的偏好設定，會是個好做法。
+
+1. 在「同事聊天」的左側導覽中，選取「記憶體」圖示。
+
+1. 在「記憶體」頁面的「預存的偏好設定」段落中，指定您希望「同事聊天」在聊天中使用的一或多個資料檢視。
+
+   左側邊欄中的![記憶體區段](images/data-validation-aa-cja/coworker-memory.png)
 
 ## 使用案例：找出客戶流失的位置
 
