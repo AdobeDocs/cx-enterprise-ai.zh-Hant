@@ -1,7 +1,7 @@
 ---
 title: 在AI助理中驗證資料
 description: 瞭解如何在AI Assistant中使用Agent Orchestrator支援的資料驗證，對資料集執行統計和語意驗證。
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ### 開始驗證
 
-![AI助理首頁，其提示欄位顯示資料集驗證請求、Experience Platform環境選擇器以及傳送控制項。](./images/validation/home.png)
+![AI助理首頁，其提示欄位顯示資料集驗證請求、Experience Platform環境選擇器以及傳送控制項。](./assets/validation/home.png)
 
 在左側導覽中，選取&#x200B;**[!UICONTROL AI小幫手]**。 接下來，使用環境選擇器，並選擇您的資料集所在的Experience Platform組織或沙箱（例如，**[!UICONTROL Experience Platform - Prod]**）。 在提示欄位中，輸入驗證請求（例如，要求依名稱驗證資料集）。 選取&#x200B;**[!UICONTROL 傳送]**&#x200B;以提交提示。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ### 讀取資料集摘要和欄位表格
 
-![包含推理完成的AI助理回應、驗證摘要，以及列出欄位路徑、型別和有效值的欄位摘要表格。](./images/validation/answer.png)
+![包含推理完成的AI助理回應、驗證摘要，以及列出欄位路徑、型別和有效值的欄位摘要表格。](./assets/validation/answer.png)
 
 請讓Agent Orchestrator短暫地完成執行（**推理完成**）。 執行完成後，請閱讀資料集名稱、已驗證多少欄位，以及範例大小（通常最多約1,000列）的摘要。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ### 在分割檢視中工作
 
-![分割檢視，左邊為驗證敘述和統計資料，右邊為有效值的展開圖表視覺效果。](./images/validation/split-screen.png)
+![分割檢視，左邊為驗證敘述和統計資料，右邊為有效值的展開圖表視覺效果。](./assets/validation/split-screen.png)
 
 在展開的檢視中，使用分割版面：一邊是詳細的統計和敘述，另一邊是圖表。
 
@@ -69,19 +69,19 @@ ht-degree: 0%
 
 ### 使用相關建議進行後續追蹤
 
-![提示欄位上方的相關建議片段，選取一個建議來驗證資料集上的特定欄位。](./images/validation/related-suggestion.png)
+![提示欄位上方的相關建議片段，選取一個建議來驗證資料集上的特定欄位。](./assets/validation/related-suggestion.png)
 
 回應後，在交談下方尋找&#x200B;**[!UICONTROL 相關建議]**。 選取建議（例如，驗證相同資料集上的特定欄位），以將其載入提示欄位中。 視需要調整文字，確認環境，然後選取&#x200B;**[!UICONTROL 傳送]**&#x200B;以執行後續追蹤。
 
 ### 在欄位層級驗證
 
-![圖表檢視中單一欄位的驗證結果卡，顯示有效度環圈圖與展開檢視中的顯示動作。](./images/validation/single-field.png)
+![圖表檢視中單一欄位的驗證結果卡，顯示有效度環圈圖與展開檢視中的顯示動作。](./assets/validation/single-field.png)
 
 開啟欄位層級&#x200B;**[!UICONTROL 驗證結果]**&#x200B;卡片（例如，在驗證單一欄位之後）。 當您想要視覺化摘要而非表格時，請使用檢視控制項切換至&#x200B;**圖表** （或其他檢視）。 在此步驟中，您可以選擇選取&#x200B;**[!UICONTROL 屬性]**&#x200B;以檢視有關欄位的更多資訊。
 
 選取&#x200B;**[!UICONTROL 在展開檢視中顯示]**，以開啟該欄位驗證的大型且更詳細的檢視。
 
-![顯示詳細欄位層級驗證統計資料和圖表視覺效果的展開檢視。](./images/validation/expanded-view.png)
+![顯示詳細欄位層級驗證統計資料和圖表視覺效果的展開檢視。](./assets/validation/expanded-view.png)
 
 透過展開的檢視，您可以根據指定欄位最多1000筆記錄的範例，檢視整個欄位的專案清單。 您可以使用此功能來擷取有關有效、相異和Null值的資訊。
 
@@ -161,9 +161,9 @@ ht-degree: 0%
 - **分佈檢查**：最高唯一值及其分佈、高基數偵測。
 - **語意檢查與結構描述**：使用XDM欄位名稱、型別和描述來推斷出「有效」的外觀，然後標示異常。
 - **資料型別感知檢查** （適用時）：
-   - 電子郵件：格式和網域可行性
-   - 電話：格式整備（例如E.164）
-   - 日期/時間戳記：基本格式健全度（例如ISO-8601）
+  - 電子郵件：格式和網域可行性
+  - 電話：格式整備（例如E.164）
+  - 日期/時間戳記：基本格式健全度（例如ISO-8601）
 - **識別相關檢查** （未來/延伸）：候選識別欄位或複合金鑰的唯一性。
 
 這些檢查將確定性統計資料與LLM輔助語意驗證結合，以偵測「看起來錯誤」的值，即使這些值在技術上符合結構描述亦然。

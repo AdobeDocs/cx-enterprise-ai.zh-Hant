@@ -2,24 +2,13 @@
 title: Adobe Experience Platform Agent Orchestrator
 description: 了解 Adobe Experience Platform Agent Orchestrator。
 TQID: https://experienceleague.adobe.com/xv7K7636d65K0V8R1EG97xnZpZAjnNhfF7JgqQz1aoY
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
-source-wordcount: 966
-ht-degree: 20%
+source-wordcount: 956
+ht-degree: 19%
 
 ---
 
@@ -37,11 +26,11 @@ Adobe Experience Platform Agent Orchestrator 是 Adobe Experience Platform 全�
 
 Agent Orchestrator由數個關鍵元件組成，包括AI Assistant對話介面、用於決策和規劃的推理引擎、專業的Adobe Experience Platform代理程式，以及可提供相關資訊存取權的知識庫。
 
-![Agent Orchestrator的行銷架構。](./images/agent-orchestrator/agentic-architecture.png)
+![Agent Orchestrator的行銷架構。](./assets/agent-orchestrator/agentic-architecture.png)
 
 ### AI 助理對話式介面 {#ai-assistant}
 
-AI Assistant是一種智慧型自然語言對話體驗，可讓使用已啟用的Experience Cloud應用程式的從業人員運用GenAI和Agentic AI功能，其廣度取決於客戶授權的Experience Cloud應用程式。 若要解除鎖定存取權，請閱讀[存取AI助理的指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/access)。
+AI Assistant是一種智慧型自然語言對話體驗，可讓使用已啟用的CX Enterprise應用程式的從業人員運用GenAI和Agentic AI功能，其廣度取決於客戶授權的CX Enterprise應用程式。 若要解除鎖定存取權，請閱讀[存取AI助理的指南](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access)。
 
 如需詳細資訊，請閱讀 [AI 助理使用者介面指南](../ai-assistant/ai-assistant-ui.md)。
 
@@ -51,7 +40,7 @@ AI Assistant是一種智慧型自然語言對話體驗，可讓使用已啟用�
 
 ### Adobe Experience Platform代理程式 {#agents}
 
-Adobe Experience Platform代理是專門建置的AI代理程式群組，擅長於跨客戶體驗網域提供常見工作。 以下是Experience Cloud應用程式中目前可用的Adobe Experience Platform代理程式清單：
+Adobe Experience Platform代理是專門建置的AI代理程式群組，擅長於跨客戶體驗網域提供常見工作。 以下是CX Enterprise應用程式中目前可用的Adobe Experience Platform Agent清單：
 
 | 代理程式 | 詳細資料 | 支援的應用程式 |
 | --- | --- | --- |
@@ -61,7 +50,7 @@ Adobe Experience Platform代理是專門建置的AI代理程式群組，擅長�
 | [Journey Agent](./ajo-agent.md) | Journey Agent可讓Adobe Journey Optimizer使用者使用自然語言介面建立、分析和最佳化歷程。 有了Journey Agent，您可以快速建立歷程、偵測並解決排程或對象衝突、分析效能和流失點，並找出表現最佳的歷程，以復寫給未來的行銷活動。 它可幫助您制定資料導向式決策、改善客戶參與度並簡化歷程協調。 | Adobe Journey Optimizer |
 | [產品支援代理程式](product-support.md) | 產品支援代理程式是自助式的偵錯和疑難排解功能，可協助您疑難排解Adobe Experience Platform功能和應用程式，而不會離開您的工作流程。 支援管理員可以使用您的AI助理互動中的內容來建立客戶支援票證，並且您可以透過AI助理來檢查票證更新。 | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
 
-如需Experience Cloud應用程式代理程式可用性的進一步資訊，請檢閱Experience Cloud檔案中的[代理程式AI](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/agentic-ai)。
+如需CX Enterprise應用程式中代理程式可用性的詳細資訊，請檢閱CX Enterprise檔案中的[Agentic AI](../overview/agentic-ai.md)。
 
 ### 知識庫 {#knowledge-base}
 
@@ -81,7 +70,7 @@ Agent Orchestrator生態系統包含下列代理程式：
 
 * **Adobe Experience Manager**：您的管理員必須透過[Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)授與您存取AI小幫手的許可權。
 
-* **Customer Journey Analytics**：您的管理員必須透過[Customer Journey Analytics存取控制](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/technotes/access-control)授與您存取AI小幫手的許可權。 這可讓您詢問產品知識和資料見解問題。
+* **Customer Journey Analytics**：您的管理員必須透過[Customer Journey Analytics存取控制](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)授與您存取AI小幫手的許可權。 這可讓您詢問產品知識和資料見解問題。
 
 >[!NOTE]
 >

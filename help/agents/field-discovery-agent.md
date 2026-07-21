@@ -4,10 +4,10 @@ description: 在Adobe Experience Platform中使用AI Assistant中的自然語言
 keywords: 欄位探索， XDM， AI助理， Experience Platform代理程式，實體連結，欄位建議，對象建立，細分
 solution: Experience Platform
 role: User, Admin, Developer
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
-source-wordcount: '3534'
-ht-degree: 0%
+source-wordcount: '3367'
+ht-degree: 1%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 - 正確的組織和沙箱
 - 存取您要查詢的結構描述和資料集
 
-對於XDM結構描述以及欄位在分段或資料工作流程中的使用方式有基本的瞭解，可以幫助您更有效地解讀結果。 如需詳細資訊，請參閱[XDM概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home)和[結構描述編輯器檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/tutorials/create-schema-ui)。
+對於XDM結構描述以及欄位在分段或資料工作流程中的使用方式有基本的瞭解，可以幫助您更有效地解讀結果。 如需詳細資訊，請參閱[XDM概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home)和[結構描述編輯器檔案](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui)。
 
 如需啟用AI助理存取許可權和授與必要許可權的指示，請參閱[Agent Orchestrator存取指南](./agent-orchestrator.md#access)。
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 - **[!UICONTROL 關聯性]** — 指派給欄位的關聯性標籤（**[!UICONTROL 高度相關]**、**[!UICONTROL 適度相關]**&#x200B;或&#x200B;**[!UICONTROL 相關]**）
 - **[!UICONTROL 使用內容]** — 顯示欄位在您資料生態系統中的顯示位置的連結。 選取&#x200B;**[!UICONTROL 對象]**、**[!UICONTROL 資料集]**、**[!UICONTROL 目的地]**&#x200B;或&#x200B;**[!UICONTROL 結構描述]**，以開啟顯示使用欄位位置的側邊面板。
 
-![&#x200B; AI助理中的[已識別的欄位]面板顯示具有[關聯性]標籤和[使用內容]連結的候選欄位列。](./images/field-discovery/fields-identified-panel-in-chat.png)
+![ AI助理中的[已識別的欄位]面板顯示具有[關聯性]標籤和[使用內容]連結的候選欄位列。](./assets/field-discovery/fields-identified-panel-in-chat.png)
 
 **[!UICONTROL 已說明的結果]**&#x200B;區段會顯示在&#x200B;**[!UICONTROL 已識別欄位]**&#x200B;表格下方，並提供額外的欄位層級內容，包括每個結果的說明與支援詳細資料。 如需導覽AI助理介面的指南，請參閱[AI助理使用者介面指南](../ai-assistant/ai-assistant-ui.md)。
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 3. 檢閱&#x200B;**[!UICONTROL 識別欄位]**&#x200B;面板中的排名結果。 每一列都包含關聯性標籤和&#x200B;**[!UICONTROL 欄位名稱]**&#x200B;欄位中的XDM欄位路徑。
 4. 在&#x200B;**[!UICONTROL 使用方式內容]**&#x200B;欄中選取&#x200B;**[!UICONTROL 對象]**、**[!UICONTROL 資料集]**、**[!UICONTROL 目的地]**&#x200B;或&#x200B;**[!UICONTROL 結構描述]**，以開啟顯示欄位使用位置的側邊面板。 如需其他欄位層級內容，請參閱結果表格下方的&#x200B;**[!UICONTROL 說明結果]**&#x200B;區段。
 
-   ![&#x200B; AI助理中的側面板，顯示選取欄位的「使用內容」，包括對象、資料集、目的地和結構描述關聯。](./images/field-discovery/fields-identified-panel-expanded.png)
+   ![ AI助理中的側面板，顯示選取欄位的「使用內容」，包括對象、資料集、目的地和結構描述關聯。](./assets/field-discovery/fields-identified-panel-expanded.png)
 
 5. 根據您的使用案例，在下游工具（例如區段產生器、查詢服務或資料擷取工作流程）中使用&#x200B;**[!UICONTROL 欄位名稱]**&#x200B;路徑。 欄位探索代理程式提供欄位參考，但不會將其插入其他工具。
 
@@ -138,7 +138,9 @@ ht-degree: 0%
 
 當您描述特定資料概念或屬性時， Field Discovery Agent會傳回語義上符合您描述的欄位排名清單。
 
-> 「哪些欄位代表客戶的住家州或省份？」「尋找與購買交易日期相關的欄位。」「哪些欄位包含電子郵件行銷同意的相關資訊？」
+> 「哪些欄位代表客戶的住家州或省份？」
+> 「尋找與購買交易日期相關的欄位」。
+> 「哪些欄位包含電子郵件行銷同意的相關資訊？」
 
 回應會在&#x200B;**[!UICONTROL 已識別的欄位]**&#x200B;面板中列出候選欄位，連同其關聯性標籤和XDM路徑。 標示為&#x200B;**[!UICONTROL 高度相關]**&#x200B;的欄位最符合您宣告的概念。 如果排名最前結果標示為&#x200B;**[!UICONTROL 適度相關]**&#x200B;或&#x200B;**[!UICONTROL 相關]**，而非&#x200B;**[!UICONTROL 高度相關]**，請使用更具體的術語或欄位層級內容來調整您的查詢。
 
@@ -146,7 +148,9 @@ ht-degree: 0%
 
 當您說明工作流程目標或使用案例時（例如建立區段、加入資料集或準備查詢），欄位探索代理程式會建議按相關性排定優先順序的欄位符合該目標。
 
-> 「我想打造高價值客戶的受眾。 我該使用哪些欄位？」「建議用於模型化購買傾向的欄位。」「我加入零售交易資料集時應該包含哪些欄位？」
+> 「我想打造高價值客戶的受眾。我該使用哪些欄位？」
+> &quot;針對模型化購買傾向建議欄位。&quot;
+> 「我應該在加入零售交易資料集時包含哪些欄位？」
 
 回應會傳回具有關聯性內容的欄位優先順序清單。 檢閱每個建議欄位的使用情形內容，以確認其是否已在您的環境中主動使用。
 
@@ -154,7 +158,9 @@ ht-degree: 0%
 
 當您依名稱或路徑詢問特定欄位時， Field Discovery Agent會傳回該欄位的詳細內容，包括範例值、結構描述位置以及跨資料集、對象和目的地的使用情形。
 
-> 「告訴我有關欄位`person.name.lastName`的更多資訊。」「`homeAddress.stateProvince`有哪些樣本值？」「欄位`commerce.purchases.value`在我的資料集和受眾中位於何處？」
+> 「告訴我有關欄位`person.name.lastName`的更多資訊。」
+> 「`homeAddress.stateProvince`有哪些樣本值？」
+> 「我的資料集和對象在哪裡使用了欄位`commerce.purchases.value`？」
 
 回應會傳回欄位的範例值、結構描述位置、關聯的資料集，以及顯示欄位的任何對象或目的地。 檢閱此內容，以確認欄位保留您預期的資料。
 
@@ -207,7 +213,7 @@ ht-degree: 0%
 - 儘可能新增欄位說明。
 - 將欄位與作用中資料集建立關聯，而不是將其保留為僅限結構描述的定義。
 
-如需在結構描述編輯器中編輯欄位顯示名稱和說明的指南，請參閱[在UI中建立和編輯結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/ui/resources/schemas)。
+如需在結構描述編輯器中編輯欄位顯示名稱和說明的指南，請參閱[在UI中建立和編輯結構描述](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas)。
 
 如果您沒有結構描述編輯存取權，且結果持續不佳，請聯絡您的Experience Platform管理員或資料工程團隊，以檢閱您使用之結構描述的欄位中繼資料。
 
@@ -235,19 +241,31 @@ ht-degree: 0%
 
 當您知道您需要資料的概念，但不知道哪個欄位持有資料概念時，請使用這些提示。
 
-> 「哪個欄位包含客戶的州或地區？」「尋找與電子郵件訂閱狀態相關的欄位。」「哪個欄位包含客戶首次購買的日期？」「識別代表客戶期限值的欄位。」「我的設定檔結構描述中的哪些欄位與忠誠計畫會員資格有關？」
+> 「哪個欄位包含客戶的州或地區？」
+> 「尋找與電子郵件訂閱狀態相關的欄位。」
+> 「哪個欄位包含客戶首次購買的日期？」
+> &quot;識別代表客戶期限值的欄位。&quot;
+> 「我的設定檔結構描述中的哪些欄位與熟客方案會員資格有關？」
 
 ### 建議提示
 
 當您開始工作流程，並需要有關特定目標要包含哪些欄位的指引時，請使用這些提示。
 
-> 「應使用哪些欄位來建立重新參與對象？」「針對在90天內未購買的客戶，建議受眾欄位。」「哪些欄位對於模型化流失風險最有用？」「建議建立地理細分時應包含的欄位。」「我正在打造一種購買傾向模型。 我該從哪些欄位開始？」
+> 「應使用哪些欄位來建立重新參與對象？」
+> 「針對90天內未購買的客戶定位對象，提供建議欄位。」
+> 「哪些欄位對模型化流失風險最有用？」
+> 「建立地理細分時建議我應該包含的欄位。」
+> 「我正在建立購買傾向模型。我該從哪些欄位開始？」
 
 ### 擴充提示
 
 當您有候選欄位且想在區段、查詢或對應中使用它之前驗證它時，請使用這些提示。
 
-> 「告訴我有關`homeAddress.stateProvince`的更多資訊。」「顯示`commerce.purchases.value`的範例值。」「我的資料集和對象在哪裡使用`person.name.lastName`？」「哪些資料集包含欄位`web.webPageDetails.URL`？」「是否將`segmentMembership`對應至任何使用中的目的地？」
+> 「告訴我有關`homeAddress.stateProvince`的更多資訊。」
+> &quot;顯示`commerce.purchases.value`的範例值。&quot;
+> 「我的資料集和對象在哪裡使用`person.name.lastName`？」
+> 「哪些資料集包含欄位`web.webPageDetails.URL`？」
+> 「是否將`segmentMembership`對應到任何使用中的目的地？」
 
 ## 疑難排解 {#troubleshooting}
 

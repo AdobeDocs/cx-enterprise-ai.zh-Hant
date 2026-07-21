@@ -2,17 +2,10 @@
 title: Audience 代理
 description: 瞭解如何使用Audience Agent建立對象、檢視對象變更、偵測重複對象及檢視對象深入分析。
 TQID: https://experienceleague.adobe.com/574QhqKI0YDoPHD9BFmB6jl-HET3zVom3eD4cJQABSE
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: 1242
 ht-degree: 2%
@@ -38,15 +31,15 @@ Audience Agent可讓您檢視對象的相關深入分析，包括偵測對象人
 AI Assistant中的Audience Agent支援下列使用案例：
 
 - 以對話方式探索您的對象
-   - 尋找現有對象的對象大小
-   - 根據完整的或部分屬性來尋找對象，命名為
-   - 偵測重複的對象
-   - 探索可用來定義對象的XDM欄位
+  - 尋找現有對象的對象大小
+  - 根據完整的或部分屬性來尋找對象，命名為
+  - 偵測重複的對象
+  - 探索可用來定義對象的XDM欄位
 - 偵測對象人數的重大變更
-   - 這可讓您找到突然增加或減少的受眾，讓您更好地分析潛在的市場變化
+  - 這可讓您找到突然增加或減少的受眾，讓您更好地分析潛在的市場變化
 - 建立客群
-   - 此技能可讓您根據指定的屬性和事件建立對象
-   - 此外，此技能可讓您在建立受眾之前估計受眾的潛在大小，讓您在準備好啟用受眾之前快速迭代最有效的受眾
+  - 此技能可讓您根據指定的屬性和事件建立對象
+  - 此外，此技能可讓您在建立受眾之前估計受眾的潛在大小，讓您在準備好啟用受眾之前快速迭代最有效的受眾
 
 <!--
   - Find your audience size and detect significant changes in audience size
@@ -62,17 +55,17 @@ AI Assistant中的Audience Agent支援下列使用案例：
 Audience Agent **目前**&#x200B;不支援下列功能：
 
 - 目標型對象探索
-   - 目標型對象探索可讓您套用機器學習模型（例如購買或轉換傾向），以探索與業務目標一致的相關資料集和設定檔。
+  - 目標型對象探索可讓您套用機器學習模型（例如購買或轉換傾向），以探索與業務目標一致的相關資料集和設定檔。
 
 此外，使用Audience Agent時，您應牢記下列限制：
 
 - Audience Agent需要至少24小時來處理您的資料
-   - 例如，您&#x200B;**無法**&#x200B;有一個查詢在過去24小時內尋找資料。 您至少需要檢視過去48小時內的狀況。
+  - 例如，您&#x200B;**無法**&#x200B;有一個查詢在過去24小時內尋找資料。 您至少需要檢視過去48小時內的狀況。
 - Audience Agent僅支援下列對象型別：
-   - 使用批次細分評估的&#x200B;**以人物為基礎的**&#x200B;對象
-   - 下列使用案例的&#x200B;**以帳戶為基礎的**&#x200B;對象：
-      - 對話式受眾探索
-      - 重複對象偵測
+  - 使用批次細分評估的&#x200B;**以人物為基礎的**&#x200B;對象
+  - 下列使用案例的&#x200B;**以帳戶為基礎的**&#x200B;對象：
+    - 對話式受眾探索
+    - 重複對象偵測
 
 ## 範例提示
 
@@ -84,7 +77,7 @@ Audience Agent **目前**&#x200B;不支援下列功能：
 
 +++ 回應
 
-![AI助理會顯示一個表格，顯示與富裕買家相關的欄位。](./images/audience/affluent-buyers.png)
+![AI助理會顯示一個表格，顯示與富裕買家相關的欄位。](./assets/audience/affluent-buyers.png)
 
 +++
 
@@ -92,7 +85,7 @@ Audience Agent **目前**&#x200B;不支援下列功能：
 
 +++ 回應
 
-![AI助理顯示的表格會顯示過去30天內未啟動或未用於行銷活動的對象。](./images/audience/not-activated.png)
+![AI助理顯示的表格會顯示過去30天內未啟動或未用於行銷活動的對象。](./assets/audience/not-activated.png)
 
 +++
 
@@ -100,7 +93,7 @@ Audience Agent **目前**&#x200B;不支援下列功能：
 
 +++ 回應
 
-![AI助理列出過去3個月內已對應到新目的地的對象。](./images/audience/new-destination.png)
+![AI助理列出過去3個月內已對應到新目的地的對象。](./assets/audience/new-destination.png)
 
 +++
 
@@ -108,7 +101,7 @@ Audience Agent **目前**&#x200B;不支援下列功能：
 
 +++ 回應
 
-![AI助理會顯示一個表格，其中顯示最大的帳戶對象。](./images/audience/largest-account-audience.png)
+![AI助理會顯示一個表格，其中顯示最大的帳戶對象。](./assets/audience/largest-account-audience.png)
 
 +++
 
@@ -118,7 +111,7 @@ Audience Agent **目前**&#x200B;不支援下列功能：
 
 +++ 回應
 
-![AI助理顯示的表格包含區段定義以及具有相同區段定義的對象名稱。](./images/audience/similar-descriptions.png)
+![AI助理顯示的表格包含區段定義以及具有相同區段定義的對象名稱。](./assets/audience/similar-descriptions.png)
 
 +++
 
@@ -126,7 +119,7 @@ Audience Agent **目前**&#x200B;不支援下列功能：
 
 +++ 回應
 
-![AI助理顯示的表格包含共用相同對象規則的對象名稱。](./images/audience/same-rules-different-names.png)
+![AI助理顯示的表格包含共用相同對象規則的對象名稱。](./assets/audience/same-rules-different-names.png)
 
 +++
 
@@ -134,7 +127,7 @@ Audience Agent **目前**&#x200B;不支援下列功能：
 
 +++ 回應
 
-![AI助理顯示沒有重複區段定義到不同的目的地。](./images/audience/same-rules-different-destinations.png)
+![AI助理顯示沒有重複區段定義到不同的目的地。](./assets/audience/same-rules-different-destinations.png)
 
 +++
 
@@ -142,7 +135,7 @@ Audience Agent **目前**&#x200B;不支援下列功能：
 
 +++ 回應
 
-![AI助理顯示的表格包含共用相同對象規則的帳戶對象的名稱和ID。](./images/audience/duplicate-account-audience.png)
+![AI助理顯示的表格包含共用相同對象規則的帳戶對象的名稱和ID。](./assets/audience/duplicate-account-audience.png)
 
 +++
 
@@ -152,7 +145,7 @@ Audience Agent **目前**&#x200B;不支援下列功能：
 
 +++ 回應
 
-![AI助理指出詢問對象的目前規模。](./images/audience/current-size.png)
+![AI助理指出詢問對象的目前規模。](./assets/audience/current-size.png)
 
 +++
 
@@ -160,7 +153,7 @@ Audience Agent **目前**&#x200B;不支援下列功能：
 
 +++ 回應
 
-![AI助理會提供設定檔數目最多的對象相關資訊，包括名稱和對象ID。](./images/audience/largest-audience.png)
+![AI助理會提供設定檔數目最多的對象相關資訊，包括名稱和對象ID。](./assets/audience/largest-audience.png)
 
 +++
 
@@ -170,7 +163,7 @@ Audience Agent **目前**&#x200B;不支援下列功能：
 
 +++ 回應
 
-![AI助理會顯示一個表格，列出符合查詢的所有對象名稱。 它也會顯示增加百分比、目前的對象人數以及先前的對象人數。](./images/audience/increase-past-week.png)
+![AI助理會顯示一個表格，列出符合查詢的所有對象名稱。 它也會顯示增加百分比、目前的對象人數以及先前的對象人數。](./assets/audience/increase-past-week.png)
 
 +++
 
@@ -178,7 +171,7 @@ Audience Agent **目前**&#x200B;不支援下列功能：
 
 +++ 回應
 
-![AI助理會顯示一個表格，列出符合查詢的所有對象名稱。 它也會顯示目前的對象人數、先前的對象人數，以及舊對象人數的日期。](./images/audience/decrease-month.png)
+![AI助理會顯示一個表格，列出符合查詢的所有對象名稱。 它也會顯示目前的對象人數、先前的對象人數，以及舊對象人數的日期。](./assets/audience/decrease-month.png)
 
 +++
 
@@ -186,7 +179,7 @@ Audience Agent **目前**&#x200B;不支援下列功能：
 
 +++ 回應
 
-![AI Assistant會指出成長最快的對象名稱，以及目前的大小和成長百分比。](./images/audience/fastest-growing.png)
+![AI Assistant會指出成長最快的對象名稱，以及目前的大小和成長百分比。](./assets/audience/fastest-growing.png)
 
 +++
 
@@ -200,7 +193,7 @@ Audience Agent **目前**&#x200B;不支援下列功能：
 
 +++ 回應
 
-![AI助理顯示建立對象的計畫。](./images/audience/audience-create-plan.png)
+![AI助理顯示建立對象的計畫。](./assets/audience/audience-create-plan.png)
 
 +++
 
@@ -212,13 +205,13 @@ Audience Agent **目前**&#x200B;不支援下列功能：
 
 #### 識別對象特性 {#identify}
 
-![計畫的步驟1，用於識別對象特性。](./images/audience/plan-step-1.png){align="center" width="80%"}
+![計畫的步驟1，用於識別對象特性。](./assets/audience/plan-step-1.png){align="center" width="80%"}
 
 接受計畫後，AI Assistant將根據您最初的查詢擷取對象特性。
 
 +++ 回應
 
-![根據使用者查詢的對象定義。](./images/audience/audience-create-definition.png)
+![根據使用者查詢的對象定義。](./assets/audience/audience-create-definition.png)
 
 針對此查詢，AI Assistant會產生相關的Profile Query Language (PQL)，以尋找住在加州的人。 在此使用案例中，PQL查詢看起來會像這樣：
 
@@ -226,7 +219,7 @@ Audience Agent **目前**&#x200B;不支援下列功能：
 homeAddress.state.equals("California", false)
 ```
 
-如需PQL的詳細資訊，請閱讀[PQL概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/segmentation/pql/overview)。
+如需PQL的詳細資訊，請閱讀[PQL概觀](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)。
 
 +++
 
@@ -234,13 +227,13 @@ homeAddress.state.equals("California", false)
 
 #### 預估對象規模 {#estimate}
 
-![計畫的步驟2，此步驟是估計潛在對象的大小。](./images/audience/plan-step-2.png){align="center" width="80%"}
+![計畫的步驟2，此步驟是估計潛在對象的大小。](./assets/audience/plan-step-2.png){align="center" width="80%"}
 
 在核准已識別的對象特性後，AI助理將會估計潛在對象的大小和對象定義詳細資訊。
 
 +++ 回應
 
-![顯示潛在受眾的樣本預估值。 將顯示預估大小和區段定義。](./images/audience/audience-create-estimate.png)
+![顯示潛在受眾的樣本預估值。 將顯示預估大小和區段定義。](./assets/audience/audience-create-estimate.png)
 
 +++
 
@@ -248,7 +241,7 @@ homeAddress.state.equals("California", false)
 
 #### 建立及保留新對象 {#create}
 
-![計畫的步驟3，即將完成建立對象。](./images/audience/plan-step-3.png){align="center" width="80%"}
+![計畫的步驟3，即將完成建立對象。](./assets/audience/plan-step-3.png){align="center" width="80%"}
 
 最後，如果特徵和對象人數看起來正確，您可以核准或拒絕對象的建立。
 
@@ -256,17 +249,17 @@ homeAddress.state.equals("California", false)
 
 首先，您可以透過提供的資料格來檢閱建議對象。
 
-![檢閱畫面已顯示。](./images/audience/audience-create-review.png)
+![檢閱畫面已顯示。](./assets/audience/audience-create-review.png)
 
 如果對象看起來正確，您可以選取&#x200B;**[!UICONTROL 建立]**&#x200B;來接受提案，以完成建立對象。
 
-![顯示對象的完整提案。](./images/audience/audience-create-proposal.png)
+![顯示對象的完整提案。](./assets/audience/audience-create-proposal.png)
 
 +++
 
 對象現在已建立。
 
-![已接受對象提案，且已建立對象。](./images/audience/audience-finish-create.png){align="center" width="80%"}
+![已接受對象提案，且已建立對象。](./assets/audience/audience-finish-create.png){align="center" width="80%"}
 
 ## 後續步驟
 

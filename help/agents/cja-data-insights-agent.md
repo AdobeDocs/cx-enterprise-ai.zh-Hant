@@ -4,27 +4,14 @@ title: 在Customer Journey Analytics中使用Data Insights Agent以視覺效果�
 role: User, Admin
 solution: Customer Journey Analytics
 TQID: https://experienceleague.adobe.com/UtKIDlN2x7MOAiHNRRQ8b5OO4fIwzV74r1fnfMwblcQ
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b743a5d9-dc51-41ed-8b2f-86a1f8de430f
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b743a5d9-dc51-41ed-8b2f-86a1f8de430fid: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
-source-wordcount: 2690
+source-wordcount: 2655
 ht-degree: 4%
 
 ---
@@ -39,7 +26,7 @@ ht-degree: 4%
 
 使用Data Insights Agent來回答Analysis Workspace中以資料為中心的問題，可大幅節省您原本要在Analysis Workspace中手動建立視覺效果和熟悉資料檢視元件所花費的時間。
 
-AI助理中的![Data Insights Agent](/help/agents/images/cja-agent/cja-ai-asst-da.gif)
+AI助理中的![Data Insights Agent](/help/agents/assets/cja-agent/cja-ai-asst-da.gif)
 
 ## 範圍內功能與範圍外功能
 
@@ -72,57 +59,58 @@ AI助理中的![Data Insights Agent](/help/agents/images/cja-agent/cja-ai-asst-d
 * **許可權**：必須先在[!UICONTROL Adobe Admin Console]中授與必要的許可權，使用者才能存取Data Insights Agent。
 
   若要授與許可權，[產品設定檔管理員](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html)必須在[!UICONTROL Admin Console]中完成下列步驟：
-   1. 在&#x200B;**[!UICONTROL Admin Console]**&#x200B;中，選取&#x200B;**[!UICONTROL 產品]**&#x200B;索引標籤以檢視&#x200B;**[!UICONTROL 所有產品和服務]**&#x200B;頁面。
-   1. 選取&#x200B;**[!UICONTROL Customer Journey Analytics]**。
-   1. 在&#x200B;**[!UICONTROL 產品設定檔]**&#x200B;索引標籤上，選取您要為其提供[!UICONTROL AI助理：產品知識]存取權的產品設定檔標題。
-   1. 在特定產品設定檔中，選取&#x200B;**[!UICONTROL 許可權]**&#x200B;標籤。
+  1. 在&#x200B;**[!UICONTROL Admin Console]**&#x200B;中，選取&#x200B;**[!UICONTROL 產品]**&#x200B;索引標籤以檢視&#x200B;**[!UICONTROL 所有產品和服務]**&#x200B;頁面。
+  1. 選取&#x200B;**[!UICONTROL Customer Journey Analytics]**。
+  1. 在&#x200B;**[!UICONTROL 產品設定檔]**&#x200B;索引標籤上，選取您要為其提供[!UICONTROL AI助理：產品知識]存取權的產品設定檔標題。
+  1. 在特定產品設定檔中，選取&#x200B;**[!UICONTROL 許可權]**&#x200B;標籤。
 
-      Admin Console中的![許可權索引標籤](/help/agents/images/cja-agent/ai-assistant-permissions-tab.png)
+     Admin Console中的![許可權索引標籤](/help/agents/assets/cja-agent/ai-assistant-permissions-tab.png)
 
-   1. 在提供的表格中&#x200B;**[!UICONTROL 報告工具]**&#x200B;列，選取編輯圖示![編輯](/help/agents/images/cja-agent/Edit.svg)。
-   1. 捲動至或搜尋&#x200B;**[!UICONTROL AI助理：產品知識]**，然後選取此許可權旁的加號圖示![AddCircle](/help/agents/images/cja-agent/AddCircle.svg)。
-   1. 捲動至或搜尋&#x200B;**[!UICONTROL Data Insights Agent]**，然後選取此許可權旁的加號圖示![AddCircle](/help/agents/images/cja-agent/AddCircle.svg)。
+  1. 在提供的表格中&#x200B;**[!UICONTROL 報告工具]**&#x200B;列，選取編輯圖示![編輯](/help/agents/assets/cja-agent/Edit.svg)。
+  1. 捲動至或搜尋&#x200B;**[!UICONTROL AI助理：產品知識]**，然後選取此許可權旁的加號圖示![AddCircle](/help/agents/assets/cja-agent/AddCircle.svg)。
+  1. 捲動至或搜尋&#x200B;**[!UICONTROL Data Insights Agent]**，然後選取此許可權旁的加號圖示![AddCircle](/help/agents/assets/cja-agent/AddCircle.svg)。
 
-      **[!UICONTROL AI小幫手：產品知識]**&#x200B;許可權和&#x200B;**[!UICONTROL Data Insights Agent]**&#x200B;許可權已新增至&#x200B;**[!UICONTROL 包含的許可權專案]**&#x200B;欄。
+     **[!UICONTROL AI小幫手：產品知識]**&#x200B;許可權和&#x200B;**[!UICONTROL Data Insights Agent]**&#x200B;許可權已新增至&#x200B;**[!UICONTROL 包含的許可權專案]**&#x200B;欄。
 
-      ![新增許可權](/help/agents/images/cja-agent/ai-assistant-permissions.png)。
+     ![新增許可權](/help/agents/assets/cja-agent/ai-assistant-permissions.png)。
 
-   1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存許可權。
+  1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存許可權。
 
-  如需存取控制的詳細資訊，請參閱[存取控制](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/technotes/access-control#access-control)。
+  如需存取控制的詳細資訊，請參閱[存取控制](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#access-control)。
 
 * **資料檢視存取**：必須為Data Insights Agent啟用資料檢視。
 
   >[!IMPORTANT]
   >
   >啟用資料檢視時，請考量下列事項：
-  >* 每個IMS組織最多可以啟用50個資料檢視。 如果您在指定組織的所有產品設定檔中啟用超過50個資料檢視，Data Insights Agent將使用50個最常用的資料檢視。  >  您可以在資料檢視[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views)中使用Data Insights Agent欄上的資訊來檢視在您的IMS組織中為Data Insights Agent啟用的資料檢視數量。
+  >* 每個IMS組織最多可以啟用50個資料檢視。如果您在指定組織的所有產品設定檔中啟用超過50個資料檢視，Data Insights Agent將使用50個最常用的資料檢視。
+  >  您可以在資料檢視](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views)中使用Data Insights Agent欄上的[資訊來檢視在您的IMS組織中為Data Insights Agent啟用的資料檢視數量。
   >* Data Insights Agent可在您啟用資料檢視的同一天，參照包含的資料檢視。
 
   若要啟用Data Insights Agent的資料檢視：
 
-   1. 在Customer Journey Analytics中，選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 資料檢視]**。
+  1. 在Customer Journey Analytics中，選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 資料檢視]**。
 
-   1. 選取一或多個要為Data Insights Agent啟用的資料檢視，然後選取&#x200B;**[!UICONTROL 為Data Insights Agent啟用]**。
+  1. 選取一或多個要為Data Insights Agent啟用的資料檢視，然後選取&#x200B;**[!UICONTROL 為Data Insights Agent啟用]**。
 
-      ![啟用Data Insights Agent的資料檢視](/help/agents/images/cja-agent/data-view-enable-dia.png)
+     ![啟用Data Insights Agent的資料檢視](/help/agents/assets/cja-agent/data-view-enable-dia.png)
 
-      如需啟用Data Insights Agent資料檢視的詳細資訊，請參閱資料檢視的[AI設定](#ai-settings)。
+     如需啟用Data Insights Agent資料檢視的詳細資訊，請參閱資料檢視的[AI設定](#ai-settings)。
 
   若要檢視在您的IMS組織中為Data Insights Agent啟用的資料檢視數量：
 
-   1. 在Customer Journey Analytics中，選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 資料檢視]**。
+  1. 在Customer Journey Analytics中，選取&#x200B;**[!UICONTROL 資料管理]** > **[!UICONTROL 資料檢視]**。
 
-   1. 選取&#x200B;**[!UICONTROL Data Insights Agent]**&#x200B;欄頂端的資訊圖示。
+  1. 選取&#x200B;**[!UICONTROL Data Insights Agent]**&#x200B;欄頂端的資訊圖示。
 
-      ![Data Insights Agent資訊圖示](/help/agents/images/cja-agent/data-insights-agent-tooltip.png)
+     ![Data Insights Agent資訊圖示](/help/agents/assets/cja-agent/data-insights-agent-tooltip.png)
 
 
 ## 在AI助理中存取Data Insights Agent
 
 1. 前往[experience.adobe.com](https://experience.adobe.com/)並使用您的Adobe ID登入。
 
-2. 從Experience Cloud首頁選取&#x200B;**Customer Journey Analytics**。
+2. 從CX Enterprise Home選取&#x200B;**Customer Journey Analytics**。
 
 3. 在專案頁面頂端的橫幅中選取&#x200B;**[!UICONTROL 空白專案]**&#x200B;以開啟新的空白專案。
 
@@ -138,7 +126,7 @@ AI助理中的![Data Insights Agent](/help/agents/images/cja-agent/cja-ai-asst-d
 
    如需詳細資訊，請參閱[在Customer Journey Analytics中管理Data Insights Agent的存取權](#manage-access-to-data-insights-agent-in-customer-journey-analytics)。
 
-   ![AI助理圖示](/help/agents/images/cja-agent/ai-asst-icon.png)
+   ![AI助理圖示](/help/agents/assets/cja-agent/ai-asst-icon.png)
 
 6. 在頁面底部的&#x200B;**[!UICONTROL 詢問Customer Journey Analytics]**&#x200B;對話方塊中，使用Data Insights Agent詢問資料視覺效果問題。
 
@@ -150,13 +138,13 @@ AI助理中的![Data Insights Agent](/help/agents/images/cja-agent/cja-ai-asst-d
 
 **提示：**&#x200B;輸入&#x200B;*「7月趨勢訂單」。*
 
-![AI提示](/help/agents/images/cja-agent/ai-asst-prompt1.png)
+![AI提示](/help/agents/assets/cja-agent/ai-asst-prompt1.png)
 
 **回應：** Data Insights Agent透過檢視資料檢視中的資料（包括量度和元件）來收集深入分析。 系統會將提示轉譯為資料範圍內正確的維度和量度。
 
 如您所見，系統會自動產生線圖和自由表格，以顯示7月的訂單。
 
-![提示的回答 — 折線圖和自由格式表格](/help/agents/images/cja-agent/ai-asst-result.png)
+![提示的回答 — 折線圖和自由格式表格](/help/agents/assets/cja-agent/ai-asst-result.png)
 
 ### 範例 2
 
@@ -166,7 +154,7 @@ AI助理中的![Data Insights Agent](/help/agents/images/cja-agent/cja-ai-asst-d
 
 **回應：** Data Insights Agent聰明地瞭解「地區」的意思是「客戶地區」。 這會產生一個長條圖，最能依地區顯示收入：
 
-![長條圖](/help/agents/images/cja-agent/ai-asst-result2.png)
+![長條圖](/help/agents/assets/cja-agent/ai-asst-result2.png)
 
 ### 範例3
 
@@ -176,7 +164,7 @@ AI助理中的![Data Insights Agent](/help/agents/images/cja-agent/cja-ai-asst-d
 
 **回應：** **[!UICONTROL 長條]**&#x200B;圖表仍提供最簡明的答案，但利潤量度已新增為自由表格中的欄：
 
-![長條圖](/help/agents/images/cja-agent/ai-asst-result4.png)
+![長條圖](/help/agents/assets/cja-agent/ai-asst-result4.png)
 
 ### 範例4
 
@@ -186,15 +174,15 @@ AI助理中的![Data Insights Agent](/help/agents/images/cja-agent/cja-ai-asst-d
 
 **回應：**&#x200B;再次，Data Insights Agent會挑選最適合的視覺效果（在此案例中是&#x200B;**[!UICONTROL 環形圖]**&#x200B;視覺效果）來回答問題。
 
-![環形圖](/help/agents/images/cja-agent/ai-asst-result3.png)
+![環形圖](/help/agents/assets/cja-agent/ai-asst-result3.png)
 
-## 跨Experience Cloud應用程式存取Data Insights Agent
+## 存取CX Enterprise應用程式中的Data Insights Agent
 
-Adobe Experience Platform Agent Orchestrator可讓您在多個Adobe Experience Cloud應用程式中存取Data Insights Agent的功能，例如Adobe Journey Optimizer和Real-Time CDP。
+Adobe Experience Platform Agent Orchestrator可讓您在多個Adobe CX Enterprise應用程式（例如Adobe Journey Optimizer和Real-Time CDP）中存取Data Insights Agent的功能。
 
 Agent Orchestrator會解譯您的請求、決定需要哪些專業代理程式，並協調他們提供正確的回應。 它可追蹤多圈互動中的內容，因此您可以自然地在先前的查詢上建置。
 
-如需詳細資訊，請參閱[Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/tw/products/experience-platform/agent-orchestrator.html)。
+如需詳細資訊，請參閱[Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/products/experience-platform/agent-orchestrator.html)。
 
 ## 範例資料視覺效果提示
 
@@ -284,5 +272,8 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 
 >[!MORELIKETHIS]
 >
->[元件設定資料字典核准計算量度共用區段](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/segments/seg-share)
+>[元件設定](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+>[資料字典](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
+>[核准計算量度](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
+>[共用區段](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/segments/seg-share)
 

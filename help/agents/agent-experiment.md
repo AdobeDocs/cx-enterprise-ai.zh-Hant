@@ -1,18 +1,10 @@
 ---
 title: Experimentation Agent
 description: 瞭解如何使用Experimentation Agent
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a8f0706b7c37fd87115a9af0ca646b84dcfe890b
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: 555
 ht-degree: 4%
@@ -41,7 +33,7 @@ TQID: https://experienceleague.adobe.com/ARh16ylmUDrp%2D%2D%2Dg8KuYNyewIv54IQ53p
 
 * **管理實驗中繼資料**：此許可權可讓您使用Experimentation Agent直接在AI Assistant中建立新的實驗。
 
-➡️ [在Journey Optimizer Experimentation Accelerator檔案中進一步瞭解](https://experienceleague.adobe.com/zh-hant/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
+➡️ [在Journey Optimizer Experimentation Accelerator檔案中進一步瞭解](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
 做為Experimentation Accelerator功能的一部分，代理程式提供：
 
@@ -51,7 +43,7 @@ TQID: https://experienceleague.adobe.com/ARh16ylmUDrp%2D%2D%2Dg8KuYNyewIv54IQ53p
 
 * **機會**：後續要採取的動作指南
 
-Experimentation Agent的![範例](./images/experiment/experiment-agent.png)
+Experimentation Agent的![範例](./assets/experiment/experiment-agent.png)
 
 ## 使用案例
 

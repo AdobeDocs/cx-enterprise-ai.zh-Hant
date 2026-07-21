@@ -2,7 +2,7 @@
 title: 與同事執行Customer Journey Analytics資料分析
 description: 瞭解如何與同事一起執行Customer Journey Analytics資料分析。
 hold: true
-source-git-commit: 8b82dcb024ff528a86fbe782212a267610b46091
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: '1865'
 ht-degree: 4%
@@ -31,7 +31,7 @@ Adobe CX Enterprise Co-worker Chat可以執行進階資料分析，而以前只�
 
    1. 在左側邊欄中選取MCP圖示，然後確定連線的MCP伺服器清單中有&#x200B;[!UICONTROL **cja-mcp**]。
 
-      ![Co-worker左側邊欄中反白的MCP圖示](images/data-validation-aa-cja/coworker-mcp-cja.png)
+      ![Co-worker左側邊欄中反白的MCP圖示](assets/data-validation-aa-cja/coworker-mcp-cja.png)
 
    1. （條件式）如果尚未連線&#x200B;[!UICONTROL **cja-mcp**]，請選取&#x200B;[!UICONTROL **新增MCP伺服器**]，在&#x200B;[!UICONTROL **伺服器名稱**]&#x200B;欄位中指定cja，並在它出現時加以選取，然後選取&#x200B;[!UICONTROL **新增伺服器**]。
 
@@ -85,7 +85,7 @@ Co-worker Chat包含記憶體功能，可讓您存取跨越所有聊天內容的
 
 1. 在「記憶體」頁面的「預存的偏好設定」段落中，指定您希望「同事聊天」在聊天中使用的一或多個資料檢視。
 
-   左側邊欄中的![記憶體區段](images/data-validation-aa-cja/coworker-memory.png)
+   左側邊欄中的![記憶體區段](assets/data-validation-aa-cja/coworker-memory.png)
 
 ## 使用案例：找出客戶流失的位置
 
@@ -125,7 +125,7 @@ Co-worker Chat包含記憶體功能，可讓您存取跨越所有聊天內容的
 
 >[!BEGINSHADEBOX]
 
-![Co-worker左側邊欄中反白的MCP圖示](images/data-validation-aa-cja/coworker-funnel-response.png)
+![Co-worker左側邊欄中反白的MCP圖示](assets/data-validation-aa-cja/coworker-funnel-response.png)
 
 這是funnel的問題 — 讓我執行轉換funnel，以檢視購買路徑上下降發生在何處。
 
@@ -176,7 +176,7 @@ Co-worker Chat包含記憶體功能，可讓您存取跨越所有聊天內容的
 
 >[!BEGINSHADEBOX]
 
-![Co-worker左側邊欄中反白的MCP圖示](images/data-validation-aa-cja/coworker-funnel-response2.png)
+![Co-worker左側邊欄中反白的MCP圖示](assets/data-validation-aa-cja/coworker-funnel-response2.png)
 
 有一個自訂&#x200B;**行銷管道**&#x200B;維度。 讓我提取funnel，然後計算每個管道的轉換率，並識別每個管道的洩漏點。
 
@@ -227,7 +227,7 @@ Co-worker Chat包含記憶體功能，可讓您存取跨越所有聊天內容的
 
 >[!BEGINSHADEBOX]
 
-![Co-worker左側邊欄中反白的MCP圖示](images/data-validation-aa-cja/coworker-funnel-response3.png)
+![Co-worker左側邊欄中反白的MCP圖示](assets/data-validation-aa-cja/coworker-funnel-response3.png)
 
 **已找到：行動簽出已中斷**
 
