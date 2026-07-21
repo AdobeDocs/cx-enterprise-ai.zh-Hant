@@ -5,7 +5,8 @@ user-guide-description: 了解如何使用 AI 助理加快 Adobe Experience Plat
 description: 瞭解CX Enterprise中的AI Assistant。 在CX Enterprise中使用AI來改善您的產品知識並取得營運深入分析。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: c393098da76094c7696cfa385c43e74f5b82633c
+dummy: true
+source-git-commit: 8ea40b596655b02813a75bf5a0dde1d2265f7773
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 25%
@@ -54,7 +55,7 @@ ht-degree: 25%
     - [Journey Optimizer工具](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - [Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - 同事 {#coworker}
   - {hide-from-toc}[在遊樂場的同事聊天](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[驗證AA到CJA的移轉資料](./coworker/data-validation-aa-cja.md)
