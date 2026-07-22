@@ -6,10 +6,10 @@ description: 瞭解CX Enterprise中的AI Assistant。 在CX Enterprise中使用A
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 6e3ab12f1d9ec706e745749b7ca47b91a09ff8b3
+source-git-commit: 2d8059201070965b01e67d2c910adc3a7b66ab01
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 25%
+source-wordcount: '235'
+ht-degree: 22%
 
 ---
 
@@ -55,8 +55,10 @@ ht-degree: 25%
     - [Journey Optimizer工具](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - [Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - 同事 {#coworker}
+  - [同事行銷活動](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/campaigns/overview)
+  - [同事聊天](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)
   - {hide-from-toc}[在遊樂場的同事聊天](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[驗證AA到CJA的移轉資料](./coworker/data-validation-aa-cja.md)
   - [分析CJA資料](./coworker/analytics-chat.md)
