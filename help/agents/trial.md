@@ -12,10 +12,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
-source-wordcount: 1483
-ht-degree: 5%
+source-wordcount: 1432
+ht-degree: 1%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 5%
 
 所有符合資格的客戶將逐步從AI助理和Adobe Experience Platform代理程式轉換為同事聊天。 同時，某些客戶仍可存取AI助理和Experience Platform代理程式，直到啟用同事聊天為止。 請注意，「同事行銷活動」不在此試用版的範圍內。
 
-**AI Assistant**：全頁式的沈浸式對話介面，由Agent Orchestrator提供支援，可在跨產品上運作，讓使用已啟用的Experience Cloud產品的從業人員能夠運用GenAI和Agentic AI功能。 如需詳細資訊，請閱讀 [AI 助理使用者介面指南](../ai-assistant/ai-assistant-ui.md)。
+**AI Assistant**：全頁式的沈浸式對話介面，由Agent Orchestrator提供支援，並可在跨產品上運作，讓使用已啟用的CX Enterprise產品的從業人員能夠運用GenAI和Agentic AI功能。 如需詳細資訊，請閱讀 [AI 助理使用者介面指南](../ai-assistant/ai-assistant-ui.md)。
 
-**Adobe Experience Platform代理程式**：專門建置的AI代理程式，擅長於跨客戶體驗網域類別傳遞常見工作。 您可以善用代理程式來擴充您的容量，以更快的速度和更大的影響力建立及提供體驗，釋放下一層級的生產力及效率。 若要瞭解每個Experience Cloud應用程式可運用哪些代理程式，請閱讀Experience Cloud中[Agentic AI](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/agentic-ai)的檔案。
+**Adobe Experience Platform代理程式**：專門建置的AI代理程式，擅長於跨客戶體驗網域類別傳遞常見工作。 您可以善用代理程式來擴充您的容量，以更快的速度和更大的影響力建立及提供體驗，釋放下一層級的生產力及效率。 若要瞭解每個CX Enterprise應用程式可以使用哪些代理程式，請閱讀CX Enterprise中[Agentic AI](../overview/agentic-ai.md)的檔案。
 
 ## 試用方案詳細資料
 
@@ -40,11 +40,11 @@ ht-degree: 5%
 合格客戶可獲得最多10,000個AI積分的初始一次性權益，以用於以下用途：
 
 - 同事聊天：在同事聊天中輸入的輸入。 在有限的開頭期間，輸入會以每個輸入25個AI點數的比率沖銷AI點數。 此比率僅在有限時間內可用，且隨時可能變更。
-- Experience Platform代理程式：使用[AI信用消耗表格](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/ai-credit-consumption)中列出的Experience Platform代理程式所執行的任何工作組合（視您對CX Enterprise應用程式的現有授權而定）。
+- Experience Platform代理程式：使用[AI信用消耗表格](../overview/ai-credit-consumption.md)中列出的Experience Platform代理程式所執行的任何工作組合（視您對CX Enterprise應用程式的現有授權而定）。
 
 您可以使用Adobe Experience Platform UI中的授權使用儀表板來追蹤您的AI積分。 如需詳細資訊，請閱讀[授權使用儀表板檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/dashboards/guides/license-usage)。
 
-Agentic AI監控儀表板可讓您清楚瞭解組織內採用和使用Agentic AI的方式。 授權的使用者可以輕鬆追蹤參與、收集意見回饋、監控AI信用使用情況以及審查關鍵量度。 利用這些見解發掘最佳化機會，並支援您的治理和採用工作。 若要瞭解更多資訊，請瀏覽[Agentic AI使用監視指南](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/monitoring)。
+Agentic AI監控儀表板可讓您清楚瞭解組織內採用和使用Agentic AI的方式。 授權的使用者可以輕鬆追蹤參與、收集意見回饋、監控AI信用使用情況以及審查關鍵量度。 利用這些見解發掘最佳化機會，並支援您的治理和採用工作。 若要瞭解更多資訊，請瀏覽[Agentic AI使用監視指南](../overview/monitoring.md)。
 
 >[!IMPORTANT]
 >
@@ -60,7 +60,7 @@ Agentic AI監控儀表板可讓您清楚瞭解組織內採用和使用Agentic AI
 
 使用者可以從CX Enterprise頂端標題的應用程式選擇器中選取Co-worker，以存取Co-worker。
 
-![同事所在的應用程式選擇器。](../agents/images/coworker.png)
+![同事所在的應用程式選擇器。](../agents/assets/coworker.png)
 
 如果客戶想要撤銷其組織對&#x200B;**同事聊天**&#x200B;的存取權和/或還原為&#x200B;**AI助理**&#x200B;和&#x200B;**Experience Platform代理程式**，請傳送要求給[cx-coworker-questions@adobe.com](mailto:cx-coworker-questions@adobe.com)以供考慮。
 
@@ -70,7 +70,7 @@ Agentic AI監控儀表板可讓您清楚瞭解組織內採用和使用Agentic AI
 
 合格客戶的使用者在試用中將擁有對AI助理和代理程式的預設存取權，因此不需要採取任何動作。 Experience Platform代理程式會接受使用者輸入和監督的指引。 代理程式也會遵循先前定義的產品層級存取控制，因此使用者只能在適用的CX Enterprise產品中，執行他們有權執行的工作或動作。
 
-取得存取權後，請導覽至Adobe Experience Cloud首頁以開始使用AI Assistant。 您可以使用[探索提示](../ai-assistant/ai-assistant-ui.md#discovery-prompts)來檢視提示和一般工作流程的建議。 使用此功能來協助您加速使用AI Assistant。 此外，請閱讀[提示程式庫](../ai-assistant/prompt-library.md)，瞭解您可以與不同代理程式搭配使用的各種提示。 如需更完整的資訊，請閱讀[AI助理使用者介面指南](../ai-assistant/ai-assistant-ui.md)。
+取得存取權後，請導覽至Adobe CX Enterprise首頁以開始使用AI Assistant。 您可以使用[探索提示](../ai-assistant/ai-assistant-ui.md#discovery-prompts)來檢視提示和一般工作流程的建議。 使用此功能來協助您加速使用AI Assistant。 此外，請閱讀[提示程式庫](../ai-assistant/prompt-library.md)，瞭解您可以與不同代理程式搭配使用的各種提示。 如需更完整的資訊，請閱讀[AI助理使用者介面指南](../ai-assistant/ai-assistant-ui.md)。
 
 如果客戶想要選擇退出存取這些代理功能並停用試用版存取，請傳送要求給[cx-coworker-questions@adobe.com](mailto:cx-coworker-questions@adobe.com)。
 
@@ -82,7 +82,7 @@ Agentic AI監控儀表板可讓您清楚瞭解組織內採用和使用Agentic AI
 - [Agent Orchestrator概觀](agent-orchestrator.md)
 - [AI助理使用者介面指南](../ai-assistant/ai-assistant-ui.md)
 - [AI助理提示程式庫](../ai-assistant/prompt-library.md)
-- [Experience Cloud 中的 AI](../home.md)
+- [CX Enterprise 中的 AI](../home.md)
 
 ## 常見問題 {#faq}
 
@@ -94,15 +94,15 @@ Agentic使用規範試用版可讓合格客戶使用同事聊天（或選取Expe
 
 ### 此試用版包含哪些代理程式？
 
-閱讀Experience Cloud中[代理程式AI](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/agentic-ai)的指南，以取得試用版中所包含代理程式的完整清單。
+閱讀CX Enterprise中[代理程式AI](../overview/agentic-ai.md)的指南，以取得試用版中所包含代理程式的完整清單。
 
 ### 誰可以參與此試用？
 
-此試用版將分階段向某些符合資格的Adobe Experience Cloud客戶推出，以便Adobe能提供適當的支援。 如果您有興趣參與，請洽詢您的Adobe客戶團隊，他們可驗證您的狀態並討論存取選項。
+此試用版將分階段推出給某些符合資格的Adobe CX Enterprise客戶，以便Adobe能提供適當的支援。 如果您有興趣參與，請洽詢您的Adobe客戶團隊，他們可驗證您的狀態並討論存取選項。
 
 ### 我獲得了多少AI積分，以及當使用這些AI積分時會發生什麼事？
 
-合格客戶最多可收到10,000個試用版AI積分，這些積分會作為同事聊天（或Experience Platform代理程式）執行任務來使用。 請注意，這些AI點數僅存在於試用體驗期間，如果您在使用完整的10,000個AI點數之前授權其他AI點數，則不會延續。 如需有關AI信用消耗的詳細資訊，請閱讀[代理程式工作和AI信用消耗指南](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/ai-credit-consumption)。
+合格客戶最多可收到10,000個試用版AI積分，這些積分會作為同事聊天（或Experience Platform代理程式）執行任務來使用。 請注意，這些AI點數僅存在於試用體驗期間，如果您在使用完整的10,000個AI點數之前授權其他AI點數，則不會延續。 如需有關AI信用消耗的詳細資訊，請閱讀[代理程式工作和AI信用消耗指南](../overview/ai-credit-consumption.md)。
 
 ### 這要花多少錢嗎？
 

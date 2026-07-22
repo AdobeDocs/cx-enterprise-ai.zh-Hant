@@ -1,9 +1,9 @@
 ---
 title: Adobe Marketing Agent for Microsoft 365 Copilot
 description: 瞭解如何使用Adobe Marketing Agent for Microsoft 365 Copilot。
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1832'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
 - [!DNL Microsoft 365]與[!DNL Microsoft Teams]或[!DNL Microsoft Copilot Chat]。
 - Experience Platform和至少其中一個：Real-Time CDP、Adobe Journey Optimizer和/或Customer Journey Analytics。
 - Experience Platform Agent Orchestrator和代理的權益。
-- 存取貴組織的Adobe Experience Cloud帳戶（登入和產品權益），以取得您使用的解決方案和資料。 如果您沒有Adobe存取權，請聯絡Adobe管理員。
+- 存取貴組織的Adobe CX Enterprise帳戶（登入與產品權益），以取得您使用的解決方案和資料。 如果您沒有Adobe存取權，請聯絡Adobe管理員。
 
 ## 為您的組織啟用代理程式 {#enable-the-agent-for-your-organization}
 
@@ -67,45 +67,45 @@ ht-degree: 0%
 
 在您的組織啟用代理程式後（請參閱[為您的組織啟用代理程式](#enable-the-agent-for-your-organization)），在您選擇的應用程式中導覽至[!DNL Microsoft 365 Copilot]，然後使用左側導覽來選取&#x200B;**[!DNL All Agents]**。
 
-![已選取所有代理程式的Microsoft 365 Copilot左側導覽。](../agents/images/ama/all-agents.png)
+![已選取所有代理程式的Microsoft 365 Copilot左側導覽。](../agents/assets/ama/all-agents.png)
 
 找到[!DNL Adobe Marketing Agent]的卡片，或使用搜尋列手動尋找代理程式。 取得代理程式後，請選取卡片。
 
-![代理程式庫中的Adobe Marketing Agent卡或搜尋結果。](../agents/images/ama/select-ama.png)
+![代理程式庫中的Adobe Marketing Agent卡或搜尋結果。](../agents/assets/ama/select-ama.png)
 
 使用快顯視窗瞭解更多有關代理程式的資訊。 準備就緒後，選取&#x200B;**[!DNL Add]**。
 
-![醒目提示「新增」按鈕的Adobe Marketing Agent詳細資料快顯功能表。](../agents/images/ama/add-ama.png)
+![醒目提示「新增」按鈕的Adobe Marketing Agent詳細資料快顯功能表。](../agents/assets/ama/add-ama.png)
 
 [!DNL Microsoft 365 Copilot]儀表板更新為[!DNL Adobe Marketing Agent]品牌，現在在主要頁面上。
 
-![Microsoft 365 Copilot首頁在主要儀表板顯示Adobe Marketing Agent。](../agents/images/ama/home.png)
+![Microsoft 365 Copilot首頁在主要儀表板顯示Adobe Marketing Agent。](../agents/assets/ama/home.png)
 
 ### 登入並設定您的內容
 
 接下來，提示代理程式登入，並依照後續驗證帳戶所需的步驟操作。 在此步驟中，您需要複製代理程式傳回的數位代碼，然後登入您的Adobe組織。 如果您無法完成登入或無法存取組織的Adobe解決方案，請連絡您的&#x200B;**Adobe管理員**。
 
-![Adobe登入步驟，顯示要複製的數值代碼和向您的Adobe組織驗證的指示。](../agents/images/ama/sign-in.png)
+![Adobe登入步驟，顯示要複製的數值代碼和向您的Adobe組織驗證的指示。](../agents/assets/ama/sign-in.png)
 
 成功後，使用內容設定器建立您將用於查詢的檔案來源、沙箱和資料檢視。
 
-![選擇檔案來源、沙箱和資料檢視以進行查詢的內容設定器UI。](../agents/images/ama/context.png)
+![選擇檔案來源、沙箱和資料檢視以進行查詢的內容設定器UI。](../agents/assets/ama/context.png)
 
 ### 使用代理程式來擷取營運分析
 
 登入後，您可以使用首頁面中提供的提示來開始。 您也可以利用入門提示，其可延伸至分析行銷對象、檢閱行銷活動績效及監控行銷活動歷程。 例如，選取&#x200B;**[!DNL Review campaign performance]**，然後選取&#x200B;**[!DNL Analyze engagement - Show web visitors for top 10 products last week]**。
 
-![代理程式首頁上的入門提示，包括「檢閱行銷活動績效」和「分析參與選項」。](../agents/images/ama/starter-guide.png)
+![代理程式首頁上的入門提示，包括「檢閱行銷活動績效」和「分析參與選項」。](../agents/assets/ama/starter-guide.png)
 
 讓代理程式花一些時間進行計算，然後代理程式會以視覺化的資料呈現方式回應。 您可以使用顯示的長條圖，也可以選取&#x200B;**[!DNL View data]**&#x200B;以檢視表格中的資料。
 
-![代理程式回應，使用長條圖將熱門產品的網頁訪客視覺化並檢視資料選項。](../agents/images/ama/response.png)
+![代理程式回應，使用長條圖將熱門產品的網頁訪客視覺化並檢視資料選項。](../agents/assets/ama/response.png)
 
-![選取「檢視資料」後，資料表會顯示相同的深入分析。](../agents/images/ama/tables.png)
+![選取「檢視資料」後，資料表會顯示相同的深入分析。](../agents/assets/ama/tables.png)
 
 您可以選取代理程式建議的後續追蹤問題來進行進一步調查。 或者，您可以旋轉並嘗試不同的起始提示、驗證代理程式參考的資訊來源，或使用意見反應機制提供意見反應。
 
-![在代理程式回應之下建議的後續追蹤問題，以供進一步調查。](../agents/images/ama/follow-up.png)
+![在代理程式回應之下建議的後續追蹤問題，以供進一步調查。](../agents/assets/ama/follow-up.png)
 
 如需有關AI助理UI功能的詳細資訊，請參閱[使用AI助理](../ai-assistant/ai-assistant-ui.md)的指南。
 
@@ -125,7 +125,7 @@ Adobe Marketing Agent所依賴的控制和治理與Experience Platform和[!DNL M
 
 >[!IMPORTANT]
 >
->Adobe Marketing Agent會根據提交的提示叫用不同的Adobe代理程式和作業。 這個被叫用的基礎Adobe代理程式會利用[Adobe Experience Platform代理程式工作和AI積分消耗](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/ai-credit-consumption)頁面中指示的AI積分。
+>Adobe Marketing Agent會根據提交的提示叫用不同的Adobe代理程式和作業。 這個被叫用的基礎Adobe代理程式會利用[Adobe Experience Platform代理程式工作和AI積分消耗](../overview/ai-credit-consumption.md)頁面中指示的AI積分。
 
 ## 附錄
 

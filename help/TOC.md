@@ -1,21 +1,28 @@
 ---
 audience: user
-user-guide-title: Adobe Experience Cloud中的AI助理
-user-guide-description: 了解如何使用 AI 助理來加快 Adobe Experience Platform 和 Real-Time Customer Data Platform 的工作流程。
-description: 了解關於 Experience Cloud 中的 AI 助理。 使用 Experience Cloud 中的 AI 來增加您的產品知識及獲得運作洞察。
+user-guide-title: Adobe CX Enterprise中的AI助理
+user-guide-description: 了解如何使用 AI 助理加快 Adobe Experience Platform 和 Real-Time Customer Data Platform 的工作流程。
+description: 瞭解CX Enterprise中的AI Assistant。 在CX Enterprise中使用AI來改善您的產品知識並取得營運深入分析。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+dummy: true
+source-git-commit: 6e3ab12f1d9ec706e745749b7ca47b91a09ff8b3
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 34%
+source-wordcount: '211'
+ht-degree: 25%
 
 ---
 
 
-# Experience Cloud 中的 AI {#experience-cloud-ai}
+# CX Enterprise 中的 AI {#experience-cloud-ai}
 
-- [Experience Cloud 應用程式中的 AI](home.md)
+- [CX Enterprise應用程式中的AI](home.md)
+- 關於CX Enterprise中的AI {#overview}
+  - [生成式 AI](./overview/generative-ai.md)
+  - [代理式 AI](./overview/agentic-ai.md)
+  - [Agentic AI監視](./overview/monitoring.md)
+  - [代理程式工作和AI信用消耗](./overview/ai-credit-consumption.md)
+  - [代理式工具](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-agentic-tools/using/overview)
 - AI 助理 {#ai-assistant}
   - [AI助理使用者介面指南](./ai-assistant/ai-assistant-ui.md)
   - [提示程式庫](./ai-assistant/prompt-library.md)
@@ -52,4 +59,4 @@ ht-degree: 34%
 - 同事 {#coworker}
   - {hide-from-toc}[在遊樂場的同事聊天](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[驗證AA到CJA的移轉資料](./coworker/data-validation-aa-cja.md)
-  - {hide-from-toc}[分析轉換流失](./coworker/analytics-use-cases.md)
+  - [分析CJA資料](./coworker/analytics-chat.md)

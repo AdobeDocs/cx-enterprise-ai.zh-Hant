@@ -11,7 +11,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: 2162
 ht-degree: 3%
@@ -31,14 +31,14 @@ ht-degree: 3%
 | 使用者體驗 | AI助理（舊版）僅在右邊欄面板中可用。 | AI Assistant (Next-Gen)提供右欄面板和沈浸式全熒幕體驗。 |
 | 功能範圍 | 您可以使用AI助理（舊版）來取得產品知識和營運見解。 | 您可以使用AI Assistant （新一代）來瞭解產品知識、營運深入分析，以及進階代理技能和多步驟任務執行。 |
 | 平台架構 | AI助理（舊版）並非建置在Agent Orchestrator棧疊上。 | AI Assistant (Next-Gen)由[Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator)提供技術支援，可擴充性以及各種功能的進階協調。 |
-| 應用程式涵蓋範圍 | AI助理（舊版）是應用程式專用的實作。 | 您可以使用AI助理（新一代），在所有Adobe Experience Cloud應用程式中提供統一的AI助理體驗。 |
+| 應用程式涵蓋範圍 | AI助理（舊版）是應用程式專用的實作。 | 您可以使用AI Assistant (Next-Gen)，在所有Adobe CX Enterprise應用程式中提供統一的AI Assistant體驗。 |
 | 存取與許可權模型 | 應用程式範圍的存取模型會與個別產品邊界對齊。 | 所有使用者都能存取AI Assistant (Next-Gen)和相關聯的Experience Platform代理程式。 **附註**： <ul><li>**Adobe Experience Manager**：您的管理員必須授予您透過[Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)存取AI小幫手(Next-Gen)的許可權。</li><li>**Customer Journey Analytics**：您的管理員必須透過[Customer Journey Analytics存取控制](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/technotes/access-control?lang=en)授與您存取AI小幫手的許可權。 這可讓您詢問產品知識和資料見解問題。 |
 
 AI Assistant是一款智慧型交談、創造性的AI工具，可大幅提升生產力並重新定義Adobe Experience Platform應用程式中的工作。 您可以使用AI助理來存取Adobe Experience Platform代理程式和其他AI功能。
 
 請閱讀本指南以瞭解如何使用AI助理。
 
-![全熒幕的AI助理主介面。](./images/ai-assistant/blank-home.png)
+![全熒幕的AI助理主介面。](./assets/ai-assistant/blank-home.png)
 
 >[!SLIDE](agent-orchestrator-ui)
 
@@ -46,19 +46,19 @@ AI Assistant是一款智慧型交談、創造性的AI工具，可大幅提升生
 
 有幾種方式可存取AI助理。
 
-在Experience Cloud首頁介面中，從左側導覽選取&#x200B;**[!UICONTROL AI小幫手]**&#x200B;以啟動AI小幫手的全熒幕檢視。
+在CX Enterprise首頁介面中，從左側導覽選取&#x200B;**[!UICONTROL AI小幫手]**&#x200B;以啟動AI小幫手的全熒幕檢視。
 
 +++選取以檢視
 
-![在左側導覽中選取AI助理圖示的Experience Cloud首頁。](./images/ai-assistant/from-experience-cloud.png)
+![在左側導覽中選取AI Assistant圖示的CX Enterprise首頁。](./assets/ai-assistant/from-experience-cloud.png)
 
 +++
 
-您也可以從Experience Platform、Adobe Journey Optimizer和Customer Journey Analytics等Experience Cloud應用程式的首頁啟動AI助理。 導覽至您的產品首頁，然後從頂端標題選取&#x200B;**AI助理圖示**，以啟動右側邊欄的AI助理聊天面板。
+您也可以從CX Enterprise應用程式（例如Experience Platform、Adobe Journey Optimizer和Customer Journey Analytics）的首頁啟動AI Assistant。 導覽至您的產品首頁，然後從頂端標題選取&#x200B;**AI助理圖示**，以啟動右側邊欄的AI助理聊天面板。
 
 +++選取以檢視
 
-![在左側導覽中選取AI助理圖示的產品首頁。](./images/ai-assistant/from-product.png)
+![在左側導覽中選取AI助理圖示的產品首頁。](./assets/ai-assistant/from-product.png)
 
 +++
 
@@ -76,7 +76,7 @@ AI Assistant介麵包含數個關鍵元素，可幫助您有效互動：
 4. **內容設定**： — 選取[內容設定]圖示來設定AI助理的資訊來源。 您可以使用此工具來設定AI助理參考的應用程式、沙箱和資料檢視，以回答您的查詢。 如需詳細資訊，請閱讀[內容設定](#context-setting)的區段。
 5. **探索**： — 選取&#x200B;**[!UICONTROL 學習]**、**[!UICONTROL 分析]**&#x200B;和&#x200B;**[!UICONTROL 最佳化]**&#x200B;以檢視您可用來開始使用的範例查詢。 如需詳細資訊，請閱讀[可發現性提示](#discoverability-prompts)的區段。
 
-![全熒幕的AI小幫手。](./images/ai-assistant/ui-home.png)
+![全熒幕的AI小幫手。](./assets/ai-assistant/ui-home.png)
 
 ### 邊欄檢視
 
@@ -90,7 +90,7 @@ AI Assistant介麵包含數個關鍵元素，可幫助您有效互動：
 1. **資料與物件自動完成**：選取加號圖示以使用資料與物件建議並自動完成。 選取後，您可以使用彈出式視窗來選取建議的實體。 如需詳細資訊，請閱讀有關[資料與物件自動完成](#autocomplete)的章節。
 1. **內容設定**：選取[內容設定]圖示以設定AI助理的資訊來源。 您可以使用此工具來設定AI助理參考的應用程式、沙箱和資料檢視，以回答您的查詢。 如需詳細資訊，請閱讀[內容設定](#context-setting)的區段。
 
-![邊欄檢視中的AI小幫手](./images/ai-assistant/rail-mode.png)
+![邊欄檢視中的AI小幫手](./assets/ai-assistant/rail-mode.png)
 
 ## AI助理使用者介面指南
 
@@ -108,19 +108,19 @@ AI Assistant介麵包含數個關鍵元素，可幫助您有效互動：
 
 若要使用探索提示來提升產品知識，請選取&#x200B;**[!UICONTROL 學習]**，然後從出現的下拉式視窗中選取提示。
 
-![從全熒幕檢視選取探索提示字元。](./images/ai-assistant/inputs/discover.png)
+![從全熒幕檢視選取探索提示字元。](./assets/ai-assistant/inputs/discover.png)
 
 >[!TAB 使用邊欄檢視的探索]
 
 從邊欄檢視中選取&#x200B;**[!UICONTROL 探索]**，即可存取廣泛的探索提示清單，供您用來開始使用，並填入AI助理的聊天。
 
-![從邊欄檢視探索面板。](./images/ai-assistant/inputs/discover-rail.png)
+![從邊欄檢視探索面板。](./assets/ai-assistant/inputs/discover-rail.png)
 
 >[!ENDTABS]
 
 選取提示以填入輸入方塊。 從這裡，您可以編輯提示以適合您的特定使用案例。 準備就緒後，選取右側的傳送圖示以提交您的查詢。
 
-![輸入方塊中的Discover提示。](./images/ai-assistant/inputs/question-input.png)
+![輸入方塊中的Discover提示。](./assets/ai-assistant/inputs/question-input.png)
 
 ## 與回應互動
 
@@ -130,23 +130,23 @@ AI Assistant接著會查詢其知識庫並計算答案。 幾分鐘後，AI Assi
 
 若要深入瞭解基礎推理程式，請選取&#x200B;**[!UICONTROL 推理完成]**。
 
-![AI助理回應。](./images/ai-assistant/inputs/answer.png)
+![AI助理回應。](./assets/ai-assistant/inputs/answer.png)
 
 「*[!UICONTROL 推理完成]*」視窗會展開，顯示您要求的摘要以及建立回應的詳細資訊。
 
-![AI助理回應中的展開推理面板。](./images/ai-assistant/inputs/reasoning-complete.png)
+![AI助理回應中的展開推理面板。](./assets/ai-assistant/inputs/reasoning-complete.png)
 
 ### 使用相關建議
 
 接著，向下瀏覽至回應底部，並選取&#x200B;**[!UICONTROL 相關建議]**，以接收與初始查詢相關的提示清單。 您可以使用這些提示繼續與AI助理的對話。
 
-![AI助理中的相關建議視窗。](./images/ai-assistant/inputs/related-suggestions.png)
+![AI助理中的相關建議視窗。](./assets/ai-assistant/inputs/related-suggestions.png)
 
 ### 檢視來源
 
 若要驗證AI助理的回應，請選取&#x200B;**[!UICONTROL 來源]**&#x200B;以檢視AI助理計算其回應時所參考的資訊來源清單。
 
-![由AI助理參考的來源清單。](./images/ai-assistant/inputs/sources.png)
+![由AI助理參考的來源清單。](./assets/ai-assistant/inputs/sources.png)
 
 ### 提供意見反應
 
@@ -154,7 +154,7 @@ AI Assistant接著會查詢其知識庫並計算答案。 幾分鐘後，AI Assi
 
 若要提供意見回饋，請在收到AI Assistant的回應後選取向上或向下拇指，然後在提供的文字方塊中輸入您的意見回饋。
 
-![在AI小幫手中，將圖示按向上和向下鍵。](./images/ai-assistant/inputs/feedback.png)
+![在AI小幫手中，將圖示按向上和向下鍵。](./assets/ai-assistant/inputs/feedback.png)
 
 >[!BEGINTABS]
 
@@ -164,11 +164,11 @@ AI Assistant接著會查詢其知識庫並計算答案。 幾分鐘後，AI Assi
 
 +++選取以檢視
 
-![縮圖意見回饋視窗。](./images/ai-assistant/inputs/thumbs-up.png)
+![縮圖意見回饋視窗。](./assets/ai-assistant/inputs/thumbs-up.png)
 
 您也可以選取&#x200B;**[!UICONTROL 詳細的意見反應]**，進一步說明您的意見反應。 完成後，選取&#x200B;**[!UICONTROL 提交]**。
 
-![大拇指的詳細意見回饋視窗。](./images/ai-assistant/inputs/thumbs-up-detailed.png)
+![大拇指的詳細意見回饋視窗。](./assets/ai-assistant/inputs/thumbs-up-detailed.png)
 
 +++
 
@@ -178,11 +178,11 @@ AI Assistant接著會查詢其知識庫並計算答案。 幾分鐘後，AI Assi
 
 +++選取以檢視
 
-![向下撥動意見回饋視窗。](./images/ai-assistant/inputs/thumbs-down.png)
+![向下撥動意見回饋視窗。](./assets/ai-assistant/inputs/thumbs-down.png)
 
 同樣地，您也可以選取&#x200B;**[!UICONTROL 詳細的意見反應]**，進一步說明您的意見反應。 完成後，選取&#x200B;**[!UICONTROL 提交]**。
 
-![縮圖的詳細意見回饋視窗。](./images/ai-assistant/inputs/thumbs-down-detailed.png)
+![縮圖的詳細意見回饋視窗。](./assets/ai-assistant/inputs/thumbs-down-detailed.png)
 
 +++
 
@@ -192,59 +192,59 @@ AI Assistant接著會查詢其知識庫並計算答案。 幾分鐘後，AI Assi
 
 如果AI助理的回應包含影像，您可以選取路徑圖示來啟動分割檢視模式。 這可讓您透過右側顯示的內容影像，讀取AI助理的全部回應。
 
-![AI助理的分割檢視模式。](./images/ai-assistant/inputs/split-view.png)
+![AI助理的分割檢視模式。](./assets/ai-assistant/inputs/split-view.png)
 
 ### 交談
 
 您可以使用&#x200B;*[!UICONTROL 所有交談]*&#x200B;面板來重設和重新造訪與AI助理的交談。 選取&#x200B;**[!UICONTROL 交談]**&#x200B;圖示以檢視&#x200B;*[!UICONTROL 所有交談]*&#x200B;視窗。
 
-![AI助理上的交談視窗。](./images/ai-assistant/conversations/select-conversations.png)
+![AI助理上的交談視窗。](./assets/ai-assistant/conversations/select-conversations.png)
 
 若要重新造訪先前的交談，請從提供的清單中選取交談主題。
 
-![先前在AI助理上錄製的交談清單。](./images/ai-assistant/conversations/revisit-conversation.png)
+![先前在AI助理上錄製的交談清單。](./assets/ai-assistant/conversations/revisit-conversation.png)
 
 若要開始新交談，請選取&#x200B;**[!UICONTROL 新交談]**。
 
-![已選取[新交談]選項。](./images/ai-assistant/conversations/new-conversation.png)
+![已選取[新交談]選項。](./assets/ai-assistant/conversations/new-conversation.png)
 
 ### 內容設定 {#context-setting}
 
 使用AI助理的內容設定功能來設定AI助理參考以回答您的查詢的&#x200B;**應用程式**、**沙箱**&#x200B;和&#x200B;**資料檢視**。 若要存取內容設定，請從輸入方塊中選取&#x200B;**[!UICONTROL 內容設定]**&#x200B;圖示。
 
-![已選取內容設定圖示。](./images/ai-assistant/inputs/context-selection.png)
+![已選取內容設定圖示。](./assets/ai-assistant/inputs/context-selection.png)
 
 *[!UICONTROL 回應來源……]*&#x200B;快顯視窗會出現。 使用此視窗來設定您要使用的資訊來源，然後選取&#x200B;**[!UICONTROL 設定內容]**。
 
 | 資訊來源 | 說明 | 範例 |
 | --- | --- | --- |
-| 應用程式 | 您查詢所屬的Experience Cloud應用程式。 | Experience Platform、Journey Optimizer、Customer Journey Analytics等 |
+| 應用程式 | 您的查詢所屬的CX企業應用程式。 | Experience Platform、Journey Optimizer、Customer Journey Analytics等 |
 | 沙箱 | 包含您的查詢相關資料集或資訊的沙箱。 | 生產(VA7)、開發 |
 | 資料檢視 | 當您搭配使用AI助理與Customer Journey Analytics時，資料檢視設定可協助Data Insights Agent瞭解： <ul><li>要查詢的資料集</li><li>有哪些可用的資料元件</li><li>如何建構有關您資料的回應</li><li>要在Analysis Workspace中建立哪些視覺效果</li></ul> | |
 
-![可設定資訊來源的[回答]面板。](./images/ai-assistant/inputs/answer-from.png)
+![可設定資訊來源的[回答]面板。](./assets/ai-assistant/inputs/answer-from.png)
 
 ### 資料和物件自動完成
 
 您可以使用自動完成函式來接收沙箱中存在之資料物件的清單。 若要使用自動完成，請在查詢中輸入加號圖示(+)。 或者，您也可以選取文字輸入方塊底部的加號圖示(+)。 隨即顯示一個視窗，其中包含沙箱中建議的資料物件清單。
 
-![已選取資料與物件自動完成按鈕。](./images/ai-assistant/autocomplete/autocomplete.png)
+![已選取資料與物件自動完成按鈕。](./assets/ai-assistant/autocomplete/autocomplete.png)
 
 ### 驗證回應
 
 您可透過多種方式驗證AI助理的回應。 選取&#x200B;**[!UICONTROL 與物件相符的查詢辭彙]**&#x200B;以檢視查詢中與組織中特定物件相符的辭彙摘要。
 
-![查詢字詞與您的回應相符。](./images/ai-assistant/autocomplete/query-terms.png)
+![查詢字詞與您的回應相符。](./assets/ai-assistant/autocomplete/query-terms.png)
 
 選取&#x200B;**[!UICONTROL 以下是我取得結果的方式]**，以檢視AI助理如何取得答案的詳細逐步說明。 此外，您也可以檢視為回答您問題而執行的SQL查詢。 此查詢是唯讀的，不支援用於查詢服務。
 
-![AI助理上的SQL驗證工具。](./images/ai-assistant/autocomplete/verifications.png)
+![AI助理上的SQL驗證工具。](./assets/ai-assistant/autocomplete/verifications.png)
 
 ### 設定資料視覺效果
 
 您可以使用AI Assistant的資料視覺化功能來更瞭解您的資料。 您也可以指定要在查詢中使用的圖表型別。 例如，提交顯示： **&quot;依產品名稱顯示上個月利潤（長條圖）&quot;**&#x200B;的查詢，以接收依產品名稱組織的上個月利潤長條圖。
 
-![在AI小幫手上顯示的橫條圖](./images/ai-assistant/visualization/graph.png)
+![在AI小幫手上顯示的橫條圖](./assets/ai-assistant/visualization/graph.png)
 
 接著，選取&#x200B;**[!UICONTROL 屬性]**&#x200B;以變更圖表型別，並設定X軸與Y軸的值。
 
@@ -256,24 +256,24 @@ AI Assistant支援數種圖表型別用於資料視覺效果。 您可以將滑�
 
 若要檢視線圖，請選取&#x200B;**[!UICONTROL 屬性]**，然後選取&#x200B;**[!UICONTROL 線]**。
 
-![AI助理上的線圖。](./images/ai-assistant/visualization/line.png)
+![AI助理上的線圖。](./assets/ai-assistant/visualization/line.png)
 
 >[!TAB 區域]
 
 若要檢視區域圖，請選取&#x200B;**[!UICONTROL 屬性]**，然後選取&#x200B;**[!UICONTROL 區域]**。
 
-![AI助理上的區域圖。](./images/ai-assistant/visualization/area.png)
+![AI助理上的區域圖。](./assets/ai-assistant/visualization/area.png)
 
 >[!TAB 散佈圖]
 
 若要檢視散佈圖，請選取&#x200B;**[!UICONTROL 屬性]**，然後選取&#x200B;**[!UICONTROL 散佈圖]**。
 
-![AI助理上的散佈圖。](./images/ai-assistant/visualization/scatter.png)
+![AI助理上的散佈圖。](./assets/ai-assistant/visualization/scatter.png)
 
 >[!TAB 環形圖]
 
 若要檢視環形圖，請選取&#x200B;**[!UICONTROL 屬性]**，然後選取&#x200B;**[!UICONTROL 環形圖]**。
 
-![AI助理上的環形圖。](./images/ai-assistant/visualization/donut.png)
+![AI助理上的環形圖。](./assets/ai-assistant/visualization/donut.png)
 
 >[!ENDTABS]

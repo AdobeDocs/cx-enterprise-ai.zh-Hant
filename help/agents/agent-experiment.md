@@ -12,7 +12,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a8f0706b7c37fd87115a9af0ca646b84dcfe890b
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: 555
 ht-degree: 4%
@@ -51,7 +51,7 @@ TQID: https://experienceleague.adobe.com/ARh16ylmUDrp%2D%2D%2Dg8KuYNyewIv54IQ53p
 
 * **機會**：後續要採取的動作指南
 
-Experimentation Agent的![範例](./images/experiment/experiment-agent.png)
+Experimentation Agent的![範例](./assets/experiment/experiment-agent.png)
 
 ## 使用案例
 
