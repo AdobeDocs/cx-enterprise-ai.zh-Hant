@@ -50,15 +50,15 @@ ht-degree: 1%
 
 ![已選取[繼續]的請求結果，強調顯示[提交]。](./assets/sandbox-tooling/results-proceed.png)
 
-4. 選取一或多個要移轉的物件，然後選取&#x200B;**[!UICONTROL 提交]**。
+&#x200B;4. 選取一或多個要移轉的物件，然後選取&#x200B;**[!UICONTROL 提交]**。
 
 ![物件選擇頁面醒目提示送出。](./assets/sandbox-tooling/object-selection.png)
 
-5. 檢閱代理程式識別的物件與相依性，並確認作業動作 — *建立新的*&#x200B;或&#x200B;*使用現有的*。 當您準備開始移轉時，請選取&#x200B;**[!UICONTROL 繼續]**，然後選取&#x200B;**[!UICONTROL 提交]**&#x200B;以進行確認。 移轉可能需要幾分鐘的時間才能完成。
+&#x200B;5. 檢閱代理程式識別的物件與相依性，並確認作業動作 — *建立新的*&#x200B;或&#x200B;*使用現有的*。 當您準備開始移轉時，請選取&#x200B;**[!UICONTROL 繼續]**，然後選取&#x200B;**[!UICONTROL 提交]**&#x200B;以進行確認。 移轉可能需要幾分鐘的時間才能完成。
 
 ![確認動作計畫頁面醒目提示提交。](./assets/sandbox-tooling/action-plan.png)
 
-6. 移轉完成時，所選物件可在目標沙箱中使用。
+&#x200B;6. 移轉完成時，所選物件可在目標沙箱中使用。
 
 ![顯示要求狀態的傳輸完成頁面。](./assets/sandbox-tooling/transfer-complete.png)
 
