@@ -54,7 +54,7 @@ ht-degree: 28%
     - [Journey Optimizer工具](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - [Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - 同事說明 {#coworker}
   - [同事說明](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)
   - {hide-from-toc}[在遊樂場的同事聊天](./coworker/playground-coworker-chat.md)
