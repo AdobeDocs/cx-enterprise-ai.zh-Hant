@@ -1,7 +1,7 @@
 ---
 title: 沙箱工具代理程式技能
 description: 瞭解如何使用沙箱工具代理技能，跨沙箱環境複製物件中繼資料。
-source-git-commit: 1fec24983eff50e6d0215c576049d9a80105bfc0
+source-git-commit: 7790447877fa20321321ce5561d8ff61b28c572e
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -42,23 +42,23 @@ ht-degree: 1%
 若要使用沙箱工具代理程式技能：
 
 1. 瀏覽至&#x200B;**[!UICONTROL CX Co-worker]**。
-2. 輸入您要完成之作業的明確說明。 例如:
+1. 輸入您要完成之作業的明確說明。 例如:
 
    *「將結構描述忠誠度會員白金從目前的沙箱移至Acme示範沙箱。」*
 
-3. 檢閱結果表格，其中顯示來源和目標沙箱。 當您準備好要繼續時，請選取&#x200B;**[!UICONTROL 繼續]**，然後選取&#x200B;**[!UICONTROL 提交]**&#x200B;以進行確認。
+1. 檢閱結果表格，其中顯示來源和目標沙箱。 當您準備好要繼續時，請選取&#x200B;**[!UICONTROL 繼續]**，然後選取&#x200B;**[!UICONTROL 提交]**&#x200B;以進行確認。
 
-![已選取[繼續]的請求結果，強調顯示[提交]。](./assets/sandbox-tooling/results-proceed.png)
+   ![已選取[繼續]的請求結果，強調顯示[提交]。](./assets/sandbox-tooling/results-proceed.png)
 
-&#x200B;4. 選取一或多個要移轉的物件，然後選取&#x200B;**[!UICONTROL 提交]**。
+1. 選取一或多個要移轉的物件，然後選取&#x200B;**[!UICONTROL 提交]**。
 
-![物件選擇頁面醒目提示送出。](./assets/sandbox-tooling/object-selection.png)
+   ![物件選擇頁面醒目提示送出。](./assets/sandbox-tooling/object-selection.png)
 
-&#x200B;5. 檢閱代理程式識別的物件與相依性，並確認作業動作 — *建立新的*&#x200B;或&#x200B;*使用現有的*。 當您準備開始移轉時，請選取&#x200B;**[!UICONTROL 繼續]**，然後選取&#x200B;**[!UICONTROL 提交]**&#x200B;以進行確認。 移轉可能需要幾分鐘的時間才能完成。
+1. 檢閱代理程式識別的物件與相依性，並確認作業動作 — *建立新的*&#x200B;或&#x200B;*使用現有的*。 當您準備開始移轉時，請選取&#x200B;**[!UICONTROL 繼續]**，然後選取&#x200B;**[!UICONTROL 提交]**&#x200B;以進行確認。 移轉可能需要幾分鐘的時間才能完成。
 
-![確認動作計畫頁面醒目提示提交。](./assets/sandbox-tooling/action-plan.png)
+   ![確認動作計畫頁面醒目提示提交。](./assets/sandbox-tooling/action-plan.png)
 
-&#x200B;6. 移轉完成時，所選物件可在目標沙箱中使用。
+1. 移轉完成時，所選物件可在目標沙箱中使用。
 
 ![顯示要求狀態的傳輸完成頁面。](./assets/sandbox-tooling/transfer-complete.png)
 
@@ -108,4 +108,4 @@ ht-degree: 1%
 
 閱讀本指南後，您應該瞭解如何使用沙箱工具代理技巧，在沙箱之間探索、封裝和移轉支援的物件。
 
-如需沙箱工具的詳細資訊，請參閱[沙箱工具指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sandbox/ui/sandbox-tooling)。
+如需沙箱工具的詳細資訊，請參閱[沙箱工具指南](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling)。
