@@ -15,10 +15,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2d8059201070965b01e67d2c910adc3a7b66ab01
+source-git-commit: 870dc2f9f9c13278457248a8db7af3980674efe5
 workflow-type: tm+mt
-source-wordcount: 881
-ht-degree: 3%
+source-wordcount: 872
+ht-degree: 2%
 
 ---
 
@@ -70,7 +70,7 @@ CX Enterprise Co-worker是AI Assistant的代理程式優先進化，可自動化
 
 若要檢視同事聊天正在執行中，請逐步瀏覽[Playground中的同事聊天](./coworker/playground-coworker-chat.md)，或閱讀真實使用案例，例如[驗證AA到CJA的移轉資料](./coworker/data-validation-aa-cja.md)和[分析CJA資料](./coworker/analytics-chat.md)。
 
-如需有關同事聊天、行銷活動和專案的完整產品檔案，請參閱[Adobe CX Enterprise Co-worker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)。
+如需有關同事聊天、行銷活動和專案的完整產品檔案，請參閱[Adobe CX Enterprise Co-worker](./coworker/overview.md)。
 
 ## MCP
 
@@ -99,3 +99,4 @@ AI Assistant和Experience Platform代理程式以隱私、安全性和控管作�
 ## 法律考量
 
 AI Assistant目前僅支援英文回應，語言模型偶爾可能會出錯。 務必確認所提供的資訊，並使用每個回應中所包含的推理步驟來瞭解其產生方式。 如需完整詳細資訊，請閱讀[法律免責宣告](./ai-assistant/legal-disclaimer.md)。
+

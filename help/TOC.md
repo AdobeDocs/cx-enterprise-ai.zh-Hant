@@ -5,9 +5,9 @@ user-guide-description: 了解如何使用 AI 助理加快 Adobe Experience Plat
 description: 瞭解CX Enterprise中的AI Assistant。 在CX Enterprise中使用AI來改善您的產品知識並取得營運深入分析。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 869d08a77b71bb7690cccdcd5b00c4ddfe0bd722
+source-git-commit: 0a2e9b364a7e13358055bfd75e70679771bd3b57
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '237'
 ht-degree: 27%
 
 ---
@@ -55,9 +55,20 @@ ht-degree: 27%
     - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - [Adobe Analytics工具](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- 同事說明 {#coworker}
-  - [同事說明](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)
+- 同事 {#coworker}
+  - [關於同事](./coworker/overview.md)
+  - 行銷活動 {#campaigns}
+    - [概觀](./coworker/campaigns/overview.md)
+    - [建立電子郵件行銷活動](./coworker/campaigns/create-an-email-campaign.md)
+    - [使用案例](./coworker/campaigns/use-cases.md)
+    - [提示最佳實務](./coworker/campaigns/prompting-best-practices.md)
+    - [連接器](./coworker/campaigns/connectors.md)
+    - [發行說明](./coworker/campaigns/release-notes.md)
+  - 聊天 {#chat}
+    - [概觀](./coworker/chat/overview.md)
+    - [使用案例](./coworker/chat/use-cases.md)
+    - [UI指南](./coworker/chat/ui-guide.md)
+    - [分析CJA資料](./coworker/chat/analytics-chat.md)
   - {hide-from-toc}[在遊樂場的同事聊天](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[驗證AA到CJA的移轉資料](./coworker/data-validation-aa-cja.md)
-  - [分析CJA資料](./coworker/analytics-chat.md)
   - [沙箱工具代理程式技能](./agents/sandbox-tooling.md)
