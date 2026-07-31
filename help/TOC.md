@@ -5,10 +5,10 @@ user-guide-description: 了解如何使用 AI 助理加快 Adobe Experience Plat
 description: 瞭解CX Enterprise中的AI Assistant。 在CX Enterprise中使用AI來改善您的產品知識並取得營運深入分析。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 0a2e9b364a7e13358055bfd75e70679771bd3b57
+source-git-commit: 41a237937d9c84db25a4fea12f7f3a403b462c67
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 27%
+ht-degree: 26%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 27%
     - [建立電子郵件行銷活動](./coworker/campaigns/create-an-email-campaign.md)
     - [使用案例](./coworker/campaigns/use-cases.md)
     - [提示最佳實務](./coworker/campaigns/prompting-best-practices.md)
-    - [連接器](./coworker/campaigns/connectors.md)
+    - {hide-from-toc}[聯結器](./coworker/campaigns/connectors.md)
     - [發行說明](./coworker/campaigns/release-notes.md)
   - 聊天 {#chat}
     - [概觀](./coworker/chat/overview.md)
