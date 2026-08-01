@@ -40,13 +40,13 @@ Adobe CX Enterprise Co-worker Chat可以執行進階資料分析，而以前只�
 
 * 及更多內容
 
-如需詳細資訊，請參閱[同事聊天使用者介面指南](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide)。
+如需詳細資訊，請參閱[同事聊天使用者介面指南](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/chat/ui-guide)。
 
 ### Customer Journey Analytics的使用案例
 
 您可以檢視Customer Journey Analytics使用案例和從業人員在Adobe CX Enterprise Co-worker Chat中使用的範例提示。 每個提示都是為複製而建置，會根據您自己的資料和內容進行調整，並透過對話進行細化。
 
-如需詳細資訊，請參閱[使用案例](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/use-cases)。
+如需詳細資訊，請參閱[使用案例](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/chat/use-cases)。
 
 ## 確認同事聊天已連線至Customer Journey Analytics
 
