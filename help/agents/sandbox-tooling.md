@@ -33,7 +33,7 @@ ht-degree: 1%
 - 存取您要探索或移轉的物件。
 - 安裝在CX Co-worker中的Adobe CXO外掛程式。
 
-如需有關安裝外掛程式的說明，請參閱[Co-worker UI指南](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide)。
+如需有關安裝外掛程式的說明，請參閱[Co-worker UI指南](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/chat/ui-guide)。
 
 ## 使用沙箱工具代理技能 {#use-sandbox-tooling-agentic-skills}
 
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 ![顯示要求狀態的傳輸完成頁面。](./assets/sandbox-tooling/transfer-complete.png)
 
-如需使用CX Co-worker的詳細資訊，請參閱[Co-worker UI指南](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide)。
+如需使用CX Co-worker的詳細資訊，請參閱[Co-worker UI指南](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/chat/ui-guide)。
 
 ## 支援的使用案例 {#supported-use-cases}
 
