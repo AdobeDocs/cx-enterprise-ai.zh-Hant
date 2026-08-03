@@ -3,8 +3,8 @@ title: CX Co-worker Gateway中的Adobe Experience Platform工具
 description: 瞭解可透過CX Co-worker Gateway使用的Adobe Experience Platform工具。
 source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
 workflow-type: tm+mt
-source-wordcount: '1372'
-ht-degree: 8%
+source-wordcount: '1354'
+ht-degree: 7%
 
 ---
 
@@ -57,16 +57,16 @@ ht-degree: 8%
 
 | 參數 | 必要 | 說明 |
 | --- | --- | --- |
-| `action` | 無 | 依動作型別篩選。 通用值（OR以逗號分隔）： `Create`， `Delete`， `Update`， `Enable`， `Disable` |
-| `asset_type` | 無 | 依資產型別篩選。 必須是： `Dataset`、`Schema`、`Segment`、`Destination`、`Source Data Flow`、`Merge Policy`、`Identity Namespace`、`Identity Graph`、`Sandbox`、`Role`、`Query`、`Scheduled Query`、`Datastream`、`Computed Attribute`、`Field Group`、`Class`、`Data Types`、`Account`、`Product Profile`、`Query Template`、`Work Order`、`Audit Logs`、`Access Control Policy`其中之一 |
-| `status` | 無 | 依事件狀態篩選。 值： `Success`、`Failure`、`Allow`、`Deny`。 OR需以逗號分隔 |
-| `start_time` | 無 | 最早的時間戳記。 ISO 8601 UTC搭配ms，例如`2024-01-15T00:00:00.000Z` |
-| `end_time` | 無 | 最新時間戳記。 ISO 8601 UTC含ms |
-| `property_filter` | 無 | 原始篩選運算式，例如`action==create`。 偏好上述專用引數 |
-| `orderby` | 無 | 排序順序： `timestamp` (asc)或`-timestamp` (desc) |
-| `limit` | 無 | 結果數量上限（3-1000、預設50） |
-| `start` | 無 | 分頁位移。 每頁按限制值增加 |
-| `query_id` | 無 | 來自先前回應的查詢ID以重複相同查詢 |
+| `action` | 否 | 依動作型別篩選。 通用值（OR以逗號分隔）： `Create`， `Delete`， `Update`， `Enable`， `Disable` |
+| `asset_type` | 否 | 依資產型別篩選。 必須是： `Dataset`、`Schema`、`Segment`、`Destination`、`Source Data Flow`、`Merge Policy`、`Identity Namespace`、`Identity Graph`、`Sandbox`、`Role`、`Query`、`Scheduled Query`、`Datastream`、`Computed Attribute`、`Field Group`、`Class`、`Data Types`、`Account`、`Product Profile`、`Query Template`、`Work Order`、`Audit Logs`、`Access Control Policy`其中之一 |
+| `status` | 否 | 依事件狀態篩選。 值： `Success`、`Failure`、`Allow`、`Deny`。 OR需以逗號分隔 |
+| `start_time` | 否 | 最早的時間戳記。 ISO 8601 UTC搭配ms，例如`2024-01-15T00:00:00.000Z` |
+| `end_time` | 否 | 最新時間戳記。 ISO 8601 UTC含ms |
+| `property_filter` | 否 | 原始篩選運算式，例如`action==create`。 偏好上述專用引數 |
+| `orderby` | 否 | 排序順序： `timestamp` (asc)或`-timestamp` (desc) |
+| `limit` | 否 | 結果數量上限（3-1000、預設50） |
+| `start` | 否 | 分頁位移。 每頁按限制值增加 |
+| `query_id` | 否 | 來自先前回應的查詢ID以重複相同查詢 |
 
 ### search_dataset
 
@@ -83,21 +83,21 @@ Experience Platform目錄服務的統一派遣工具。 查詢資料集中繼資
 | --- | --- | --- |
 | `entity_type` | 是 | `dataset`或 `batch` |
 | `operation` | 是 | `list`, `get`, `list_last`, `list_files`, `get_meta_files`. 有效的組合：資料集→ list， get；批次→全部五個 |
-| `resource_id` | 無 | 資料集或批次識別碼。 需要`dataset/get`、`batch/get`、`batch/list_files`、`batch/get_meta_files` |
-| `query_params.limit` | 無 | 每頁最多結果數（最多100個）。 套用至所有清單作業 |
-| `query_params.start` | 無 | 分頁位移。 套用至所有清單作業 |
-| `query_params.order_by` | 無 | 排序方向，例如`asc:created,updated`。 套用至所有清單作業 |
-| `query_params.properties` | 無 | 逗號分隔的屬性允許清單。 套用至資料集/清單、資料集/取得、批次/清單、批次/list_last |
-| `query_params.name` | 無 | 依名稱篩選資料集（僅限資料集/清單） |
-| `query_params.tags` | 無 | 依標籤（例如`unifiedProfile:enabled:true`）篩選資料集 （僅限資料集/清單） |
-| `query_params.property_filter` | 無 | 回應物件（資料集/清單和批次/清單）上的Regex篩選 |
-| `query_params.status` | 無 | 依狀態篩選批次： `success`、`failed`、`loading`、`active` （僅限批次/清單） |
-| `query_params.dataset_id` | 無 | 將批次範圍設定為特定資料集（批次/清單和batch/list_last） |
-| `query_params.created_after` | 無 | 在Unix時間戳記（以毫秒為單位）之後建立的篩選批次（僅限批次/清單） |
-| `query_params.created_before` | 無 | 在Unix時間戳記之前（以毫秒為單位）建立的篩選批次（僅限批次/清單） |
-| `query_params.last_batch_status` | 無 | 依上一個批次狀態篩選（僅限batch/list_last） |
-| `query_params.aggregate` | 無 | 傳回根層級的彙總量度（僅限批次/取得） |
-| `query_params.path` | 無 | 要下載的Meta檔案： `row_errors`、`input_files`、`row_errors_sample.json` （僅限批次/get_meta_files） |
+| `resource_id` | 否 | 資料集或批次識別碼。 需要`dataset/get`、`batch/get`、`batch/list_files`、`batch/get_meta_files` |
+| `query_params.limit` | 否 | 每頁最多結果數（最多100個）。 套用至所有清單作業 |
+| `query_params.start` | 否 | 分頁位移。 套用至所有清單作業 |
+| `query_params.order_by` | 否 | 排序方向，例如`asc:created,updated`。 套用至所有清單作業 |
+| `query_params.properties` | 否 | 逗號分隔的屬性允許清單。 套用至資料集/清單、資料集/取得、批次/清單、批次/list_last |
+| `query_params.name` | 否 | 依名稱篩選資料集（僅限資料集/清單） |
+| `query_params.tags` | 否 | 依標籤（例如`unifiedProfile:enabled:true`）篩選資料集 （僅限資料集/清單） |
+| `query_params.property_filter` | 否 | 回應物件（資料集/清單和批次/清單）上的Regex篩選 |
+| `query_params.status` | 否 | 依狀態篩選批次： `success`、`failed`、`loading`、`active` （僅限批次/清單） |
+| `query_params.dataset_id` | 否 | 將批次範圍設定為特定資料集（批次/清單和batch/list_last） |
+| `query_params.created_after` | 否 | 在Unix時間戳記（以毫秒為單位）之後建立的篩選批次（僅限批次/清單） |
+| `query_params.created_before` | 否 | 在Unix時間戳記之前（以毫秒為單位）建立的篩選批次（僅限批次/清單） |
+| `query_params.last_batch_status` | 否 | 依上一個批次狀態篩選（僅限batch/list_last） |
+| `query_params.aggregate` | 否 | 傳回根層級的彙總量度（僅限批次/取得） |
+| `query_params.path` | 否 | 要下載的Meta檔案： `row_errors`、`input_files`、`row_errors_sample.json` （僅限批次/get_meta_files） |
 
 ### search_class_relations
 
@@ -113,7 +113,7 @@ Experience Platform目錄服務的統一派遣工具。 查詢資料集中繼資
 | 參數 | 必要 | 說明 |
 | --- | --- | --- |
 | `query` | 是 | 要搜尋的企業類別名稱或物件型別。 支援部分語彙基元符合（`dat`符合`dataset`、`data_type`等）。 傳遞多個以逗號分隔的辭彙，以一次搜尋多個類別（例如`dataset, schema`） |
-| `n` | 無 | 要傳回的相符結果數上限（預設為5，最小為1） |
+| `n` | 否 | 要傳回的相符結果數上限（預設為5，最小為1） |
 
 ### search_data_access
 
@@ -131,9 +131,9 @@ Experience Platform目錄服務的統一派遣工具。 查詢資料集中繼資
 | `entity_type` | 是 | `failed_batch` — 列出失敗擷取批次中的檔案 |
 | `operation` | 是 | `list_failed` — 唯一支援的作業 |
 | `resource_id` | 是 | 失敗批次的批次ID |
-| `query_params.start` | 無 | 分頁起始索引，例如`1` |
-| `query_params.limit` | 無 | 每頁的結果數，如`10` |
-| `query_params.path` | 無 | 完整的檔案名稱篩選器，例如`profiles.csv` |
+| `query_params.start` | 否 | 分頁起始索引，例如`1` |
+| `query_params.limit` | 否 | 每頁的結果數，如`10` |
+| `query_params.path` | 否 | 完整的檔案名稱篩選器，例如`profiles.csv` |
 
 
 ### search_data_lake
@@ -152,10 +152,10 @@ Experience Platform目錄服務的統一派遣工具。 查詢資料集中繼資
 | `entity_type` | 是 | `dataset`或 `batch` |
 | `operation` | 是 | `get`, `get_size`, `list_failed`. `list_failed`僅支援`batch`實體型別 |
 | `resource_id` | 是 | 資料集ID或批次識別碼。 針對`list_failed`：將失敗範圍設定為的資料集識別碼 |
-| `query_params.created_after` | 無 | 時間範圍的開始。 Unix時間戳記（以毫秒為單位） |
-| `query_params.created_before` | 無 | 時間範圍結束。 Unix時間戳記（以毫秒為單位） |
-| `query_params.limit` | 無 | 每頁最多結果數（最多100個） |
-| `query_params.order_by` | 無 | 排序方向，例如`desc:created` |
+| `query_params.created_after` | 否 | 時間範圍的開始。 Unix時間戳記（以毫秒為單位） |
+| `query_params.created_before` | 否 | 時間範圍結束。 Unix時間戳記（以毫秒為單位） |
+| `query_params.limit` | 否 | 每頁最多結果數（最多100個） |
+| `query_params.order_by` | 否 | 排序方向，例如`desc:created` |
 
 ### search_dule
 
@@ -172,15 +172,15 @@ Experience Platform目錄服務的統一派遣工具。 查詢資料集中繼資
 | --- | --- | --- |
 | `entity_type` | 是 | `label`、`policy`或`marketing_action` |
 | `operation` | 是 | `list`、`get`、`list_enabled` （僅限原則）、`evaluate` （僅限行銷動作）。 `list_enabled`不需要範圍 |
-| `scope` | 無 | `core` （Adobe定義）或`custom` （組織定義）。 `list`、`get`、`evaluate`的必要專案；未用於`list_enabled` |
-| `resource_id` | 無 | 標簽名稱、原則ID或行銷動作名稱。 `get`和`evaluate`的必要專案 |
-| `query_params.dule_labels` | 無 | 逗號分隔標籤（例如`C1,C3`）。 `marketing_action/evaluate`的必要專案；`policy/list`的選用篩選器 |
-| `query_params.limit` | 無 | 最大結果 |
-| `query_params.start` | 無 | 上一個回應的`_page.next`值中的分頁遊標 |
-| `query_params.orderby` | 無 | 逗號分隔的排序欄位 |
-| `query_params.property_filter` | 無 | 篩選運算式，例如`name==C1` |
-| `query_params.marketing_action` | 無 | 將原則清單限製為參照此行銷動作的原則（僅限原則/清單） |
-| `query_params.include_draft` | 無 | 在`marketing_action/evaluate`中包含DRAFT原則（預設：僅限啟用的原則） |
+| `scope` | 否 | `core` （Adobe定義）或`custom` （組織定義）。 `list`、`get`、`evaluate`的必要專案；未用於`list_enabled` |
+| `resource_id` | 否 | 標簽名稱、原則ID或行銷動作名稱。 `get`和`evaluate`的必要專案 |
+| `query_params.dule_labels` | 否 | 逗號分隔標籤（例如`C1,C3`）。 `marketing_action/evaluate`的必要專案；`policy/list`的選用篩選器 |
+| `query_params.limit` | 否 | 最大結果數 |
+| `query_params.start` | 否 | 上一個回應的`_page.next`值中的分頁遊標 |
+| `query_params.orderby` | 否 | 逗號分隔的排序欄位 |
+| `query_params.property_filter` | 否 | 篩選運算式，例如`name==C1` |
+| `query_params.marketing_action` | 否 | 將原則清單限製為參照此行銷動作的原則（僅限原則/清單） |
+| `query_params.include_draft` | 否 | 在`marketing_action/evaluate`中包含DRAFT原則（預設：僅限啟用的原則） |
 
 ### search_query_service
 
