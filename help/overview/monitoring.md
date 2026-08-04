@@ -26,7 +26,7 @@ ht-degree: 1%
 
 # Agentic AI監控儀表板
 
-Agentic AI [!UICONTROL 監控]儀表板可讓Center of Excellence (COE)成員和其他治理利害關係人瞭解代理AI的使用和採用。 檢視7天或30天趨勢，以瞭解誰使用[!DNL AI Assistant]或其他表面（例如[Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)）與[!DNL Experience Platform Agents]互動，以及他們收到的值。 這些檢視可協助您使用資料而不是假設來指導代理程式採用。
+Agentic AI [!UICONTROL 監控]儀表板可讓Center of Excellence (COE)成員和其他治理利害關係人瞭解代理AI的使用和採用。 檢視7天或30天趨勢，以瞭解誰使用[!DNL AI Assistant]或其他表面（例如[Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)）與[!DNL Experience Platform Agents]互動，以及他們收到的值。 這些檢視可協助您使用資料而不是假設來指導代理程式採用。
 
 **可用性**
 
@@ -155,7 +155,7 @@ AI積分儀表板會顯示貴組織使用[!DNL Experience Platform Agents]如何
 
 ## 有關此主題的更多說明
 
-* 在[!DNL Experience Platform]中的[授權使用量儀表板](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)
+* 在[!DNL Experience Platform]中的[授權使用量儀表板](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/dashboards/guides/license-usage)
 * [Adobe CX Enterprise中的Agentic AI](agentic-ai.md)
 * [代理程式工作和AI信用消耗](ai-credit-consumption.md)
-* [授權使用量儀表板](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [授權使用量儀表板](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
