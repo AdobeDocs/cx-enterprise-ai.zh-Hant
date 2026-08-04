@@ -1,7 +1,7 @@
 ---
 title: 透過同事聊天分析Customer Journey Analytics資料
 description: 瞭解如何使用Adobe CX Enterprise Co-worker Chat分析Customer Journey Analytics資料、建立漏斗，以及找出客戶在歷程中的流失點。
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+source-git-commit: 4c615d3c844049e47edde3b4c4dd7f77a788c268
 workflow-type: tm+mt
 source-wordcount: '2047'
 ht-degree: 4%
@@ -21,21 +21,21 @@ Adobe CX Enterprise Co-worker Chat可以執行進階資料分析，而以前只�
 在使用「同事聊天」處理Customer Journey Analytics資料之前，請先瞭解如何登入及管理下列功能的設定選項：
 
 * 聊天輸入
-* 交談
-* Marketplace
-* MCP伺服器
-* 記憶體
+* 對話
+* 市集
+* MCP 伺服器
+* 記憶
 * 外掛程式
 * 技能
 * 及更多內容
 
-如需詳細資訊，請參閱[同事聊天使用者介面指南] (./)。
+如需詳細資訊，請參閱[同事聊天使用者介面指南](./)。
 
 ### Customer Journey Analytics的使用案例
 
 您可以檢視Customer Journey Analytics使用案例和從業人員在Adobe CX Enterprise Co-worker Chat中使用的範例提示。 每個提示都是為複製而建置，會根據您自己的資料和內容進行調整，並透過對話進行細化。
 
-如需詳細資訊，請參閱[使用案例] (./)。
+如需詳細資訊，請參閱[使用案例](./)。
 
 ## 確認同事聊天已連線至Customer Journey Analytics
 
@@ -60,33 +60,33 @@ Adobe CX Enterprise Co-worker Chat可以執行進階資料分析，而以前只�
 **您：**
 
 >[!BEGINSHADEBOX]
->
->我感興趣的是瞭解客戶在客戶歷程中何時流失。 我在Customer Journey Analytics中可以存取哪些資料檢視，以便回答這個問題？
->
+
+我感興趣的是瞭解客戶在客戶歷程中何時流失。 我在Customer Journey Analytics中可以存取哪些資料檢視，以便回答這個問題？
+
 >[!ENDSHADEBOX]
 
 **同事聊天回應：**
 
 >[!BEGINSHADEBOX]
->
->您可以存取三個資料檢視。 `Customer lifecycle`資料檢視包含以下維度和量度，最適合回答您的問題。
->
+
+您可以存取三個資料檢視。 `Customer lifecycle`資料檢視包含以下維度和量度，最適合回答您的問題。
+
 >[!ENDSHADEBOX]
 
 **您：**
 
 >[!BEGINSHADEBOX]
->
->很好，讓我們使用該資料檢視。
->
+
+很好，讓我們使用該資料檢視。
+
 >[!ENDSHADEBOX]
 
 **同事聊天回應：**
 
 >[!BEGINSHADEBOX]
->
->好的，我將使用`Customer lifecycle`資料檢視來回答此聊天工作階段中未來的問題。
->
+
+好的，我將使用`Customer lifecycle`資料檢視來回答此聊天工作階段中未來的問題。
+
 >[!ENDSHADEBOX]
 
 ### 在記憶體中新增資料檢視偏好設定
@@ -105,7 +105,7 @@ Co-worker建立視覺效果後，您可以在Customer Journey Analytics中開啟
 
 若要在新的Analysis Workspace專案中開啟視覺效果：
 
-1. 選取「在CJA中分析&#x200B;**」（位於在Co-worker中建立的任何視覺效果旁）。**
+1. 選取「在CJA中分析&#x200B;**]」（位於在Co-worker中建立的任何視覺效果旁）。[!UICONTROL **
 
 1. 在Customer Journey Analytics中開啟視覺效果後，您可以使用Analysis Workspace拖放瀏覽器介面進行修改、進一步製作分析、建立對象等。 您甚至可以和您選擇的任何人共用您的Workspace專案。
 
@@ -138,9 +138,9 @@ Co-worker建立視覺效果後，您可以在Customer Journey Analytics中開啟
 **您：**
 
 >[!BEGINSHADEBOX]
->
->在購買途中，我們會在哪裡失去人員？
->
+
+在購買途中，我們會在哪裡失去人員？
+
 >[!ENDSHADEBOX]
 
 **同事聊天回應：**
@@ -189,9 +189,9 @@ Co-worker建立視覺效果後，您可以在Customer Journey Analytics中開啟
 **您：**
 
 >[!BEGINSHADEBOX]
->
->好，讓我們依行銷管道來劃分
->
+
+好，讓我們依行銷管道來劃分
+
 >[!ENDSHADEBOX]
 
 **同事聊天回應：**
@@ -240,9 +240,9 @@ Co-worker建立視覺效果後，您可以在Customer Journey Analytics中開啟
 **您：**
 
 >[!BEGINSHADEBOX]
->
->有意思。 讓我們嘗試依裝置型別劃分。
->
+
+有意思。 讓我們嘗試依裝置型別劃分。
+
 >[!ENDSHADEBOX]
 
 **同事聊天回應：**
@@ -299,20 +299,20 @@ Co-worker建立視覺效果後，您可以在Customer Journey Analytics中開啟
 **您：**
 
 >[!BEGINSHADEBOX]
->
->那我該怎麼辦？
->
+
+那我該怎麼辦？
+
 >[!ENDSHADEBOX]
 
 **同事聊天回應：**
 
 >[!BEGINSHADEBOX]
->
->根據資料顯示內容，我會聚焦於以下位置：
->
->* **修正行動簽出 — 這不是頻道問題。** 每個管道都會以類似且健康的比率將人們轉換為購物車，因此廣告支出是全面運作的。 該收入會遺失，尤其是修正所屬的行動結帳流程。
->* **開始付款和表單摩擦。** 這些是高意願行動購物者放棄購物車的最常見原因。 提供行動電子錢包選項和縮短表格通常是最快的贏家。
->* **修正後重新檢查。** 結帳變更送貨後，請注意行動裝置的購物車對購買率是否朝桌上型電腦的23.2%移動。
+
+根據資料顯示內容，我會聚焦於以下位置：
+
+* **修正行動簽出 — 這不是頻道問題。** 每個管道都會以類似且健康的比率將人們轉換為購物車，因此廣告支出是全面運作的。 該收入會遺失，尤其是修正所屬的行動結帳流程。
+* **開始付款和表單摩擦。** 這些是高意願行動購物者放棄購物車的最常見原因。 提供行動電子錢包選項和縮短表格通常是最快的贏家。
+* **修正後重新檢查。** 結帳變更送貨後，請注意行動裝置的購物車對購買率是否朝桌上型電腦的23.2%移動。
 
 希望我將此專案儲存為專案，以便您進行追蹤，或是在行動購物車到購買次數降到臨界值以下時設定警報？
 
