@@ -44,7 +44,7 @@ Agentic AI [!UICONTROL 監控]儀表板可讓Center of Excellence (COE)成員和
 
 Adobe CX Enterprise [&#128279;](agentic-ai.md)檔案中的[Agentic AI列出在現有CX Enterprise應用程式](agentic-ai.md#existing-apps-table)表格中AI代理程式使用監控範圍內的代理程式。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491864?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491877?captions=chi_hant&learn=on)
 
 ## 啟用儀表板許可權 {#permissions}
 
@@ -99,7 +99,7 @@ Adobe CX Enterprise [&#128279;](agentic-ai.md)檔案中的[Agentic AI列出在�
 * **每個交談的平均提示數：**&#x200B;每個交談的參與深度。
 * **意見：**&#x200B;使用者向上和向下拇指的意見分佈（僅適用於[!DNL AI Assistant]個互動）。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491865?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491887?captions=chi_hant&learn=on)
 
 ### 交談重播
 
@@ -108,7 +108,7 @@ Adobe CX Enterprise [&#128279;](agentic-ai.md)檔案中的[Agentic AI列出在�
 * **提示與回應歷史記錄：**&#x200B;使用者的提示與回應已傳遞。
 * **意見反應訊號：**&#x200B;使用者以豎起或豎下大拇指標示的互動，以識別摩擦、封鎖或啟用需求。 此資訊可協助您的組織改善即時關聯性，並協助Adobe改善長期以來的回應品質。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491866?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491896?captions=chi_hant&learn=on)
 
 ## 使用者儀表板
 
@@ -125,7 +125,7 @@ Adobe CX Enterprise [&#128279;](agentic-ai.md)檔案中的[Agentic AI列出在�
 * **交談活動：**&#x200B;每個使用者的交談和提示數目。
 * **最活躍的使用者：**&#x200B;高度參與的使用者和團隊，推動代理程式採用。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491868?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491929?captions=chi_hant&learn=on)
 
 ## 意見反應儀表板
 
@@ -139,7 +139,7 @@ Adobe CX Enterprise [&#128279;](agentic-ai.md)檔案中的[Agentic AI列出在�
 * **提示和回應歷史記錄：**&#x200B;使用者提示和與提交的意見相關的回應。
 * **意見詳細資料和附註：**&#x200B;使用者在意見提交期間的其他內容與註解。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491878?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491920?captions=chi_hant&learn=on)
 
 ## AI積分儀表板
 
@@ -151,7 +151,7 @@ AI積分儀表板會顯示貴組織使用[!DNL Experience Platform Agents]如何
 * **每日和每月趨勢：**&#x200B;消費模式的尖峰、下降和變更。
 * **AI剩餘信用額度：**&#x200B;剩餘餘額，讓您能夠主動計畫並避免超額。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491867?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491911?captions=chi_hant&learn=on)
 
 ## 有關此主題的更多說明
 
