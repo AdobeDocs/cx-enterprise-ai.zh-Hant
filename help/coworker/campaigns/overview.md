@@ -1,18 +1,18 @@
 ---
-description: 瞭解Adobe CX Enterprise Co-worker Campaigns，這是一種AI原生行銷應用程式，可將單一提示轉換為可供檢閱的行銷活動。
-title: Adobe CX Enterprise Co-worker概述
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+description: 瞭解Adobe Co-worker Campaigns，這是一種AI原生行銷應用程式，可將單一提示轉換為可供檢閱的行銷活動。
+title: Adobe Co-worker概述
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '944'
 ht-degree: 0%
 
 ---
 
-# Adobe CX Enterprise同事行銷活動概覽 {#overview}
+# Adobe同事行銷活動概覽 {#overview}
 
-Adobe CX Enterprise Co-worker Campaigns是AI原生行銷應用程式，可將您從單一提示導向完成可供檢閱的行銷活動。
+Co-worker Campaigns是AI原生行銷應用程式，可帶您從單一提示前往完成可供檢閱的行銷活動。
 
-目前，與AI的所有互動都會將您導向產生[行銷活動] (./)。 即將推出更多功能。
+目前，與AI的所有互動都會將您導向產生[行銷活動](./)。 即將推出更多功能。
 
 ## 如何存取
 
@@ -46,7 +46,7 @@ Adobe CX Enterprise Co-worker Campaigns是AI原生行銷應用程式，可將您
 
 | 左側導覽功能表 | 目的 |
 |---|---|
-| 新增聊天 | 開始新交談以產生行銷活動。 |
+| 新增對話 | 開始新交談以產生行銷活動。 |
 | 首頁 | 您的起點：提示列、最近的行銷活動，以及現成的行銷活動範本。 |
 | 聊天 | 您已開始的每一個交談尚未產生至行銷活動討論區。 |
 | 行銷活動 | 您所有草稿和即時行銷活動的詳細目錄。 |
@@ -110,7 +110,7 @@ Adobe CX Enterprise Co-worker Campaigns是AI原生行銷應用程式，可將您
 
 ## 影片概觀
 
->[!VIDEO](https://video.tv.adobe.com/v/3492816?captions=chi_hant&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3492807?learn=on){transcript=true}
 
 
 新功能將在試用期間提供。 您的意見反應有助於規劃未來發展。 透過標題中的產品內意見回饋圖示提交意見回饋。
