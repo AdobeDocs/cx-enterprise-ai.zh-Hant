@@ -1,9 +1,9 @@
 ---
 description: 瀏覽同事聊天使用案例和範例提示，依資料深入分析、受眾、歷程和平台操作的區域進行整理。
 title: 使用案例
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+source-git-commit: ad1e50aa70822ba764b417d2559417c9a235422e
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1232'
 ht-degree: 3%
 
 ---
@@ -44,6 +44,8 @@ ht-degree: 3%
 | --- | --- | --- | --- | --- |
 | 從自然語言建立歷程 | 透過文字提示或上傳的影像/流程圖，在AJO中協調歷程建立 | `journey-create` | Adobe Journey Optimizer (AJO) | 「建立歡迎歷程，在註冊後傳送電子郵件、等待3天，然後傳送後續追蹤」 · 「從這個上傳的流程圖影像建立歷程」 |
 | 分析歷程衝突 | 偵測使用中歷程之間的對象重疊、排程衝突及重複資料刪除問題 | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | 「我的購物車放棄歷程是否與其他歷程衝突？」 · 「檢查我作用中歷程之間的受眾重疊」 |
+| 分析歷程流失 | 識別客戶在歷程中下降的位置和原因，並偵測導致脫離參與的行為模式 | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | 「在我的重新參與歷程中，人們在哪裡停下來？」 · 「歷程X中的哪些節點流失率最高？」 |
+| 分析自訂動作錯誤 | 識別歷程中自訂動作失敗或錯誤率飆升的時間，並在失敗升級為更廣泛的中斷之前診斷根本原因 | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | 「為什麼自訂動作會在我的忠誠度註冊歷程中失敗？」 · 「在我的歡迎歷程中，顯示自訂動作ExternalPush的錯誤率。」 |
 
 ## 基本元素
 
