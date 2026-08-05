@@ -7,11 +7,10 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
-feature_v2:
-  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-source-git-commit: 34a3227d726a6249a6dedea420828b84ad1547a7
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+source-git-commit: 28e8b218e0923c9e463cce763a182b56a660d275
 workflow-type: tm+mt
-source-wordcount: 966
+source-wordcount: 967
 ht-degree: 5%
 
 ---
@@ -31,7 +30,7 @@ _AI評分_&#x200B;是以使用方式為基礎的量度，可量化動作或工�
 
 ### CX Enterprise同事信用評分
 
-在有限的入門期間，「同事」輸入會以每個輸入25個AI點數的費率沖銷AI點數。 此比率僅在有限時間內可用，且隨時可能變更。
+在有限的入門期間，「同事」輸入會以每個輸入25個AI點數的費率沖銷AI點數。 此費率僅適用於有限的時間，且可能會有所變更。
 
 ### AEP Agents信用率
 
@@ -75,4 +74,4 @@ AI評分使用方式可能會因所執行工作的複雜性和價值而異：
 
 * [CX Enterprise中的GenAI](generative-ai.md)
 * [CX Enterprise 中的代理式 AI](agentic-ai.md)
-* [Adobe Experience Platform代理程式使用範圍試用版](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Adobe Experience Platform代理程式使用範圍試用版](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial)
