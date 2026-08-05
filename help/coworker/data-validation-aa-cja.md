@@ -1,9 +1,9 @@
 ---
 title: 從Adobe Analytics升級為Customer Journey Analytics時與同事驗證資料
 description: 瞭解Analytics管理員如何在升級期間使用CX Enterprise Co-worker資料驗證技能來比較Adobe Analytics和Customer Journey Analytics資料。
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: 8a9f8413f2993e99cf7452bc720500f4823b62a8
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1532'
 ht-degree: 0%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 >[!NOTE]
 > 
->必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以遵循建議的升級步驟（建議大多陣列織使用），也可以使用Customer Journey Analytics升級指南來遵循為您的組織動態產生的步驟。 <ul><li>**建議的升級步驟** （建議大多陣列織使用）<p>引導您實現理想Customer Journey Analytics實作的一組步驟。</p><p>如需詳細資訊，請參閱[從Adobe Analytics升級至Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations)。</p></li><li>**Customer Journey Analytics升級指南** （根據您組織的特定需求量身打造的自訂步驟）<p>有新的升級指南可供使用，動態產生針對貴組織和獨特環境量身打造的升級步驟。</p><p>若要從Customer Journey Analytics存取指南，請選取&#x200B;**[!UICONTROL Workspace]**&#x200B;標籤，然後在左側面板中選取&#x200B;**[!UICONTROL 升級至Customer Journey Analytics]**。 請依照熒幕上的指示操作。</p></li></ul>
+>必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以遵循建議的升級步驟（建議大多陣列織使用），也可以使用Customer Journey Analytics升級指南來遵循為您的組織動態產生的步驟。 <ul><li>**建議的升級步驟** （建議大多陣列織使用）<p>引導您實現理想Customer Journey Analytics實作的一組步驟。</p><p>如需詳細資訊，請參閱[從Adobe Analytics升級至Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations)。</p></li><li>**Customer Journey Analytics升級指南** （根據您組織的特定需求量身打造的自訂步驟）<p>有新的升級指南可供使用，動態產生針對貴組織和獨特環境量身打造的升級步驟。</p><p>若要從Customer Journey Analytics存取指南，請選取&#x200B;**[!UICONTROL Workspace]**&#x200B;標籤，然後在左側面板中選取&#x200B;**[!UICONTROL 升級至Customer Journey Analytics]**。 請依照熒幕上的指示操作。</p></li></ul>
 
-CX Enterprise Co-worker包括驗證技能，可讓您在從Adobe Analytics升級至Customer Journey Analytics時驗證資料。 資料驗證是在單一交談中完成。
+同事具備驗證技能，可讓您在從Adobe Analytics升級至Customer Journey Analytics時驗證資料。 資料驗證是在單一交談中完成。
 
 此技能會自動比較：
 
@@ -50,7 +50,9 @@ CX Enterprise Co-worker包括驗證技能，可讓您在從Adobe Analytics升級
 
    您的請求會路由至資料驗證技能，這會啟動互動式設定流程。
 
-1. 設定程式包含下表中的問題。 針對每個問題，選取答案，然後選取&#x200B;[!UICONTROL **提交**]。
+1. 針對設定程式中的每個問題，選取答案，然後選取&#x200B;[!UICONTROL **提交**]。
+
+   設定程式包含下表中的問題。
 
    >[!NOTE]
    >
@@ -62,7 +64,9 @@ CX Enterprise Co-worker包括驗證技能，可讓您在從Adobe Analytics升級
    | [!UICONTROL **選取您的報表套裝**] <!--In the UI, recommend change to "Select your Adobe Analytics report suite"--> | 這是Adobe Analytics中的報表套裝，其中包含您要針對Customer Journey Analytics資料驗證的資料。 |
    | [!UICONTROL **選取您的Customer Journey Analytics資料檢視**] | 這是Customer Journey Analytics中的資料檢視，其中包含與您所選Adobe Analytics報表套裝相同的資料。 |
 
-1. 請先檢閱設定摘要，確認您正在驗證正確的資料，然後再繼續。 摘要包含您選取的公司、報表套裝和資料檢視，以及每個系統中排名在前的量度和維度預覽。
+1. 請先檢閱設定摘要，確認您正在驗證正確的資料，然後再繼續。
+
+   摘要包含您選取的公司、報表套裝和資料檢視，以及每個系統中排名在前的量度和維度預覽。
 
 1. 繼續下列區段，[選擇要驗證的資料](#choose-the-data-to-validate)。
 
@@ -82,7 +86,9 @@ CX Enterprise Co-worker包括驗證技能，可讓您在從Adobe Analytics升級
 
 ## 檢閱分析
 
-1. 選取&#x200B;[!UICONTROL **整體比對率**]&#x200B;索引標籤以檢視百分比，指出Adobe Analytics報表套裝中的資料與Customer Journey Analytics資料檢視的資料符合程度。 此分數一律會先出現，再於任何其他結果出現。 它會平均加權每個比較量度和維度，以確保大量量度（例如頁面檢視）不會扭曲分數。
+1. 選取&#x200B;[!UICONTROL **整體比對率**]&#x200B;索引標籤以檢視百分比，指出Adobe Analytics報表套裝中的資料與Customer Journey Analytics資料檢視的資料符合程度。
+
+   此分數一律會先出現，再於任何其他結果出現。 它會平均加權每個比較量度和維度，以確保大量量度（例如頁面檢視）不會扭曲分數。
 
    使用下列量度來解讀分數：
 
@@ -93,11 +99,27 @@ CX Enterprise Co-worker包括驗證技能，可讓您在從Adobe Analytics升級
    | 75%-89% | ![橘色圓圈](./assets/data-validation-aa-cja/review-circle.svg) [!UICONTROL 評論] | 存在有意義的間隙。 依賴Customer Journey Analytics資料之前，請先調查根本原因。 |
    | 低於75% | ![紅色圓圈](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL 差] | 明顯未對齊。 使用Customer Journey Analytics資料前請先採取立即行動。 |
 
-1. 選取&#x200B;[!UICONTROL **關鍵深入分析**]&#x200B;索引標籤以檢視兩到四個簡短的圖說文字方塊，每個方塊都以單一句子來摘要分析中的一個結果。 圖說文字會依嚴重程度以顏色標示，因此您可以先指出最重要的發現。
+1. 選取&#x200B;[!UICONTROL **關鍵深入分析**]&#x200B;索引標籤以檢視兩到四個簡短的圖說文字方塊，每個方塊都以單一句子來摘要分析中的一個結果。
 
-1. 選取「[!UICONTROL **摘要**]」標籤以檢視Adobe Analytics總計、Customer Journey Analytics總計、總差異、通過天數和嚴重天數，其中通過天數和嚴重天數反映日期範圍內的天數處於&#x200B;[!UICONTROL **通過**]&#x200B;和&#x200B;[!UICONTROL **嚴重**]&#x200B;差異狀態，如下所述。
+   圖說文字會依嚴重程度以顏色標示，因此您可以先識別最重要的發現。
 
-1. （視條件而定）進行單一維度比較或單一量度比較時，您可以在&#x200B;[!UICONTROL **每日趨勢**]&#x200B;索引標籤中檢視Adobe Analytics資料與Customer Journey Analytics資料的並排比較。
+1. 選取&#x200B;[!UICONTROL **摘要**]&#x200B;索引標籤以檢視下列資訊：
+
+   * Adobe Analytics總計
+
+   * Customer Journey Analytics總計
+
+   * 總變數
+
+   * 經過天數
+
+     反映日期範圍中的多少天屬於下述的&#x200B;[!UICONTROL **階段**]&#x200B;差異狀態。
+
+   * 關鍵天數
+
+     反映日期範圍中的多少天屬於下述的&#x200B;[!UICONTROL **關鍵**]&#x200B;變動狀態。
+
+1. （視條件而定）進行單一維度比較或單一量度比較時，請選取&#x200B;[!UICONTROL **每日趨勢**]&#x200B;索引標籤，以檢視Adobe Analytics資料與Customer Journey Analytics資料的並排比較。
 
    如果是量度，這是比較每日趨勢的折線圖。
 
@@ -107,7 +129,17 @@ CX Enterprise Co-worker包括驗證技能，可讓您在從Adobe Analytics升級
 
    ![顯示橫條圖的每日趨勢標籤](./assets/data-validation-aa-cja/trend-bar.png)
 
-1. （視條件而定）進行單一維度比較或單一量度比較時，您可以在&#x200B;[!UICONTROL **日期詳細資料**]&#x200B;索引標籤中檢視列層級詳細資料。 此表格列出每個比較量度或維度值的日期、Adobe Analytics值、Customer Journey Analytics值、差異百分比和狀態徽章。
+1. （視條件而定）進行單一維度比較或單一量度比較時，請選取&#x200B;[!UICONTROL **日期詳細資料**]&#x200B;索引標籤，以檢視每個比較的量度或維度值的下列資訊：
+
+   * 日期
+
+   * Adobe Analytics值
+
+   * Customer Journey Analytics值
+
+   * 差異百分比
+
+   * 狀態徽章
 
    ![日期詳細資訊標籤，顯示變動百分比和狀態徽章的表格](./assets/data-validation-aa-cja/date-detail.png)
 
@@ -119,9 +151,17 @@ CX Enterprise Co-worker包括驗證技能，可讓您在從Adobe Analytics升級
    | 3%-10% | ![黃色警告三角形](./assets/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL 旗標] | 監控差異，並調查差異是否持續或惡化。 |
    | 大於10% | ![紅色圓圈](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL 關鍵] | 立即調查。 這通常指向結構、擷取或對應問題。 |
 
-1. （視條件而定）執行完整報表套裝和資料檢視稽核時，[!UICONTROL **每日趨勢**]&#x200B;和&#x200B;[!UICONTROL **每日詳細資料**]&#x200B;索引標籤會取代為顯示通過數、已標籤數和嚴重數的計分卡，以及分別列出前五個最佳比對和前五個最低比對量度和維度的表格。
+1. （視條件而定）執行完整報表套裝和資料檢視稽核時，請選取&#x200B;[!UICONTROL **計分卡**]&#x200B;標籤以檢視下列資訊：
 
-1. 在分析中向下捲動以檢視在分析期間發現的其他模式和問題、這些模式的可能原因，以及您可以採取的建議動作以解決任何資料差異。
+   * 通過計數
+
+   * 已標幟的計數
+
+   * 嚴重計數
+
+   * 列出前五個最佳比對和前五個最低比對量度和維度的表格
+
+1. 在分析中向下捲動以檢視在分析期間發現的其他模式和問題、這些模式的可能原因，以及解決任何資料差異的建議動作。
 
    >[!NOTE]
    >
@@ -139,7 +179,11 @@ CX Enterprise Co-worker包括驗證技能，可讓您在從Adobe Analytics升級
 
 1. 請確認建議的動作有效，然後在Adobe Experience Platform或Adobe Analytics中解決。
 
-1. （選擇性）藉由分析其他量度、分析其他維度或執行最多40個量度和20個維度的其他報表來繼續您的分析，如[選擇要驗證的資料](#choose-the-data-to-validate)中所述。 您不需要重複設定程式即可執行這項作業；您的公司、報表套裝和資料檢視選項會在整個交談中持續進行。
+1. （選擇性）分析其他量度、分析其他維度，或執行最多40個量度和20個維度的其他報表，以繼續您的分析，如[選擇要驗證的資料](#choose-the-data-to-validate)中所述。
 
-1. 繼續遵循Customer Journey Analytics升級指南中的[建議升級步驟](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations)或動態產生的升級步驟。 若要從Customer Journey Analytics存取指南，請選取&#x200B;**[!UICONTROL Workspace]**&#x200B;標籤，然後在左側面板中選取&#x200B;**[!UICONTROL 升級至Customer Journey Analytics]**。 請依照熒幕上的指示操作。
+   您不需要重複設定程式即可執行這項作業；您的公司、報表套裝和資料檢視選項會在整個交談中持續進行。
+
+1. 繼續遵循Customer Journey Analytics升級指南中的[建議升級步驟](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations)或動態產生的升級步驟。
+
+   若要從Customer Journey Analytics存取Customer Journey Analytics升級指南，請選取&#x200B;**[!UICONTROL Workspace]**&#x200B;標籤，然後在左側面板中選取&#x200B;**[!UICONTROL 升級至Customer Journey Analytics]**。 請依照熒幕上的指示操作。
 
