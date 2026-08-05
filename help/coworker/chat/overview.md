@@ -1,14 +1,14 @@
 ---
 description: 瞭解Co-worker Chat如何使用對話式介面，在幾分鐘內規劃、執行和完成跨Adobe和連線系統的客戶體驗工作。
-title: Adobe同事聊天總覽
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+title: Adobe CX Enterprise同事聊天總覽
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
 
-# Adobe同事聊天總覽 {#overview}
+# Adobe CX Enterprise同事聊天總覽 {#overview}
 
 同事聊天是讓客戶體驗工作完成的對話式介面。 您以簡單的語言描述目標（例如「建立春季瑜伽促銷活動的對象」或「告訴我為什麼這個對象上週會收縮」），Co-worker Chat會規劃工作、在Adobe和連線系統上執行、驗證結果，以及將完成的工作交還給您核准。
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->同事聊天是Adobe同事的一個模組。 其他兩個模組則延伸了相同基礎：同事行銷活動（從一場交談中站起來並啟動一個完整的行銷活動）和同事專案（端對端、多團隊工作流程的永遠線上工作區）。 本頁涵蓋「同事聊天」。
+>同事聊天是Adobe CX Enterprise Co-worker的一個模組。 其他兩個模組則延伸了相同基礎：同事行銷活動（從一場交談中站起來並啟動一個完整的行銷活動）和同事專案（端對端、多團隊工作流程的永遠線上工作區）。 本頁涵蓋「同事聊天」。
 
 ## AI助理的演變
 
@@ -51,4 +51,4 @@ ht-degree: 0%
 
 ## 影片概觀
 
->[!VIDEO](https://video.tv.adobe.com/v/3495976?captions=chi_hant&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3495967?learn=on){transcript=true}

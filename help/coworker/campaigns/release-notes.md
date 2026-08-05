@@ -1,14 +1,14 @@
 ---
-description: 瞭解Adobe Co-worker Campaigns版本注意事項中的功能增強和修正。
-title: Adobe Co-worker Campaign發行說明
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+description: 瞭解Adobe CX Enterprise Co-worker Campaigns版本注意事項中的功能增強和修正。
+title: Adobe CX Enterprise Co-worker Campaigns發行說明
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '2182'
+source-wordcount: '2188'
 ht-degree: 0%
 
 ---
 
-# Adobe Co-worker Campaign發行說明 {#release-notes}
+# Adobe CX Enterprise Co-worker Campaigns發行說明 {#release-notes}
 
 Co-worker Campaign版本會在持續傳遞模式上運作，允許以更可縮放、分階段的方法進行功能部署。
 

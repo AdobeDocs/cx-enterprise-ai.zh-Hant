@@ -1,16 +1,16 @@
 ---
 description: 瀏覽同事聊天使用案例和範例提示，依資料深入分析、受眾、歷程和平台操作的區域進行整理。
 title: 使用案例
-source-git-commit: ad1e50aa70822ba764b417d2559417c9a235422e
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1234'
 ht-degree: 3%
 
 ---
 
 # 使用案例 {#use-cases}
 
-以下為從業人員在Adobe Co-worker Chat中使用的使用案例和範例提示，按工作區域組織。 每個提示都是為複製而建置，會根據您自己的資料和內容進行調整，並透過對話進行細化。
+以下為從業人員在Adobe CX Enterprise Co-worker Chat中使用的使用案例和範例提示，依工作區組織。 每個提示都是為複製而建置，會根據您自己的資料和內容進行調整，並透過對話進行細化。
 
 ## 資料深入分析
 

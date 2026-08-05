@@ -1,14 +1,14 @@
 ---
-title: Adobe同事
-description: 瞭解如何透過Adobe Co-worker將您的行銷提升到新的境界。
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+title: Adobe CX Enterprise Co-worker
+description: 瞭解如何使用Adobe CX Enterprise Co-worker將您的行銷提升到新的境界。
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '200'
 ht-degree: 4%
 
 ---
 
-# 關於Adobe Co-worker
+# 關於Adobe CX Enterprise Co-worker
 
 Co-worker是AI支援的團隊成員，可重新構想組織、團隊和個人的工作性質。 同事可以優雅地自動化客戶體驗和行銷工作流程，讓組織可以專注於實現業務目標和轉變成果，而非協調工作。 Co-worker作為代理引擎，採用創新的方式自動化業務流程。 藉由將資料、智慧、共同作業和代理程式技能執行與內建的企業情境、治理和人為監督整合在一起，它可提升AI模型效能和準確性。
 
