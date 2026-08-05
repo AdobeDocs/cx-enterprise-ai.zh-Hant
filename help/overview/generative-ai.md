@@ -41,9 +41,9 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+source-git-commit: 6df9b0df99ff2d5773a94644d1e4313c86c2f1a0
 workflow-type: tm+mt
-source-wordcount: 3283
+source-wordcount: 3287
 ht-degree: 13%
 
 ---
@@ -90,7 +90,7 @@ GenAI可以&#x200B;_建立_&#x200B;原始內容，或&#x200B;_針對使用者的
 
 | **產品名稱** | **重要GenAI功能** | **Firefly相容性** |
 | ------------------ | ------------------------- | ------------------- |
-| [Adobe同事](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview) | GenAI提供於： <ul><li>**[聊天](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/chat/overview)**：您以自然語言描述目標的對話式介面，genAI會規劃工作、在Adobe和連線系統中執行、驗證結果，以及將完成的工作傳回給您核准。</li><li>**[行銷活動](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/campaigns/overview)**：AI原生應用程式，將行銷活動簡報、對象建立、內容產生、歷程設計和校訂整合為單一對話體驗。 GenAI會產生行銷活動計畫、建立歷程，並草擬個人化內容，供您反複改進。</li></ul> | 否 |
+| [CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview) | GenAI提供於： <ul><li>**[聊天](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**：您以自然語言描述目標的對話式介面，genAI會規劃工作、在Adobe和連線系統中執行、驗證結果，以及將完成的工作傳回給您核准。</li><li>**[行銷活動](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/campaigns/overview)**：AI原生應用程式，將行銷活動簡報、對象建立、內容產生、歷程設計和校訂整合為單一對話體驗。 GenAI會產生行銷活動計畫、建立歷程，並草擬個人化內容，供您反複改進。</li></ul> | 否 |
 | [Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/home) | 使用genAI建立個人化的品牌內內容。 | 是 |
 | [Adobe Experience Manager as a Cloud Service (AEM CS)](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/overview) | GenAI提供於： <ul><li>在&#x200B;**AEM Sites**&#x200B;中產生變數（[深入瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)）</li><li>**Sites Optimizer**&#x200B;中的GenAI （[深入瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-sites-optimizer/content/opportunity-types/overview)）</li><li>**AEM Assets**&#x200B;中的[Content Hub](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview?lang=en)和[智慧標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/smart-tags?lang=en#ai-smart-tags)</li></ul> AI助理用於： <ul><li>Experience Hub概觀頁面</li><li>Edge Delivery Services</li><li>網站</li><li>資產</li><li>表單</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | 是 |
 | [Adobe Experience Manager 6.5](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/ai-assistant/ai-assistant-in-aem) | AI助理用於： <ul><li>Experience Hub概觀頁面</li><li>Edge Delivery Services</li><li>網站</li><li>資產</li><li>表單</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | 是 |

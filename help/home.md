@@ -1,6 +1,6 @@
 ---
 title: CX Enterprise 應用程式中的 AI
-description: 瞭解CX Enterprise應用程式如何使用generative AI (GenAI)、AI Assistant、agentic AI、Adobe Co-worker和MCP工具。
+description: 瞭解CX Enterprise應用程式如何使用generative AI (GenAI)、AI Assistant、agentic AI、CX Enterprise Co-worker和MCP工具。
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -15,16 +15,16 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: 864
 ht-degree: 3%
 
 ---
 
 # CX Enterprise 中的 AI
 
-本指南涵蓋Adobe CX Enterprise中的AI功能：generative AI、AI Assistant、Agent Orchestrator、Experience Platform Agents、Adobe Co-worker和MCP。
+本指南涵蓋Adobe CX Enterprise中的AI功能：generative AI、AI Assistant、Agent Orchestrator、Experience Platform Agents、CX Enterprise Co-worker和MCP。
 
 ## AI功能概觀
 

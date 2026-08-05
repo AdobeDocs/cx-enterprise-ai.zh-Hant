@@ -1,16 +1,16 @@
 ---
 description: 瀏覽同事聊天使用案例和範例提示，依資料深入分析、受眾、歷程和平台操作的區域進行整理。
 title: 使用案例
-source-git-commit: ad1e50aa70822ba764b417d2559417c9a235422e
+source-git-commit: 58fc8c37c1bf26a6da3bc69e307931a7680c4490
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 3%
+source-wordcount: '1143'
+ht-degree: 4%
 
 ---
 
 # 使用案例 {#use-cases}
 
-以下為從業人員在Adobe Co-worker Chat中使用的使用案例和範例提示，按工作區域組織。 每個提示都是為複製而建置，會根據您自己的資料和內容進行調整，並透過對話進行細化。
+以下為從業人員在Adobe CX Enterprise Co-worker Chat中使用的使用案例和範例提示，依工作區組織。 每個提示都是為複製而建置，會根據您自己的資料和內容進行調整，並透過對話進行細化。
 
 ## 資料深入分析
 
@@ -33,10 +33,10 @@ ht-degree: 3%
 | 從自然語言建立對象 | 透過每個階段的使用者核准，策劃逐步的受眾建立 | `audience-creation-flow` | Real-Time CDP (RTCDP) | 「建立過去30天內購買的使用者受眾」 · 「為加州的高價值忠誠會員建立區段」 |
 | 建置PQL定義 | 從XDM屬性、行為事件或現有對象中組合對象定義；支援彙總和時間範圍 | `segment-definition-assembly` | Real-Time CDP (RTCDP) | 「為檢視3個以上產品但未購買的使用者建立PQL」 · 「為我的事件條件新增7天時段」 |
 | 搜尋和尋找對象 | 依ID、名稱、語意搜尋尋找對象；偵測重複專案並分析重疊 | `audience-search` | Real-Time CDP (RTCDP) | 「尋找所有忠誠受眾」 · 「我的『節日購物者』區段是否有重複專案？」 |
-| 預估對象規模 | 使用AEP預覽API搭配輪詢來預估PQL運算式的設定檔觸及率 | `audience-size-estimate` | Real-Time CDP (RTCDP) | 「此對象有多大？」 · 「此PQL運算式的預估觸及率」 |
+| 預估對象規模 | 使用Adobe Experience Platform預覽API搭配輪詢來預估PQL運算式的設定檔觸及率 | `audience-size-estimate` | Real-Time CDP (RTCDP) | 「此對象有多大？」 · 「此PQL運算式的預估觸及率」 |
 | 對象人數瀑布 | 將PQL分解為子述詞，並顯示每個條件對最終對象規模的貢獻 | `audience-size-waterfall` | Real-Time CDP (RTCDP) | 「顯示此PQL的瀑布圖」 · 「劃分每個條件如何減少受眾」 |
 | 探索用於定位的XDM欄位 | 依名稱、說明或資料值搜尋欄位；檢視欄位的使用位置和使用位置 | `field-discovery` | Real-Time CDP (RTCDP) | 「我可以使用哪些欄位來鎖定忠誠客戶？」 · 「尋找與購買記錄相關的欄位」 |
-| 發佈/儲存對象 | 透過命名慣例和合規性檢查將受眾定義儲存至AEP細分服務 | `audience-publish` | Real-Time CDP (RTCDP) | 「將此專案儲存為草稿」 · 「以『春季促銷買家』名稱發佈對象」 |
+| 發佈/儲存對象 | 透過命名慣例和合規性檢查將受眾定義儲存至Experience Platform細分服務 | `audience-publish` | Real-Time CDP (RTCDP) | 「將此專案儲存為草稿」 · 「以『春季促銷買家』名稱發佈對象」 |
 
 ## 歷程
 
@@ -52,17 +52,14 @@ ht-degree: 3%
 | 使用案例 | 說明 | 技能 | 應用程式 | 範例提示 |
 | --- | --- | --- | --- | --- |
 | 產品知識與檔案 | 從官方Adobe檔案中回答操作說明、概念、疑難排解和最佳作法問題 | `product-knowledge` | 所有符合資格的應用程式 | 「如何設定串流目的地？」 · 「批次和串流細分之間有何差異？」 |
-| 查詢AEP/AJO實體 | 作為平台實體相關問題的主要入口點；視需要路由至KG、欄位探索或API | `operational-insights` | 所有符合資格的應用程式 | 「我有多少資料集？」 · 「顯示所有使用中的歷程」 · 「列出我的目的地」 |
+| 查詢Experience Platform / Journey Optimizer實體 | 作為平台實體相關問題的主要入口點；視需要路由至KG、欄位探索或API | `operational-insights` | 所有符合資格的應用程式 | 「我有多少資料集？」 · 「顯示所有使用中的歷程」 · 「列出我的目的地」 |
 | 知識圖查詢 | 透過單一SQL查詢的彙總計數、跨實體聯結、關係查閱和中繼資料探索 | `knowledge-graph` | 所有符合資格的應用程式 | 「哪些對象使用此資料集？」 · 「顯示結構描述和資料集之間的關係」 |
-| AEP/AJO/CJA API作業 | 提供直接API閘道，用於變更、即時狀態檢查以及不在知識圖形中的實體型別 | `cxo-api` | 所有符合資格的應用程式 | &quot;刪除資料集X&quot; · &quot;檢查批次擷取工作的狀態&quot; |
-| 實體解析度和連結 | 使用語意和辭彙搜尋來解析對實際AEP實體的實體提及，並探索XDM欄位 | `entity-linking` | Adobe Experience Platform (AEP) | 「將『節日購物者』解析為實際受眾」 · 「尋找與購買記錄相關的我欄位」 |
-| 建立個人內容 | 從您的AEP、CJA和/或Workfront活動記錄檔產生個人化使用者設定檔 | `build-my-context` | 所有符合資格的應用程式 | 「從AEP和CJA活動建立我的內容」 · 「我是誰？」 |
-| 提取組織內容 | 從檔案擷取整個組織的知識到共用的組織內容Wiki | `distill-org-context` | 所有符合資格的應用程式 | 「將此檔案擷取至組織Wiki」·「將此檔案新增至組織內容」 |
-| 提取使用者內容 | 將個人工作內容從檔案擷取至使用者內容Wiki | `distill-user-context` | 所有符合資格的應用程式 | 「將此檔案新增至我的使用者內容」 · 「從此檔案擷取我的工作內容」 |
+| Experience Platform / Journey Optimizer / Customer Journey Analytics API作業 | 提供直接API閘道，用於變更、即時狀態檢查以及不在知識圖形中的實體型別 | `cxo-api` | 所有符合資格的應用程式 | &quot;刪除資料集X&quot; · &quot;檢查批次擷取工作的狀態&quot; |
+| 實體解析度和連結 | 使用語意和辭彙搜尋來解析對實際Experience Platform實體的實體提及，並探索XDM欄位 | `entity-linking` | Adobe Experience Platform | 「將『節日購物者』解析為實際受眾」 · 「尋找與購買記錄相關的我欄位」 |
 | 管理自訂技能 | 儲存、修改或刪除使用者擁有的可重複使用技能，這些技能會跨工作階段存留 | `manage-skill` | 所有符合資格的應用程式 | 「將工作流程另存為技能」 · 「刪除我的每週報告技能」 · 「將此轉換為可重複使用的技能」 |
 
 ## 沙箱工具
 
 | 使用案例 | 說明 | 技能 | 應用程式 | 範例提示 |
 | --- | --- | --- | --- | --- |
-| 在沙箱間移動物件中繼資料 | 透過自動解析的相依性，順暢地跨沙箱移轉結構描述、受眾和其他物件設定 | `sandbox-tooling-workflow` | Adobe Experience Platform (AEP) | 「將方案Luma忠誠會員白金從目前的沙箱移至生產沙箱」· 「將美國金級忠誠會員對象提升至階段」 |
+| 在沙箱間移動物件中繼資料 | 透過自動解析的相依性，順暢地跨沙箱移轉結構描述、受眾和其他物件設定 | `sandbox-tooling-workflow` | Adobe Experience Platform | 「將方案Luma忠誠會員白金從目前的沙箱移至生產沙箱」· 「將美國金級忠誠會員對象提升至階段」 |

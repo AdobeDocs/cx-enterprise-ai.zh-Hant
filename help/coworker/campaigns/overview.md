@@ -1,14 +1,14 @@
 ---
-description: 瞭解Adobe Co-worker Campaigns，這是一種AI原生行銷應用程式，可將單一提示轉換為可供檢閱的行銷活動。
-title: Adobe Co-worker概述
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+description: 瞭解Adobe CX Enterprise Co-worker Campaigns，這是一種AI原生行銷應用程式，可將單一提示轉換為可供檢閱的行銷活動。
+title: Adobe CX Enterprise Co-worker概述
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
 
-# Adobe同事行銷活動概覽 {#overview}
+# Adobe CX Enterprise同事行銷活動概覽 {#overview}
 
 Co-worker Campaigns是AI原生行銷應用程式，可帶您從單一提示前往完成可供檢閱的行銷活動。
 
