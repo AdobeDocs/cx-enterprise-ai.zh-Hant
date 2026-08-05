@@ -7,9 +7,8 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
-feature_v2:
-  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-source-git-commit: 9b744e4c60afcd0533d52c11ba65463f8ffb5b0e
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+source-git-commit: 34a3227d726a6249a6dedea420828b84ad1547a7
 workflow-type: tm+mt
 source-wordcount: 966
 ht-degree: 5%
@@ -26,8 +25,8 @@ _AI評分_&#x200B;是以使用方式為基礎的量度，可量化動作或工�
 
 ## 使用AI積分的合格服務
 
-* CX Enterprise Coworker
-* AEP代理程式
+* [CX Enterprise Coworker](#cx-enterprise-coworker-credit-rate)
+* [AEP代理程式](#aep-agents-credit-rate)
 
 ### CX Enterprise同事信用評分
 
@@ -75,4 +74,4 @@ AI評分使用方式可能會因所執行工作的複雜性和價值而異：
 
 * [CX Enterprise中的GenAI](generative-ai.md)
 * [CX Enterprise 中的代理式 AI](agentic-ai.md)
-* [Adobe Experience Platform代理程式使用範圍試用版](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Adobe Experience Platform代理程式使用範圍試用版](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
