@@ -41,16 +41,16 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1da893e900542a62e836250d9b38464016734740
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: 3308
+source-wordcount: 3283
 ht-degree: 13%
 
 ---
 
 # CX Enterprise 中的生成式 AI
 
-CX Enterprise中的Generative AI (genAI)可協助您自動執行創意和認知工作，並提高生產力。 此頁面可協助您瞭解CX Enterprise應用程式支援genAI和AI Assistant的位置，並提供連結以深入瞭解這些功能。
+CX Enterprise中的Generative AI (genAI)可協助您自動執行創意和認知工作，並提高生產力。 此頁面可協助您瞭解[!DNL CX Enterprise]應用程式支援genAI和AI助理的位置。 它提供連結，讓您進一步瞭解這些功能。
 
 >[!IMPORTANT]
 >
@@ -58,9 +58,9 @@ CX Enterprise中的Generative AI (genAI)可協助您自動執行創意和認知�
 
 **什麼是genAI？**
 
-Generative AI是可建立原始內容的AI型別。 例如，它可以建立文字、影像、視訊、音訊或軟體程式碼，以回應使用者的提示或要求。
+GenAI可以&#x200B;_建立_&#x200B;原始內容，或&#x200B;_針對使用者的提示或問題產生回應_。
 
-* **建立：**&#x200B;根據訓練和輸入提示從頭開始產生內容（文字、影像、音樂或視訊）的能力。 此功能是generative AI的&#x200B;_generative_&#x200B;方面。
+* **建立：**&#x200B;根據訓練和輸入提示從頭開始產生內容（文字、影像、音樂或視訊）的能力。 此功能是genAI的&#x200B;_產生_&#x200B;層面。
 
 * **產生回應：** AI會針對提示提供回應或回應，通常會利用其可用的資料和知識存放庫。
 
@@ -70,9 +70,9 @@ Generative AI是可建立原始內容的AI型別。 例如，它可以建立文�
 
 [!UICONTROL AI Assistant]是許多CX Enterprise應用程式都支援的對話式genAI工具。 根據您使用的應用程式，使用它來快速取得&#x200B;_產品知識_&#x200B;和&#x200B;_營運深入分析_。
 
-* **產品知識：**&#x200B;產品知識是指以Experience League上的CX Enterprise產品檔案為根據的概念和主題。 例如，使用[目標型提示](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home)來快速瞭解Experience Platform。 來自Experience League的所有回應都是可驗證的，並會透過連結引用。
+* **產品知識：**&#x200B;產品知識是指以Experience League上的CX Enterprise產品檔案為根據的概念和主題。 例如，使用[目標型提示](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home)快速瞭解Experience Platform。 來自Experience League的所有回應都是可驗證的，並會透過連結引用。
 
-* **營運分析：**&#x200B;例如，[營運分析](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/questions#objects-questions)在Experience Platform中，會參考中繼資料物件（屬性、受眾、資料流、資料集等）的相關回應。 透過[!UICONTROL AI小幫手]，您可以在數秒內完成其他可能需要數小時或數天的作業。
+* **營運分析：**&#x200B;例如，[營運分析](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/questions#objects-questions)在Experience Platform中，會參考中繼資料物件（屬性、受眾、資料流、資料集等）的相關回應。 透過[!UICONTROL AI小幫手]，您只需幾秒鐘就能完成原本需要數小時或數天的作業。
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ Generative AI是可建立原始內容的AI型別。 例如，它可以建立文�
 
 | **產品名稱** | **重要GenAI功能** | **Firefly相容性** |
 | ------------------ | ------------------------- | ------------------- |
-| [CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home) | GenAI提供於： <ul><li>**[聊天](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/chat/overview)**：您以自然語言描述目標的對話式介面，genAI會規劃工作、在Adobe和連線系統中執行、驗證結果，以及將完成的工作傳回給您核准。</li><li>**[行銷活動](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/campaigns/overview)**：AI原生應用程式，將行銷活動簡報、對象建立、內容產生、歷程設計和校訂整合為單一對話體驗。 GenAI會產生行銷活動計畫、建立歷程，並草擬個人化內容，供您反複改進。</li></ul> | 否 |
+| [Adobe同事](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview) | GenAI提供於： <ul><li>**[聊天](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/chat/overview)**：您以自然語言描述目標的對話式介面，genAI會規劃工作、在Adobe和連線系統中執行、驗證結果，以及將完成的工作傳回給您核准。</li><li>**[行銷活動](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/campaigns/overview)**：AI原生應用程式，將行銷活動簡報、對象建立、內容產生、歷程設計和校訂整合為單一對話體驗。 GenAI會產生行銷活動計畫、建立歷程，並草擬個人化內容，供您反複改進。</li></ul> | 否 |
 | [Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/home) | 使用genAI建立個人化的品牌內內容。 | 是 |
 | [Adobe Experience Manager as a Cloud Service (AEM CS)](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/overview) | GenAI提供於： <ul><li>在&#x200B;**AEM Sites**&#x200B;中產生變數（[深入瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)）</li><li>**Sites Optimizer**&#x200B;中的GenAI （[深入瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-sites-optimizer/content/opportunity-types/overview)）</li><li>**AEM Assets**&#x200B;中的[Content Hub](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview?lang=en)和[智慧標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/smart-tags?lang=en#ai-smart-tags)</li></ul> AI助理用於： <ul><li>Experience Hub概觀頁面</li><li>Edge Delivery Services</li><li>網站</li><li>資產</li><li>表單</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | 是 |
 | [Adobe Experience Manager 6.5](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/ai-assistant/ai-assistant-in-aem) | AI助理用於： <ul><li>Experience Hub概觀頁面</li><li>Edge Delivery Services</li><li>網站</li><li>資產</li><li>表單</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | 是 |
@@ -155,7 +155,7 @@ AI助理在下列位置支援AEM as a Cloud Service：
 
 #### Experience Manager Sites
 
-在AEM Sites中，您可以使用&#x200B;_[!UICONTROL 產生變數]_。 此功能會使用產生式人工智慧，根據您的輸入提示建立內容變異。 提示是由Adobe提供，或由您建立及管理。
+在[!DNL AEM Sites]中，您可以使用&#x200B;_[!UICONTROL 產生變數]_。 此功能會使用產生式人工智慧，根據您的輸入提示建立內容變異。 Adobe會提供提示，或由您建立及管理提示。
 
 建立變化後，您可以在網站上使用該內容，並使用Edge Delivery Services中的[Experimentation](https://www.aem.live/docs/experimentation)功能來測量其成功。 您也可以選擇使用Firefly的產生AI功能，在Adobe Express中產生影像。
 
@@ -364,7 +364,7 @@ Adobe Dynamic Chat中由創作AI支援的功能可讓您最佳化銷售代理的
 
 **電子郵件設計工具**
 
-Marketo Engage [!UICONTROL 電子郵件Designer]中的[!UICONTROL AI助理]可協助您建立當代、高效且直覺式的電子郵件。 這是透過Adobe的創作AI技術和提示程式庫，以及Firefly來實現的，用於產生影像，協助為特定角色/購買群組、行銷歷程階段、溝通策略、音調等建立合適的內容。也可以使用特定品牌資產來建立內容。
+Marketo Engage [!UICONTROL 電子郵件Designer]中的[!UICONTROL AI助理]可協助您建立當代、高效且直覺式的電子郵件。 透過Adobe的創作AI技術和提示程式庫，並搭配用於影像產生的Firefly，協助為特定角色/購買群組、行銷歷程階段、溝通策略、音調等建立適合的內容，即可達成上述結果。也可以使用特定品牌資產來建立內容。
 
 [!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/email-marketing/email-designer/ai-assistant" tooltip="瞭解Dynamic Chat"}
 

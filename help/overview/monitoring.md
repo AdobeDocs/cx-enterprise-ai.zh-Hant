@@ -17,16 +17,16 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: cbded236e67d7d47ad70187a307f403a93ace8e9
+source-git-commit: a70c6440159ccb7c7544008da5707b23c42468cb
 workflow-type: tm+mt
-source-wordcount: 994
-ht-degree: 2%
+source-wordcount: 996
+ht-degree: 1%
 
 ---
 
 # Agentic AI監控儀表板
 
-Agentic AI監控儀表板可讓Center of Excellence (COE)成員和其他治理利害關係人瞭解代理AI的使用和採用。 檢視7天或30天趨勢，以瞭解誰使用[!DNL AI Assistant]或其他表面（例如[Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)）與[!DNL Experience Platform Agents]互動，以及他們收到的值。 這些檢視可協助您使用資料而不是假設來指導代理程式採用。
+Agentic AI [!UICONTROL 監控]儀表板可讓Center of Excellence (COE)成員和其他治理利害關係人瞭解代理AI的使用和採用。 檢視7天或30天趨勢，以瞭解誰使用[!DNL AI Assistant]或其他表面（例如[Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)）與[!DNL Experience Platform Agents]互動，以及他們收到的值。 這些檢視可協助您使用資料而不是假設來指導代理程式採用。
 
 **可用性**
 
@@ -42,7 +42,7 @@ Agentic AI監控儀表板可讓Center of Excellence (COE)成員和其他治理�
 | **意見反應** | 回應品質和使用者滿意度訊號 |
 | **AI積分** | 信用沖銷趨勢與餘額 |
 
-Adobe CX Enterprise [&#128279;](agentic-ai.md)檔案中的Agentic AI列出現有CX Enterprise應用程式中[AI代理程式使用監控範圍內的代理程式](agentic-ai.md#existing-apps-table)。
+Adobe CX Enterprise [&#128279;](agentic-ai.md)檔案中的[Agentic AI列出在現有CX Enterprise應用程式](agentic-ai.md#existing-apps-table)表格中AI代理程式使用監控範圍內的代理程式。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491877?captions=chi_hant&learn=on)
 
@@ -90,7 +90,7 @@ Adobe CX Enterprise [&#128279;](agentic-ai.md)檔案中的Agentic AI列出現有
 
 ## 總覽儀表板
 
-總覽儀表板是整個組織採用和參與量度的中心位置。 它可連線高階趨勢與更深入的分析。 若要檢視驅動這些數字的因素，請從任何量度深入探討個別交談。
+總覽儀表板是整個組織採用和參與量度的中心位置。 它可連線高階趨勢與更深入的分析。 若要檢視影響量度的因素，請檢閱任何量度的個別交談。
 
 ### 「概述」控制面板上的量度
 

@@ -1,6 +1,6 @@
 ---
-title: CX Enterprise Co-worker試用版
-description: 瞭解CX Enterprise Co-worker的免費試用版。
+title: Adobe同事試用版
+description: 瞭解Adobe Co-worker的免費試用版。
 TQID: https://experienceleague.adobe.com/3ar5j-6IYEk2w6oyvR6JCuaw2Zrrp2DxUri5EvI0QN0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -12,14 +12,14 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: 1430
 ht-degree: 1%
 
 ---
 
-# CX Enterprise Co-worker試用版
+# Adobe同事試用版
 
 >[!AVAILABILITY]
 >
@@ -78,7 +78,7 @@ Agentic AI監控儀表板可讓您清楚瞭解組織內採用和使用Agentic AI
 
 請閱讀下列指南，以取得同事、Agent Orchestrator和AI Assistant的詳細資訊：
 
-- [CX Enterprise同事](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/home)
+- [同事](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
 - [Agent Orchestrator概觀](agent-orchestrator.md)
 - [AI助理使用者介面指南](../ai-assistant/ai-assistant-ui.md)
 - [AI助理提示程式庫](../ai-assistant/prompt-library.md)

@@ -1,16 +1,16 @@
 ---
 description: 瀏覽同事聊天使用案例和範例提示，依資料深入分析、受眾、歷程和平台操作的區域進行整理。
 title: 使用案例
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+source-git-commit: ad1e50aa70822ba764b417d2559417c9a235422e
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1232'
 ht-degree: 3%
 
 ---
 
 # 使用案例 {#use-cases}
 
-以下為從業人員在Adobe CX Enterprise Co-worker Chat中使用的使用案例和範例提示，依工作區組織。 每個提示都是為複製而建置，會根據您自己的資料和內容進行調整，並透過對話進行細化。
+以下為從業人員在Adobe Co-worker Chat中使用的使用案例和範例提示，按工作區域組織。 每個提示都是為複製而建置，會根據您自己的資料和內容進行調整，並透過對話進行細化。
 
 ## 資料深入分析
 
@@ -26,7 +26,7 @@ ht-degree: 3%
 | 作業時間序列與因果分析 | 查詢和分析具有因果歸因的對象、資料集和歷程的歷史時間序列資料 | `operational-stats-causal-analysis` | 所有符合資格的應用程式 | 「顯示過去90天的對象人數趨勢」 · 「為什麼我的資料集列會計入3月3日的尖峰？」 |
 | 建立自訂CJA技能 | 將分析模式轉換為可重複使用、且跨工作階段儲存的技能 | `cja-skill-creator` | Customer Journey Analytics (CJA) | 「將此每週收入分析轉換為可重複使用的技能」·「將此儲存為每月funnel報告的技能」 |
 
-## 對象
+## 客群
 
 | 使用案例 | 說明 | 技能 | 應用程式 | 範例提示 |
 | --- | --- | --- | --- | --- |
@@ -44,6 +44,8 @@ ht-degree: 3%
 | --- | --- | --- | --- | --- |
 | 從自然語言建立歷程 | 透過文字提示或上傳的影像/流程圖，在AJO中協調歷程建立 | `journey-create` | Adobe Journey Optimizer (AJO) | 「建立歡迎歷程，在註冊後傳送電子郵件、等待3天，然後傳送後續追蹤」 · 「從這個上傳的流程圖影像建立歷程」 |
 | 分析歷程衝突 | 偵測使用中歷程之間的對象重疊、排程衝突及重複資料刪除問題 | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | 「我的購物車放棄歷程是否與其他歷程衝突？」 · 「檢查我作用中歷程之間的受眾重疊」 |
+| 分析歷程流失 | 識別客戶在歷程中下降的位置和原因，並偵測導致脫離參與的行為模式 | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | 「在我的重新參與歷程中，人們在哪裡停下來？」 · 「歷程X中的哪些節點流失率最高？」 |
+| 分析自訂動作錯誤 | 識別歷程中自訂動作失敗或錯誤率飆升的時間，並在失敗升級為更廣泛的中斷之前診斷根本原因 | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | 「為什麼自訂動作會在我的忠誠度註冊歷程中失敗？」 · 「在我的歡迎歷程中，顯示自訂動作ExternalPush的錯誤率。」 |
 
 ## 基本元素
 

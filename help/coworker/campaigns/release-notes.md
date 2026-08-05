@@ -1,16 +1,16 @@
 ---
-description: 瞭解Adobe CX Enterprise Co-worker Campaigns版本注意事項中的功能增強和修正。
-title: Adobe CX Enterprise Co-worker Campaigns發行說明
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+description: 瞭解Adobe Co-worker Campaigns版本注意事項中的功能增強和修正。
+title: Adobe Co-worker Campaign發行說明
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '2193'
+source-wordcount: '2182'
 ht-degree: 0%
 
 ---
 
-# Adobe CX Enterprise Co-worker Campaigns發行說明 {#release-notes}
+# Adobe Co-worker Campaign發行說明 {#release-notes}
 
-Adobe CX Enterprise Co-worker Campaigns版本會在持續傳遞模式上運作，允許以更可縮放、分階段的方法進行功能部署。
+Co-worker Campaign版本會在持續傳遞模式上運作，允許以更可縮放、分階段的方法進行功能部署。
 
 ## 2026年7月 {#july-2026}
 
@@ -130,7 +130,7 @@ Adobe CX Enterprise Co-worker Campaigns版本會在持續傳遞模式上運作�
 
 **發行日期： 2026年6月10日**
 
-* 此應用程式現在是CX Enterprise Co-worker Campaigns，其命名方式貫穿整個應用程式
+* 此應用程式現在是「同事行銷活動」，其命名方式在整個
 * 首次入門導覽會逐步引導您建立示範品牌
 * 當您的計畫準備就緒時，從專用對話方塊啟動行銷活動
 * 使用整合目錄中的API金鑰連線HubSpot
@@ -229,7 +229,7 @@ Adobe CX Enterprise Co-worker Campaigns版本會在持續傳遞模式上運作�
 * 更多畫面會自動採用您的語言和當地日期格式
 * 全方位的效能與可靠性提升功能
 
-## 2026年4月 {#apr-2026}
+## 2026 年 4 月 {#apr-2026}
 
 **發行日期： 2026年4月28日**
 

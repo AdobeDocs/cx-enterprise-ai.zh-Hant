@@ -1,10 +1,9 @@
 ---
 title: 從Adobe Analytics升級為Customer Journey Analytics時與同事驗證資料
 description: 瞭解Analytics管理員如何在升級期間使用CX Enterprise Co-worker資料驗證技能來比較Adobe Analytics和Customer Journey Analytics資料。
-hide: true
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+source-git-commit: 73e328412f2997b6710c813844899f7069ba534a
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -15,7 +14,7 @@ ht-degree: 0%
 > 
 >必須先完成所有先前的升級步驟，才能依照本頁面的步驟操作。 您可以遵循建議的升級步驟（建議大多陣列織使用），也可以使用Customer Journey Analytics升級指南來遵循為您的組織動態產生的步驟。 <ul><li>**建議的升級步驟** （建議大多陣列織使用）<p>引導您實現理想Customer Journey Analytics實作的一組步驟。</p><p>如需詳細資訊，請參閱[從Adobe Analytics升級至Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations)。</p></li><li>**Customer Journey Analytics升級指南** （根據您組織的特定需求量身打造的自訂步驟）<p>有新的升級指南可供使用，動態產生針對貴組織和獨特環境量身打造的升級步驟。</p><p>若要從Customer Journey Analytics存取指南，請選取&#x200B;**[!UICONTROL Workspace]**&#x200B;標籤，然後在左側面板中選取&#x200B;**[!UICONTROL 升級至Customer Journey Analytics]**。 請依照熒幕上的指示操作。</p></li></ul>
 
-CX Enterprise Co-worker包括驗證技能，可讓您在從Adobe Analytics升級至Customer Journey Analytics時驗證資料。 資料驗證是在單一交談中完成。
+Adobe Co-worker包含驗證技能，可讓您在從Adobe Analytics升級至Customer Journey Analytics時驗證資料。 資料驗證是在單一交談中完成。
 
 此技能會自動比較：
 
@@ -39,7 +38,7 @@ CX Enterprise Co-worker包括驗證技能，可讓您在從Adobe Analytics升級
 
 ## 開始驗證工作階段
 
-1. 登入CX Enterprise Co-worker。
+1. 登入同事。
 
 1. 選取&#x200B;[!UICONTROL **新交談**]。
 

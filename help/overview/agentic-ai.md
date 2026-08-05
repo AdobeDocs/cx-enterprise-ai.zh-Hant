@@ -12,20 +12,20 @@ last-update: '2026-05-21T00:00:00.000Z'
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-source-git-commit: 1da893e900542a62e836250d9b38464016734740
+source-git-commit: a70c6440159ccb7c7544008da5707b23c42468cb
 workflow-type: tm+mt
-source-wordcount: 1149
+source-wordcount: 1142
 ht-degree: 12%
 
 ---
 
 # Adobe CX Enterprise中的Agentic AI
 
-Adobe Experience Platform代理程式由[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/home)提供技術支援，可在CX Enterprise應用程式中啟用代理程式人工智慧功能。
+Adobe [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/home)可支援CX Enterprise應用程式中的Agential AI功能。
 
-這些代理程式有助於自動化工作、更快地提供見解並簡化工作流程。 因此，團隊可以更有效率地工作，並從CX Enterprise中獲得更多價值。
+代理程式有助於自動化工作、更快地提供見解並簡化工作流程。 因此，團隊可以更有效率地工作，並從CX Enterprise中獲得更多價值。
 
-CX Enterprise中的AI代理程式可透過以下任一方式存取：
+CX Enterprise AI代理程式可用於下列任一項：
 
 * [現有的CX企業應用程式](#existing-apps)
 * [AI優先的CX企業應用程式](#ai-first-apps)
@@ -34,7 +34,7 @@ CX Enterprise中的AI代理程式可透過以下任一方式存取：
 
 ## 現有的CX企業應用程式 {#existing-apps}
 
-在現有應用程式中，您可以使用自然語言，透過[AI小幫手](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/home)交談介面來指示Adobe Experience Platform代理程式。 AI Assistant可用於全熒幕和右邊欄檢視。
+在現有應用程式中，您可以使用自然語言，透過[AI小幫手](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/home)中的對話式介面來指示Adobe Experience Platform代理程式。 AI Assistant可用於全熒幕和右邊欄檢視。
 
 您可以在現有的CX Enterprise應用程式中，為具有下列其中一種類別的客戶啟用代理程式：
 
@@ -44,7 +44,7 @@ CX Enterprise中的AI代理程式可透過以下任一方式存取：
 
 使用AI代理程式執行&#x200B;_代理程式工作_&#x200B;會使用AI積分。 深入瞭解&#x200B;_[代理程式工作和AI信用消耗](ai-credit-consumption.md)_&#x200B;中的代理程式工作和AI信用消耗。
 
-AI代理程式會遵循&#x200B;_您的_&#x200B;輸入、監督，並遵守產品層級的存取控制。 您只能執行工作或存取您授權在底層CX Enterprise應用程式中使用的資料。
+AI代理程式會遵循&#x200B;_您的_&#x200B;輸入和監督，並遵守產品層級的存取控制。 您只能執行工作或存取您授權在底層CX Enterprise應用程式中使用的資料。
 
 ### 現有CX Enterprise應用程式中的AI代理程式 {#existing-apps-table}
 
@@ -63,9 +63,9 @@ AI代理程式會遵循&#x200B;_您的_&#x200B;輸入、監督，並遵守產品
 
 ## AI優先的CX企業應用程式 {#ai-first-apps}
 
-AI優先應用程式是以產生式或無代理式Al為核心所建置。 它們使用產生式或無代理式Al來執行關鍵任務，而無代理式功能已包含在Al-first應用程式授權中。 因此，它們不需要Experience Platform Agent Orchestrator授權。
+AI優先應用程式是以產生式或代理式AI作為主要元件建置的。 它們使用產生式或代理式AI執行關鍵任務，並且代理式功能已包含在AI優先應用程式授權中。 因此，它們不需要Experience Platform Agent Orchestrator授權。
 
-下表列出可作為所有優先應用程式使用的Experience Platform代理程式。 透過授權這些優先應用程式來啟用這些功能：
+下表列出可用作AI優先應用程式的Experience Platform Agent。 透過授權這些AI優先應用程式來啟用：
 
 | 代理程式名稱 | 功能 | 支援的應用程式 |
 |---|----------|----------|
