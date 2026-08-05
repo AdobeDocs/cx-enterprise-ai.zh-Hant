@@ -1,40 +1,42 @@
 ---
-title: 代理程式工作與AI信用沖銷
-description: 瞭解 CX Enterprise 應用程式中的 AI 代理工作和 AI 點數消耗率。
+title: AI信用沖銷
+description: 瞭解CX Enterprise應用程式中的AI積分耗用量。
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
-source-git-commit: cbded236e67d7d47ad70187a307f403a93ace8e9
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+source-git-commit: 9b744e4c60afcd0533d52c11ba65463f8ffb5b0e
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 8%
+source-wordcount: 966
+ht-degree: 5%
 
 ---
 
-# Adobe Experience Platform代理程式工作和AI點數消耗
+# AI點數消耗
 
-瞭解CX Enterprise應用程式中的Agential AI工作和AI信用消耗。 如需有關在現有CX Enterprise應用程式中啟用代理程式人工智慧功能的資訊，請參閱[CX Enterprise中的代理程式人工智慧](agentic-ai.md#existing-apps)。
-
-## 新增功能
-
-| 功能 | 說明 |
-| --- | --- |
-| [CX Enterprise Agentic AI功能目錄](https://agentic-capability-explorer.entapp.adproto.com/) | 了解您的授權 CX Enterprise 應用程式中有哪些代理式 AI 工作。 |
-
-## 代理程式工作
-
-_代理程式工作_&#x200B;是代理程式根據客戶輸入的指示，為達成特定結果所執行的一系列工作與動作。
-
-透過AI助理使用自然語言提示，您可以要求代理程式執行特定工作。 根據這些輸入，Agent Orchestrator會協調適當的代理程式，以便在相關的CX Enterprise應用程式中執行每個步驟。
+瞭解CX Enterprise應用程式中的AI積分耗用量。
 
 ## AI 點數
 
-_AI評分_&#x200B;是以使用量為基礎的量度，可量化代理程式工作的執行。 AI積分不適用於[AI優先應用程式](agentic-ai.md)。
+_AI評分_&#x200B;是以使用方式為基礎的量度，可量化動作或工作的執行。
 
-## AI信用消耗
+## 使用AI積分的合格服務
+
+* CX Enterprise Coworker
+* AEP代理程式
+
+### CX Enterprise同事信用評分
+
+在有限的入門期間，「同事」輸入會以每個輸入25個AI點數的費率沖銷AI點數。 此比率僅在有限時間內可用，且隨時可能變更。
+
+### AEP Agents信用率
+
+_代理程式工作_&#x200B;是AEP代理程式根據客戶輸入的指示，為達成特定結果所執行的一系列任務和動作。
+
+透過AI助理使用自然語言提示，您可以要求代理程式執行特定工作。 根據這些輸入，Agent Orchestrator會協調適當的代理程式，以便在相關的CX Enterprise應用程式中執行每個步驟。
 
 AI評分使用方式可能會因所執行工作的複雜性和價值而異：
 
@@ -42,9 +44,9 @@ AI評分使用方式可能會因所執行工作的複雜性和價值而異：
 * 複雜（通常為多步驟）的工作會消耗更多積分
 * 涉及進階推理、驗證、多代理程式協調或整合的工作會消耗更多評分
 
-**注意：** [CX Enterprise Agentic AI Capability Catalog](https://agentic-capability-explorer.entapp.adproto.com/)也可協助您探索您的授權CX Enterprise應用程式中有哪些代理AI工作。
+若要檢視您的授權CX Enterprise應用程式中有哪些AEP代理程式和代理程式工作可用，請參閱[CX Enterprise Agentic AI功能目錄](https://agentic-capability-explorer.entapp.adproto.com/)。
 
-### 預估的AI信用消耗率
+#### 預估的代理程式工作評分率
 
 | 代理程式 | 工作 | 支援的應用程式 | 預估的AI積分 | 範例提示 |
 | ------ | ----- | ------------------------ | ----------------------- | ----------------- |
@@ -72,4 +74,4 @@ AI評分使用方式可能會因所執行工作的複雜性和價值而異：
 
 * [CX Enterprise中的GenAI](generative-ai.md)
 * [CX Enterprise 中的代理式 AI](agentic-ai.md)
-* [Adobe Experience Platform代理程式使用範圍試用版](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Adobe Experience Platform代理程式使用範圍試用版](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
