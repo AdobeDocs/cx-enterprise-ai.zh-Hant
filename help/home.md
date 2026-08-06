@@ -15,9 +15,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: 4da8c6f87f4227983b19c682fdceb0db9a352122
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: 862
 ht-degree: 3%
 
 ---
@@ -30,10 +30,10 @@ ht-degree: 3%
 
 從這裡開始，瞭解在CX Enterprise中使用人工智慧的位置和方式：
 
-- [Generative AI](./overview/generative-ai.md)說明哪些CX Enterprise應用程式支援generative AI和AI Assistant，以及它們的比較方式。
-- [Agentic AI](./overview/agentic-ai.md)說明Experience Platform Agents如何在現有的CX Enterprise應用程式和AI優先應用程式中運作，並列出每個應用程式中可用的代理程式。
-- [Agentic AI監控](./overview/monitoring.md)涵蓋追蹤代理程式採用、使用、回饋和AI信用消耗的控制面板。
-- [代理程式工作和AI信用耗用量](./overview/ai-credit-consumption.md)說明代理程式工作如何耗用AI信用額度，以及依代理程式和工作型別預估的耗用率。
+- [關於generative AI](./overview/generative-ai.md)說明哪些CX Enterprise應用程式支援generative AI和AI Assistant，以及它們的比較方式。
+- [關於代理程式AI](./overview/agentic-ai.md)說明Experience Platform代理程式如何在現有的CX Enterprise應用程式和AI優先應用程式中運作，並列出每個應用程式中可用的代理程式。
+- [AI監視](./overview/monitoring.md)涵蓋追蹤代理程式採用、使用、回饋和AI信用消耗的控制面板。
+- [AI積分耗用量](./overview/ai-credit-consumption.md)說明代理程式工作如何耗用AI積分，以及依代理程式和工作型別的預估耗用率。
 - [CX Enterprise代理程式工具](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-agentic-tools/using/overview)涵蓋擴充CX Enterprise代理程式的其他代理程式技能和工具（影片教學課程）。
 
 ## AI 助理
