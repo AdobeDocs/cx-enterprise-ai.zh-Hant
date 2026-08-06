@@ -1,9 +1,9 @@
 ---
 title: 透過同事聊天分析Customer Journey Analytics資料
 description: 瞭解如何使用Adobe CX Enterprise Co-worker Chat分析Customer Journey Analytics資料、建立漏斗，以及找出客戶在歷程中的流失點。
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: 64745860140f636548155b7eda8605ffde43b75a
 workflow-type: tm+mt
-source-wordcount: '3243'
+source-wordcount: '3210'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ Adobe CX Enterprise Co-worker Chat可以執行進階資料分析，而以前只�
 * **快速解答** — 直接詢問簡單語言的問題，並取得立即的答案。 商務使用者經常以這種方式使用同事聊天，而分析師在需要為利害關係人提供快速答案時也會使用聊天。
 * **深思熟慮的工作** — 與同事聊天室進行延伸、多回合的交談，以調查業務問題、排除原因，並取得建議。 分析人員通常會在建議前，使用此方法來深入探索資料。
 
-開始分析之前，請先瞭解同事聊天介面和設定選項，然後確定同事已連線至Customer Journey Analytics以及包含您要使用之資料的資料檢視。
+開始之前，請先瞭解Co-worker Chat介面和設定選項，然後確定Co-worker已連線至Customer Journey Analytics和相關資料檢視。
 
 ## 開始使用同事聊天
 
@@ -54,12 +54,14 @@ Adobe CX Enterprise Co-worker Chat可以執行進階資料分析，而以前只�
 
 #### 使用者層級最佳實務
 
-* 使用計畫模式。 這對於複雜的任務特別有用，但也可以對簡單任務產生更好的結果，因為它允許同事在採取行動之前提出後續問題。 如需詳細資訊，請參閱[計畫模式](/help/coworker/chat/ui-guide.md#plan-mode)。
+* 使用計畫模式。
+
+  此模式在複雜任務中特別有用，但也可以為簡單任務產生更好的結果，因為它允許同事在採取行動之前提出後續問題。 如需詳細資訊，請參閱[計畫模式](/help/coworker/chat/ui-guide.md#plan-mode)。
 
 * 建立提示時，請儘可能具體一些：
 
   * 命名您要分析的維度、量度和日期範圍。
-  * 依確切名稱參考資料檢視元件（例如維度、量度和區段）。
+  * 依元件的確切名稱參考資料檢視元件。
   * 指定您要包含、排除或比較的任何區段、對象、管道或裝置。
   * 指出您想要特定的視覺效果型別，例如funnel、趨勢或同類群組表格。
   * 如果您希望「同事聊天」提供後續問題的建議，請詢問建議的後續步驟。
@@ -90,7 +92,7 @@ Adobe CX Enterprise Co-worker Chat可以執行進階資料分析，而以前只�
 
 ### 決定您要使用哪些資料檢視
 
-告訴同事您要回答的問題型別，並詢問您有權存取哪些資料檢視最適合提供該資訊。 您也可以[將資料檢視設定為記憶體](#add-a-data-view-preference-in-memory)中的偏好設定。
+告訴同事您要回答的問題型別，並詢問您有權存取提供該資訊的資料檢視。 您也可以[將資料檢視設定為記憶體](#add-a-data-view-preference-in-memory)中的偏好設定。
 
 **您：**
 
@@ -136,7 +138,7 @@ Co-worker Chat包含記憶體功能，可讓您存取跨越所有聊天內容的
 
 ## 在Customer Journey Analytics中分析
 
-Co-worker建立視覺效果後，您可以在Customer Journey Analytics中開啟Analysis Workspace的視覺效果，以更精細的控制功能進行更深入的分析。 視覺效果會在Customer Journey Analytics的新Analysis Workspace專案中開啟。
+Co-worker建立視覺效果後，您可以在Analysis Workspace中開啟該視覺效果，以進行更深入的分析及精細控制。 視覺效果會在Customer Journey Analytics的新Analysis Workspace專案中開啟。
 
 若要在新的Analysis Workspace專案中開啟視覺效果：
 
@@ -265,7 +267,7 @@ Co-worker建立視覺效果後，您可以在Customer Journey Analytics中開啟
 
 #### 必要權限
 
-* 管理技能，以儲存可重複使用的技能
+* 管理技能
 
 #### 主要使用案例
 
@@ -490,7 +492,7 @@ Co-worker建立視覺效果後，您可以在Customer Journey Analytics中開啟
 
 >[!ENDSHADEBOX]
 
-### 剛發生的事
+### 發生什麼事
 
 在四個直白的問題中，同事幫助我們：
 
