@@ -5,10 +5,10 @@ user-guide-description: 了解如何使用 AI 助理加快 Adobe Experience Plat
 description: 瞭解CX Enterprise中的AI Assistant。 在CX Enterprise中使用AI來改善您的產品知識並取得營運深入分析。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 73e328412f2997b6710c813844899f7069ba534a
+source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 28%
+source-wordcount: '236'
+ht-degree: 25%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 28%
 
 - [CX Enterprise應用程式中的AI](home.md)
 - 關於CX Enterprise中的AI {#overview}
-  - [生成式 AI](./overview/generative-ai.md)
-  - [代理式 AI](./overview/agentic-ai.md)
-  - [代理式 AI 監視](./overview/monitoring.md)
-  - [代理程式工作和AI信用消耗](./overview/ai-credit-consumption.md)
+  - [關於產生AI](./overview/generative-ai.md)
+  - [關於代理式AI](./overview/agentic-ai.md)
+  - [關於AI積分消耗](./overview/ai-credit-consumption.md)
+  - [Agentic AI監控儀表板](./overview/monitoring.md)
   - [代理式工具](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-agentic-tools/using/overview)
 - AI 助理 {#ai-assistant}
   - [AI助理使用者介面指南](./ai-assistant/ai-assistant-ui.md)
@@ -54,7 +54,7 @@ ht-degree: 28%
     - [Journey Optimizer工具](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - [Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - 同事 {#coworker}
   - [關於同事](./coworker/overview.md)
   - 行銷活動 {#campaigns}
