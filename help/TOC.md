@@ -1,14 +1,14 @@
 ---
 audience: user
-user-guide-title: Adobe CX Enterprise中的AI助理
-user-guide-description: 了解如何使用 AI 助理加快 Adobe Experience Platform 和 Real-Time Customer Data Platform 的工作流程。
-description: 瞭解CX Enterprise中的AI Assistant。 在CX Enterprise中使用AI來改善您的產品知識並取得營運深入分析。
+user-guide-title: 同事
+user-guide-description: 透過實用檔案、實作指引和參考資料，瞭解如何建立、設定、整合及擴充AI Assistant、同事、代理程式和MCP。
+description: 瞭解CX企業中的AI工具。 在CX Enterprise中使用AI來改善您的產品知識並取得營運深入分析。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
+source-git-commit: d6aa28c5708256c4717c65bc3fb3d218086f39d6
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 25%
+source-wordcount: '238'
+ht-degree: 17%
 
 ---
 
@@ -66,9 +66,12 @@ ht-degree: 25%
     - [發行說明](./coworker/campaigns/release-notes.md)
   - 聊天 {#chat}
     - [概觀](./coworker/chat/overview.md)
-    - [使用案例](./coworker/chat/use-cases.md)
     - [UI指南](./coworker/chat/ui-guide.md)
-    - [分析CJA資料](./coworker/chat/analytics-chat.md)
+    - 使用案例 {#use-cases}
+      - [概觀](./coworker/chat/use-cases/overview.md)
+      - 資料分析 {#data-insights}
+        - [分析CJA資料](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - [驗證AA移轉至CJA的資料](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+      - 沙箱工具 {#sandbox-tooling}
+        - [在沙箱之間移動物件](./agents/sandbox-tooling.md)
   - {hide-from-toc}[在遊樂場的同事聊天](./coworker/playground-coworker-chat.md)
-  - [驗證AA移轉至CJA的資料](./coworker/data-validation-aa-cja.md)
-  - [沙箱工具代理程式技能](./agents/sandbox-tooling.md)

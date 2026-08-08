@@ -1,7 +1,7 @@
 ---
 title: 從Adobe Analytics升級為Customer Journey Analytics時與同事驗證資料
 description: 瞭解Analytics管理員如何在升級期間使用CX Enterprise Co-worker資料驗證技能來比較Adobe Analytics和Customer Journey Analytics資料。
-source-git-commit: 8a9f8413f2993e99cf7452bc720500f4823b62a8
+source-git-commit: ccdc8e69ca03630ca0964b22878cff0bd6ca4c01
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 0%
@@ -94,10 +94,10 @@ ht-degree: 0%
 
    | 分數 | 評等 | 其含義 |
    |---------|----------|----------|
-   | 97%-100% | ![綠色方塊](./assets/data-validation-aa-cja/excellent-square.svg) [!UICONTROL 極佳] | 所有屬性都會高度對齊。 不需要採取任何動作。 |
-   | 90%-96% | ![黃色圓圈](./assets/data-validation-aa-cja/good-circle.svg) [!UICONTROL 好] | 出現細微間隙。 監控趨勢並調查趨勢是否下降。 |
-   | 75%-89% | ![橘色圓圈](./assets/data-validation-aa-cja/review-circle.svg) [!UICONTROL 評論] | 存在有意義的間隙。 依賴Customer Journey Analytics資料之前，請先調查根本原因。 |
-   | 低於75% | ![紅色圓圈](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL 差] | 明顯未對齊。 使用Customer Journey Analytics資料前請先採取立即行動。 |
+   | 97%-100% | ![綠色方塊](../../assets/data-validation-aa-cja/excellent-square.svg) [!UICONTROL 極佳] | 所有屬性都會高度對齊。 不需要採取任何動作。 |
+   | 90%-96% | ![黃色圓圈](../../assets/data-validation-aa-cja/good-circle.svg) [!UICONTROL 好] | 出現細微間隙。 監控趨勢並調查趨勢是否下降。 |
+   | 75%-89% | ![橘色圓圈](../../assets/data-validation-aa-cja/review-circle.svg) [!UICONTROL 評論] | 存在有意義的間隙。 依賴Customer Journey Analytics資料之前，請先調查根本原因。 |
+   | 低於75% | ![紅色圓圈](../../assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL 差] | 明顯未對齊。 使用Customer Journey Analytics資料前請先採取立即行動。 |
 
 1. 選取&#x200B;[!UICONTROL **關鍵深入分析**]&#x200B;索引標籤以檢視兩到四個簡短的圖說文字方塊，每個方塊都以單一句子來摘要分析中的一個結果。
 
@@ -123,11 +123,11 @@ ht-degree: 0%
 
    如果是量度，這是比較每日趨勢的折線圖。
 
-   ![每日趨勢標籤顯示折線圖](./assets/data-validation-aa-cja/trend-line.png)
+   ![每日趨勢標籤顯示折線圖](../../assets/data-validation-aa-cja/trend-line.png)
 
    對於維度，這是比較最高值的長條圖。
 
-   ![顯示橫條圖的每日趨勢標籤](./assets/data-validation-aa-cja/trend-bar.png)
+   ![顯示橫條圖的每日趨勢標籤](../../assets/data-validation-aa-cja/trend-bar.png)
 
 1. （視條件而定）進行單一維度比較或單一量度比較時，請選取&#x200B;[!UICONTROL **日期詳細資料**]&#x200B;索引標籤，以檢視每個比較的量度或維度值的下列資訊：
 
@@ -141,15 +141,15 @@ ht-degree: 0%
 
    * 狀態徽章
 
-   ![日期詳細資訊標籤，顯示變動百分比和狀態徽章的表格](./assets/data-validation-aa-cja/date-detail.png)
+   ![日期詳細資訊標籤，顯示變動百分比和狀態徽章的表格](../../assets/data-validation-aa-cja/date-detail.png)
 
    變數和狀態列會使用以下比例：
 
    | 變異數 | 狀態 | 其含義 |
    |---------|----------|----------|
-   | 少於3% | ![綠色核取記號](./assets/data-validation-aa-cja/pass-check.svg) [!UICONTROL 通過] | 資料完全一致。 不需要採取任何動作。 |
-   | 3%-10% | ![黃色警告三角形](./assets/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL 旗標] | 監控差異，並調查差異是否持續或惡化。 |
-   | 大於10% | ![紅色圓圈](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL 關鍵] | 立即調查。 這通常指向結構、擷取或對應問題。 |
+   | 少於3% | ![綠色核取記號](../../assets/data-validation-aa-cja/pass-check.svg) [!UICONTROL 通過] | 資料完全一致。 不需要採取任何動作。 |
+   | 3%-10% | ![黃色警告三角形](../../assets/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL 旗標] | 監控差異，並調查差異是否持續或惡化。 |
+   | 大於10% | ![紅色圓圈](../../assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL 關鍵] | 立即調查。 這通常指向結構、擷取或對應問題。 |
 
 1. （視條件而定）執行完整報表套裝和資料檢視稽核時，請選取&#x200B;[!UICONTROL **計分卡**]&#x200B;標籤以檢視下列資訊：
 

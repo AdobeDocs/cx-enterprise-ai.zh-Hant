@@ -1,7 +1,7 @@
 ---
 title: 沙箱工具代理程式技能
 description: 瞭解如何使用沙箱工具代理技能，跨沙箱環境複製物件中繼資料。
-source-git-commit: 6df9b0df99ff2d5773a94644d1e4313c86c2f1a0
+source-git-commit: 9b6c144fae1ebb17c22ce0a0d6f65b444408ece9
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
@@ -24,6 +24,8 @@ ht-degree: 1%
 >您目前可以使用沙箱工具代理程式技能來探索、封裝和移轉結構描述和受眾物件。 未來發行版本將新增對其他物件型別的支援。
 
 使用沙箱工具代理技巧，以自然語言描述您要完成的動作，在Adobe Experience Platform環境中移動物件中繼資料（包括結構描述和對象）。 使用CX Co-worker，您可以透過對話式體驗來探索所需的中繼資料、自動識別相依性、建立移轉套件及移轉物件。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496717?captions=chi_hant&learn=on)
 
 ## 先決條件 {#prerequisites}
 

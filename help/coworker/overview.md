@@ -1,9 +1,9 @@
 ---
 title: Adobe CX Enterprise Co-worker
 description: 瞭解如何使用Adobe CX Enterprise Co-worker將您的行銷提升到新的境界。
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: 05fc3688b9a3544884b5b121a43ff17a81c4df78
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '195'
 ht-degree: 4%
 
 ---
@@ -26,9 +26,8 @@ Co-worker是AI支援的團隊成員，可重新構想組織、團隊和個人的
 同事聊天可讓團隊使用自然語言自動化Adobe產品工作，透過彈性規劃、可自訂的技能和智慧型執行，快速將想法轉換為動作。
 
 * [概觀](./chat/overview.md)
-* [使用案例](./chat/use-cases.md)
+* [使用案例](./chat/use-cases/overview.md)
 * [UI指南](./chat/ui-guide.md)
-* [分析Customer Journey Analytics資料](./chat/analytics-chat.md)
 
 ## 專案（檔案即將推出）
 

@@ -15,7 +15,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4da8c6f87f4227983b19c682fdceb0db9a352122
+source-git-commit: 543c62ff56886213b9212864e6ff6ad02dc0f742
 workflow-type: tm+mt
 source-wordcount: 862
 ht-degree: 3%
@@ -70,7 +70,7 @@ Co-worker是AI Assistant的代理程式優先演化，可自動化客戶體驗�
 
 符合資格的客戶正逐步從AI助理和Experience Platform代理程式轉換為同事聊天。 閱讀[同事試用版](./agents/trial.md)，了解試用資格、AI信用使用情況，以及如何取得存取權。
 
-若要檢視同事聊天正在執行中，請逐步瀏覽[Playground中的同事聊天](./coworker/playground-coworker-chat.md)，或閱讀真實使用案例，例如[驗證AA到CJA的移轉資料](./coworker/data-validation-aa-cja.md)和[分析CJA資料](./coworker/chat/analytics-chat.md)。
+若要檢視同事聊天正在執行中，請逐步瀏覽[Playground中的同事聊天](./coworker/playground-coworker-chat.md)，或閱讀真實使用案例，例如[驗證AA到CJA的移轉資料](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)和[分析CJA資料](./coworker/chat/use-cases/data-insights/analytics-chat.md)。
 
 如需有關同事聊天、行銷活動和專案的完整產品檔案，請參閱[同事](./coworker/overview.md)。 如需沙箱到沙箱物件復寫，請參閱[沙箱工具代理程式技能](./agents/sandbox-tooling.md)。
 
