@@ -1,7 +1,14 @@
 ---
 title: 從Adobe Analytics升級為Customer Journey Analytics時與同事驗證資料
 description: 瞭解Analytics管理員如何在升級期間使用CX Enterprise Co-worker資料驗證技能來比較Adobe Analytics和Customer Journey Analytics資料。
-source-git-commit: ccdc8e69ca03630ca0964b22878cff0bd6ca4c01
+feature: AI Tools
+role: User
+level: Intermediate
+doc-type: Feature Video
+duration: null
+last-substantial-update: 2026-08-10T00:00:00Z
+jira: KT-22083
+source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 0%
@@ -26,8 +33,6 @@ ht-degree: 0%
 
 ## 開始之前
 
-
-
 若要在升級過程中驗證資料，您需要：
 
 * 您要驗證的Adobe Analytics報表套裝。
@@ -35,6 +40,8 @@ ht-degree: 0%
 * 包含相同資料的Customer Journey Analytics資料檢視。
 
 您不需要知道實作的架構方式。 此技能會自動偵測您的Customer Journey Analytics實作是使用Analytics Source Connector，還是Experience Platform Web SDK的新實作。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496866/?captions=chi_hant&learn=on&enablevpops)
 
 ## 開始驗證工作階段
 

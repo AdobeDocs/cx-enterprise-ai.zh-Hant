@@ -5,9 +5,9 @@ user-guide-description: 透過實用檔案、實作指引和參考資料，瞭�
 description: 瞭解CX企業中的AI工具。 在CX Enterprise中使用AI來改善您的產品知識並取得營運深入分析。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: d6aa28c5708256c4717c65bc3fb3d218086f39d6
+source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '253'
 ht-degree: 17%
 
 ---
@@ -71,7 +71,12 @@ ht-degree: 17%
       - [概觀](./coworker/chat/use-cases/overview.md)
       - 資料分析 {#data-insights}
         - [分析CJA資料](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - [根本原因分析](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [驗證AA移轉至CJA的資料](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+      - 客群 {#audiences}
+        - [使用自然語言建立對象](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
+      - 歷程 {#journeys}
+        - [使用自然語言建立歷程](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
       - 沙箱工具 {#sandbox-tooling}
         - [在沙箱之間移動物件](./agents/sandbox-tooling.md)
   - {hide-from-toc}[在遊樂場的同事聊天](./coworker/playground-coworker-chat.md)
