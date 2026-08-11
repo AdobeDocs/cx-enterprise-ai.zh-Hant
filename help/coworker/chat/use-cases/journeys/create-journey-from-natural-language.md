@@ -1,5 +1,5 @@
 ---
-title: Adobe Journey Optimizer與同事 — 使用自然語言產生歷程
+title: Journey Optimizer與同事 — 產生歷程
 description: 瞭解同事如何使用簡單的自然語言提示來協助行銷人員建立Adobe Journey Optimizer歷程。
 feature: AI Tools
 role: User
@@ -8,9 +8,9 @@ doc-type: Feature Video
 duration: 102
 last-substantial-update: 2026-08-10T00:00:00Z
 jira: KT-22081
-source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -22,4 +22,4 @@ ht-degree: 0%
  
 透過自動化初始設定程式，團隊可以花更少的時間從頭開始建立歷程，而花更多時間改善客戶體驗和業務成果。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496885/?captions=chi_hant&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)

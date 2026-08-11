@@ -1,10 +1,10 @@
 ---
 description: 瞭解同事行銷活動提示最佳實務 — CO-STAR框架、有無、不支援的內容，以及提示的品質檢查清單。
-title: 提示最佳實務
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+title: 提示最佳做法
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -139,4 +139,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->瀏覽更多[同事行銷活動的提示模式] (./)。
+>瀏覽更多[同事行銷活動的提示模式](./)。

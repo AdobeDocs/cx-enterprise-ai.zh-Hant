@@ -1,9 +1,9 @@
 ---
-title: Adobe CX Co-worker閘道
+title: Adobe CX Co-worker Gateway概述
 description: Adobe CX Co-worker Gateway是適用於Adobe CX Enterprise的統一MCP，可讓MCP使用者端透過單一連線連線至支援的產品工具。
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '450'
 ht-degree: 4%
 
 ---
@@ -39,12 +39,12 @@ CX Co-worker Gateway為CX Co-worker Gateway產品工具提供受管理的端點�
 
 | 產品工具 | 透過端點公開的內容 | 可用性 | 文件 |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Real-Time CDP** | 受眾、目的地、來源、身分名稱空間和啟用健康狀態（唯讀） | Beta 版 | [Real-Time CDP工具](rtcdp-mcp.md) |
-| **Experience Platform** | 結構描述、資料集、資料控管、查詢服務和稽核事件（唯讀） | Beta 版 | [Experience Platform工具](aep-mcp.md) |
-| **Journey Optimizer** | 行銷活動和管道設定（唯讀） | Beta 版 | [Journey Optimizer工具](ajo-mcp.md) |
+| **Real-Time CDP** | 受眾、目的地、來源、身分名稱空間和啟用健康狀態（唯讀） | Beta | [Real-Time CDP工具](rtcdp-mcp.md) |
+| **Experience Platform** | 結構描述、資料集、資料控管、查詢服務和稽核事件（唯讀） | Beta | [Experience Platform工具](aep-mcp.md) |
+| **Journey Optimizer** | 行銷活動和管道設定（唯讀） | Beta | [Journey Optimizer工具](ajo-mcp.md) |
 | **Customer Journey Analytics** | 資料檢視、維度、量度、報表、區段、日期範圍、專案和對象（讀取和寫入） | 可用 | [Customer Journey Analytics工具](cja-mcp.md) |
 | **Adobe Analytics** | 報表套裝、維度、量度、報表、區段、日期範圍和Workspace專案（可讀取和寫入支援的元件） | 可用 | [Adobe Analytics工具](analytics-mcp.md) |
-| **Workfront** | 專案、任務和核准工作流程的工作管理工具 | 預覽 | [Workfront MCP伺服器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
+| **Workfront** | 專案、任務和核准工作流程的工作管理工具 | 預覽 | [Workfront MCP伺服器](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
 
 
 >[!NOTE]

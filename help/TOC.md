@@ -5,10 +5,11 @@ user-guide-description: 透過實用檔案、實作指引和參考資料，瞭�
 description: 瞭解CX企業中的AI工具。 在CX Enterprise中使用AI來改善您的產品知識並取得營運深入分析。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
+dummy: true
+source-git-commit: b68e00babda4fb9f8af816ceb836367fe86cc0fa
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 17%
+source-wordcount: '260'
+ht-degree: 16%
 
 ---
 
@@ -54,7 +55,7 @@ ht-degree: 17%
     - [Journey Optimizer工具](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - [Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - 同事 {#coworker}
   - [關於同事](./coworker/overview.md)
   - 行銷活動 {#campaigns}
@@ -68,15 +69,15 @@ ht-degree: 17%
     - [概觀](./coworker/chat/overview.md)
     - [UI指南](./coworker/chat/ui-guide.md)
     - 使用案例 {#use-cases}
-      - [概觀](./coworker/chat/use-cases/overview.md)
+      - [同事聊天使用案例](./coworker/chat/use-cases/overview.md)
       - 資料分析 {#data-insights}
         - [分析CJA資料](./coworker/chat/use-cases/data-insights/analytics-chat.md)
-        - [根本原因分析](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
-        - [驗證AA移轉至CJA的資料](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+        - [探索趨勢和根本原因](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
+        - [升級時驗證AA至CJA資料](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
       - 客群 {#audiences}
-        - [使用自然語言建立對象](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
+        - [評估平台運作狀況並建置對象](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - 歷程 {#journeys}
         - [使用自然語言建立歷程](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
       - 沙箱工具 {#sandbox-tooling}
-        - [在沙箱之間移動物件](./agents/sandbox-tooling.md)
+        - [沙箱工具代理程式技能](./agents/sandbox-tooling.md)
   - {hide-from-toc}[在遊樂場的同事聊天](./coworker/playground-coworker-chat.md)

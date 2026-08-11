@@ -1,9 +1,9 @@
 ---
-title: Adobe CX Co-worker Gateway中的Customer Journey Analytics工具
+title: CX Co-worker Gateway中的Customer Journey Analytics Tools
 description: 透過Adobe CX Co-worker Gateway瞭解哪些Adobe Customer Journey Analytics工具可供使用。
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '673'
 ht-degree: 3%
 
 ---
@@ -84,11 +84,11 @@ Customer Journey Analytics工具支援從MCP使用者端控管的分析工作流
 
 **概觀**
 
->[!VIDEO](https://video.tv.adobe.com/v/3486325/?captions=chi_hant&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3486313/?learn=on&enablevpops)
 
 **正在執行動作**
 
->[!VIDEO](https://video.tv.adobe.com/v/3486336/?captions=chi_hant&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3486314/?learn=on&enablevpops)
 
 ## 詳細資訊 {#mcp-more}
 
