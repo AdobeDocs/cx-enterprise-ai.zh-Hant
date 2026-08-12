@@ -1,9 +1,9 @@
 ---
 description: 瞭解Co-worker Chat如何使用對話式介面，在幾分鐘內規劃、執行和完成跨Adobe和連線系統的客戶體驗工作。
 title: Adobe CX Enterprise同事聊天總覽
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: e87e0cc9879629fa763ad6e5f20c484f30138a9a
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,19 @@ ht-degree: 0%
 >
 >體驗完成後，將會新增介面熒幕擷取畫面。
 
+## 相容的CX Enterprise應用程式
+
+下列CX Enterprise應用程式與Co-worker Chat相容：
+
+* Real-Time CDP B2C Edition
+* Adobe Journey Optimizer B2C Edition
+* Customer Journey Analytics B2C版本
+* _AEM （即將推出）_
+* _Workfront （即將推出）_
+* _Real-Time CDP B2B edition （即將推出）_
+* _Adobe Journey Optimizer B2B edition （即將推出）_
+* _Customer Journey Analytics B2B edition （即將推出）_
+
 ## 建置區塊
 
 同事聊天由同事建置區塊提供支援。 下列建置區塊目前可供使用。
@@ -51,4 +64,4 @@ ht-degree: 0%
 
 ## 影片概觀
 
->[!VIDEO](https://video.tv.adobe.com/v/3495976?captions=chi_hant&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3495967?learn=on){transcript=true}
