@@ -6,9 +6,9 @@ description: 瞭解CX企業中的AI工具。 在CX Enterprise中使用AI來改�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: b68e00babda4fb9f8af816ceb836367fe86cc0fa
+source-git-commit: 91ea22749d33f8d58b5eb7b41f06ea4cc0b9513e
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '259'
 ht-degree: 16%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 16%
     - [Journey Optimizer工具](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - [Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - 同事 {#coworker}
   - [關於同事](./coworker/overview.md)
   - 行銷活動 {#campaigns}
@@ -63,7 +63,6 @@ ht-degree: 16%
     - [建立電子郵件行銷活動](./coworker/campaigns/create-an-email-campaign.md)
     - [使用案例](./coworker/campaigns/use-cases.md)
     - [提示最佳實務](./coworker/campaigns/prompting-best-practices.md)
-    - {hide-from-toc}[聯結器](./coworker/campaigns/connectors.md)
     - [發行說明](./coworker/campaigns/release-notes.md)
   - 聊天 {#chat}
     - [概觀](./coworker/chat/overview.md)
