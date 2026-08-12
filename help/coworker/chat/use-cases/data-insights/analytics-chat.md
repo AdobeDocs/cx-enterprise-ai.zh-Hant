@@ -1,7 +1,7 @@
 ---
 title: 透過同事聊天分析Customer Journey Analytics資料
 description: 瞭解如何使用Adobe CX Enterprise Co-worker Chat分析Customer Journey Analytics資料、建立漏斗，以及找出客戶在歷程中的流失點。
-source-git-commit: bfc9d04860f592093e4cab4b88463b173f6be369
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
 source-wordcount: '3210'
 ht-degree: 3%
@@ -433,11 +433,11 @@ Co-worker建立視覺效果後，您可以在Analysis Workspace中開啟該視�
 | --- | --- | --- | --- | --- | --- |
 | 桌面 | 70,172 | 44.9% | 54.8% | 23.2% | 5.70% |
 | 平板電腦 | 13,855 | 44.7% | 55.6% | 14.3% | 3.56% |
-| Mobile | 53,449 | 44.9% | 55.3% | 8.1% | 2.02% |
+| 行動 | 53,449 | 44.9% | 55.3% | 8.1% | 2.02% |
 
 **確鑿證據**
 
-| 量度 | 桌面 | Mobile | 間隙 |
+| 量度 | 桌面 | 行動 | 間隙 |
 | --- | --- | --- | --- |
 | 購物車到購買率 | 23.2% | 8.1% | 15個百分點 |
 | 行動裝置是 | — | 差2.8倍 | — |

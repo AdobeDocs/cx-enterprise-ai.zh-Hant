@@ -1,16 +1,16 @@
 ---
 description: 瀏覽同事聊天使用案例和範例提示，依資料深入分析、受眾、歷程和平台操作的區域進行整理。
-title: 使用案例
-source-git-commit: 539dac230b33d4dee06c940080b48a523211d73d
+title: 同事聊天使用案例
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 4%
+source-wordcount: '1181'
+ht-degree: 3%
 
 ---
 
-# 使用案例 {#use-cases}
+# 同事聊天使用案例{#use-cases}
 
-以下為從業人員在Adobe CX Enterprise Co-worker Chat中使用的使用案例和範例提示，依工作區組織。 每個提示都是為複製而建置，會根據您自己的資料和內容進行調整，並透過對話進行細化。
+Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL Experience Platform]資料，而不需手動導覽多個UI或撰寫查詢。 此頁面提供從業人員最仰賴的使用案例目錄，並按工作區域整理：資料深入分析、對象、歷程、基本元素和沙箱工具。 每個專案都包含它叫用的技能、它使用的應用程式，以及範例提示，您可以複製、調整您自己的資料，並透過對話調整內容。
 
 ## 資料深入分析
 

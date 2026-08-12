@@ -1,7 +1,7 @@
 ---
 title: 存取CX Co-worker Gateway工具
 description: 使用Adobe CX Co-worker Gateway工具之前，請確認產品可用性、組織啟用和許可權。
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 3%
@@ -21,9 +21,9 @@ Adobe CX Enterprise透過單一MCP公開產品工具。 存取權由產品工具
 
 | 產品工具 | 可用性 | 存取需求 |
 | --- | --- | --- |
-| Real-Time CDP | Beta 版 | 有效的Real-Time CDP授權、Adobe組織的Beta啟用，以及檢視您查詢的對象、目的地、來源、身分和啟用資源的許可權。 |
-| Experience Platform | Beta 版 | 有效的Experience Platform授權、Adobe組織的Beta啟用，以及檢視您查詢的結構描述、資料集、治理、查詢服務、稽核和沙箱資源的許可權。 |
-| Journey Optimizer | Beta 版 | 有效的Journey Optimizer授權、Adobe組織的Beta啟用，以及檢視行銷活動和管道設定的許可權。 |
+| Real-Time CDP | Beta | 有效的Real-Time CDP授權、Adobe組織的Beta啟用，以及檢視您查詢的對象、目的地、來源、身分和啟用資源的許可權。 |
+| Experience Platform | Beta | 有效的Experience Platform授權、Adobe組織的Beta啟用，以及檢視您查詢的結構描述、資料集、治理、查詢服務、稽核和沙箱資源的許可權。 |
+| Journey Optimizer | Beta | 有效的Journey Optimizer授權、Adobe組織的Beta啟用，以及檢視行銷活動和管道設定的許可權。 |
 | Customer Journey Analytics | 可用 | 有效的Customer Journey Analytics授權和產品設定檔，其中包含Adobe Admin Console中的&#x200B;**MCP存取**&#x200B;許可權專案。 產品許可權仍會控管您可存取或修改的資料檢視、元件、報告、專案和對象。 |
 | Adobe Analytics | 可用 | 有效的Adobe Analytics授權和產品設定檔，其中包含Adobe Admin Console中的&#x200B;**MCP存取**&#x200B;許可權專案。 產品許可權仍會控管您可存取或修改的報表套裝、元件、報表、區段、日期範圍和專案。 |
 | Workfront | 預覽 | 作用中Workfront授權和Workfront MCP啟用。 請參閱[Workfront MCP檔案](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)。 |
@@ -41,7 +41,7 @@ Adobe CX Enterprise透過單一MCP公開產品工具。 存取權由產品工具
 
 ## 產品內啟用 {#mcp-product-enablement}
 
-除了MCP存取權，部分產品還需要產品內啟用或產品特定許可權。 例如:
+除了MCP存取權，部分產品還需要產品內啟用或產品特定許可權。 例如：
 
 - Adobe Analytics和Customer Journey Analytics需要Adobe Admin Console中的&#x200B;**MCP存取**&#x200B;許可權專案。
 - Workfront MCP工具可從Workfront設定啟用。

@@ -1,10 +1,10 @@
 ---
-title: CX Co-worker Gateway中的Adobe Experience Platform工具
+title: CX Co-worker Gateway中的Experience Platform Tools
 description: 瞭解可透過CX Co-worker Gateway使用的Adobe Experience Platform工具。
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 7%
+source-wordcount: '1371'
+ht-degree: 8%
 
 ---
 

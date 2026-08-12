@@ -1,5 +1,5 @@
 ---
-title: 從Adobe Analytics升級為Customer Journey Analytics時與同事驗證資料
+title: 驗證Adobe Analytics至Customer Journey Analytics資料
 description: 瞭解Analytics管理員如何在升級期間使用CX Enterprise Co-worker資料驗證技能來比較Adobe Analytics和Customer Journey Analytics資料。
 feature: AI Tools
 role: User
@@ -8,9 +8,9 @@ doc-type: Feature Video
 duration: null
 last-substantial-update: 2026-08-10T00:00:00Z
 jira: KT-22083
-source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1527'
 ht-degree: 0%
 
 ---

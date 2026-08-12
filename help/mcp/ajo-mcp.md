@@ -1,9 +1,9 @@
 ---
-title: CX Co-worker Gateway中的Adobe Journey Optimizer工具
+title: CX Co-worker Gateway中的Journey Optimizer Tools
 description: 透過CX Co-worker Gateway瞭解哪些Adobe Journey Optimizer工具可供使用。
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '533'
 ht-degree: 3%
 
 ---
