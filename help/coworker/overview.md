@@ -1,9 +1,9 @@
 ---
 title: 關於Adobe CX Enterprise Co-worker
 description: 瞭解如何使用Adobe CX Enterprise Co-worker將您的行銷提升到新的境界。
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: 500932a1e705af1682a71ce460b6fa62e4ffd4ac
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '195'
 ht-degree: 4%
 
 ---
@@ -20,6 +20,11 @@ Co-worker是AI支援的團隊成員，可重新構想組織、團隊和個人的
 * [建立電子郵件行銷活動](./campaigns/create-an-email-campaign.md)
 * [使用案例](./campaigns/use-cases.md)
 * [提示最佳實務](./campaigns/prompting-best-practices.md)
+<!--
+broken links
+* [Connect to Marketo Engage](./coworker/campaigns/connectors/marketo.md)
+* [Connect to Hubspot](./coworker/campaigns/connectors/hubspot.md) 
+-->
 
 ## 聊天
 
@@ -29,6 +34,6 @@ Co-worker是AI支援的團隊成員，可重新構想組織、團隊和個人的
 * [使用案例](./chat/use-cases/overview.md)
 * [UI指南](./chat/ui-guide.md)
 
-## 專案（檔案即將推出）
+## 專案（即將推出）
 
 「同事專案」是統一的工作區，可自動化端對端客戶體驗協調工作流程，協助團隊協調工作、核准及執行，從策略到交付全程推動成果。

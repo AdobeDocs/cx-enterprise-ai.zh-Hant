@@ -6,10 +6,10 @@ description: 瞭解CX企業中的AI工具。 在CX Enterprise中使用AI來改�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 8a6d1c51abb7702298af4ac294dbe96a3b90e2df
+source-git-commit: 6f3672e35719921b82ce5c9bdd761a2a6b610438
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 16%
+source-wordcount: '270'
+ht-degree: 17%
 
 ---
 
@@ -63,6 +63,9 @@ ht-degree: 16%
     - [建立電子郵件行銷活動](./coworker/campaigns/create-an-email-campaign.md)
     - [使用案例](./coworker/campaigns/use-cases.md)
     - [提示最佳實務](./coworker/campaigns/prompting-best-practices.md)
+    - 連接器 {#connectors}
+      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
+      - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
     - [發行說明](./coworker/campaigns/release-notes.md)
   - 聊天 {#chat}
     - [概觀](./coworker/chat/overview.md)
