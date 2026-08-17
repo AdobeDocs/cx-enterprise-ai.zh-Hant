@@ -2,7 +2,8 @@
 title: 開始使用遊樂場中的同事聊天
 description: 瞭解如何在遊樂場中使用同事聊天，探索自然語言提示如何幫助您學習、調查和調整您的工作。
 hide: true
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
 source-wordcount: 1671

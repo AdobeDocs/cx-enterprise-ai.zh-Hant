@@ -1,7 +1,8 @@
 ---
 description: 瞭解Adobe CX Enterprise Co-worker Campaigns版本注意事項中的功能增強和修正。
 title: CX Enterprise Co-worker Campaigns發行說明
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
 source-wordcount: 2187
