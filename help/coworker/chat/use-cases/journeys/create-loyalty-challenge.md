@@ -23,4 +23,4 @@ ht-degree: 0%
  
 影片展示「忠誠度外掛程式」及其「挑戰管理」技能，這項AI支援的功能可協助行銷人員使用自然語言來建立、編輯及管理忠誠度挑戰，而非手動設定使用者介面中的每個設定。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496528/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496547/?captions=chi_hant&learn=on&enablevpops)
