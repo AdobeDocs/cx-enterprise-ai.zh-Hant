@@ -1,9 +1,10 @@
 ---
 description: 瞭解如何將您的Marketo Engage帳戶連結至Co-worker Campaigns，以便同步Marketo智慧與靜態清單。
 title: 連線至Marketo Engage
-source-git-commit: 58764017fd2504a481be7ed9577cdcf4a1f107cd
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: 311
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Adobe Co-worker Campaigns可讓您連線Marketo Engage帳戶，提取智慧和�
 >
 >* 有效的Marketo Engage帳戶
 >* 您的Marketo **執行個體URL**
->* 為Marketo中的同事行銷活動建立的[自訂服務](https://experienceleague.adobe.com/zh-hant/docs/marketo-developer/marketo/rest/custom-services#custom-services-1)，其有[使用者端ID和使用者端密碼](https://experienceleague.adobe.com/zh-hant/docs/marketo-developer/marketo/rest/authentication#creating-an-access-token)
+>* 為Marketo中的同事行銷活動建立的[自訂服務](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#custom-services-1)，其有[使用者端ID和使用者端密碼](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/authentication#creating-an-access-token)
 
 ## 如何連線
 

@@ -1,9 +1,10 @@
 ---
 title: 透過同事聊天分析Customer Journey Analytics資料
 description: 瞭解如何使用Adobe CX Enterprise Co-worker Chat分析Customer Journey Analytics資料、建立漏斗，以及找出客戶在歷程中的流失點。
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
-source-wordcount: '3210'
+source-wordcount: 3210
 ht-degree: 3%
 
 ---
@@ -142,7 +143,7 @@ Co-worker建立視覺效果後，您可以在Analysis Workspace中開啟該視�
 
 若要在新的Analysis Workspace專案中開啟視覺效果：
 
-1. 選取「在CJA中分析&#x200B;**」（位於在Co-worker中建立的任何視覺效果旁）。**
+1. 選取「在CJA中分析&#x200B;**]」（位於在Co-worker中建立的任何視覺效果旁）。[!UICONTROL **
 
 1. 在Customer Journey Analytics中開啟視覺效果後，您可以使用Analysis Workspace拖放瀏覽器介面進行修改、進一步製作分析、建立對象等。 您甚至可以和您選擇的任何人共用您的Workspace專案。
 

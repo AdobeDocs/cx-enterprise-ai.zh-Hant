@@ -1,9 +1,10 @@
 ---
 description: 瀏覽Adobe CX Enterprise Co-worker Campaigns的即時提示模式，依贏取、參與、事件、轉換和保留行銷活動中的使用案例來整理。
 title: 同事行銷活動使用案例
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: 508
 ht-degree: 0%
 
 ---
@@ -158,4 +159,4 @@ ht-degree: 0%
 
 ## 準備好建置了嗎？
 
-請挑選上述使用案例，造訪[建立電子郵件行銷活動] (./)以進行完整逐步說明，然後再試一次。
+請挑選上述使用案例，造訪[建立電子郵件行銷活動](./)以進行完整逐步說明，然後再試一次。
