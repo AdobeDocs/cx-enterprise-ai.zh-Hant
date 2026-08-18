@@ -2,10 +2,10 @@
 description: 瞭解Co-worker Campaigns如何在AI產生和編輯的影像上自動附加和保留C2PA中繼資料(Content Credentials)，不需要採取任何動作。
 title: 同事行銷活動中的C2PA中繼資料
 hide: true
-source-git-commit: c03bdd213d3e96de1bee022b98e4809d3100a195
+source-git-commit: 2b75854bde0697971e736bd453a14a4aa44352ed
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 8%
+source-wordcount: '361'
+ht-degree: 6%
 
 ---
 
@@ -30,14 +30,14 @@ C2PA中繼資料是持久且隱藏的中繼資料，會記錄內容的建立或�
 
 ## 內容移動時發生什麼事 {#cc-content-moves}
 
-「同事行銷活動」會保留與支援的影像資產相關聯的Content Credentials。 如果影像在匯入至「同事行銷活動」時包含Content Credentials，則當資產用於產生的行銷活動內容和傳出電子郵件體驗時，會保留這些憑證。 [進一步瞭解C2PA中繼資料](https://helpx.adobe.com/tw/firefly/using/content-credentials.html){target="_blank"}。
+「同事行銷活動」會保留與支援的影像資產相關聯的Content Credentials。 如果影像在匯入至「同事行銷活動」時包含Content Credentials，則當資產用於產生的行銷活動內容和傳出電子郵件體驗時，會保留這些憑證。
 
 <!-- Some ways of bringing images into your content, such as extracting an image from a PDF or from an embedded (base64) source, may not preserve the original C2PA metadata. In these cases, no C2PA metadata can be read from the source, and none is created for the result. -->
 
 ## 其他資源
 
+* [深入瞭解C2PA中繼資料](https://helpx.adobe.com/firefly/using/content-credentials.html){target="_blank"}
+
 * [Adobe Experience Cloud Generative AI使用者指南](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 
-* [Content Credentials如何跨Adobe產品運作](https://helpx.adobe.com/tw/firefly/using/content-credentials.html){target="_blank"}
-
-* [護欄與限制](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [護欄與限制](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
