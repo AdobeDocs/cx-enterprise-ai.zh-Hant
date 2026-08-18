@@ -2,9 +2,11 @@
 title: 開始使用遊樂場中的同事聊天
 description: 瞭解如何在遊樂場中使用同事聊天，探索自然語言提示如何幫助您學習、調查和調整您的工作。
 hide: true
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
-source-wordcount: '1671'
+source-wordcount: 1671
 ht-degree: 4%
 
 ---
@@ -290,7 +292,7 @@ Co-worker會識別兩個關鍵業務資料集和相關系統資料集：
 
 **預期結果**
 
-同事會分析歷程步驟事件，並呈現退出率最高的節點。 例如:
+同事會分析歷程步驟事件，並呈現退出率最高的節點。 例如：
 
 > 收到第一封電子郵件的設定檔中，有68%的從未開啟電子郵件，且在SMS步驟之前退出。
 

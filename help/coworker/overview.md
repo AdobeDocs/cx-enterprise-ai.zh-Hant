@@ -1,9 +1,13 @@
 ---
 title: 關於Adobe CX Enterprise Co-worker
 description: 瞭解如何使用Adobe CX Enterprise Co-worker將您的行銷提升到新的境界。
-source-git-commit: 500932a1e705af1682a71ce460b6fa62e4ffd4ac
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: 195
 ht-degree: 4%
 
 ---

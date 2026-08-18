@@ -1,14 +1,14 @@
 ---
 audience: user
-user-guide-title: 同事
+user-guide-title: Coworker
 user-guide-description: 透過實用檔案、實作指引和參考資料，瞭解如何建立、設定、整合及擴充AI Assistant、同事、代理程式和MCP。
 description: 瞭解CX企業中的AI工具。 在CX Enterprise中使用AI來改善您的產品知識並取得營運深入分析。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 6f3672e35719921b82ce5c9bdd761a2a6b610438
+source-git-commit: 785b5d106cb029d68506c90385786cbdae164991
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '272'
 ht-degree: 17%
 
 ---
@@ -56,13 +56,14 @@ ht-degree: 17%
     - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - [Adobe Analytics工具](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- 同事 {#coworker}
+- Coworker {#coworker}
   - [關於同事](./coworker/overview.md)
   - 行銷活動 {#campaigns}
     - [概觀](./coworker/campaigns/overview.md)
     - [建立電子郵件行銷活動](./coworker/campaigns/create-an-email-campaign.md)
     - [使用案例](./coworker/campaigns/use-cases.md)
     - [提示最佳實務](./coworker/campaigns/prompting-best-practices.md)
+    - {hide-from-toc}[C2PA中繼資料](./coworker/campaigns/generative-c2pa-metadata.md)
     - 連接器 {#connectors}
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
