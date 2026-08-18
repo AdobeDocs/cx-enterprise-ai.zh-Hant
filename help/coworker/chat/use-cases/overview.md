@@ -1,11 +1,10 @@
 ---
 description: 瀏覽同事聊天使用案例和範例提示，依資料深入分析、受眾、歷程和平台操作的區域進行整理。
 title: 同事聊天使用案例
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 9188ccfc1a01288bee775bc82d84c7f252e66615
 workflow-type: tm+mt
-source-wordcount: 1284
+source-wordcount: 1333
 ht-degree: 7%
 
 ---
@@ -61,6 +60,7 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 | Experience Platform / Journey Optimizer / Customer Journey Analytics API作業 | 提供直接API閘道，用於變更、即時狀態檢查以及不在知識圖形中的實體型別 | `cxo-api` | 所有符合資格的應用程式 | &quot;刪除資料集X&quot; · &quot;檢查批次擷取工作的狀態&quot; |
 | 實體解析度和連結 | 使用語意和辭彙搜尋來解析對實際Experience Platform實體的實體提及，並探索XDM欄位 | `entity-linking` | Adobe Experience Platform | 「將『節日購物者』解析為實際受眾」 · 「尋找與購買記錄相關的我欄位」 |
 | 管理自訂技能 | 儲存、修改或刪除使用者擁有的可重複使用技能，這些技能會跨工作階段存留 | `manage-skill` | 所有符合資格的應用程式 | 「將工作流程另存為技能」 · 「刪除我的每週報告技能」 · 「將此轉換為可重複使用的技能」 |
+| 監控串流容量和違規情形 | 檢查沙箱間目前和歷史串流使用情況、容量和違規狀態 | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | 「我目前的沙箱中資料流容量是多少？」 · 「我目前的沙箱在上星期是否超過容量限制？」 |
 
 ## 沙箱工具
 
