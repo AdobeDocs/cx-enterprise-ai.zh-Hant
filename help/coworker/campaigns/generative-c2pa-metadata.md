@@ -2,7 +2,7 @@
 description: 瞭解同事行銷活動如何自動在影像上附加及保留C2PA中繼資料(Content Credentials)，從產生到電子郵件傳遞。
 title: 同事行銷活動中的C2PA中繼資料
 hide: true
-source-git-commit: 9796ac7d3d55e7a278414d44a214bfdf5311d727
+source-git-commit: 399f0e33cc98c0450fe5fd0b75d847525e89f978
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 6%
@@ -15,13 +15,9 @@ ht-degree: 6%
 
 C2PA中繼資料是持久且隱藏的中繼資料，會記錄內容的建立或編輯方式。 當您使用Co-worker Campaigns中的產生AI工具產生或編輯影像時，C2PA中繼資料會自動附加至該影像。 您不需要採取任何動作。
 
->[!BEGINSHADEBOX]
-
 ## 電子郵件行銷活動中的Content Credentials {#content-credentials-email}
 
 電子郵件行銷活動中傳送的影像會儲存其Content Credentials，讓收件者可以直接從傳送的電子郵件驗證任何影像的來源和真實性。
-
->[!ENDSHADEBOX]
 
 ## 附加C2PA中繼資料的動作 {#cc-workflows}
 
@@ -44,8 +40,8 @@ C2PA中繼資料是持久且隱藏的中繼資料，會記錄內容的建立或�
 
 ## 其他資源
 
-* [深入瞭解C2PA中繼資料](https://helpx.adobe.com/tw/firefly/using/content-credentials.html){target="_blank"}
+* [深入瞭解C2PA中繼資料](https://helpx.adobe.com/firefly/using/content-credentials.html){target="_blank"}
 
 * [Adobe Experience Cloud Generative AI使用者指南](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 
-* [護欄與限制](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [護欄與限制](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
