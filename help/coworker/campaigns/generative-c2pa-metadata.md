@@ -33,7 +33,7 @@ C2PA中繼資料是持久且隱藏的中繼資料，會記錄內容的建立或�
 
 ## 內容移動時發生什麼事 {#cc-content-moves}
 
-「同事行銷活動」會保留與支援的影像資產相關聯的Content Credentials。 如果影像在匯入至「同事行銷活動」時包含Content Credentials，則當資產用於產生的行銷活動內容和傳出電子郵件體驗時，會保留這些憑證。 [進一步瞭解C2PA中繼資料](https://helpx.adobe.com/firefly/using/content-credentials.html){target="_blank"}。
+「同事行銷活動」會保留與支援的影像資產相關聯的Content Credentials。 如果影像在匯入至「同事行銷活動」時包含Content Credentials，則當資產用於產生的行銷活動內容和傳出電子郵件體驗時，會保留這些憑證。 [進一步瞭解C2PA中繼資料](https://helpx.adobe.com/tw/firefly/using/content-credentials.html){target="_blank"}。
 
 <!-- Some ways of bringing images into your content, such as extracting an image from a PDF or from an embedded (base64) source, may not preserve the original C2PA metadata. In these cases, no C2PA metadata can be read from the source, and none is created for the result. -->
 
