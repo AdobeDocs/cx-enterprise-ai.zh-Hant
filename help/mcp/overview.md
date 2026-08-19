@@ -1,10 +1,10 @@
 ---
 title: Adobe CX Co-worker Gateway概述
 description: Adobe CX Co-worker Gateway是適用於Adobe CX Enterprise的統一MCP，可讓MCP使用者端透過單一連線連線至支援的產品工具。
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: a76b4e9bdd925617039b9d6b5362b25974620c34
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 4%
+source-wordcount: '456'
+ht-degree: 3%
 
 ---
 
@@ -40,7 +40,7 @@ CX Co-worker Gateway為CX Co-worker Gateway產品工具提供受管理的端點�
 | 產品工具 | 透過端點公開的內容 | 可用性 | 文件 |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Real-Time CDP** | 受眾、目的地、來源、身分名稱空間和啟用健康狀態（唯讀） | Beta | [Real-Time CDP工具](rtcdp-mcp.md) |
-| **Experience Platform** | 結構描述、資料集、資料控管、查詢服務和稽核事件（唯讀） | Beta | [Experience Platform工具](aep-mcp.md) |
+| **Experience Platform** | 結構描述、資料集、資料治理、查詢服務、稽核事件、可觀察性量度和沙箱健康狀態檢查評估（唯讀） | Beta | [Experience Platform工具](aep-mcp.md) |
 | **Journey Optimizer** | 行銷活動和管道設定（唯讀） | Beta | [Journey Optimizer工具](ajo-mcp.md) |
 | **Customer Journey Analytics** | 資料檢視、維度、量度、報表、區段、日期範圍、專案和對象（讀取和寫入） | 可用 | [Customer Journey Analytics工具](cja-mcp.md) |
 | **Adobe Analytics** | 報表套裝、維度、量度、報表、區段、日期範圍和Workspace專案（可讀取和寫入支援的元件） | 可用 | [Adobe Analytics工具](analytics-mcp.md) |

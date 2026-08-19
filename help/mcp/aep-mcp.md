@@ -1,10 +1,10 @@
 ---
 title: CX Co-worker Gateway中的Experience Platform Tools
 description: 瞭解可透過CX Co-worker Gateway使用的Adobe Experience Platform工具。
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: a76b4e9bdd925617039b9d6b5362b25974620c34
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 8%
+source-wordcount: '1947'
+ht-degree: 6%
 
 ---
 
@@ -29,7 +29,10 @@ ht-degree: 8%
 | `search_data_lake` | 檢查資料集中繼資料和批次健康狀況 | Data Lake API ·資料集，批次 | get、get size、列出失敗的批次 | 作用中 |
 | `search_dule` | 查詢資料治理標籤、原則、動作 | 資料控管·標籤、原則、行銷動作 | 清單，取得，清單啟用，評估 | 作用中 |
 | `search_query_service` | 查詢SQL查詢、範本、排程、警示 | 查詢服務·查詢、範本、排程、警示 | 清單，取得，篩選，取得連線引數 | 作用中 |
+| `search_sandbox_health_assessment` | 擷取目前沙箱的最新「執行與操作」健康狀態檢查評估結果 | 執行與操作·健康狀態檢查評估 | 清單，透過檢查名稱取得 | 作用中 |
 | `search_schema_registry` | 查詢XDM結構描述、欄位群組、類別、型別 | 結構描述登入·結構描述、欄位群組、類別、資料型別、描述項 | 清單，取得，依容器篩選 | 作用中 |
+| `execute_observability_metrics_query` | 查詢目前沙箱或所有沙箱的[!DNL Observability Insights]量度 | 可觀察性深入分析·量度 | 時間序列和彙總查詢、多量度請求、標籤篩選器、groupBy/exclude、每個量度縮減取樣 | 作用中 |
+| `inspect_observability_breaches` | 偵測量度超過其設定基準線的[!DNL Observability Insights]個破壞間隔 | 可觀察性深入分析·違規 | 列出每個系列、組織和沙箱範圍的違反間隔 | 作用中 |
 
 ## 工具參考
 
@@ -197,3 +200,64 @@ Experience Platform目錄服務的統一派遣工具。 查詢資料集中繼資
 | --- | --- | --- |
 | `entity_type` | 是 | `query`, `query_template`, `schedule`, `schedule_run`, `connection`, `alert_subscription` |
 | `operation` | 是 | `list`, `get`, `get_connection_params`, `list_by_u...` |
+
+### execute_observability_metrics_query
+
+**資源：**&#x200B;可觀察性深入分析·量度
+**狀態：**&#x200B;作用中
+
+查詢目前沙箱或組織內所有沙箱的[!DNL Observability Insights]量度。 支援單一請求中的多個量度、標籤式篩選器和每個量度縮減取樣。 針對`scope=org`，請在每個量度上至少包含一個`groupBy`篩選器。 所有作業均為唯讀。
+
+**功能：**&#x200B;查詢量度資料點、時間序列或彙總、多量度請求、標籤篩選器、groupBy/exclude、每個量度縮減取樣
+
+**引數：**
+
+| 參數 | 必要 | 說明 |
+| --- | --- | --- |
+| `metrics` | 是 | 量度規格的陣列。 每個都包含`name` （完整量度名稱）、`aggregator` （`sum`、`avg`、`min`、`max`、`count`、`last`、`p50`、`p95`、`p99`、長條圖變體或`absent`）、選擇性`filters`和選擇性`downsample` |
+| `start` | 是 | 視窗開始，ISO 8601，例如`2026-01-15T00:00:00.000Z`。 必須早於`end`。 最大時段：31天 |
+| `end` | 是 | 視窗結束，ISO 8601。 必須晚於`start` |
+| `granularity` | 否 | 時段大小： `MINUTE`、`FIVE_MINUTE`、`TEN_MINUTE`、`FIFTEEN_MINUTE`、`THIRTY_MINUTE`、`HOUR`、`FOUR_HOUR`、`TWELVE_HOUR`、`DAY`、`TWO_DAY`、`WEEK`、`MONTH`或`ALL` （將視窗摺疊為單一彙總）。 省略以讓伺服器選擇 |
+| `scope` | 否 | `sandbox` （預設）查詢目前的沙箱。 `org`查詢您組織中的所有沙箱，並對每個量度建議`groupBy`篩選器 |
+
+`metrics[].filters`中的每個篩選器都包含`name` （標籤名稱）、`value` （完全符合、萬用字元或規則運算式相符），以及選用的`groupBy`和`exclude`布林值。
+
+### inspect_observability_implications
+
+**資源：**&#x200B;可觀察性深入分析·違規
+**狀態：**&#x200B;作用中
+
+針對目前的沙箱或組織中的所有沙箱，偵測[!DNL Observability Insights]個破壞間隔（量度超過其設定基準的時間範圍）。 傳回每個數列的預先比對間隔。 視窗結束時仍在進行中的開放式違規會傳回`end: null`。 所有作業均為唯讀。
+
+**功能：**&#x200B;列出每個系列、組織和沙箱範圍的違反間隔
+
+**引數：**
+
+| 參數 | 必要 | 說明 |
+| --- | --- | --- |
+| `metrics` | 是 | 一系列的違反規範。 每個都包含`name` （完整量度名稱）和選用的`filters` |
+| `start` | 是 | 視窗開始，ISO 8601。 必須早於`end`。 最大時段：31天 |
+| `end` | 是 | 視窗結束，ISO 8601 |
+| `granularity` | 否 | 時段大小，與`execute_observability_metrics_query`的值相同，但`ALL`除外。 每個貯體會根據基準進行獨立評估 |
+| `scope` | 否 | `sandbox` （預設）或`org`。 在沒有沙箱篩選的`org`上，請包含至少一個篩選器，每個量度有`groupBy: true`，因此結果會由該維度分割，而不是跨組織摺疊 |
+
+`inspect_observability_breaches`不接受`metrics[]`上的`aggregator`或`downsample`。 工具會在內部設定這些專案，以評估違反條件。
+
+>[!NOTE]
+>
+>兩個可觀察性深入分析工具也僅限於每個請求約10,000個資料點。 如果超過此限制的要求遭到拒絕，請縮小時間範圍、新增篩選器，或使用較粗的`granularity`。
+
+### search_sandbox_health_assessment
+
+**資源：**&#x200B;執行並運作·健康狀態檢查評估
+**狀態：**&#x200B;作用中
+
+擷取目前沙箱的最新「執行與操作」健康狀態檢查評估結果。 傳回每個支援類別的結果，包括結構描述和身分、分段、內嵌和設定檔。 為了識別根本原因而不進行單獨的查詢，每個結果都包括失敗檢查背後的受影響資產。 僅傳回具有已發佈、人類可讀名稱的檢查。 所有作業均為唯讀。
+
+>[!NOTE]
+>
+>此工具只會擷取評估結果。 若要修正標幟的問題，請使用[!DNL Experience Platform] UI中的健康情況檢查詳細資料面板。 請參閱[健康情況檢查](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/run-and-operate/health-checks)。 支援健康情況檢查的自動修正指引可在[CX Co-worker Chat](../coworker/chat/overview.md)中作為技能提供。
+
+**功能：**&#x200B;列出目前沙箱的所有健康情況檢查結果，取得一個具名檢查的結果
+
+無引數。
