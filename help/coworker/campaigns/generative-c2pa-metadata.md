@@ -2,9 +2,9 @@
 description: 瞭解同事行銷活動如何從產生到電子郵件傳遞，自動附加並保留影像上的C2PA中繼資料。
 title: 同事行銷活動中的C2PA中繼資料
 hide: true
-source-git-commit: 1c24814b92c2eb3ecd7f3a54058c9a670613d814
+source-git-commit: 639602b445cba01fce2130006f98e1e388ba7d5b
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '370'
 ht-degree: 4%
 
 ---
@@ -30,16 +30,14 @@ C2PA中繼資料是持久且隱藏的中繼資料，會記錄內容的建立或�
 ## 內容型別及其範圍 {#content-types}
 
 * **影像**：已涵蓋。 使用產生AI產生影像時，會附加C2PA中繼資料，並透過在Co-worker Campaigns中由影像產生執行的裁切、文字覆蓋和影像覆蓋作業來保留。
-* **文字**：不適用。 在合作行銷活動中產生影像的純文字輸出，例如產生復本、翻譯和品牌對齊建議，不需要C2PA中繼資料。
+* **文字**：不適用。 「同事行銷活動」中的純文字輸出（例如產生副本、翻譯和品牌對齊建議）不需要C2PA中繼資料。
 
 ## 內容移動時發生什麼事 {#content-moves}
 
 Co-worker Campaigns會保留與支援的影像資產相關聯的C2PA中繼資料。 如果影像在匯入至「同事行銷活動」時包含C2PA中繼資料，則當資產用於產生的行銷活動內容和傳出電子郵件體驗時，將保留這些憑證。
 
-<!-- Some ways of bringing images into your content, such as extracting an image from a PDF or from an embedded (base64) source, may not preserve the original C2PA metadata. In these cases, no C2PA metadata can be read from the source, and none is created for the result. -->
-
 ## 其他資源 {#resources}
 
 * [Adobe Experience Cloud Generative AI使用者指南](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 
-* [護欄與限制](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [護欄與限制](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
