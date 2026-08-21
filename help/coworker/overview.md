@@ -5,10 +5,10 @@ product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+source-git-commit: d408bb6c54e59187382ca120695619c66003bc17
 workflow-type: tm+mt
-source-wordcount: 195
-ht-degree: 4%
+source-wordcount: 202
+ht-degree: 3%
 
 ---
 
@@ -24,11 +24,8 @@ Co-worker是AI支援的團隊成員，可重新構想組織、團隊和個人的
 * [建立電子郵件行銷活動](./campaigns/create-an-email-campaign.md)
 * [使用案例](./campaigns/use-cases.md)
 * [提示最佳實務](./campaigns/prompting-best-practices.md)
-<!--
-broken links
-* [Connect to Marketo Engage](./coworker/campaigns/connectors/marketo.md)
-* [Connect to Hubspot](./coworker/campaigns/connectors/hubspot.md) 
--->
+* [連線至Marketo Engage](./campaigns/connectors/marketo.md)
+* [連線到Hubspot](./campaigns/connectors/hubspot.md)
 
 ## 聊天
 
