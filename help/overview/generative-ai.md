@@ -98,7 +98,7 @@ GenAI可以&#x200B;_建立_&#x200B;原始內容，或&#x200B;_針對使用者的
 | [LLM Optimizer](https://experienceleague.adobe.com/zh-hant/docs/llm-optimizer/using/home) | 創作、AI優先的應用程式，使用AI代理程式來自動識別可見度差距、自動建議改善專案，並在特定情況下自動最佳化您的網站體驗。 | 無 |
 | [Adobe Experience Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/landing) | 用於產品知識和操作見解的AI助理。 | 無 |
 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/get-started/ai-assistant) | 用於產品知識和操作見解的AI助理。 | 無 |
-| | _AJO Prime_&#x200B;和&#x200B;_Ultimate_&#x200B;提供[產生內容](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en)的功能，針對文字和影像提供主動式內容變數建議。 | 是 |
+| | _AJO Prime_&#x200B;和&#x200B;_Ultimate_&#x200B;提供[產生內容](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en)的功能，針對文字和影像提供主動式內容變數建議。 | 是 |
 | [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) | 產品知識的AI助理。 | 無 |
 | [[!DNL Campaign] 受管理的雲端服務](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/content/ai-assistant/generative-gs) | Content Accelerator的AI Assistant可根據電子郵件、簡訊和推播等管道的行銷目標，自動產生個人化、吸引人且有效的內容。 | 是 |
 | **[!DNL Customer Journey Analytics]** | GenAI用於：<ul><li> [智慧型字幕](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en)：深入瞭解最常用的Workspace視覺效果。</li><li>[Content Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/content-analytics/report/report?lang=en#template)：自動指派資產中繼資料。</li></ul> AI助理用於：<ul><li>[產品知識](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) </li><li>[產品支援代理程式](agentic-ai.md) </li><li>[Data Insights Agent](agentic-ai.md)</li></ul> | 無 |
@@ -251,11 +251,11 @@ AI助理可在Experience Platform、Real-Time Customer Data Platform、Adobe Jou
 
 #### 用於產生內容的AI助理（AJO Prime和Ultimate）
 
-在AJO _Prime_&#x200B;和&#x200B;_Ultimate_&#x200B;中，您可以使用[內容產生](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)來產生內容，為文字和影像提供主動式內容變數建議。
+在AJO _Prime_&#x200B;和&#x200B;_Ultimate_&#x200B;中，您可以使用[內容產生](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)來產生內容，為文字和影像提供主動式內容變數建議。
 
 此功能適用於電子郵件、推播通知、網頁、內容和SMS頻道。 它提供提示式文字和影像產生。 AJO Prime和Ultimate中內容產生的輸出不會受到任何影響。
 
-[!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative" tooltip="瞭解AJO中的AI助理"}
+[!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative" tooltip="瞭解AJO中的AI助理"}
 
 +++
 
