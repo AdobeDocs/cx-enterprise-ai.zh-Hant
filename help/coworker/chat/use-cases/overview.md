@@ -1,12 +1,11 @@
 ---
 description: 瀏覽同事聊天使用案例和範例提示，依資料深入分析、受眾、歷程和平台操作的區域進行整理。
 title: 同事聊天使用案例
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 39d2b564c2b95c1727806ee3478b8496bd1a0660
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 46299bb3b1cd8179f277940d67bcb876b3f4e9fc
 workflow-type: tm+mt
-source-wordcount: 2835
-ht-degree: 8%
+source-wordcount: 3050
+ht-degree: 7%
 
 ---
 
@@ -22,11 +21,15 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 >
 >所有符合資格的客戶將可輪流在Co-worker中存取Adobe Experience Manager代理功能。
 >
->另請參閱[AEM中的AI概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/overview)。
+>另請參閱AEM中的[AI - AEM代理功能概觀](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)。
 
 ## 品牌體驗
 
 ### 體驗生產 — Sites使用案例
+
+>[!NOTE]
+>
+>另請參閱AEM中的[代理功能：品牌體驗 — 體驗生產 — Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)。
 
 | 使用案例 | 說明 | 技能 | 應用程式 | 範例提示 |
 | --- | --- | --- | --- | --- |
@@ -35,6 +38,10 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 | 從圖表移至視覺內容片段 | 使用自然語言，直接從Figma將設計匯入Adobe Experience Manager。 此技能會自動建立所需的內容模型、內容片段、資產和視覺效果範本，讓業務使用者在數分鐘內從設計移至網頁就緒內容，無需手動設定。 | `aem-sites-visualcontentfragments-create` | Adobe Experience Manager (AEM) | 從&lt;Figma_URL>匯入 |
 
 ### 體驗生產 — Forms使用案例
+
+>[!NOTE]
+>
+>另請參閱AEM中的[代理功能：品牌體驗 — 體驗生產 — Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)。
 
 | 使用案例 | 說明 | 技能 | 應用程式 | 範例提示 |
 | --- | --- | --- | --- | --- |
@@ -45,6 +52,10 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 
 ### 開發
 
+>[!NOTE]
+>
+>另請參閱AEM中的[代理程式功能：品牌體驗 — 開發](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)。
+
 | 使用案例 | 說明 | 技能 | 應用程式 | 範例提示 |
 | --- | --- | --- | --- | --- |
 | 診斷和修復失敗的Cloud Manager管道 | 調查失敗的管道執行，找出根本原因，並產生修正（包含差異）以供審查 | `cloud-manager-pipeline-troubleshooting` | Adobe Experience Manager (AEM) | 「為什麼我的組建管道失敗？」<br><br>「建議修正我中斷的生產管道」 |
@@ -54,6 +65,10 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 | 管理AEM版本更新排程 | 設定每日無訊息時間和無更新期間以進行自動維護，並檢視Adobe的全域程式碼凍結視窗 | `cloud-manager-release-management` | Adobe Experience Manager (AEM) | 「我目前的無訊息時間視窗是多少？」<br><br>「排程從12月20日至1月2日的無更新期間」 |
 
 ### 入門 — AEM Assets使用案例
+
+>[!NOTE]
+>
+>另請參閱AEM中的[代理程式功能：品牌體驗 — 入門](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)。
 
 | 使用案例 | 說明 | 技能 | 應用程式 | 範例提示 |
 | --- | --- | --- | --- | --- |
@@ -66,6 +81,10 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 
 ### 內容探索
 
+>[!NOTE]
+>
+>另請參閱AEM中的[代理程式功能：內容警告器 — 內容探索](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)。
+
 | 使用案例 | 說明 | 技能 | 應用程式 | 範例提示 |
 | --- | --- | --- | --- | --- |
 | 依語意主題搜尋 | 使用AI支援的語意比對功能，依概念、心情或視覺主題尋找資產。 | `aem-assets-discovery` | Adobe Experience Manager (AEM) Assets | 「尋找我晨間咖啡生活方式影像」 |
@@ -75,6 +94,10 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 
 ### 內容最佳化
 
+>[!NOTE]
+>
+>另請參閱AEM中的[代理式功能：內容警告器 — 內容最佳化](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)。
+
 | 使用案例 | 說明 | 技能 | 應用程式 | 範例提示 |
 | --- | --- | --- | --- | --- |
 | 高解析度轉譯建立和通道最佳化的轉譯 | 以指定的解析度和品質等級產生資產的新轉譯，讓您無需手動編輯即可輕鬆準備通道就緒的變數。 您也可以根據平台特定需求量身打造轉譯，例如Instagram故事，確保資產自動符合格式、比例和品質准則。 | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) Assets | 「使用`80% quality`建立`2000px`轉譯為`JPEG`」<br><br>「為Instagram故事建立轉譯」 |
@@ -82,6 +105,10 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 | 影像增強功能、背景色彩調整、方向轉換 | 套用視覺改善（銳利化影像）、取代背景顏色，以及執行方向轉換。 | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) Assets | 「將`PNG`的背景顏色變更為`#ff8932`」<br><br>「銳利化影像」<br><br>「水準映象影像」 |
 
 ## 品牌控管
+
+>[!NOTE]
+>
+>另請參閱AEM中的[代理程式功能：品牌控管](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)。
 
 | 使用案例 | 說明 | 技能 | 應用程式 | 範例提示 |
 | --- | --- | --- | --- | --- |
@@ -137,7 +164,7 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 | 實體解析度和連結 | 使用語意和辭彙搜尋來解析對實際Experience Platform實體的實體提及，並探索XDM欄位 | `entity-linking` | Adobe Experience Platform | 「將『節日購物者』解析為實際受眾」 · 「尋找與購買記錄相關的我欄位」 |
 | 管理自訂技能 | 儲存、修改或刪除使用者擁有的可重複使用技能，這些技能會跨工作階段存留 | `manage-skill` | 所有符合資格的應用程式 | 「將工作流程另存為技能」 · 「刪除我的每週報告技能」 · 「將此轉換為可重複使用的技能」 |
 | 監控串流容量和違規情形 | 檢查沙箱間目前和歷史串流使用情況、容量和違規狀態 | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | 「我目前的沙箱中資料流容量是多少？」 · 「我目前的沙箱在上星期是否超過容量限制？」 |
-| [檢視健康情況檢查評估結果](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/run-and-operate/health-checks/overview) | 檢視沙箱的最新健康情況檢查評估、深入研究失敗檢查，並檢視受影響的實體 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | 「我的沙箱有什麼問題？」 · 「告訴我最新的健康情況檢查評估的相關資訊」 · 「自訂名稱空間說明檢查有哪些問題？」 |
+| [檢視健康情況檢查評估結果](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | 檢視沙箱的最新健康情況檢查評估、深入研究失敗檢查，並檢視受影響的實體 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | 「我的沙箱有什麼問題？」 · 「告訴我最新的健康情況檢查評估的相關資訊」 · 「自訂名稱空間說明檢查有哪些問題？」 |
 | 修正健康情況檢查問題 | 在進行任何變更之前，只要您核准，即可直接從聊天中修正標幟的身分名稱空間、合併原則和結構描述問題 | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | 「修正身分名稱空間說明」 · 「修正重複的合併原則名稱」 · 「修正缺少稽核欄位群組的結構描述」 · 「修正預設的合併原則命名」 |
 
 ## 沙箱工具
