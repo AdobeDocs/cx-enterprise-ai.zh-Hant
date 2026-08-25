@@ -1,15 +1,15 @@
 ---
 audience: user
-user-guide-title: Coworker
+user-guide-title: CX Enterprise 中的 AI
 user-guide-description: 透過實用檔案、實作指引和參考資料，瞭解如何建立、設定、整合及擴充AI Assistant、同事、代理程式和MCP。
 description: 瞭解CX企業中的AI工具。 在CX Enterprise中使用AI來改善您的產品知識並取得營運深入分析。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 2adef3bad3a31beeedc6ae722327d7f875693584
+source-git-commit: 1bdbdf6b40e6202073f2759041dd55f5ce9399ca
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 17%
+source-wordcount: '279'
+ht-degree: 18%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 17%
     - [Journey Optimizer工具](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - [Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [關於同事](./coworker/overview.md)
   - 行銷活動 {#campaigns}
