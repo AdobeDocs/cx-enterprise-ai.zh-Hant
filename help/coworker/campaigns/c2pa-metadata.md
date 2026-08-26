@@ -1,10 +1,9 @@
 ---
 description: 瞭解同事行銷活動如何從產生到電子郵件傳遞，自動附加並保留影像上的C2PA中繼資料。
 title: 同事行銷活動中的C2PA中繼資料
-hide: true
-source-git-commit: 639602b445cba01fce2130006f98e1e388ba7d5b
+source-git-commit: 0d07019c1bf88ecb7452767364d1a5f05702ce0e
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '387'
 ht-degree: 4%
 
 ---
@@ -38,6 +37,6 @@ Co-worker Campaigns會保留與支援的影像資產相關聯的C2PA中繼資料
 
 ## 其他資源 {#resources}
 
+* [Generative AI內容透明度](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}
 * [Adobe Experience Cloud Generative AI使用者指南](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
-
 * [護欄與限制](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}

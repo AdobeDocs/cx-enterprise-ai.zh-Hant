@@ -6,9 +6,9 @@ description: 瞭解CX企業中的AI工具。 在CX Enterprise中使用AI來改�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 1bdbdf6b40e6202073f2759041dd55f5ce9399ca
+source-git-commit: 41dce794de5268fa6f89fcd601ee53fd4da2da5b
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '284'
 ht-degree: 18%
 
 ---
@@ -64,11 +64,15 @@ ht-degree: 18%
     - [建立電子郵件行銷活動](./coworker/campaigns/create-an-email-campaign.md)
     - [使用案例](./coworker/campaigns/use-cases.md)
     - [提示最佳實務](./coworker/campaigns/prompting-best-practices.md)
-    - {hide-from-toc}[C2PA中繼資料](./coworker/campaigns/generative-c2pa-metadata.md)
+    - [C2PA中繼資料](./coworker/campaigns/c2pa-metadata.md)
     - 連接器 {#connectors}
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
     - [發行說明](./coworker/campaigns/release-notes.md)
+  - 自訂 {#customizations}
+    - 技能 {#skills}
+      - [什麼是技能？](./coworker/customizations/skills/what-are-skills.md)
+      - [建立您的第一項技能](./coworker/customizations/skills/create-your-first-skill.md)
   - 聊天 {#chat}
     - [概觀](./coworker/chat/overview.md)
     - [UI指南](./coworker/chat/ui-guide.md)
@@ -85,4 +89,3 @@ ht-degree: 18%
         - [建立忠誠度挑戰並顯示深入分析](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - 沙箱工具 {#sandbox-tooling}
         - [沙箱工具代理程式技能](./agents/sandbox-tooling.md)
-  - {hide-from-toc}[在遊樂場的同事聊天](./coworker/playground-coworker-chat.md)

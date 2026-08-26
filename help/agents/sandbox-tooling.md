@@ -1,7 +1,7 @@
 ---
 title: 沙箱工具代理程式技能
 description: 瞭解如何使用沙箱工具代理技能，跨沙箱環境複製物件中繼資料。
-source-git-commit: 9b6c144fae1ebb17c22ce0a0d6f65b444408ece9
+source-git-commit: 57286b8fe58061231422dcc8a68385884c049a81
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 1. 移轉完成時，所選物件可在目標沙箱中使用。
 
-![顯示要求狀態的傳輸完成頁面。](./assets/sandbox-tooling/transfer-complete.png)
+   ![顯示要求狀態的傳輸完成頁面。](./assets/sandbox-tooling/transfer-complete.png)
 
 如需使用CX Co-worker的詳細資訊，請參閱[Co-worker UI指南](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)。
 
@@ -78,7 +78,7 @@ ht-degree: 1%
 
 例如：
 
-> 「將方案Luma忠誠度會員白金從目前沙箱移至生產沙箱。」
+- 「將方案Luma忠誠度會員白金從目前沙箱移至生產沙箱。」
 
 ### 在沙箱之間提升對象
 
@@ -86,7 +86,7 @@ ht-degree: 1%
 
 例如：
 
-> 「將『對象名稱』對象升級至測試沙箱。」
+- 「將『對象名稱』對象升級至測試沙箱。」
 
 沙箱工具代理技能識別指定的對象、驗證其相依性，並將所有必要物件移轉至目標沙箱。
 
@@ -111,3 +111,4 @@ ht-degree: 1%
 閱讀本指南後，您應該瞭解如何使用沙箱工具代理技巧，在沙箱之間探索、封裝和移轉支援的物件。
 
 如需沙箱工具的詳細資訊，請參閱[沙箱工具指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sandbox/ui/sandbox-tooling)。
+

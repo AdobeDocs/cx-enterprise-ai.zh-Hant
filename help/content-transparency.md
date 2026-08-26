@@ -1,9 +1,12 @@
 ---
 title: Generative AI內容透明度
 description: 瞭解Adobe如何在Adobe CX Enterprise應用程式中，自動將C2PA中繼資料附加至GenAI產生和GenAI編輯的內容。
-source-git-commit: f6627af3f62ae3238b6a2bff665e8d1eabcdf3d1
+feature_v2:
+  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+  - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
+source-git-commit: 02de82fd17bdf3f806ce120b93cbbd85b50f9b8a
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: 1539
 ht-degree: 1%
 
 ---
