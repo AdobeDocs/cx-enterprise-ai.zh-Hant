@@ -1,9 +1,10 @@
 ---
 title: Generative AI內容透明度
 description: 瞭解Adobe如何在Adobe CX Enterprise應用程式中，自動將C2PA中繼資料附加至GenAI產生和GenAI編輯的內容。
-source-git-commit: f6627af3f62ae3238b6a2bff665e8d1eabcdf3d1
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
+source-git-commit: 02de82fd17bdf3f806ce120b93cbbd85b50f9b8a
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: 1539
 ht-degree: 1%
 
 ---
@@ -61,7 +62,7 @@ Adobe無法控制內容離開Adobe應用程式後，外部服務如何解譯、�
 
 在某些情況下，在特定地理區域中，組織可能會選擇或要求以可視方式識別GenAI產生的或GenAI編輯的內容。
 
-Adobe提供使用Adobe應用程式支援的現有浮水印功能的[指南](https://helpx.adobe.com/tw/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)。 是否需要可見的浮水印取決於組織的業務需求以及發佈內容所在司法管轄區的適用法律和法規。
+Adobe提供使用Adobe應用程式支援的現有浮水印功能的[指南](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)。 是否需要可見的浮水印取決於組織的業務需求以及發佈內容所在司法管轄區的適用法律和法規。
 
 >[!NOTE]
 >
@@ -83,7 +84,7 @@ C2PA中繼資料會自動附加至受支援的GenAI產生和GenAI編輯的內容
 
 ### 浮水印指引
 
-Adobe提供[檔案](https://helpx.adobe.com/tw/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)，說明如何為選擇或需要套用可見標籤的組織使用受支援Adobe應用程式中可用的現有浮水印功能。
+Adobe提供[檔案](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)，說明如何為選擇或需要套用可見標籤的組織使用受支援Adobe應用程式中可用的現有浮水印功能。
 
 ## Adobe CX Enterprise支援的應用程式 {#supported-applications}
 
@@ -99,7 +100,7 @@ Adobe提供[檔案](https://helpx.adobe.com/tw/creative-cloud/apps/generative-ai
 |---|---|
 | Adobe Advertising Cloud | |
 | Adobe Experience Manager (AEM) | |
-| 用於內容產生的AI助理（Adobe Journey Optimizer / Adobe Campaign中的功能） | <!--[Documentation] (https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata)--> |
+| 用於內容產生的AI助理（Adobe Journey Optimizer / Adobe Campaign中的功能） | <!--[Documentation] (https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata)--> |
 | Adobe Journey Optimizer B2B edition | <!--[Documentation] (https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/content-credentials)--> |
 | Adobe Journey Optimizer B2C | |
 | Adobe Campaign | |
@@ -107,11 +108,11 @@ Adobe提供[檔案](https://helpx.adobe.com/tw/creative-cloud/apps/generative-ai
 | GenStudio for Performance Marketing | |
 | Adobe Marketo Engage | |
 | Adobe Workfront | |
-| CX Enterprise Co-worker Campaigns （前身為HALO） | <!--[Documentation](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/generative-c2pa-metadata)--> |
+| CX Enterprise Co-worker Campaigns （前身為HALO） | <!--[Documentation](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/generative-c2pa-metadata)--> |
 
 ## 相關連結
 
-* [可見浮水印指南](https://helpx.adobe.com/tw/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)
+* [可見浮水印指南](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)
 * [Adobe Inspect](https://contentauthenticity.adobe.com/inspect)
 
 ## 常見問題
