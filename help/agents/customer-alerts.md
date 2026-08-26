@@ -45,7 +45,7 @@ ht-degree: 4%
 
    *「列出過去24小時內觸發的所有警示？」*
 
-   ![ CX Co-worker中提出的第一個問題](./assets/alerts/initial-question.png)
+   ![&#x200B; CX Co-worker中提出的第一個問題](./assets/alerts/initial-question.png)
 
 1. 複查客戶警示技能傳回的結果。
 
