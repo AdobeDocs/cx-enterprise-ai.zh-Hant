@@ -6,10 +6,10 @@ description: 瞭解CX企業中的AI工具。 在CX Enterprise中使用AI來改�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 0d07019c1bf88ecb7452767364d1a5f05702ce0e
+source-git-commit: 41dce794de5268fa6f89fcd601ee53fd4da2da5b
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 17%
+source-wordcount: '284'
+ht-degree: 18%
 
 ---
 
@@ -37,7 +37,6 @@ ht-degree: 17%
   - [欄位探索代理程式](./agents/field-discovery-agent.md)
   - [Journey Agent](./agents/ajo-agent.md)
   - [產品支援代理](./agents/product-support.md)
-  - [沙箱工具代理程式技能](./agents/sandbox-tooling.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [通知代理](./agents/notifications.md)
   - [同事試用版](./agents/trial.md)
@@ -57,7 +56,7 @@ ht-degree: 17%
     - [Journey Optimizer工具](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - [Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [關於同事](./coworker/overview.md)
   - 行銷活動 {#campaigns}
@@ -70,6 +69,10 @@ ht-degree: 17%
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
     - [發行說明](./coworker/campaigns/release-notes.md)
+  - 自訂 {#customizations}
+    - 技能 {#skills}
+      - [什麼是技能？](./coworker/customizations/skills/what-are-skills.md)
+      - [建立您的第一項技能](./coworker/customizations/skills/create-your-first-skill.md)
   - 聊天 {#chat}
     - [概觀](./coworker/chat/overview.md)
     - [UI指南](./coworker/chat/ui-guide.md)
@@ -86,6 +89,3 @@ ht-degree: 17%
         - [建立忠誠度挑戰並顯示深入分析](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - 沙箱工具 {#sandbox-tooling}
         - [沙箱工具代理程式技能](./agents/sandbox-tooling.md)
-  - {hide-from-toc}[在遊樂場的同事聊天](./coworker/playground-coworker-chat.md)
-  - {hide-from-toc}[驗證AA到CJA的移轉資料](./coworker/data-validation-aa-cja.md)
-  - [分析CJA資料](./coworker/analytics-chat.md)
