@@ -1,28 +1,19 @@
 ---
 title: 關於CX Enterprise中的AI
 description: 商業層級的概述，說明創意和代理式AI在Adobe CX Enterprise應用程式中的顯示位置、使用管理和衡量方式，以及您的團隊如何開始使用。
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-role_v2:
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c5345fbf43da8f310c1b076618a615bf8bb8d998
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: aed11b3ad3450c80516d9cbd580cf983008ddbfd
 workflow-type: tm+mt
-source-wordcount: 447
-ht-degree: 2%
+source-wordcount: 387
+ht-degree: 3%
 
 ---
 
 # 關於CX Enterprise中的AI
 
-Adobe CX Enterprise應用程式以兩種互補方式使用AI：**generative AI** （您直接提示建立內容或取得答案）和&#x200B;**agentic AI** （在您監督下，代表您規劃並執行多步驟工作）。 這組頁面為業務和IT主管提供每種AI出現位置、管理和衡量方式，以及AI產生內容的公開方式地圖，因此您可以在將AI推廣到團隊之前，向利害關係人簡短說明並規劃啟用情況。
-
->[!NOTE]
->
->這些頁面是概念性的，不是以任務為基礎。 如需使用AI Assistant、Agent Orchestrator或CX Enterprise Co-worker的逐步指南，請從CX Enterprise應用程式中的[AI開始](../home.md)。
+Adobe CX Enterprise應用程式以兩種互補方式使用AI：**generative AI** （您直接提示建立內容或取得答案）和&#x200B;**agentic AI** （在您監督下，代表您規劃並執行多步驟工作）。 下列主題廣泛說明各種AI在CX Enterprise中的何處提供。
 
 ## 本節包含的內容
 
@@ -36,7 +27,7 @@ Adobe CX Enterprise應用程式以兩種互補方式使用AI：**generative AI**
 ## 從何處開始
 
 1. 閱讀&#x200B;**關於generative AI**&#x200B;和&#x200B;**關於agentic AI**，瞭解兩種可用的AI形式，以及每種形式已在您的授權應用程式中的位置。
-2. 閱讀&#x200B;**AI積分消耗**&#x200B;以瞭解使用量如何轉換成成本，以便您設定財務與採購的期望。
-3. 設定您治理團隊的&#x200B;**代理式人工智慧監視**&#x200B;儀表板許可權，以便從第一天開始就看到採用和使用情況。
-4. 閱讀&#x200B;**Generative AI內容透明度**，瞭解哪些公開內容會自動套用至您的團隊發佈的AI產生內容。
-5. 當您的組織準備好加入使用者後，請將其指向CX Enterprise應用程式中的[AI](../home.md)，以取得AI Assistant、Agent Orchestrator和CX Enterprise Co-worker的實作指引。
+1. 閱讀&#x200B;**AI積分消耗**&#x200B;以瞭解使用量如何轉換成成本，以便您設定財務與採購的期望。
+1. 設定您治理團隊的&#x200B;**代理式人工智慧監視**&#x200B;儀表板許可權，以便從第一天開始就看到採用和使用情況。
+1. 閱讀&#x200B;**Generative AI內容透明度**，瞭解哪些公開內容會自動套用至您的團隊發佈的AI產生內容。
+1. 當您的組織準備好加入使用者後，請將其指向CX Enterprise應用程式中的[AI](../home.md)，以取得AI Assistant、Agent Orchestrator和CX Enterprise Co-worker的實作指引。
