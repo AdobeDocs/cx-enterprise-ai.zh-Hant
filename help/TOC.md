@@ -6,18 +6,19 @@ description: 瞭解CX企業中的AI工具。 在CX Enterprise中使用AI來改�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 6d2ed4b1ab956faf844ab3f517b52c6a2bd2b2dd
+source-git-commit: ecdca9c893722e1cdfd392c79c9ee361bb993793
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 18%
+source-wordcount: '296'
+ht-degree: 19%
 
 ---
 
 
 # CX Enterprise 中的 AI {#experience-cloud-ai}
 
-- [CX Enterprise應用程式中的AI](home.md)
+- [CX Enterprise 中的 AI](home.md)
 - 關於CX Enterprise中的AI {#overview}
+  - [關於CX Enterprise中的AI](./overview/overview-ai-cxe.md)
   - [關於產生AI](./overview/generative-ai.md)
   - [關於代理式AI](./overview/agentic-ai.md)
   - [關於AI積分消耗](./overview/ai-credit-consumption.md)
@@ -76,6 +77,7 @@ ht-degree: 18%
   - 聊天 {#chat}
     - [概觀](./coworker/chat/overview.md)
     - [UI指南](./coworker/chat/ui-guide.md)
+    - {hide-from-toc}[在遊樂場的同事聊天](./coworker/playground-coworker-chat.md)
     - 使用案例 {#use-cases}
       - [同事聊天使用案例](./coworker/chat/use-cases/overview.md)
       - 資料分析 {#data-insights}
