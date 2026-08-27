@@ -6,17 +6,17 @@ description: 瞭解CX企業中的AI工具。 在CX Enterprise中使用AI來改�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 2c7c8a8cd40bca2e1a3cdae08f24f56e3b00daa0
+source-git-commit: ecdca9c893722e1cdfd392c79c9ee361bb993793
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 18%
+source-wordcount: '296'
+ht-degree: 19%
 
 ---
 
 
 # CX Enterprise 中的 AI {#experience-cloud-ai}
 
-- [CX Enterprise應用程式中的AI](home.md)
+- [CX Enterprise 中的 AI](home.md)
 - 關於CX Enterprise中的AI {#overview}
   - [關於CX Enterprise中的AI](./overview/overview-ai-cxe.md)
   - [關於產生AI](./overview/generative-ai.md)
@@ -57,7 +57,7 @@ ht-degree: 18%
     - [Journey Optimizer工具](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - [Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [關於同事](./coworker/overview.md)
   - 行銷活動 {#campaigns}
