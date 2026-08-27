@@ -1,11 +1,10 @@
 ---
 description: 瀏覽同事聊天使用案例和範例提示，依資料深入分析、受眾、歷程和平台操作的區域進行整理。
 title: 同事聊天使用案例
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: c5535d1d559f65b78ccc20a5b4c867f1bd2613e7
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 74c7d4e455b0b7079b5fe85d2b5325e32fe6642e
 workflow-type: tm+mt
-source-wordcount: 3344
+source-wordcount: 3050
 ht-degree: 7%
 
 ---
@@ -22,7 +21,7 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 >
 >所有符合資格的客戶將可輪流在Co-worker中存取Adobe Experience Manager代理功能。
 >
->另請參閱AEM中的[AI - AEM代理功能概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)。
+>另請參閱AEM中的[AI - AEM代理功能概觀](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)。
 
 ## 品牌體驗
 
@@ -36,7 +35,7 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 
 **相關資訊**
 
-* [AEM中的代理程式功能：品牌體驗 — 體驗生產 — 網站](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [AEM中的代理程式功能：品牌體驗 — 體驗生產 — 網站](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
 ### 體驗生產 — Forms使用案例
 
@@ -49,7 +48,7 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 
 **相關資訊**
 
-* [AEM的代理程式功能：品牌體驗 — 體驗生產 — Forms](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [AEM的代理程式功能：品牌體驗 — 體驗生產 — Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### 開發
 
@@ -63,7 +62,7 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 
 **相關資訊**
 
-* [AEM的代理程式功能：品牌體驗 — 開發](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [AEM的代理程式功能：品牌體驗 — 開發](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### 入門 — AEM Assets使用案例
 
@@ -76,7 +75,7 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 
 **相關資訊**
 
-* [AEM的代理功能：品牌體驗 — 入門](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [AEM的代理功能：品牌體驗 — 入門](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## 內容顧問 — AEM Assets使用案例
 
@@ -91,7 +90,7 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 
 **相關資訊**
 
-* [AEM的代理程式功能：內容顧問 — 內容探索](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [AEM的代理程式功能：內容顧問 — 內容探索](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### 內容最佳化
 
@@ -103,7 +102,7 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 
 **相關資訊**
 
-* [AEM中的代理程式功能：內容警告器 — 內容最佳化](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [AEM中的代理程式功能：內容警告器 — 內容最佳化](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## 品牌控管
 
@@ -115,7 +114,7 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 
 **相關資訊**
 
-* [AEM的代理程式功能：品牌控管](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [AEM的代理程式功能：品牌控管](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## 資料深入分析
 
@@ -165,7 +164,7 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 | 實體解析度和連結 | 使用語意和辭彙搜尋來解析對實際Experience Platform實體的實體提及，並探索XDM欄位 | `entity-linking` | Adobe Experience Platform | 「將『節日購物者』解析為實際受眾」 · 「尋找與購買記錄相關的我欄位」 |
 | 管理自訂技能 | 儲存、修改或刪除使用者擁有的可重複使用技能，這些技能會跨工作階段存留 | `manage-skill` | 所有符合資格的應用程式 | 「將工作流程另存為技能」 · 「刪除我的每週報告技能」 · 「將此轉換為可重複使用的技能」 |
 | 監控串流容量和違規情形 | 檢查沙箱間目前和歷史串流使用情況、容量和違規狀態 | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | 「我目前的沙箱中資料流容量是多少？」 · 「我目前的沙箱在上星期是否超過容量限制？」 |
-| [檢視健康情況檢查評估結果](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/run-and-operate/health-checks/overview) | 檢視沙箱的最新健康情況檢查評估、深入研究失敗檢查，並檢視受影響的實體 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | 「我的沙箱有什麼問題？」 · 「告訴我最新的健康情況檢查評估的相關資訊」 · 「自訂名稱空間說明檢查有哪些問題？」 |
+| [檢視健康情況檢查評估結果](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | 檢視沙箱的最新健康情況檢查評估、深入研究失敗檢查，並檢視受影響的實體 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | 「我的沙箱有什麼問題？」 · 「告訴我最新的健康情況檢查評估的相關資訊」 · 「自訂名稱空間說明檢查有哪些問題？」 |
 | 修正健康情況檢查問題 | 在進行任何變更之前，只要您核准，即可直接從聊天中修正標幟的身分名稱空間、合併原則和結構描述問題 | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | 「修正身分名稱空間說明」 · 「修正重複的合併原則名稱」 · 「修正缺少稽核欄位群組的結構描述」 · 「修正預設的合併原則命名」 |
 
 ## 沙箱工具
@@ -173,15 +172,3 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 | 使用案例 | 說明 | 技能 | 應用程式 | 範例提示 |
 | --- | --- | --- | --- | --- |
 | [跨沙箱移動物件](/help/agents/sandbox-tooling.md) | 透過自動解析的相依性，順暢地跨沙箱移轉結構描述、受眾和其他物件設定 | `sandbox-tooling-workflow` | Adobe Experience Platform | 「將方案Luma忠誠會員白金從目前的沙箱移至生產沙箱」· 「將美國金級忠誠會員對象提升至階段」 |
-
-## 客戶警報
-
-| 使用案例 | 說明 | 技能 | 應用程式 | 範例提示 |
-| --- | --- | --- | --- | --- |
-| 管理警報訂閱 | 透過自然語言對話檢視及管理警示訂閱。 | `alerts-subscribe` | Adobe Experience Platform | 「我訂閱了哪些警示？」<br><br>「訂閱此警示給我。」<br><br>「移除此警示的訂閱。」 |
-| 檢閱警示活動 | 檢閱指定期間內的目前警示狀態和歷史警示活動。 | `alerts-list` | Adobe Experience Platform | 「過去24小時內發生了什麼事？」<br><br>「過去24小時內觸發了哪些警示？」<br><br>「顯示過去七天的作用中警示。」 |
-| 識別週期性警報模式 | 分析警示歷史記錄，以識別經常觸發的警示型別和運作趨勢。 | `alerts-list` | Adobe Experience Platform | 「顯示前3個觸發的警示型別。」<br><br>「哪些警示型別本月發生頻率最高？」<br><br>「您在過去七天看到哪些警示模式？」 |
-| 著重於高優先順序的問題 | 依嚴重程度篩選警示活動，以排定調查工作的優先順序。 | `alerts-list` | Adobe Experience Platform | 「僅顯示高嚴重度警示。」<br><br>「本週觸發了哪些嚴重性警示？」<br><br>「顯示過去30天的嚴重性警示。」 |
-| 瞭解警報的影響半徑 | 識別受警示影響最大的物件，並決定應從何處開始調查。 | `alerts-list` | Adobe Experience Platform | 「前5個受影響的物件為何？」<br><br>「哪些物件與最高嚴重性警示相關？」 |
-| 將警示型別連線到受影響的物件 | 分析警示型別與受影響資源之間的關係。 | `alerts-list` | Adobe Experience Platform | 「哪些警報型別最常影響此資料集？」<br><br>「顯示警報型別與受影響物件之間的關係。」<br><br>「哪些警報型別最常影響最受影響的物件？」 |
-| 將焦點放在我的警報上 | 分析您訂閱並負責監督的警示。 | `alerts-list` | Adobe Experience Platform | 「顯示我訂閱的高嚴重度警示。」<br><br>「本週觸發了哪些來自我的警示的警示？」<br><br>「我的任何訂閱警示需要注意嗎？」 |
