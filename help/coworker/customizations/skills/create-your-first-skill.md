@@ -7,7 +7,7 @@ doc-type: Feature Video
 duration: 155
 last-substantial-update: 2026-08-26T00:00:00Z
 jira: KT-22377
-source-git-commit: 638e01d8a9a6f8763e1197348360ffc13be77b4a
+source-git-commit: 25eef0f43755edf478eb7130aba470b43584d6ef
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# 建立您在同事的第一項技能？
+# 建立您在同事中的第一個技能
 
 在本影片中，您將會瞭解零售分析人員如何使用同事和Customer Journey Analytics (CJA)，在緊迫的期限內準備高階主管業務績效簡報。
  

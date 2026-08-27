@@ -4,9 +4,9 @@ description: 瞭解Adobe如何在Adobe CX Enterprise應用程式中，自動將C
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
   - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
-source-git-commit: 02de82fd17bdf3f806ce120b93cbbd85b50f9b8a
+source-git-commit: 4a9ab38cc3aa650dbb90639558d25f6acf707da5
 workflow-type: tm+mt
-source-wordcount: 1539
+source-wordcount: 1714
 ht-degree: 1%
 
 ---
@@ -100,22 +100,24 @@ Adobe提供[檔案](https://helpx.adobe.com/tw/creative-cloud/apps/generative-ai
 
 | 應用程式/解決方案 | 發行說明/指南 |
 |---|---|
-| Adobe Advertising Cloud | |
-| Adobe Experience Manager (AEM) | |
-| 用於內容產生的AI助理（Adobe Journey Optimizer / Adobe Campaign中的功能） | <!--[Documentation] (https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata)--> |
-| Adobe Journey Optimizer B2B edition | <!--[Documentation] (https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/content-credentials)--> |
+| Adobe Advertising Cloud | [文件](https://experienceleague.adobe.com/zh-hant/docs/advertising/creative/creative-studio/creative-studio-content-credentials) |
+| Adobe Experience Manager (AEM) | [文件](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/c2pa-metadata-dynamic-media-openapi) |
+| 用於內容產生的AI助理（Adobe Journey Optimizer / Adobe Campaign中的功能） | [文件](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/generate-content/generative-c2pa-metadata) |
+| Adobe Journey Optimizer B2B Ultimate | [文件](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata) |
+| Adobe Journey Optimizer B2B Prime （亦稱為Adobe Marketo Optimizer） | [文件](https://experienceleague.adobe.com/en/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
 | Adobe Journey Optimizer B2C | |
 | Adobe Campaign | |
-| Adobe Commerce | |
-| GenStudio for Performance Marketing | |
-| Adobe Marketo Engage | |
-| Adobe Workfront | |
-| CX Enterprise Co-worker Campaigns （前身為HALO） | <!--[Documentation](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/generative-c2pa-metadata)--> |
+| Adobe Commerce | [文件](https://experienceleague.adobe.com/zh-hant/docs/commerce/optimizer/manage-results/success-metrics#c2pa-metadata-on-exported-reports) |
+| GenStudio for Performance Marketing | [文件](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/content/content-credentials) |
+| Adobe Marketo Engage | [文件](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/demand-generation/images-and-files/c2pa-metadata) |
+| Adobe Workfront | [文件](https://experienceleague.adobe.com/en/docs/workfront/using/documents/c2pa-metadata-overview) |
+| CX Enterprise Co-worker Campaigns （前身為HALO） | [文件](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/c2pa-metadata) |
 
 ## 相關連結
 
 * [可見浮水印指南](https://helpx.adobe.com/tw/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)
 * [Adobe Inspect](https://contentauthenticity.adobe.com/inspect)
+* [Adobe GenAI標籤合規性計畫概覽](https://helpx.adobe.com/tw/creative-cloud/apps/generative-ai/ai-content-labeling-faq.html)
 
 ## 常見問題
 
