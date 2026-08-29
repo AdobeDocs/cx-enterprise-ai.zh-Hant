@@ -104,13 +104,13 @@ Adobe提供[檔案](https://helpx.adobe.com/tw/creative-cloud/apps/generative-ai
 | Adobe Experience Manager (AEM) | [文件](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/c2pa-metadata-dynamic-media-openapi) |
 | 用於內容產生的AI助理（Adobe Journey Optimizer / Adobe Campaign中的功能） | [文件](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/generate-content/generative-c2pa-metadata) |
 | Adobe Journey Optimizer B2B Ultimate | [文件](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata) |
-| Adobe Journey Optimizer B2B Prime （亦稱為Adobe Marketo Optimizer） | [文件](https://experienceleague.adobe.com/en/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
+| Adobe Journey Optimizer B2B Prime （亦稱為Adobe Marketo Optimizer） | [文件](https://experienceleague.adobe.com/zh-hant/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
 | Adobe Journey Optimizer B2C | |
 | Adobe Campaign | |
 | Adobe Commerce | [文件](https://experienceleague.adobe.com/zh-hant/docs/commerce/optimizer/manage-results/success-metrics#c2pa-metadata-on-exported-reports) |
 | GenStudio for Performance Marketing | [文件](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/content/content-credentials) |
 | Adobe Marketo Engage | [文件](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/demand-generation/images-and-files/c2pa-metadata) |
-| Adobe Workfront | [文件](https://experienceleague.adobe.com/en/docs/workfront/using/documents/c2pa-metadata-overview) |
+| Adobe Workfront | [文件](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/documents/c2pa-metadata-overview) |
 | CX Enterprise Co-worker Campaigns （前身為HALO） | [文件](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/c2pa-metadata) |
 
 ## 相關連結
