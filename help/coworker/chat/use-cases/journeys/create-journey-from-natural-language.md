@@ -26,4 +26,4 @@ ht-degree: 0%
  
 透過自動化初始設定程式，團隊可以花更少的時間從頭開始建立歷程，而花更多時間改善客戶體驗和業務成果。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496885/?captions=chi_hant&learn=on&enablevpops)
