@@ -1,9 +1,11 @@
 ---
 description: 瞭解Adobe CX Enterprise Co-worker Campaigns，這是一種AI原生行銷應用程式，可將單一提示轉換為可供檢閱的行銷活動。
 title: Adobe CX Enterprise Co-worker概述
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 950
 ht-degree: 0%

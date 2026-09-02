@@ -1,10 +1,12 @@
 ---
 description: Co-worker Chat介面的參考指南，涵蓋導覽、輸入方塊、回應、聊天記錄，以及設定技能、MCP伺服器和記憶體。
 title: 同事聊天UI指南
+jira: KT-22106
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-jira: KT-22106
-source-git-commit: 94a546c3b9f89b35b0e34c821ea3f0f8c021fae4
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 1713
 ht-degree: 4%

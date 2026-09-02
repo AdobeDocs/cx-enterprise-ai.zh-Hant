@@ -1,9 +1,11 @@
 ---
 description: 瞭解Adobe CX Enterprise Co-worker Campaigns版本注意事項中的功能增強和修正。
 title: CX Enterprise Co-worker Campaigns發行說明
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 2187
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 Co-worker Campaign版本會在持續傳遞模式上運作，允許以更可縮放、分階段的方法進行功能部署。
 
-## 2026年7月 {#july-2026}
+## 2026 年 7 月 {#july-2026}
 
 **發行日期： 2026年7月23日**
 
