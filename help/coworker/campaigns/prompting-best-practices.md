@@ -1,8 +1,10 @@
 ---
 description: 瞭解同事行銷活動提示最佳實務 — CO-STAR框架、有無、不支援的內容，以及提示的品質檢查清單。
 title: 提示最佳做法
-product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 532

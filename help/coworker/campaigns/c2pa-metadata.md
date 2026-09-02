@@ -1,7 +1,8 @@
 ---
 description: 瞭解同事行銷活動如何從產生到電子郵件傳遞，自動附加並保留影像上的C2PA中繼資料。
 title: 同事行銷活動中的C2PA中繼資料
-product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 387
