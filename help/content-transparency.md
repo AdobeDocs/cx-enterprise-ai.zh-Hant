@@ -4,10 +4,10 @@ description: 瞭解Adobe如何在Adobe CX Enterprise應用程式中，自動將C
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
   - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
-source-git-commit: 4a9ab38cc3aa650dbb90639558d25f6acf707da5
+source-git-commit: 32faffcdcaedc9ae601e601ad92d58b48743af66
 workflow-type: tm+mt
-source-wordcount: 1714
-ht-degree: 1%
+source-wordcount: 1743
+ht-degree: 2%
 
 ---
 
@@ -102,11 +102,11 @@ Adobe提供[檔案](https://helpx.adobe.com/tw/creative-cloud/apps/generative-ai
 |---|---|
 | Adobe Advertising Cloud | [文件](https://experienceleague.adobe.com/zh-hant/docs/advertising/creative/creative-studio/creative-studio-content-credentials) |
 | Adobe Experience Manager (AEM) | [文件](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/c2pa-metadata-dynamic-media-openapi) |
-| 用於內容產生的AI助理（Adobe Journey Optimizer / Adobe Campaign中的功能） | [文件](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/generate-content/generative-c2pa-metadata) |
+| 產生內容（Adobe Journey Optimizer / Adobe Campaign中的功能） | [文件](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/generate-content/c2pa/generative-c2pa-metadata) |
 | Adobe Journey Optimizer B2B Ultimate | [文件](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata) |
 | Adobe Journey Optimizer B2B Prime （亦稱為Adobe Marketo Optimizer） | [文件](https://experienceleague.adobe.com/zh-hant/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
-| Adobe Journey Optimizer B2C | |
-| Adobe Campaign | |
+| Adobe Journey Optimizer B2C | [文件](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/generate-content/c2pa/generative-c2pa-metadata) |
+| Adobe Campaign | [文件](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/content/ai-assistant/c2pa-metadata-email-designer) |
 | Adobe Commerce | [文件](https://experienceleague.adobe.com/zh-hant/docs/commerce/optimizer/manage-results/success-metrics#c2pa-metadata-on-exported-reports) |
 | GenStudio for Performance Marketing | [文件](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/content/content-credentials) |
 | Adobe Marketo Engage | [文件](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/demand-generation/images-and-files/c2pa-metadata) |
