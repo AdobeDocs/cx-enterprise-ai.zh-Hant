@@ -8,9 +8,9 @@ doc-type: Feature Video
 duration: 221
 last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22080
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 84
 ht-degree: 0%
@@ -22,4 +22,4 @@ ht-degree: 0%
 
 稽核您的對象、歷程、資料集和目的地如何連線通常是手動且耗時的練習。 在這段影片中，瞭解同事如何產生您Adobe Experience Platform (AEP)環境的完整營運檢視、根據業界最佳實務進行基準測試，以及如何利用這些發現建立新受眾 — 全都透過單一交談。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496876/?captions=chi_hant&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496848/?learn=on&enablevpops)

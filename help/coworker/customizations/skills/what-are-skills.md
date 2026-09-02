@@ -5,11 +5,12 @@ role: User
 level: Beginner
 doc-type: Feature Video
 duration: 223
-last-substantial-update: 2026-08-26T00:00:00Z
+last-substantial-update: 2026-08-26T00:00:00.000Z
 jira: KT-22377
-source-git-commit: 638e01d8a9a6f8763e1197348360ffc13be77b4a
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: 220
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
  
 在本影片中，您將會瞭解技能如何運作、何時使用，以及它們如何協助團隊擴展可重複的客戶體驗實務。
 
->[!VIDEO](https://video.tv.adobe.com/v/3502332/?captions=chi_hant&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502322/?learn=on&enablevpops)
 
 技能提供：
 
@@ -44,7 +45,6 @@ ht-degree: 0%
 
 技能可協助團隊擷取並重複使用這些最佳實務，而不需每次手動重新說明此流程。
  
-
 ## 技能與資料控管
 
 技能不會儲存客戶資料。

@@ -1,10 +1,10 @@
 ---
 description: Co-worker Chat介面的參考指南，涵蓋導覽、輸入方塊、回應、聊天記錄，以及設定技能、MCP伺服器和記憶體。
 title: 同事聊天UI指南
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 jira: KT-22106
-source-git-commit: 94a546c3b9f89b35b0e34c821ea3f0f8c021fae4
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 1713
 ht-degree: 4%
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 開始使用同事聊天介面。 本指南涵蓋所有內容，從存取應用程式和導覽工作區，到充份運用交談、管理您的歷程記錄，以及量身打造您的設定。
 
->[!VIDEO](https://video.tv.adobe.com/v/3498576?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## 存取同事聊天
 
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->產品內的體驗可透過右上角的同事圖示![同事圖示](./assets/icon-coworker.png)存取。 沈浸式體驗詳細資訊如下[&#128279;](#immersive)。
+>產品內的體驗可透過右上角的同事圖示![同事圖示](./assets/icon-coworker.png)存取。 沈浸式體驗詳細資訊如下[](#immersive)。
 
 下表擷取每個CX Enterprise應用程式何時提供這些體驗。
 

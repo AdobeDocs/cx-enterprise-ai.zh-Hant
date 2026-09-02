@@ -1,9 +1,9 @@
 ---
 title: 透過同事聊天分析Customer Journey Analytics資料
 description: 瞭解如何使用Adobe CX Enterprise Co-worker Chat分析Customer Journey Analytics資料、建立漏斗，以及找出客戶在歷程中的流失點。
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 3210
 ht-degree: 3%
@@ -144,7 +144,7 @@ Co-worker建立視覺效果後，您可以在Analysis Workspace中開啟該視�
 
 若要在新的Analysis Workspace專案中開啟視覺效果：
 
-1. 選取「在CJA中分析&#x200B;**」（位於在Co-worker中建立的任何視覺效果旁）。**
+1. 選取「在CJA中分析&#x200B;**]」（位於在Co-worker中建立的任何視覺效果旁）。[!UICONTROL **
 
 1. 在Customer Journey Analytics中開啟視覺效果後，您可以使用Analysis Workspace拖放瀏覽器介面進行修改、進一步製作分析、建立對象等。 您甚至可以和您選擇的任何人共用您的Workspace專案。
 
@@ -435,11 +435,11 @@ Co-worker建立視覺效果後，您可以在Analysis Workspace中開啟該視�
 | --- | --- | --- | --- | --- | --- |
 | 桌面 | 70,172 | 44.9% | 54.8% | 23.2% | 5.70% |
 | 平板電腦 | 13,855 | 44.7% | 55.6% | 14.3% | 3.56% |
-| 行動 | 53,449 | 44.9% | 55.3% | 8.1% | 2.02% |
+| Mobile | 53,449 | 44.9% | 55.3% | 8.1% | 2.02% |
 
 **確鑿證據**
 
-| 量度 | 桌面 | 行動 | 間隙 |
+| 量度 | 桌面 | Mobile | 間隙 |
 | --- | --- | --- | --- |
 | 購物車到購買率 | 23.2% | 8.1% | 15個百分點 |
 | 行動裝置是 | — | 差2.8倍 | — |
