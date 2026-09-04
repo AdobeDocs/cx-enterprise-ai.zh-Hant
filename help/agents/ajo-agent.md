@@ -53,7 +53,7 @@ Journey Agent包含四個主要待完成的工作：
 - **頻道內容建立**：產生、編輯和管理使用AI支援的內容產生之歷程的頻道特定內容（電子郵件、推播、簡訊）
 - **歷程分析**：分析歷程、偵測問題、發掘見解並最佳化客戶參與
 
-此外，**歷程模擬**&#x200B;是Journey Optimizer功能，包含[歷程模擬](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)，一種產品內的非對話式AI功能，具有三個子功能：
+此外，**歷程模擬**&#x200B;是Journey Optimizer功能，包含[歷程模擬](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)，一種產品內的非對話式AI功能，具有三個子功能：
 
 - 產生模擬使用者
 - 產生事件值
@@ -283,7 +283,7 @@ Journey Create支援下列功能：
 
 Journey Agent可讓Journey Optimizer使用者使用自然語言介面來分析和最佳化歷程。 透過Journey Agent，從業人員可以快速識別並解決排程和/或對象衝突、偵測歷程中的使用者放棄點，並提供見解或建議。 此代理讓從業人員能夠做出資料驅動的決策、提高客戶參與度，及簡化歷程協調流程。
 
-在此[總覽](https://experienceleague.adobe.com/en/slides/journey-agent-overview)中瞭解更多資訊，並探索代理程式。
+在此[總覽](https://experienceleague.adobe.com/zh-hant/slides/journey-agent-overview)中瞭解更多資訊，並探索代理程式。
 
 >[!AVAILABILITY]
 >
@@ -503,4 +503,4 @@ Journey Simulate提供三項功能，可於上線前用來縮短測試時間及�
 
 模擬可能不會支援測試模式或即時歷程支援的每個活動、管道或整合，而且行為可能會隨著功能成熟而改變。
 
-➡️在Journey Optimizer檔案中進一步瞭解[模擬限制](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations)。
+➡️在Journey Optimizer檔案中進一步瞭解[模擬限制](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations)。
