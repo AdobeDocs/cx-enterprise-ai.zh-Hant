@@ -6,10 +6,10 @@ description: 瞭解CX企業中的AI工具。 在CX Enterprise中使用AI來改�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: ccdef71b4130a87032e0ba0e7b3bde3bd40614f1
+source-git-commit: 526483ff41384d0e3c297b33385f8303636bf4a5
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 19%
+source-wordcount: '311'
+ht-degree: 18%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 19%
     - [Journey Optimizer工具](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - [Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [關於同事](./coworker/overview.md)
   - 行銷活動 {#campaigns}
@@ -74,6 +74,7 @@ ht-degree: 19%
     - 技能 {#skills}
       - [什麼是技能？](./coworker/customizations/skills/what-are-skills.md)
       - [建立您的第一項技能](./coworker/customizations/skills/create-your-first-skill.md)
+      - [建立及執行品質門技能](./coworker/customizations/skills/run-a-quality-gate-skill.md)
   - 聊天 {#chat}
     - [概觀](./coworker/chat/overview.md)
     - [UI指南](./coworker/chat/ui-guide.md)
