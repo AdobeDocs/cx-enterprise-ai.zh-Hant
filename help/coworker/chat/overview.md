@@ -1,8 +1,10 @@
 ---
 description: 瞭解Co-worker Chat如何使用對話式介面，在幾分鐘內規劃、執行和完成跨Adobe和連線系統的客戶體驗工作。
 title: Adobe CX Enterprise同事聊天總覽
-product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: 5c430cb5e63575da34a51f39fe871988e4c873d0
 workflow-type: tm+mt
 source-wordcount: 739
