@@ -6,10 +6,10 @@ product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 73f2a00a3438903f72cddb35c3a5c47196b5821a
+source-git-commit: 5c430cb5e63575da34a51f39fe871988e4c873d0
 workflow-type: tm+mt
-source-wordcount: 1713
-ht-degree: 3%
+source-wordcount: 1719
+ht-degree: 4%
 
 ---
 
@@ -36,7 +36,8 @@ ht-degree: 3%
 | CJA | 現在可用 | 即將推出 |
 | Workfront | 現在可用 | 即將推出：<br><br>* 2026年9月初在預覽執行個體中，針對符合資格的Workfront系統管理員<br><br>* 2026年9月中旬在生產執行個體中，針對符合資格的快速發行Workfront客戶<br><br>* 2026年10月中旬在生產執行個體中，針對符合資格的Workfront季度發行客戶 |
 | 目標 | 現在可用 | 現在可用 |
-| AEM | 2026年9月 | 即將推出 |
+| AEM | 現在可用 | 即將推出 |
+| Marketo Engage | 現在可用 | 即將推出 |
 
 ### 沈浸式體驗 {#immersive}
 
