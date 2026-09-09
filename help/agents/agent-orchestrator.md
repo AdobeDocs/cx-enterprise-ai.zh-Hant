@@ -2,21 +2,10 @@
 title: Adobe Experience Platform Agent Orchestrator
 description: 了解 Adobe Experience Platform Agent Orchestrator。
 TQID: https://experienceleague.adobe.com/xv7K7636d65K0V8R1EG97xnZpZAjnNhfF7JgqQz1aoY
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 956
 ht-degree: 19%
@@ -41,7 +30,7 @@ Agent Orchestrator由數個關鍵元件組成，包括AI Assistant對話介面�
 
 ### AI 助理對話式介面 {#ai-assistant}
 
-AI Assistant是一種智慧型自然語言對話體驗，可讓使用已啟用的CX Enterprise應用程式的從業人員運用GenAI和Agentic AI功能，其廣度取決於客戶授權的CX Enterprise應用程式。 若要解除鎖定存取權，請閱讀[存取AI助理的指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/access)。
+AI Assistant是一種智慧型自然語言對話體驗，可讓使用已啟用的CX Enterprise應用程式的從業人員運用GenAI和Agentic AI功能，其廣度取決於客戶授權的CX Enterprise應用程式。 若要解除鎖定存取權，請閱讀[存取AI助理的指南](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access)。
 
 如需詳細資訊，請閱讀 [AI 助理使用者介面指南](../ai-assistant/ai-assistant-ui.md)。
 
@@ -53,7 +42,7 @@ AI Assistant是一種智慧型自然語言對話體驗，可讓使用已啟用�
 
 Adobe Experience Platform代理是專門建置的AI代理程式群組，擅長於跨客戶體驗網域提供常見工作。 以下是CX Enterprise應用程式中目前可用的Adobe Experience Platform Agent清單：
 
-| 代理程式 | 詳細資料 | 支援的應用程式 |
+| AI 代理 | 詳細資料 | 支援的應用程式 |
 | --- | --- | --- |
 | [Audience Agent](audience.md) | Audience Agent可讓您檢視對象的相關深入分析，包括偵測對象人數的重大變更、偵測重複的對象、探索您的對象詳細目錄，以及擷取對象人數。 | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> |
 | [Data Insights Agent](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Data Insights Agent可透過Customer Journey Analytics中的AI助理存取，是具創造性的AI交談代理程式，可快速並有效率地回答有關您資料的問題。 此代理會使用來自您資料視圖的元件以及您的實際資料，在 Analysis Workspace 中建置相關的視覺效果。 | Customer Journey Analytics |
@@ -71,7 +60,7 @@ Adobe Experience Platform代理是專門建置的AI代理程式群組，擅長�
 
 Agent Orchestrator生態系統包含下列代理程式：
 
-| 代理程式 | 詳細資料 |
+| AI 代理 | 詳細資料 |
 | --- | --- |
 | [Adobe Marketing Agent for Microsoft 365 Copilot](ama-ms.md) | 使用適用於[!DNL Microsoft 365 Copilot]的Adobe Marketing Agent，在[!DNL Teams]、[!DNL Word]、[!DNL Powerpoint]和[!DNL Excel]等[!DNL Microsoft 365]個應用程式中擷取Experience Platform的行銷深入分析。 使用此代理程式，您可以： <ul><li>做出更快、資料導向的行銷決策。</li><li>減少在工具之間切換所花費的時間。</li><li>簡化存取跨團隊的對象和歷程深入分析。</li></ul> |
 
@@ -81,7 +70,7 @@ Agent Orchestrator生態系統包含下列代理程式：
 
 * **Adobe Experience Manager**：您的管理員必須透過[Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)授與您存取AI小幫手的許可權。
 
-* **Customer Journey Analytics**：您的管理員必須透過[Customer Journey Analytics存取控制](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/technotes/access-control)授與您存取AI小幫手的許可權。 這可讓您詢問產品知識和資料見解問題。
+* **Customer Journey Analytics**：您的管理員必須透過[Customer Journey Analytics存取控制](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)授與您存取AI小幫手的許可權。 這可讓您詢問產品知識和資料見解問題。
 
 >[!NOTE]
 >
