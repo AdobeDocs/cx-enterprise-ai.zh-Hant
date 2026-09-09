@@ -41,7 +41,7 @@ Agent Orchestrator由數個關鍵元件組成，包括AI Assistant對話介面�
 
 ### AI 助理對話式介面 {#ai-assistant}
 
-AI Assistant是一種智慧型自然語言對話體驗，可讓使用已啟用的CX Enterprise應用程式的從業人員運用GenAI和Agentic AI功能，其廣度取決於客戶授權的CX Enterprise應用程式。 若要解除鎖定存取權，請閱讀[存取AI助理的指南](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access)。
+AI Assistant是一種智慧型自然語言對話體驗，可讓使用已啟用的CX Enterprise應用程式的從業人員運用GenAI和Agentic AI功能，其廣度取決於客戶授權的CX Enterprise應用程式。 若要解除鎖定存取權，請閱讀[存取AI助理的指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/access)。
 
 如需詳細資訊，請閱讀 [AI 助理使用者介面指南](../ai-assistant/ai-assistant-ui.md)。
 
@@ -81,7 +81,7 @@ Agent Orchestrator生態系統包含下列代理程式：
 
 * **Adobe Experience Manager**：您的管理員必須透過[Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)授與您存取AI小幫手的許可權。
 
-* **Customer Journey Analytics**：您的管理員必須透過[Customer Journey Analytics存取控制](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)授與您存取AI小幫手的許可權。 這可讓您詢問產品知識和資料見解問題。
+* **Customer Journey Analytics**：您的管理員必須透過[Customer Journey Analytics存取控制](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/technotes/access-control)授與您存取AI小幫手的許可權。 這可讓您詢問產品知識和資料見解問題。
 
 >[!NOTE]
 >
