@@ -1,30 +1,20 @@
 ---
 title: CX Enterprise 應用程式中的 AI
-description: 瞭解CX Enterprise應用程式如何使用generative AI (GenAI)、AI Assistant、agentic AI、CX Enterprise Co-worker和MCP工具。
+description: 瞭解CX Enterprise應用程式如何使用generative AI (GenAI)、CX Enterprise Co-worker、AI Assistant、agentic AI和MCP工具。
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: c0a72630b0db1cbdf3191012ebb5a2911ddb9fe7
 workflow-type: tm+mt
-source-wordcount: 969
+source-wordcount: 971
 ht-degree: 3%
 
 ---
 
 # CX Enterprise 中的 AI
 
-本指南涵蓋Adobe CX Enterprise中的AI功能：generative AI、AI Assistant、Agent Orchestrator、Experience Platform Agents、CX Enterprise Co-worker和MCP。
+本指南涵蓋Adobe CX Enterprise中的AI功能：generative AI、CX Enterprise Co-worker、AI Assistant、Agent Orchestrator、Experience Platform Agents和MCP。
 
 ## AI功能概觀
 
@@ -36,6 +26,20 @@ ht-degree: 3%
 - [AI積分耗用量](./overview/ai-credit-consumption.md)說明代理程式工作如何耗用AI積分，以及依代理程式和工作型別的預估耗用率。
 - [產生式AI內容透明度](./content-transparency.md)說明Adobe如何在CX Enterprise應用程式中，自動將C2PA中繼資料附加至GenAI產生和GenAI編輯的內容。
 - [CX Enterprise代理程式工具](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-agentic-tools/using/overview)涵蓋擴充CX Enterprise代理程式的其他代理程式技能和工具（影片教學課程）。
+
+## CX Enterprise Coworker
+
+Co-worker是AI Assistant的代理程式優先演化，可自動化客戶體驗和行銷工作流程，讓您的團隊可專注於業務目標而非例行執行。 您描述的目標不是一次詢問一個問題。 同事計畫、執行、驗證及傳回已完成的工作以供您核准。 同事包括：
+
+- **[同事聊天](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**：探索資料、驗證對象和歷程以及完成CX Enterprise應用程式的多步驟工作的對話式介面。
+- **[同事行銷活動](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**：AI原生應用程式，將行銷活動簡報、對象建立、內容產生、歷程設計和校訂整合為單一對話體驗。 它使用內建範本、最佳實務和提示性指引，協助小型敏捷團隊快速啟動行銷活動。
+- **同事專案** （即將推出）：統一的工作區可自動化端對端客戶體驗協調工作流程，協助團隊協調工作、核准及執行，以推動策略到傳遞的結果。 專案的檔案即將推出。
+
+符合資格的客戶正逐步從AI助理和Experience Platform代理程式轉換為同事聊天。 閱讀[同事試用版](./agents/trial.md)，了解試用資格、AI信用使用情況，以及如何取得存取權。
+
+若要檢視同事聊天正在執行中，請逐步瀏覽[Playground中的同事聊天](./coworker/playground-coworker-chat.md)，或閱讀真實使用案例，例如[驗證AA到CJA的移轉資料](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)和[分析CJA資料](./coworker/chat/use-cases/data-insights/analytics-chat.md)。
+
+如需有關同事聊天、行銷活動和專案的完整產品檔案，請參閱[同事](./coworker/overview.md)。 如需沙箱到沙箱物件復寫，請參閱[沙箱工具代理程式技能](./agents/sandbox-tooling.md)。
 
 ## AI 助理
 
@@ -61,20 +65,6 @@ ht-degree: 3%
 
 如需代理程式、每個支援的應用程式以及資格要求的完整清單，請參閱[CX Enterprise中的Agentic AI](./overview/agentic-ai.md)。
 
-## Coworker
-
-Co-worker是AI Assistant的代理程式優先演化，可自動化客戶體驗和行銷工作流程，讓您的團隊可專注於業務目標而非例行執行。 您描述的目標不是一次詢問一個問題。 同事計畫、執行、驗證及傳回已完成的工作以供您核准。 同事包括：
-
-- **[同事聊天](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**：探索資料、驗證對象和歷程以及完成CX Enterprise應用程式的多步驟工作的對話式介面。
-- **[同事行銷活動](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**：AI原生應用程式，將行銷活動簡報、對象建立、內容產生、歷程設計和校訂整合為單一對話體驗。 它使用內建範本、最佳實務和提示性指引，協助小型敏捷團隊快速啟動行銷活動。
-- **同事專案** （即將推出）：統一的工作區可自動化端對端客戶體驗協調工作流程，協助團隊協調工作、核准及執行，以推動策略到傳遞的結果。 專案的檔案即將推出。
-
-符合資格的客戶正逐步從AI助理和Experience Platform代理程式轉換為同事聊天。 閱讀[同事試用版](./agents/trial.md)，了解試用資格、AI信用使用情況，以及如何取得存取權。
-
-若要檢視同事聊天正在執行中，請逐步瀏覽[Playground中的同事聊天](./coworker/playground-coworker-chat.md)，或閱讀真實使用案例，例如[驗證AA到CJA的移轉資料](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)和[分析CJA資料](./coworker/chat/use-cases/data-insights/analytics-chat.md)。
-
-如需有關同事聊天、行銷活動和專案的完整產品檔案，請參閱[同事](./coworker/overview.md)。 如需沙箱到沙箱物件復寫，請參閱[沙箱工具代理程式技能](./agents/sandbox-tooling.md)。
-
 ## MCP
 
 [Adobe CX Co-worker閘道](./mcp/overview.md)是CX Enterprise的統一模型內容通訊協定(MCP)端點。 它提供與MCP相容的使用者端，例如[!DNL Claude]、[!DNL ChatGPT]和[!DNL Cursor]，與貴組織有權使用的產品工具進行單一控管連線：
@@ -84,7 +74,7 @@ Co-worker是AI Assistant的代理程式優先演化，可自動化客戶體驗�
 - [Journey Optimizer工具](./mcp/ajo-mcp.md)
 - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
 - [Adobe Analytics工具](./mcp/analytics-mcp.md)
-- [!DNL Workfront]工具，記錄在[Workfront MCP伺服器指南](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)中
+- [!DNL Workfront]工具，記錄在[Workfront MCP伺服器指南](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)中
 
 剛開始使用CX Co-worker Gateway嗎？ 請參閱[存取CX Co-worker Gateway工具](./mcp/access.md)和[安裝CX Co-worker Gateway](./mcp/install.md)以連線。 連線之後，在呼叫產品工具之前，請使用[工作階段內容工具](./mcp/context-tools.md)來設定作用中的組織、沙箱和資料檢視。
 
