@@ -7,11 +7,9 @@ doc-type: Feature Video
 duration: 147
 last-substantial-update: 2026-09-01T00:00:00.000Z
 jira: KT-22502
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
 workflow-type: tm+mt
 source-wordcount: 135
 ht-degree: 0%
@@ -27,4 +25,4 @@ Co-worker可簡化為社群媒體和其他頻道建立品牌資產的程式。 �
 
 Co-worker還提供進一步自訂的彈性。 您可以修改資產、建立變數或調整內容以符合不同的格式，例如Instagram內文。 此方法可讓您專注於目標，而由同事管理技術細節。
 
->[!VIDEO](https://video.tv.adobe.com/v/3502720/?captions=chi_hant&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502692/?learn=on&enablevpops)

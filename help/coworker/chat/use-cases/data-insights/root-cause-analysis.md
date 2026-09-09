@@ -8,11 +8,9 @@ doc-type: Feature Video
 duration: 186
 last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22082
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
 workflow-type: tm+mt
 source-wordcount: 106
 ht-degree: 0%
@@ -26,4 +24,4 @@ ht-degree: 0%
  
 使用自然語言，分析師和行銷人員可以詢問有關其資料的問題、接收視覺化結果、找出有意義的趨勢，並找出驅動效能的因素，所有這些都可以透過單一對話進行。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496861/?captions=chi_hant&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496847/?learn=on&enablevpops)
