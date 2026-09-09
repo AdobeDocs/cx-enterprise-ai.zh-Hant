@@ -5,9 +5,9 @@ product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 83cd3d9dcc9ae0c56e8d63e995b166e8ff0736d9
+source-git-commit: b7fb10d084209e0a34023d09f568bcbfaa314705
 workflow-type: tm+mt
-source-wordcount: 4260
+source-wordcount: 4624
 ht-degree: 6%
 
 ---
@@ -149,6 +149,43 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 | 分析自訂動作錯誤 | 識別歷程中自訂動作失敗或錯誤率飆升的時間，並在失敗升級為更廣泛的中斷之前診斷根本原因 | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | 「為什麼自訂動作會在我的熟客註冊歷程中失敗？」 <br> 「在我的歡迎歷程中，顯示自訂動作ExternalPush的錯誤率。」 |
 | [建立、編輯和管理忠誠度挑戰](journeys/create-loyalty-challenge.md) | 簡化並加速熟客方案管理 | `loyalty` | Adobe Journey Optimizer (AJO) | 「建立挑戰，鼓勵會員嘗試新的季節性飲品」 <br> 「以最高的會員流失率向我展示忠誠度挑戰。」 |
 
+## 最佳化
+
+使用「同事聊天」來瀏覽、分析和規劃實驗，以及建立、執行和疑難排解Adobe Target活動、對象和建議。
+
+### 實驗分析和策略
+
+| 使用案例 | 說明 | 技能 | 應用程式 | 範例提示 |
+| --- | --- | --- | --- | --- |
+| 瀏覽和探索實驗 | 查詢實驗概述、清單、計數、原始結果、見解和機會 | `experiment-explorer` | Experimentation Accelerator | 「顯示我的實驗」 · 「列出作用中測試」 · 「正在執行多少個實驗？」 |
+| 分析實驗效能 | 使用量度取得產品組合細目、單一實驗健康狀態檢查、執行摘要和跨實驗報告，可選擇使用CJA資料豐富這些內容 | `experiment-analysis` | Experimentation Accelerator | 「我的A/B測試表現如何？」 · 「使用CJA量度產生活動報表」 · 「此測試是否正常？」 |
+| 計畫和設計實驗 | 取得要執行的影響最高的下一個測試、命名主題的設計、目標對量度轉換、失敗測試的復原指引，或循序多實驗藍圖 | `experiment-strategist` | Experimentation Accelerator | 「接下來應該測試哪些專案？」 · 「協助我設計實驗以改進結帳轉換」 · 「為第三季建立測試藍圖」 |
+| 搜尋實驗歷史記錄 | 從過去的實驗中擷取假設、學習、結果和處理、依主題尋找先前的實驗，或擷取外部CSV以豐富結果 | `experiment-knowledge-base` | Experimentation Accelerator | 「實驗X有什麼改變？」 · 「我們以前測試過這個假設嗎？」 · 「擷取此CSV」 |
+
+### Target活動和對象
+
+| 使用案例 | 說明 | 技能 | 應用程式 | 範例提示 |
+| --- | --- | --- | --- | --- |
+| 瀏覽目標實體 | 探索、檢查及計算活動、選件、對象、mbox、屬性、工作區、AT.js設定、回應Token和修訂歷史記錄。 也可以擷取活動強制體驗的熒幕擷圖 | `target-browse` | Adobe Target | 「列出我的A/B測試」 · 「本月啟動多少活動？」 · 「顯示活動12345的詳細資訊」 |
+| 分析活動績效 | 取得單一活動的轉換率、提升度、信賴區間、收入和曝光計數。 僅陳述事實，且永遠不會宣告獲勝者 | `target-analyze` | Adobe Target | 「活動X表現如何？」 · 「顯示轉換提升度」 · 「什麼是結帳測試的AOV？」 |
+| 送貨或停止判決 | 取得活動的SHIP、WAIT、STOP或FIX建議，計算方式為原始計數的兩倍重要性加上設定缺陷檢查 | `target-activity-verdict` | Adobe Target | 「我是否應該送出這項測試？」 · 「哪個變體贏？」 · 「這重要嗎？」 |
+| 建立及設定活動 | 建立、更新及設定活動、選件和回應Token，產生QA預覽URL，以及製作或最佳化選件內容 | `target-design` | Adobe Target | &quot;建立首頁的A/B測試&quot; · &quot;更新流量分割&quot; · &quot;最佳化此選件的JS&quot; |
+| 建立視覺化體驗撰寫器活動 | 建立和編輯視覺化體驗撰寫器(VEC)活動，針對即時頁面URL以及涵蓋變體的頁面傳送對象，以DOM修改形式創作變體 | `target-vec` | Adobe Target | &quot;建立首頁的VEC A/B測試&quot; · &quot;變更視覺化編輯器中的主圖示題&quot; |
+| 從頭開始設定完整測試 | 取得適用於A/B、XT和VEC測試的引導式端對端活動建立，涵蓋需求收集、先決條件、建立、排程和優先順序、QA連結，以及選用的啟用 | `target-setup` | Adobe Target | 「逐步引導我設定完整的A/B測試」 · 「我是Target的新手，請協助我建立第一個測試」 |
+| 稽核方案健康狀況 | 取得整個方案的健康稽核，涵蓋風險和碰撞偵測、設定錯誤發現、對象和選件衛生，以及快速贏取建議 | `target-intelligence` | Adobe Target | 「稽核我的Target活動」 · 「尋找有風險或設定錯誤的測試」 · 「應清理哪些專案？」 |
+| 尋找成功模式 | 請探究Target成功模式、有效策略及高績效對象或內容的相關歷史記錄，然後以您自己的資料為基礎，獲得後續測試內容的建議 | `target-strategist` | Adobe Target | 「什麼適合我們？」 · 「顯示我的成功模式」 · 「接下來應該根據過去的結果進行哪些測試？」 |
+| 計算樣本大小和持續時間 | 規劃A/B/n範例大小、測試持續時間，以及轉換率和每位訪客收入量度的可偵測提升度（含Bonferroni校正） | `target-test-calculator` | Adobe Target | 「我的A/B測試該執行多久？」 · 「我需要多少樣本量？」 · 「我的測試是否已提供支援？」 |
+| 取得方案層級的效能彙總 | 取得概觀面板、最近推出的表格，以及所有活動的彙總贏/虧/提升度人口普查，加上單一活動趨勢和動量顯示 | `target-portfolio-report` | Adobe Target | 「給我一次Target計畫的健康情況檢查」 · 「哪些是我的最好和最差的測試？」 · 「活動X是否趨向於獲勝？」 |
+| 從自然語言建立對象 | 從自然語言說明、明確規則條件，或內嵌或上傳的值清單中建立或編輯Target原生對象。 將請求對應至規則文法，並在寫入之前驗證規則樹狀結構 | `target-audience-composer` | Adobe Target | 「建立來自加州回訪訪客的受眾」 · 「從這些郵遞區號建立受眾」 · 「縮小受眾X至回訪訪客」 |
+
+### 推薦
+
+| 使用案例 | 說明 | 技能 | 應用程式 | 範例提示 |
+| --- | --- | --- | --- | --- |
+| 瀏覽Recommendations實體 | 瀏覽並檢查Recommendations條件、集合、設計、促銷活動、排除專案、目錄和摘要，以及取得清理建議和目錄屬性指引 | `target-recs` | Adobe Target | 「列出我的Recommendations條件」 · 「我有哪些設計？」 · 「我們可以清理哪些記錄？」 |
+| 診斷Recommendations問題 | 追蹤活動、條件、摘要、集合和設計鏈結，以說明Recommendations為何空白、過時或無法顯示 | `target-recs-diagnose` | Adobe Target | 「我的建議為何空白？」 · 「為什麼我的Recs活動在48小時內一直是『結果未就緒』？」 |
+| 作者建議 | 建立和更新Recommendations條件、集合、設計、排除、促銷活動、摘要和推薦活動，包括一次橫跨多個活動的閘道大量作業 | `target-recs-design` | Adobe Target | 「建立『檢視次數最多』的條件」·「建立50美元以下庫存產品的集合」·「對所有銷售活動套用黑色星期五日期」 |
+
 ## 基本元素
 
 | 使用案例 | 說明 | 技能 | 應用程式 | 範例提示 |
@@ -193,19 +230,3 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 | 表面工作見解 | 提出探索性問題以尋找跨專案的風險工作、未指派任務、未完成問題和狀態 | `query-workfront` | Workfront工作流程 | 「在目前專案中尋找未指派給任何人員且本週到期的未完成任務」<br>「目前專案中有多少個未完成的問題？」 |
 | 專案與任務摘要 | 提取專案、任務、問題和指派的清單、表格和計數 | `query-workfront` | Workfront工作流程 | 「以專案名稱、任務到期日和指派的使用者顯示已準備開始的任務的表格」 <br> 「取得指派給[使用者名稱]的所有任務」 |
 | 追蹤核准和投資組合狀態 | 檢查您的核准狀態，並按投資組合彙總未完成的工作 | `query-workfront` | Workfront工作流程 | 「顯示我的核准狀態」 <br>「顯示包含不完整問題的表格，這些問題屬於[Portfolio名稱]投資組合的一部分」 |
-
-## 實驗與最佳化
-
-| 網域 | 使用案例 | 說明 | 技能 | 應用程式 | 範例提示 |
-| --- | --- | --- | --- | --- | --- |
-| **實驗與最佳化** | 瀏覽及尋找目標實體 | 探索、檢查、搜尋並列出Target實體：活動（A/B、XT、AP、自動分配、MVT）、受眾和選件。 從這裡開始探索。 | `target-browse` | Adobe Target | 「顯示我所有作用中的A/B活動」<br>「我有哪些對象？」<br>「尋找活動\&lt;名稱或ID>」 |
-| **實驗與最佳化、對象分析、內容效能智慧** | 活動績效報表 | 所有活動型別（包括Recommendations）的效能和訂單報表：轉換提升度、收入和訂單。 | `target-analyze` | Adobe Target | 「活動\&lt;名稱/ID>表現如何？」<br>「為我顯示\&lt;活動>」<br>「哪些活動吸引上個月最多的訂單？」的轉換提升度和收入 |
-| **實驗與最佳化、對象管理** | 製作活動、選件和對象 | 編寫及設定活動、選件（HTML/JSON/重新導向）、對象和回應Token。 核心撰寫技能。 | `target-design` | Adobe Target | &quot;建立以\&lt;audience>&quot;<br>&quot;為\&lt;use case>&quot;<br>&quot;新增\&lt;attribute>的回應Token&quot;的A/B活動 |
-| **實驗與最佳化，內容建立** | 建立視覺化(WYSIWYG)活動 | 視覺化體驗撰寫器製作：使用CSS選取器修改功能，針對即時頁面URL建立及編輯視覺A/B和XT活動。 | `target-vec` | Adobe Target | 「在\&lt;頁面URL>&quot;<br>&quot;上建立視覺化A/B測試\&lt;頁面URL>上變更主圖示題為\&lt;文字>&quot;<br>&quot;在\&lt;頁面URL>上設定包含視覺化編輯的XT活動&quot; |
-| **實驗與最佳化** | 瀏覽並檢查建議 | 以唯讀方式瀏覽和檢查條件、集合、設計、促銷活動、排除專案、目錄和摘要；包括清理建議和目錄屬性智慧。 | `target-recs` | Adobe Target | 「顯示我的Recommendations條件和集合」<br>「檢查\&lt;recs活動>的設計」<br>「檢閱我的目錄摘要和排除專案」 |
-| **實驗與最佳化** | 疑難排解Recommendations | 唯讀疑難排解記錄問題，例如「結果未就緒」、空白結果和失敗記錄。 | `target-recs-diagnose` | Adobe Target | 「為什麼我的建議結果尚未就緒？」<br>「我的建議傳回空白，發生什麼問題？」<br>「診斷為什麼\&lt;recs活動>失敗」 |
-| **實驗與最佳化** | 編寫和自動化建議 | Recs製作：建立、更新和刪除條件、集合、設計、排除、促銷活動和摘要；建立Recs活動；以及許多活動的批次/自動化。 | `target-recs-design` | Adobe Target | 「建立『最近檢視的』條件」<br>「使用\&lt;條件>」<br>「在我的所有Recs活動中大量更新設計」來建置Recommendations活動 |
-| **實驗與最佳化** | 瀏覽和查詢實驗 | 跨實驗的一般瀏覽和查詢：清單、檢視，以及提取結果和深入分析。 | `experiment-explorer` | Experimentation Accelerator | 「顯示我的實驗」<br>「列出作用中的實驗」<br>「顯示\&lt;experiment>「<br>」有什麼深入分析？」 |
-| **實驗與最佳化、對象分析、內容效能智慧** | 分析和決定實驗 | 各種實驗的引導式綜合和決策支援：健康情況檢查、出貨決策和執行摘要。 | `experiment-analysis` | Experimentation Accelerator | 「我的實驗進行得如何？」<br>「我是否應該出貨\&lt;experiment>？」<br>「我的實驗是否健康？」<br>「撰寫實驗的執行摘要」 |
-| **實驗與最佳化** | 設計與規劃實驗 | 前瞻性的實驗設計與規劃：接下來要測試什麼、如何設計測試，以及如何建置藍圖。 | `experiment-strategist` | Experimentation Accelerator | 「我接下來應該測試什麼？」<br>「協助我設計\&lt;目標>」<br>「我的實驗失敗，接下來呢？」<br>「建置測試藍圖」 |
-| **實驗與最佳化；客戶與帳戶歷程智慧** | 搜尋知識並擷取資料 | 擷取和搜尋實驗內容知識，或擷取外部CSV資料進行分析。 | `experiment-knowledge-base` | Experimentation Accelerator | 「我們對於實驗\&lt;name>？瞭解多少？」<br>「我們以前測試過這個假設嗎？」<br>「上傳CSV並分析此檔案」 |
