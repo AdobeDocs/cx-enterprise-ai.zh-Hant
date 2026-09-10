@@ -11,7 +11,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a8f0706b7c37fd87115a9af0ca646b84dcfe890b
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 365
 ht-degree: 100%
@@ -35,33 +35,33 @@ TQID: https://experienceleague.adobe.com/SKcxvhwgLhbCjQ%2D%2D%2DMdK7JzOKF4EzJra3
 即時回應由專家組織的檔案所提供的常見支援問題，例如：
 
 * 由Adobe支援團隊組織的&#x200B;**知識文章**。
-   * 範例問題：
-      * 「為什麼我的設定檔計數在授權使用儀表板和Experience Platform首頁上會不同？」
-      * 「歷程未觸發的原因是什麼？」
+  * 範例問題：
+    * 「為什麼我的設定檔計數在授權使用儀表板和Experience Platform首頁上會不同？」
+    * 「歷程未觸發的原因是什麼？」
 * **產品教學課程**，提供自我引導式學習與技能培養。
-   * 範例問題：
-      * 「Adobe Experience Platform如何建立即時體驗？」
-      * 「如何在Adobe Experience Platform中設定和使用警報？」
+  * 範例問題：
+    * 「Adobe Experience Platform如何建立即時體驗？」
+    * 「如何在Adobe Experience Platform中設定和使用警報？」
 * **產品法律檔案**，提供精確且以授權為導向的資訊。
-   * 範例問題：
-      * 「在Adobe Experience Platform Activation中批次分段作業的限制是多少？」
-      * 「Adobe Experience Platform啟用的平均設定檔豐富度限制是多少？」
+  * 範例問題：
+    * 「在Adobe Experience Platform Activation中批次分段作業的限制是多少？」
+    * 「Adobe Experience Platform啟用的平均設定檔豐富度限制是多少？」
 
 ## 支援案例建立 {#support-case-creation}
 
 直接從產品支援代理程式啟動支援案例，這會自動擷取情境式深入分析，以加快案例解決速度。
 
 * 範例問題：
-   * 「建立支援票證。」
-   * 「你能幫我建立支援票證嗎？」
+  * 「建立支援票證。」
+  * 「你能幫我建立支援票證嗎？」
 
 ## 追蹤案例進度 {#track-case-progress}
 
 順暢地追蹤支援問題的狀態。
 
 * 範例問題和命令：
-   * 「我的E-12345最新情況如何？」
-   * 「票證E-67890有什麼更新？」
+  * 「我的E-12345最新情況如何？」
+  * 「票證E-67890有什麼更新？」
 
 ## 存取產品支援代理
 

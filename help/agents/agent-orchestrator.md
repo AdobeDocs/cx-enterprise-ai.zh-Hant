@@ -16,7 +16,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 956
 ht-degree: 19%
@@ -53,7 +53,7 @@ AI Assistant是一種智慧型自然語言對話體驗，可讓使用已啟用�
 
 Adobe Experience Platform代理是專門建置的AI代理程式群組，擅長於跨客戶體驗網域提供常見工作。 以下是CX Enterprise應用程式中目前可用的Adobe Experience Platform Agent清單：
 
-| 代理程式 | 詳細資料 | 支援的應用程式 |
+| AI 代理 | 詳細資料 | 支援的應用程式 |
 | --- | --- | --- |
 | [Audience Agent](audience.md) | Audience Agent可讓您檢視對象的相關深入分析，包括偵測對象人數的重大變更、偵測重複的對象、探索您的對象詳細目錄，以及擷取對象人數。 | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> |
 | [Data Insights Agent](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Data Insights Agent可透過Customer Journey Analytics中的AI助理存取，是具創造性的AI交談代理程式，可快速並有效率地回答有關您資料的問題。 此代理會使用來自您資料視圖的元件以及您的實際資料，在 Analysis Workspace 中建置相關的視覺效果。 | Customer Journey Analytics |
@@ -71,7 +71,7 @@ Adobe Experience Platform代理是專門建置的AI代理程式群組，擅長�
 
 Agent Orchestrator生態系統包含下列代理程式：
 
-| 代理程式 | 詳細資料 |
+| AI 代理 | 詳細資料 |
 | --- | --- |
 | [Adobe Marketing Agent for Microsoft 365 Copilot](ama-ms.md) | 使用適用於[!DNL Microsoft 365 Copilot]的Adobe Marketing Agent，在[!DNL Teams]、[!DNL Word]、[!DNL Powerpoint]和[!DNL Excel]等[!DNL Microsoft 365]個應用程式中擷取Experience Platform的行銷深入分析。 使用此代理程式，您可以： <ul><li>做出更快、資料導向的行銷決策。</li><li>減少在工具之間切換所花費的時間。</li><li>簡化存取跨團隊的對象和歷程深入分析。</li></ul> |
 

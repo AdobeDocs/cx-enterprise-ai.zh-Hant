@@ -1,6 +1,6 @@
 ---
 title: CX Enterprise 應用程式中的 AI
-description: 瞭解CX Enterprise應用程式如何使用generative AI (GenAI)、AI Assistant、agentic AI、CX Enterprise Co-worker和MCP工具。
+description: 瞭解CX Enterprise應用程式如何使用generative AI (GenAI)、CX Enterprise Co-worker、AI Assistant、agentic AI和MCP工具。
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -15,16 +15,16 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7668505ba139898a4747e049290e5eaf1e29b9f8
+source-git-commit: c0a72630b0db1cbdf3191012ebb5a2911ddb9fe7
 workflow-type: tm+mt
-source-wordcount: 969
+source-wordcount: 971
 ht-degree: 3%
 
 ---
 
 # CX Enterprise 中的 AI
 
-本指南涵蓋Adobe CX Enterprise中的AI功能：generative AI、AI Assistant、Agent Orchestrator、Experience Platform Agents、CX Enterprise Co-worker和MCP。
+本指南涵蓋Adobe CX Enterprise中的AI功能：generative AI、CX Enterprise Co-worker、AI Assistant、Agent Orchestrator、Experience Platform Agents和MCP。
 
 ## AI功能概觀
 
@@ -36,6 +36,20 @@ ht-degree: 3%
 - [AI積分耗用量](./overview/ai-credit-consumption.md)說明代理程式工作如何耗用AI積分，以及依代理程式和工作型別的預估耗用率。
 - [產生式AI內容透明度](./content-transparency.md)說明Adobe如何在CX Enterprise應用程式中，自動將C2PA中繼資料附加至GenAI產生和GenAI編輯的內容。
 - [CX Enterprise代理程式工具](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-agentic-tools/using/overview)涵蓋擴充CX Enterprise代理程式的其他代理程式技能和工具（影片教學課程）。
+
+## CX Enterprise Coworker
+
+Co-worker是AI Assistant的代理程式優先演化，可自動化客戶體驗和行銷工作流程，讓您的團隊可專注於業務目標而非例行執行。 您描述的目標不是一次詢問一個問題。 同事計畫、執行、驗證及傳回已完成的工作以供您核准。 同事包括：
+
+- **[同事聊天](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**：探索資料、驗證對象和歷程以及完成CX Enterprise應用程式的多步驟工作的對話式介面。
+- **[同事行銷活動](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**：AI原生應用程式，將行銷活動簡報、對象建立、內容產生、歷程設計和校訂整合為單一對話體驗。 它使用內建範本、最佳實務和提示性指引，協助小型敏捷團隊快速啟動行銷活動。
+- **同事專案** （即將推出）：統一的工作區可自動化端對端客戶體驗協調工作流程，協助團隊協調工作、核准及執行，以推動策略到傳遞的結果。 專案的檔案即將推出。
+
+符合資格的客戶正逐步從AI助理和Experience Platform代理程式轉換為同事聊天。 閱讀[同事試用版](./agents/trial.md)，了解試用資格、AI信用使用情況，以及如何取得存取權。
+
+若要檢視同事聊天正在執行中，請逐步瀏覽[Playground中的同事聊天](./coworker/playground-coworker-chat.md)，或閱讀真實使用案例，例如[驗證AA到CJA的移轉資料](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)和[分析CJA資料](./coworker/chat/use-cases/data-insights/analytics-chat.md)。
+
+如需有關同事聊天、行銷活動和專案的完整產品檔案，請參閱[同事](./coworker/overview.md)。 如需沙箱到沙箱物件復寫，請參閱[沙箱工具代理程式技能](./agents/sandbox-tooling.md)。
 
 ## AI 助理
 
@@ -60,20 +74,6 @@ ht-degree: 3%
 - [驗證您的資料](./agents/data-validation.md)
 
 如需代理程式、每個支援的應用程式以及資格要求的完整清單，請參閱[CX Enterprise中的Agentic AI](./overview/agentic-ai.md)。
-
-## Coworker
-
-Co-worker是AI Assistant的代理程式優先演化，可自動化客戶體驗和行銷工作流程，讓您的團隊可專注於業務目標而非例行執行。 您描述的目標不是一次詢問一個問題。 同事計畫、執行、驗證及傳回已完成的工作以供您核准。 同事包括：
-
-- **[同事聊天](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**：探索資料、驗證對象和歷程以及完成CX Enterprise應用程式的多步驟工作的對話式介面。
-- **[同事行銷活動](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**：AI原生應用程式，將行銷活動簡報、對象建立、內容產生、歷程設計和校訂整合為單一對話體驗。 它使用內建範本、最佳實務和提示性指引，協助小型敏捷團隊快速啟動行銷活動。
-- **同事專案** （即將推出）：統一的工作區可自動化端對端客戶體驗協調工作流程，協助團隊協調工作、核准及執行，以推動策略到傳遞的結果。 專案的檔案即將推出。
-
-符合資格的客戶正逐步從AI助理和Experience Platform代理程式轉換為同事聊天。 閱讀[同事試用版](./agents/trial.md)，了解試用資格、AI信用使用情況，以及如何取得存取權。
-
-若要檢視同事聊天正在執行中，請逐步瀏覽[Playground中的同事聊天](./coworker/playground-coworker-chat.md)，或閱讀真實使用案例，例如[驗證AA到CJA的移轉資料](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)和[分析CJA資料](./coworker/chat/use-cases/data-insights/analytics-chat.md)。
-
-如需有關同事聊天、行銷活動和專案的完整產品檔案，請參閱[同事](./coworker/overview.md)。 如需沙箱到沙箱物件復寫，請參閱[沙箱工具代理程式技能](./agents/sandbox-tooling.md)。
 
 ## MCP
 

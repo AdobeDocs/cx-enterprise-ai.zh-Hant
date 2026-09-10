@@ -14,7 +14,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 239
 ht-degree: 3%
@@ -30,7 +30,7 @@ Adobe Experience Platform中的AI助理是透過隱私、安全性和治理機�
 * AI助理目前沒有使用任何個人資料，即使用於訓練目的亦然。
 * AI助理不知道消費者資料。
 * AI助理會遵循所有現有的[存取控制](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/home)原則。
-   * 任何以屬性為基礎的新存取控制策略會在最多24小時後反映在AI助理中(&amp;A)；
+  * 任何以屬性為基礎的新存取控制策略會在最多24小時後反映在AI助理中(&amp;A)；
 * AI Assistant是與Adobe Experience Platform Healthcare Shield搭配使用時可支援HIPAA的功能。
 * 您可以透過30天保留原則檢視您先前與AI助理互動的記錄。
 * AI助理在回應使用者提示時是以沙箱特定的資料和公共Adobe檔案為基礎。 資料不會跨沙箱共用。
