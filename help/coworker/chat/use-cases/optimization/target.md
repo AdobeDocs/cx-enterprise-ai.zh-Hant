@@ -1,0 +1,25 @@
+---
+title: Target與同事 — 分析、診斷及啟動Adobe Target活動
+description: 瞭解CX Enterprise Co-worker為您的最佳化計畫帶來的價值。
+feature: AI Tools
+role: User
+level: Beginner, Intermediate, Advanced
+doc-type: Feature Video
+duration: 367
+last-substantial-update: 2026-09-10T00:00:00.000Z
+jira: KT-22598
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: f80557ffc8db68073b11de8bad8be8423722a79c
+workflow-type: tm+mt
+source-wordcount: 76
+ht-degree: 0%
+
+---
+
+
+# 分析、診斷及啟動Adobe Target活動
+
+瞭解CX Enterprise Co-worker為您的最佳化計畫帶來的價值。 同事瞭解業務目標，並協調Adobe應用程式的工作，無需切換工具即可分析、診斷和啟動。 使用同事讀取結果、診斷遺失變數、調整測試持續時間的大小，以節省來回的天數。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)
