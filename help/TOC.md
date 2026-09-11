@@ -6,9 +6,9 @@ description: 瞭解CX企業中的AI工具。 在CX Enterprise中使用AI來改�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: c0a72630b0db1cbdf3191012ebb5a2911ddb9fe7
+source-git-commit: f06ee8c16052091f661f16e291767a38ac7edee9
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '317'
 ht-degree: 19%
 
 ---
@@ -52,11 +52,13 @@ ht-degree: 19%
         - [分析CJA資料](./coworker/chat/use-cases/data-insights/analytics-chat.md)
         - [探索趨勢和根本原因](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [升級時驗證AA至CJA資料](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
-      - 客群 {#audiences}
+      - 對象 {#audiences}
         - [評估平台運作狀況並建置對象](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - 歷程 {#journeys}
         - [使用自然語言建立歷程](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
         - [建立忠誠度挑戰並顯示深入分析](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
+      - 最佳化 {#optimization}
+        - [啟動Target活動](./coworker/chat/use-cases/optimization/target.md)
       - 沙箱工具 {#sandbox-tooling}
         - [沙箱工具代理程式技能](./agents/sandbox-tooling.md)
       - 警報 {#alerts}
