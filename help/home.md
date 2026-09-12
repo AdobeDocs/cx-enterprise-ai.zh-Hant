@@ -15,9 +15,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c0a72630b0db1cbdf3191012ebb5a2911ddb9fe7
+source-git-commit: 96c1e51a57d50b8c7d28a63961d6942daf1f8aee
 workflow-type: tm+mt
-source-wordcount: 971
+source-wordcount: 988
 ht-degree: 3%
 
 ---
@@ -85,6 +85,7 @@ Co-worker是AI Assistant的代理程式優先演化，可自動化客戶體驗�
 - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
 - [Adobe Analytics工具](./mcp/analytics-mcp.md)
 - [!DNL Workfront]工具，記錄在[Workfront MCP伺服器指南](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)中
+- [!DNL Target]工具，記錄在[目標MCP伺服器指南](https://experienceleague.adobe.com/zh-hant/docs/target/using/mcp/target-mcp)中
 
 剛開始使用CX Co-worker Gateway嗎？ 請參閱[存取CX Co-worker Gateway工具](./mcp/access.md)和[安裝CX Co-worker Gateway](./mcp/install.md)以連線。 連線之後，在呼叫產品工具之前，請使用[工作階段內容工具](./mcp/context-tools.md)來設定作用中的組織、沙箱和資料檢視。
 
