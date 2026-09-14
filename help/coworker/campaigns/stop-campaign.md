@@ -3,15 +3,15 @@ description: 在此輸入說明。
 title: 停止行銷活動
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: a8859659a5d4d5820d77bf93df62550f10999ea4
 workflow-type: tm+mt
-source-wordcount: 410
+source-wordcount: '349'
 ht-degree: 0%
-
 ---
-
 # 停止行銷活動 {#stop-campaign}
 
 使用者現在可以停止主動直接從行銷活動詳細資訊頁面傳送（「即時」行銷活動）的行銷活動。 停止行銷活動是永久性的：收件者會立即停止進行行銷活動，且行銷活動之後無法繼續或重新啟動。
@@ -33,13 +33,7 @@ ht-degree: 0%
 - 停止後，行銷活動的狀態徽章會更新為「已停止」。
 - 如果停止請求失敗，會顯示錯誤訊息，而行銷活動會維持即時狀態。
 
-## 使用方式
 
-1. 開啟目前即時（主動傳送）的行銷活動。
-2. 在促銷活動詳細資訊標題中，按一下&#x200B;**停止促銷活動**。
-3. 在確認對話方塊中，檢閱警告：「停止行銷活動是永久性的。 所有收件者將停止前進，且無法繼續行銷活動。」
-4. 按一下&#x200B;**停止**&#x200B;以確認。
-5. 「行銷活動已停止」。 確認訊息隨即顯示，而行銷活動的狀態會更新為「已停止」。
 
 ### 輸入欄位/引數
 
