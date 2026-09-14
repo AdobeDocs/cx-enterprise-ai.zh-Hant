@@ -1,16 +1,16 @@
 ---
 title: CX Co-worker Gateway中的Journey Optimizer Tools
 description: 透過CX Co-worker Gateway瞭解哪些Adobe Journey Optimizer工具可供使用。
-source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
+source-git-commit: 4bd1bca0d5f967eaf33802b8d955aa89767b662a
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '917'
 ht-degree: 2%
 ---
 # CX Co-worker Gateway中的Adobe Journey Optimizer工具 {#ajo-mcp}
 
 使用Adobe Journey Optimizer產品工具，從相容於MCP的使用者端檢查行銷活動、歷程和管道設定。 當您的組織已啟用，且您的使用者帳戶擁有必要的Journey Optimizer許可權時，這些工具可透過[CX Co-worker Gateway](overview.md)取得。
 
-如需詳細資訊，請參閱Adobe Journey Optimizer檔案中的[使用MCP使用者端](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/integrations/ajo-mcp){target="_blank"}。
+如需詳細資訊，請參閱Adobe Journey Optimizer檔案中的[使用MCP使用者端](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/combine/ajo-mcp){target="_blank"}。
 
 若要建立、分析和模擬歷程的對話式代理程式體驗，請改為參閱[Journey Agent](../agents/ajo-agent.md)。
 
@@ -66,7 +66,7 @@ Journey Optimizer工具為行銷活動、歷程和管道設定檢閱提供唯讀
 
 除了上述唯讀產品工具之外，Journey Optimizer使用者還可以使用自然語言提示，直接從CX Coworker探索及管理內容資產（內容範本、片段、登陸頁面，以及歷程或行銷活動內嵌訊息內容）。 此功能由一組適用於Journey Optimizer內容的獨立可讀取和可寫入的MCP工具提供支援，可供有權存取CX Coworker的所有客戶使用。
 
-如需詳細資訊，請參閱Adobe Journey Optimizer檔案中的[內容管理工具](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#content-management){target="_blank"}。
+如需詳細資訊，請參閱Adobe Journey Optimizer檔案中的[內容管理工具](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#content-management){target="_blank"}。
 
 內容管理工具可讓您：
 
