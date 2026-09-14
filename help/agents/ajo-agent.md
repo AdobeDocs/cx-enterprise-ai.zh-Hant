@@ -310,7 +310,7 @@ Journey Create支援下列功能：
 
 Journey Analyze可讓Journey Optimizer使用者使用自然語言介面來分析和最佳化歷程。 透過歷程分析，從業人員可快速識別並解決排程和受眾衝突、偵測歷程中的使用者放棄點，以及提出見解或建議以改善效能。
 
-在此[總覽](https://experienceleague.adobe.com/en/slides/journey-agent-overview)中瞭解更多資訊，並探索代理程式。
+在此[總覽](https://experienceleague.adobe.com/zh-hant/slides/journey-agent-overview)中瞭解更多資訊，並探索代理程式。
 
 如需詳細資訊，請參閱Adobe Journey Optimizer檔案中的[歷程分析](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#journey-analyze){target="_blank"}。
 
