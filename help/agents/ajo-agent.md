@@ -7,41 +7,54 @@ role: Admin,User,Developer,Leader
 TQID: https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+    internal-label: Journey management
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+    internal-label: Communication channels
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+    internal-label: Journey design
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+    internal-label: Audiences
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+    internal-label: Best practices
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0daf43247c80b5a2d3978515a45256bd03326c0c
+    internal-label: Audience segmentation
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: 3372
-ht-degree: 11%
-
+source-wordcount: '3801'
+ht-degree: 9%
 ---
 
-
 # Journey Agent：概觀和使用指南
-
->[!AVAILABILITY]
->
->Journey Agent建立AI功能和內容產生AI功能提供給屬於Agent Orchestrator Explorer計劃一部分的客戶使用。 如需詳細資訊，請聯絡Adobe客戶服務。
 
 ## Adobe Journey Optimizer中的Journey Agent簡介
 
@@ -53,21 +66,23 @@ Journey Agent包含四個主要待完成的工作：
 - **頻道內容建立**：產生、編輯和管理使用AI支援的內容產生之歷程的頻道特定內容（電子郵件、推播、簡訊）
 - **歷程分析**：分析歷程、偵測問題、發掘見解並最佳化客戶參與
 
-此外，**歷程模擬**&#x200B;是Journey Optimizer功能，包含[歷程模擬](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)，一種產品內的非對話式AI功能，具有三個子功能：
+此外，**歷程模擬**&#x200B;是Journey Optimizer功能，包含[歷程模擬](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/building-journeys/simulate-journey-gs){target="_blank"}，一種產品內的非對話式AI功能，具有三個子功能：
 
 - 產生模擬使用者
 - 產生事件值
 - 快速模擬
 
-## 歷程建立：使用案例、AI功能和使用手冊
+## 歷程建立：使用案例、AI功能和使用手冊 {#journey-create}
 
 ## 概觀
 
 歷程建立可讓Journey Optimizer使用者使用自然語言介面建置和設定行銷歷程。 使用Journey Create，從業人員可以在對話式提示中描述其需求，以快速建立歷程。 此代理程式可簡化歷程建立，讓行銷人員聚焦於策略而非技術設定。
 
+如需詳細資訊，請參閱Adobe Journey Optimizer檔案中的[歷程建立](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#journey-create){target="_blank"}。
+
 >[!AVAILABILITY]
 >
->Agent Orchestrator Explorer程式中的客戶可使用Journey Create 。 您也將需要以下許可權才能完全使用Journey Create功能：
+>您需要下列許可權才能完整使用「歷程建立」功能：
 >
 >**管理歷程**：此許可權可讓您直接在AI助理中建立新的歷程。
 >
@@ -109,6 +124,11 @@ Journey Create提供可加快行銷執行進度的功能：
    - 根據客戶屬性建立決策分支。
    - 根據客戶偏好設計分割路徑。
 
+1. **從影像建立歷程**
+
+   - 上傳參考影像，並要求代理商使用影像作為參考建立歷程。
+   - 代理程式會從參考影像中擷取可編輯的提示。
+
 代理程式會針對其中每個使用案例，將自然語言需求轉譯為結構化歷程設定。
 
 ## 在範圍和範圍外的AI功能
@@ -128,9 +148,14 @@ Journey Create支援下列功能：
 目前不支援以下功能：
 
 - **進階歷程分析**
-- **即時歷程修改**
 - **跨歷程協調**
 - **A/B測試組態**
+- **InAudience運算式產生**
+- **資料集查詢節點**
+- **波次傳送設定**
+- **排程週期選項**
+- **對象的名稱空間選擇**
+- **自訂動作欄位對應**
 - **複雜的資料轉換**
 
 ## 範例提示
@@ -195,7 +220,7 @@ Journey Create支援下列功能：
 - **規劃訊息內容**：在建立歷程之前，先定義您的訊息策略。
 - **考慮客戶體驗**：設計尊重客戶偏好並避免過度溝通的歷程流程。
 
-## 頻道內容建立：使用案例、AI功能和使用手冊
+## 頻道內容建立：使用案例、AI功能和使用手冊 {#channel-content-create}
 
 >[!AVAILABILITY]
 >
@@ -204,6 +229,8 @@ Journey Create支援下列功能：
 ## 概觀
 
 管道內容建立可讓Journey Optimizer使用者使用AI支援的內容產生功能，產生、編輯和管理歷程的管道特定內容。
+
+如需詳細資訊，請參閱Adobe Journey Optimizer檔案中的[頻道內容建立](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#channel-content-create){target="_blank"}。
 
 ## 使用案例
 
@@ -254,7 +281,7 @@ Journey Create支援下列功能：
 
 「為我事件觸發的歷程產生SMS內容。 建立簡訊，通知客戶使用call-to-action進行閃購。」
 
-### 範本選取
+### 範本選擇項目
 
 「為我季節性行銷活動歷程顯示可用的電子郵件範本。」
 
@@ -277,13 +304,15 @@ Journey Create支援下列功能：
 1. **定義音調**：指定所要的音調（友善、正式、隨意、緊急）。
 1. **重複及調整**：使用重新產生動作來調整內容，直到符合您的需求為止。
 
-## 歷程分析：使用案例、AI功能和使用手冊
+## 歷程分析：使用案例、AI功能和使用手冊 {#journey-analyze}
 
 ## 概觀
 
-Journey Agent可讓Journey Optimizer使用者使用自然語言介面來分析和最佳化歷程。 透過Journey Agent，從業人員可以快速識別並解決排程和/或對象衝突、偵測歷程中的使用者放棄點，並提供見解或建議。 此代理讓從業人員能夠做出資料驅動的決策、提高客戶參與度，及簡化歷程協調流程。
+Journey Analyze可讓Journey Optimizer使用者使用自然語言介面來分析和最佳化歷程。 透過歷程分析，從業人員可快速識別並解決排程和受眾衝突、偵測歷程中的使用者放棄點，以及提出見解或建議以改善效能。
 
-在此[總覽](https://experienceleague.adobe.com/zh-hant/slides/journey-agent-overview)中瞭解更多資訊，並探索代理程式。
+在此[總覽](https://experienceleague.adobe.com/en/slides/journey-agent-overview)中瞭解更多資訊，並探索代理程式。
+
+如需詳細資訊，請參閱Adobe Journey Optimizer檔案中的[歷程分析](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#journey-analyze){target="_blank"}。
 
 >[!AVAILABILITY]
 >
@@ -327,6 +356,19 @@ Journey Analyze提供一系列可用來最佳化行銷工作的功能：
 
    - 提示型歷程深入分析 — 顯示歷程的營運深入分析，即「顯示所有即時歷程」。
 
+1. **歷程自訂動作錯誤分析**
+
+   - 識別歷程中的自訂動作失敗或錯誤率飆升的時間。
+   - 在失敗升級為更廣泛的歷程中斷之前診斷根本原因。
+   - 使用特定的補救步驟，快速還原自訂動作的可靠性。
+
+1. **分析歷程異常**
+
+   - 偵測歷程的登入、退出或訊息傳送計數與歷史基線相比出現非預期的尖峰、下降或平線，包括問題措辭為進入、退出或完成歷程的設定檔數目時。
+   - 使用確定性統計檢查，而非僅依賴原始異常標幟，確認標幟的變更是否為真正的異常。
+   - 針對歷程執行資料執行有界限的唯讀診斷，以識別可能的根本原因，呈現每個檢查所尋找和找到的內容以及建議。
+   - 調查參考特定歷程版本和時間戳記的異常警報。
+
 對於這些分析中的每一個，代理程式不僅會偵測問題，還會提供&#x200B;**可操作的建議來解決問題**。
 
 ## 在範圍內和超出範圍的AI功能
@@ -338,13 +380,14 @@ Journey Analyze支援下列功能：
 - **反應式查詢**：使用者能夠詢問關於歷程績效、客群使用情形，以及排程衝突的具體問題。
 - **與其他代理整合**：與 Audience 代理和 Data Insights 代理協同合作，進行更深入的分析。
 - **代理程式回應結構**：推理（說明邏輯）、分析摘要（強調關鍵點）、問題詳細資訊（說明問題）以及建議（建議後續步驟）。
+- **自訂動作錯誤分析**：偵測並診斷歷程中的自訂動作失敗和錯誤尖峰。
+- **異常偵測**：偵測並確認歷程進入、退出或傳送計數中具有統計意義的尖峰、下降或平線，並找出可能的根本原因。
 
 ### **範圍外**
 
 目前不支援以下功能：
 
 - **自動建立歷程**
-- **即時異常偵測**
 - **管道重疊**
 - **歷程進入分析**
 - **技術問題分析**
@@ -409,6 +452,22 @@ Journey Analyze支援下列功能：
 - 「分析歷程[歷程名稱]的衝突風險。」
 - 「為[歷程名稱]提供衝突診斷。」
 
+### 自訂動作錯誤分析
+
+- 「為什麼自訂動作在歷程[歷程名稱]中失敗？」
+- 「歷程[歷程名稱]中自訂動作[自訂動作名稱]的錯誤率為何？」
+- 「顯示歷程[歷程名稱]中自訂動作失敗的根本原因。」
+- 「目前是否有任何影響歷程[歷程名稱]的自訂動作錯誤？」
+
+### 歷程異常分析
+
+- 「為什麼昨天我的歡迎歷程中的專案會中斷？」
+- 「本週購物車放棄歷程的退出次數尖峰嗎？」
+- 「今天續約提醒歷程的傳送次數看起來很低 — 發生什麼事了？」
+- 「在過去30天裡，進入我的會員週年感謝歷程的設定檔數量為何突然減少？」
+- 「本月完成我續約提醒歷程的設定檔少於平常 — 為什麼？」
+- 「在[timestamp]觸發歷程[歷程版本ID]的異常警報 — 調查。」
+
 ## 最佳做法
 
 ### 提示最佳做法
@@ -425,7 +484,7 @@ Journey Analyze支援下列功能：
 - **定期監視**：安排定期檢查歷程績效，以發現趨勢和異常。
 - **細分最佳化**：確保客群細分維持平衡，避免疲勞並實現最高參與度。
 
-## 歷程模擬：使用案例、AI功能和使用手冊
+## 歷程模擬：使用案例、AI功能和使用手冊 {#journey-simulate}
 
 ## 概觀
 
@@ -503,4 +562,11 @@ Journey Simulate提供三項功能，可於上線前用來縮短測試時間及�
 
 模擬可能不會支援測試模式或即時歷程支援的每個活動、管道或整合，而且行為可能會隨著功能成熟而改變。
 
-➡️在Journey Optimizer檔案中進一步瞭解[模擬限制](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations)。
+➡️在Journey Optimizer檔案中進一步瞭解[模擬限制](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/building-journeys/simulate-journey-gs#limitations){target="_blank"}。
+
+## 另請參閱
+
+- [Agent Orchestrator](./agent-orchestrator.md)，支援Journey Agent和其他Experience Platform代理程式的代理程式層。
+- [CX Coworker閘道中的Journey Optimizer工具](../mcp/ajo-mcp.md)，這是行銷活動和頻道設定檢閱的唯讀MCP介面。
+- [從自然語言建立歷程](../coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)和[建立、編輯和管理忠誠度挑戰](../coworker/chat/use-cases/journeys/create-loyalty-challenge.md)，建立在Journey Create上的同事聊天使用案例。
+- [產品支援代理程式](./product-support.md)，用於疑難排解透過AI助理出現的Journey Optimizer問題。

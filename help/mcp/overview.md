@@ -1,13 +1,11 @@
 ---
 title: Adobe CX Co-worker Gateway概述
 description: Adobe CX Co-worker Gateway是適用於Adobe CX Enterprise的統一MCP，可讓MCP使用者端透過單一連線連線至支援的產品工具。
-source-git-commit: a76b4e9bdd925617039b9d6b5362b25974620c34
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '469'
 ht-degree: 3%
-
 ---
-
 # Adobe CX Co-worker閘道 {#mcp-overview}
 
 Adobe CX Co-worker Gateway是適用於Adobe CX Enterprise的統一模型內容通訊協定(MCP)。 只要連線一次，MCP相容的使用者端就能存取貴組織和帳戶有權使用的Adobe產品工具。
@@ -41,10 +39,10 @@ CX Co-worker Gateway為CX Co-worker Gateway產品工具提供受管理的端點�
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Real-Time CDP** | 受眾、目的地、來源、身分名稱空間和啟用健康狀態（唯讀） | Beta | [Real-Time CDP工具](rtcdp-mcp.md) |
 | **Experience Platform** | 結構描述、資料集、資料治理、查詢服務、稽核事件、可觀察性量度和沙箱健康狀態檢查評估（唯讀） | Beta | [Experience Platform工具](aep-mcp.md) |
-| **Journey Optimizer** | 行銷活動和管道設定（唯讀） | Beta | [Journey Optimizer工具](ajo-mcp.md) |
+| **Journey Optimizer** | 行銷活動、歷程和管道設定（唯讀）；內容範本、片段、登陸頁面和內嵌訊息內容（讀取和寫入） | Beta | [Journey Optimizer工具](ajo-mcp.md) |
 | **Customer Journey Analytics** | 資料檢視、維度、量度、報表、區段、日期範圍、專案和對象（讀取和寫入） | 可用 | [Customer Journey Analytics工具](cja-mcp.md) |
 | **Adobe Analytics** | 報表套裝、維度、量度、報表、區段、日期範圍和Workspace專案（可讀取和寫入支援的元件） | 可用 | [Adobe Analytics工具](analytics-mcp.md) |
-| **Workfront** | 專案、任務和核准工作流程的工作管理工具 | 預覽 | [Workfront MCP伺服器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
+| **Workfront** | 專案、任務和核准工作流程的工作管理工具 | 預覽 | [Workfront MCP伺服器](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
 
 
 >[!NOTE]
@@ -55,7 +53,7 @@ CX Co-worker Gateway為CX Co-worker Gateway產品工具提供受管理的端點�
 
 ## 開始使用 {#mcp-get-started}
 
-1. 檢閱[存取CX Co-worker Gateway工具](access.md)，以確認產品可用性、啟用和許可權。
-2. 請依照[安裝Adobe for CX Co-worker Gateway](install.md)將您的MCP使用者端連線至端點。
+1. 檢閱[存取CX Coworker閘道工具](access.md)，以確認產品可用性、啟用和許可權。
+2. 依照[安裝適用於CX Coworker閘道的Adobe](install.md)將您的MCP使用者端連線到端點。
 3. 檢閱您計畫使用的每個產品工具的產品頁面。
 

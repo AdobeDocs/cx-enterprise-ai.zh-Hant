@@ -10,15 +10,15 @@ last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22081
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: 97
-ht-degree: 0%
-
+source-wordcount: '117'
+ht-degree: 1%
 ---
-
 
 # 如何從自然語言提示產生Adobe Journey Optimizer歷程
 
@@ -26,4 +26,9 @@ ht-degree: 0%
  
 透過自動化初始設定程式，團隊可以花更少的時間從頭開始建立歷程，而花更多時間改善客戶體驗和業務成果。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496885/?captions=chi_hant&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)
+
+## 另請參閱
+
+- [Journey Agent](../../../../agents/ajo-agent.md#journey-create)，基礎人工智慧功能，可在同事聊天中建立歷程。
+- [更多同事聊天使用案例](../overview.md#journeys)
