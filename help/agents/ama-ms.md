@@ -1,13 +1,11 @@
 ---
 title: Adobe Marketing Agent for Microsoft 365 Copilot
 description: 瞭解如何使用Adobe Marketing Agent for Microsoft 365 Copilot。
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
 source-wordcount: '1832'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft 365 Copilot]的Adobe Marketing Agent
 
 [!DNL Microsoft 365 Copilot]的Adobe Marketing Agent是AI支援的工具，可將Adobe Experience Platform直接連線至[!DNL Microsoft 365 Copilot]。 有了此代理程式，您可以在[!DNL Microsoft 365]應用程式（例如[!DNL Teams]、[!DNL Word]、[!DNL Powerpoint]和[!DNL Excel]）中詢問自然語言問題，以便立即從Experience Platform擷取行銷深入分析，而不會中斷您的工作流程。 這些應用程式中都有相同的代理程式，而且您與Adobe Marketing Agent的聊天記錄會延續 — 舉例來說，您可以在[!DNL Teams]中開始研究[!DNL Copilot]，並在[!DNL Word]或[!DNL Powerpoint]中繼續交談，同時草擬行銷活動簡報或檢閱簡報。
@@ -22,7 +20,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->適用於[!DNL Microsoft 365 Copilot]的Adobe Marketing Agent目前支援Experience Platform作業深入分析、Customer Journey Analytics資料深入分析、Audience Agent和Journey Agent。
+>[!DNL Microsoft 365 Copilot]的Adobe Marketing Agent目前支援Experience Platform Operational Insights、Customer Journey Analytics Data Insights、[Audience Agent](./audience.md)和[Journey Agent](./ajo-agent.md)。
 
 適用於[!DNL Microsoft 365 Copilot]的Adobe Marketing Agent提供Experience Platform與[!DNL Microsoft 365]應用程式之間的整合式體驗：
 

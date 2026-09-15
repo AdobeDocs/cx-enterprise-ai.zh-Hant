@@ -4,25 +4,34 @@ description: 了解 Adobe Experience Platform Agent Orchestrator。
 TQID: https://experienceleague.adobe.com/xv7K7636d65K0V8R1EG97xnZpZAjnNhfF7JgqQz1aoY
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
+    internal-label: Insights
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: 956
-ht-degree: 19%
-
+source-wordcount: '928'
+ht-degree: 20%
 ---
-
 # Adobe Experience Platform Agent Orchestrator
 
 Adobe Experience Platform Agent Orchestrator 是 Adobe Experience Platform 全新的代理層。 Experience Platform Agent Orchestrator的設計宗旨是善用Experience Platform豐富的資料和客戶知識，其智慧和推理功能源自專門建置的Adobe Experience Platform代理程式，可讓他們快速且大規模地執行複雜的決策和問題解決任務，而且完全仰賴人力監管。 當您透過像 AI 助理這樣的對話式介面，用自然語言提出問題或要求協助時，Agent Orchestrator 會自動調用專門的代理，為您取得正確的答案。 Agent Orchestrator 會記住您的對話記錄，讓您可以不必複述相關背景資訊，即可自然地在先前問題的基礎上繼續提問，並且結合來自多個代理的洞察，為您提供清楚且統一的回答。
@@ -58,7 +67,7 @@ Adobe Experience Platform代理是專門建置的AI代理程式群組，擅長�
 | [Audience Agent](audience.md) | Audience Agent可讓您檢視對象的相關深入分析，包括偵測對象人數的重大變更、偵測重複的對象、探索您的對象詳細目錄，以及擷取對象人數。 | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> |
 | [Data Insights Agent](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Data Insights Agent可透過Customer Journey Analytics中的AI助理存取，是具創造性的AI交談代理程式，可快速並有效率地回答有關您資料的問題。 此代理會使用來自您資料視圖的元件以及您的實際資料，在 Analysis Workspace 中建置相關的視覺效果。 | Customer Journey Analytics |
 | [Experimentation Agent](./agent-experiment.md) | Experimentation Agent透過分析實驗結果、預測影響和建議新實驗，幫助團隊更快地學習。 它將過去和正在進行的實驗集中在一起，因此您可以根據已學到的內容來建構，找出差距，並排定下一個測試的優先順序。 | Adobe Journey Optimizer Experimentation Accelerator |
-| [Journey Agent](./ajo-agent.md) | Journey Agent可讓Adobe Journey Optimizer使用者使用自然語言介面建立、分析和最佳化歷程。 有了Journey Agent，您可以快速建立歷程、偵測並解決排程或對象衝突、分析效能和流失點，並找出表現最佳的歷程，以復寫給未來的行銷活動。 它可幫助您制定資料導向式決策、改善客戶參與度並簡化歷程協調。 | Adobe Journey Optimizer |
+| [Journey Agent](./ajo-agent.md) | Journey Agent可讓Adobe Journey Optimizer使用者透過四個功能，使用自然語言建立、分析和最佳化歷程： [歷程建立](./ajo-agent.md#journey-create)、[頻道內容建立](./ajo-agent.md#channel-content-create)、[歷程分析](./ajo-agent.md#journey-analyze)和[歷程模擬](./ajo-agent.md#journey-simulate)。 如需詳細資訊，請參閱[Journey Agent指南](./ajo-agent.md)。 | Adobe Journey Optimizer |
 | [產品支援代理程式](product-support.md) | 產品支援代理程式是自助式的偵錯和疑難排解功能，可協助您疑難排解Adobe Experience Platform功能和應用程式，而不會離開您的工作流程。 支援管理員可以使用您的AI助理互動中的內容來建立客戶支援票證，並且您可以透過AI助理來檢查票證更新。 | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
 
 如需CX Enterprise應用程式中代理程式可用性的詳細資訊，請檢閱CX Enterprise檔案中的[Agentic AI](../overview/agentic-ai.md)。
