@@ -6,13 +6,11 @@ description: 瞭解CX企業中的AI工具。 在CX Enterprise中使用AI來改�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 96c1e51a57d50b8c7d28a63961d6942daf1f8aee
+source-git-commit: 8dc520b5e24ab07cb117fb36e70b5b5cfb4b6a5b
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '333'
 ht-degree: 18%
-
 ---
-
 
 # CX Enterprise 中的 AI {#experience-cloud-ai}
 
@@ -42,6 +40,7 @@ ht-degree: 18%
       - [什麼是技能？](./coworker/customizations/skills/what-are-skills.md)
       - [建立您的第一項技能](./coworker/customizations/skills/create-your-first-skill.md)
       - [建立及執行品質門技能](./coworker/customizations/skills/run-a-quality-gate-skill.md)
+      - [管理和反複處理技能](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
   - 聊天 {#chat}
     - [概觀](./coworker/chat/overview.md)
     - [UI指南](./coworker/chat/ui-guide.md)
@@ -52,10 +51,11 @@ ht-degree: 18%
         - [分析CJA資料](./coworker/chat/use-cases/data-insights/analytics-chat.md)
         - [探索趨勢和根本原因](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [升級時驗證AA至CJA資料](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
-      - 對象 {#audiences}
+      - 客群 {#audiences}
         - [評估平台運作狀況並建置對象](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - 歷程 {#journeys}
         - [使用自然語言建立歷程](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
+      - 忠誠度 {#loyalty}
         - [建立忠誠度挑戰並顯示深入分析](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - 最佳化 {#optimization}
         - [啟動Target活動](./coworker/chat/use-cases/optimization/target.md)
@@ -86,12 +86,12 @@ ht-degree: 18%
   - 資料工程 {#data-engineering}
     - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
 - MCP {#mcp}
-  - [Adobe CX Co-worker閘道](./mcp/overview.md)
+  - [Adobe CX Coworker閘道](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP測試版](./mcp/beta/rtcdp-mcp.md)
   - 開始使用 {#mcp-get-started}
-    - [存取CX Co-worker Gateway工具](./mcp/access.md)
-    - [安裝CX Co-worker Gateway](./mcp/install.md)
-    - [CX Co-worker Gateway中的工作階段內容工具](./mcp/context-tools.md)
+    - [存取CX Coworker閘道工具](./mcp/access.md)
+    - [安裝CX Coworker Gateway](./mcp/install.md)
+    - [CX Coworker Gateway中的工作階段內容工具](./mcp/context-tools.md)
   - 產品工具 {#mcp-product-tools}
     - [Real-Time CDP工具](./mcp/rtcdp-mcp.md)
     - [Experience Platform工具](./mcp/aep-mcp.md)
