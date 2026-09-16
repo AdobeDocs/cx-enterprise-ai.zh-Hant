@@ -5,15 +5,13 @@ role: User
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 101
-last-substantial-update: 2026-09-08T00:00:00Z
+last-substantial-update: 2026-09-08
 jira: KT-22379
-source-git-commit: 526483ff41384d0e3c297b33385f8303636bf4a5
+source-git-commit: 4cb104d919b71cb8c0e71ec5c747b23020c102ca
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 1%
-
 ---
-
 
 # 使用自訂AI技能建立和執行品質門技能
 
@@ -23,19 +21,19 @@ ht-degree: 1%
 
 在本影片中，您將會瞭解自訂同事技能如何作為啟動門，在對象向下游移動之前，根據組織的啟動標準自動驗證對象。
 
->[!VIDEO](https://video.tv.adobe.com/v/3503174/?captions=chi_hant&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503162/?learn=on&enablevpops)
 
 ## 啟動品質閘道技能範例
  
-您可以將提示貼到Co-worker中，以建立您自己的可重複使用的&#x200B;**啟動品質門**&#x200B;技能。 同事的技能撰寫功能會將提示轉換為在&#x200B;**您自己的環境**&#x200B;內儲存的技能。 以下是根據影片示範的範例。
+您可以將提示貼到Co-worker中，以建立您自己的可重複使用的**啟動品質門**&#x200B;技能。 同事的技能撰寫功能會將提示轉換為在&#x200B;**您自己的環境**內儲存的技能。 以下是根據影片示範的範例。
  
-關鍵是為三個治理閘道定義您自己的&#x200B;**通過/失敗標準**：
+關鍵是為三個治理閘道定義您自己的**通過/失敗標準**：
  
 1. 隱藏/同意
 2. 頻率上限
 3. 命名慣例
  
-每個人的架構都相同。 自訂標示&#x200B;**`[...]`**&#x200B;的區段以符合您組織的標準。
+每個人的架構都相同。 自訂標示**`[...]`**&#x200B;的區段以符合您組織的標準。
 
 ## 主提示
 
@@ -80,9 +78,6 @@ The three gates are:
 [Paste Gate 1, Gate 2, and Gate 3 definitions here]
 ```
 
-&#x200B;---
- 
-
 ## 入口1：隱藏/同意
  
 > 編輯此區段以符合您組織的隱藏和同意要求。
@@ -110,9 +105,6 @@ Our standard:
 [Example: A consent audience is mandatory for all email and SMS destinations. For direct mail destinations it is optional.]
 ```
 
-&#x200B;---
- 
-
 ## 閘道2：頻率上限
 
 > 編輯此區段以符合您組織的傳送頻率要求。
@@ -136,8 +128,6 @@ Our standard:
 
 [Example: Frequency must be DAILY or less frequent. Any hourly cadence or blank value is blocked.]
 ```
-
-&#x200B;---
 
 ## 閘門3：命名慣例
  
@@ -178,15 +168,11 @@ Mortgage – High Propensity Prospects
 When blocked on naming, always propose a compliant replacement name.
 ```
 
- 
-
-&#x200B;---
-
 ## 指南
 
 ### &#x200B;1. 僅自訂括弧內的區段
 
-僅更新&#x200B;**`[...]`**&#x200B;中包含的區段。
+僅更新&#x200B;**`[...]`**中包含的區段。
  
 這些區段會定義組織的特定治理標準。
  
@@ -196,8 +182,6 @@ When blocked on naming, always propose a compliant replacement name.
 - 閘道評估
 - 計分卡轉譯
 - 判決邏輯
-
-&#x200B;---
 
 
 ### &#x200B;2. 驗證先決條件
@@ -214,8 +198,6 @@ When blocked on naming, always propose a compliant replacement name.
 - DataTable轉譯
 
 如果客戶的環境中沒有這些功能，技能就無法如期執行。
-
-&#x200B;---
 
 ### &#x200B;3. 將技能設為唯讀
 

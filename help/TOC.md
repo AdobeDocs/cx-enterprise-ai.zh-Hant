@@ -6,10 +6,10 @@ description: 瞭解CX企業中的AI工具。 在CX Enterprise中使用AI來改�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: f16706f2bf434e77743bfe17cd18c0f2e6b0f6ad
+source-git-commit: 8dc520b5e24ab07cb117fb36e70b5b5cfb4b6a5b
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 19%
+source-wordcount: '333'
+ht-degree: 18%
 ---
 
 # CX Enterprise 中的 AI {#experience-cloud-ai}
@@ -40,6 +40,7 @@ ht-degree: 19%
       - [什麼是技能？](./coworker/customizations/skills/what-are-skills.md)
       - [建立您的第一項技能](./coworker/customizations/skills/create-your-first-skill.md)
       - [建立及執行品質門技能](./coworker/customizations/skills/run-a-quality-gate-skill.md)
+      - [管理和反複處理技能](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
   - 聊天 {#chat}
     - [概觀](./coworker/chat/overview.md)
     - [UI指南](./coworker/chat/ui-guide.md)
@@ -50,7 +51,7 @@ ht-degree: 19%
         - [分析CJA資料](./coworker/chat/use-cases/data-insights/analytics-chat.md)
         - [探索趨勢和根本原因](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [升級時驗證AA至CJA資料](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
-      - 對象 {#audiences}
+      - 客群 {#audiences}
         - [評估平台運作狀況並建置對象](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - 歷程 {#journeys}
         - [使用自然語言建立歷程](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
@@ -97,6 +98,6 @@ ht-degree: 19%
     - [Journey Optimizer工具](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - [Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [目標](https://experienceleague.adobe.com/zh-hant/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [目標](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
