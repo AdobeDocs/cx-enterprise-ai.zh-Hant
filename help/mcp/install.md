@@ -1,26 +1,25 @@
 ---
-title: 安裝Adobe CX Co-worker Gateway
-description: 瞭解如何將MCP相容的使用者端連線到Adobe CX Co-worker Gateway。
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+title: 安裝Adobe CX Coworker Gateway
+description: 瞭解如何將MCP相容的使用者端連線至Adobe CX Coworker閘道。
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 0%
-
 ---
+# 安裝Adobe CX Coworker Gateway {#mcp-install}
 
-# 安裝Adobe CX Co-worker Gateway {#mcp-install}
-
-請閱讀本指南，瞭解如何將MCP相容的使用者端連線至Adobe CX Co-worker Gateway。  CX Co-worker Gateway對所有已記錄的產品工具使用一個端點：
+請閱讀本指南，瞭解如何將MCP相容的使用者端連線至Adobe CX Coworker閘道。  CX Coworker Gateway對所有已記錄的產品工具使用一個端點：
 
 ```
 https://cx-coworker-gateway.adobe.io/mcp
 ```
 
-安裝之前，請確認您的組織和使用者帳戶可存取您所需的產品工具。 請參閱[存取CX Co-worker Gateway工具](access.md)。
+安裝之前，請確認您的組織和使用者帳戶可存取您所需的產品工具。 請參閱[存取CX Coworker閘道工具](access.md)。
 
 ## 安裝的運作方式 {#mcp-install-how}
 
-CX Co-worker Gateway使用遠端HTTP傳輸及瀏覽器式Adobe登入流程。 在每個支援的使用者端中，設定模式都相同：
+CX Coworker閘道使用遠端HTTP傳輸與瀏覽器式Adobe登入流程。 在每個支援的使用者端中，設定模式都相同：
 
 1. 新增端點URL： `https://cx-coworker-gateway.adobe.io/mcp`。
 2. 儲存或啟用連線。
@@ -35,7 +34,7 @@ CX Co-worker Gateway使用遠端HTTP傳輸及瀏覽器式Adobe登入流程。 �
 
 大多數的團隊和企業MCP使用者端計畫都需要管理員為組織新增自訂聯結器。 在這些環境中，安裝有兩個步驟：
 
-1. 管理員為組織新增一次CX Co-worker Gateway端點。
+1. 管理員為組織新增一次CX Coworker閘道端點。
 2. 每位使用者都會啟用聯結器，並使用自己的Adobe憑證登入。
 
 ### 步驟1：管理員新增端點 {#mcp-install-enterprise-admin}
@@ -49,7 +48,7 @@ CX Co-worker Gateway使用遠端HTTP傳輸及瀏覽器式Adobe登入流程。 �
 1. 以&#x200B;**所有者**&#x200B;或&#x200B;**主要所有者**&#x200B;的身分登入[!DNL Claude]。
 2. 移至&#x200B;**設定** > **管理** > **聯結器**。 在某些計畫上，這會顯示為&#x200B;**組織設定** > **聯結器**。
 3. 選取&#x200B;**新增自訂聯結器**。
-4. 輸入`https://cx-coworker-gateway.adobe.io/mcp`做為伺服器URL，並使用可辨識的名稱，例如「Adobe for CX Co-worker Gateway」。
+4. 輸入`https://cx-coworker-gateway.adobe.io/mcp`做為伺服器URL，並使用可辨識的名稱，例如「CX Coworker閘道的Adobe」。
 5. 儲存聯結器。
 
 #### ChatGPT團隊和企業 {#mcp-install-enterprise-chatgpt}
@@ -64,14 +63,14 @@ CX Co-worker Gateway使用遠端HTTP傳輸及瀏覽器式Adobe登入流程。 �
 
 #### 其他組織管理的使用者端 {#mcp-install-enterprise-other}
 
-對於支援組織管理的遠端聯結器的其他使用者端，請使用`https://cx-coworker-gateway.adobe.io/mcp`將CX Co-worker Gateway新增為遠端HTTP MCP伺服器。 除非您的使用者端需要預留位置值，否則將選填標頭、持有人權杖欄位、使用者端ID欄位及使用者端密碼欄位保留空白。
+對於支援組織管理的遠端聯結器的其他使用者端，請使用`https://cx-coworker-gateway.adobe.io/mcp`將CX Coworker閘道新增為遠端HTTP MCP伺服器。 除非您的使用者端需要預留位置值，否則將選填標頭、持有人權杖欄位、使用者端ID欄位及使用者端密碼欄位保留空白。
 
 ### 步驟2：使用者啟用聯結器 {#mcp-install-enterprise-user}
 
-管理員新增CX Co-worker Gateway後，每位使用者都會為自己的帳戶啟用它：
+管理員新增CX Coworker Gateway後，每位使用者都會為自己的帳戶啟用它：
 
 1. 在使用者端中開啟個人聯結器、應用程式或MCP設定。
-2. 找到CX Co-worker Gateway聯結器並加以啟用。
+2. 找到CX Coworker閘道聯結器並加以啟用。
 3. 開始對話、叫用其中一個Adobe工具，然後在提示時完成瀏覽器式Adobe登入。
 4. 如果您的工具需要，請設定工作階段的產品內容 — 所有產品的組織、Experience Platform型工具的沙箱，以及Customer Journey Analytics的資料檢視。 檢視工具呼叫的[產品內容](#mcp-connect-params)。
 
@@ -104,7 +103,7 @@ CX Co-worker Gateway使用遠端HTTP傳輸及瀏覽器式Adobe登入流程。 �
 3. 輸入`https://cx-coworker-gateway.adobe.io/mcp`做為伺服器URL。
 4. 選取&#x200B;**連線**&#x200B;並完成Adobe登入流程。
 
-連線後，在Cursor的Composer和Agent模式中，即可使用授權的Adobe for CX Co-worker Gateway工具。
+連線後，在Cursor的「撰寫器」和「代理程式」模式中，即可使用授權的CX Coworker閘道工具Adobe 。
 
 ### 克勞德程式碼 {#mcp-install-individual-claude-code}
 
@@ -184,7 +183,7 @@ url = "https://cx-coworker-gateway.adobe.io/mcp"
 
 ### 其他使用者端 {#mcp-install-individual-other}
 
-對於支援遠端MCP的其他案頭或Web使用者端，請使用`https://cx-coworker-gateway.adobe.io/mcp`將Adobe for CX Co-worker Gateway新增為遠端HTTP伺服器。 除非您的使用者端需要預留位置值，否則將選填標頭、持有人權杖欄位、使用者端ID欄位及使用者端密碼欄位保留空白。
+對於具有遠端MCP支援的其他案頭或Web使用者端，請使用`https://cx-coworker-gateway.adobe.io/mcp`將CX Coworker閘道的Adobe新增為遠端HTTP伺服器。 除非您的使用者端需要預留位置值，否則將選填標頭、持有人權杖欄位、使用者端ID欄位及使用者端密碼欄位保留空白。
 
 ## 工具呼叫的產品內容 {#mcp-connect-params}
 

@@ -1,22 +1,23 @@
 ---
-title: Adobe CX Co-worker Gateway概述
-description: Adobe CX Co-worker Gateway是適用於Adobe CX Enterprise的統一MCP，可讓MCP使用者端透過單一連線連線至支援的產品工具。
-source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
+title: Adobe CX Coworker閘道概觀
+description: Adobe CX Coworker閘道是適用於Adobe CX Enterprise的統一MCP，可讓MCP使用者端透過單一連線連線至支援的產品工具。
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 3%
 ---
-# Adobe CX Co-worker閘道 {#mcp-overview}
+# Adobe CX Coworker閘道 {#mcp-overview}
 
-Adobe CX Co-worker Gateway是適用於Adobe CX Enterprise的統一模型內容通訊協定(MCP)。 只要連線一次，MCP相容的使用者端就能存取貴組織和帳戶有權使用的Adobe產品工具。
+Adobe CX Coworker閘道是適用於Adobe CX Enterprise的統一模型內容通訊協定(MCP)。 只要連線一次，MCP相容的使用者端就能存取貴組織和帳戶有權使用的Adobe產品工具。
 
 >[!IMPORTANT]
 >
->您必須先啟用Adobe組織，才能使用&#x200B;**CX Co-worker Gateway**&#x200B;工具。
+>您必須先啟用您的Adobe組織，才能使用&#x200B;**CX Coworker閘道**&#x200B;工具。
 >
 >如果貴組織尚未取得存取權，請傳送電子郵件給[cx-coworker-gateway-support@adobe.com](mailto:cx-coworker-gateway-support@adobe.com)，要求啟用貴組織。
 
-使用所有MCP使用者端設定的CX Co-worker閘道端點：
+對所有MCP使用者端設定使用CX Coworker閘道端點：
 
 ```
 https://cx-coworker-gateway.adobe.io/mcp
@@ -28,7 +29,7 @@ https://cx-coworker-gateway.adobe.io/mcp
 
 MCP (Model Context Protocol)是一種開放原始碼標準，用於將AI應用程式連線到外部系統。 與MCP相容的使用者端（例如[!DNL Claude]、[!DNL ChatGPT]、[!DNL Cursor]、[!DNL Claude Code]、[!DNL Codex]和[!DNL VS Code]）可以使用這些工具來擷取產品內容、執行支援的作業，並以自然語言傳回答案。
 
-CX Co-worker Gateway為CX Co-worker Gateway產品工具提供受管理的端點。 與其新增個別的產品伺服器，只需連線至端點並使用為您的授權解決方案浮現的產品工具。
+CX Coworker Gateway為CX Coworker Gateway產品工具提供受控端點。 與其新增個別的產品伺服器，只需連線至端點並使用為您的授權解決方案浮現的產品工具。
 
 ## 可用的產品工具 {#available-product-tools}
 
@@ -47,7 +48,7 @@ CX Co-worker Gateway為CX Co-worker Gateway產品工具提供受管理的端點�
 
 >[!NOTE]
 >
->工具可用性取決於您的產品授權、組織啟用、產品許可權以及用於驗證的Adobe憑證。 MCP只會顯示您的組織和使用者帳戶有權存取的工具。 請參閱[存取CX Co-worker Gateway工具](access.md)。
+>工具可用性取決於您的產品授權、組織啟用、產品許可權以及用於驗證的Adobe憑證。 MCP只會顯示您的組織和使用者帳戶有權存取的工具。 請參閱[存取CX Coworker閘道工具](access.md)。
 
 
 

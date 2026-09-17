@@ -1,21 +1,20 @@
 ---
-title: CX Co-worker Gateway中的Experience Platform Tools
-description: 瞭解可透過CX Co-worker Gateway使用的Adobe Experience Platform工具。
-source-git-commit: a76b4e9bdd925617039b9d6b5362b25974620c34
+title: CX Coworker Gateway中的Experience Platform工具
+description: 瞭解可透過Adobe Experience Platform Gateway使用的CX Coworker工具。
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '1947'
 ht-degree: 6%
-
 ---
 
+# Adobe CX Coworker Gateway中的Adobe Experience Platform工具 {#aep-mcp}
 
-# Adobe CX Co-worker Gateway中的Adobe Experience Platform工具 {#aep-mcp}
-
-您可以使用Adobe Experience Platform產品工具從MCP相容的使用者端檢查結構描述、資料集、資料控管設定、查詢服務資源和稽核事件。 當您的組織已啟用，且您的使用者帳戶擁有必要的Experience Platform許可權時，即可透過[Adobe CX Co-worker Gateway](overview.md)取得這些工具。
+您可以使用Adobe Experience Platform產品工具從MCP相容的使用者端檢查結構描述、資料集、資料控管設定、查詢服務資源和稽核事件。 當您的組織已啟用，且您的使用者帳戶擁有必要的Adobe許可權時，便可以透過[CX Coworker閘道](overview.md)使用這些工具。
 
 >[!AVAILABILITY]
 >
->Experience Platform產品工具位於Beta。 存取許可權僅限透過邀請，且需要Adobe組織啟用。 請參閱[存取CX Co-worker Gateway工具](access.md)。
+>Experience Platform產品工具位於Beta。 存取許可權僅限透過邀請，且需要Adobe組織啟用。 請參閱[存取CX Coworker閘道工具](access.md)。
 
 ## 摘要
 
@@ -256,7 +255,7 @@ Experience Platform目錄服務的統一派遣工具。 查詢資料集中繼資
 
 >[!NOTE]
 >
->此工具只會擷取評估結果。 若要修正標幟的問題，請使用[!DNL Experience Platform] UI中的健康情況檢查詳細資料面板。 請參閱[健康情況檢查](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/run-and-operate/health-checks)。 支援健康情況檢查的自動修正指引可在[CX Co-worker Chat](../coworker/chat/overview.md)中作為技能提供。
+>此工具只會擷取評估結果。 若要修正標幟的問題，請使用[!DNL Experience Platform] UI中的健康情況檢查詳細資料面板。 請參閱[健康情況檢查](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/run-and-operate/health-checks)。 支援健康情況檢查的自動修正指引可在[CX Coworker Chat](../coworker/chat/overview.md)中作為技能提供。
 
 **功能：**&#x200B;列出目前沙箱的所有健康情況檢查結果，取得一個具名檢查的結果
 

@@ -1,28 +1,28 @@
 ---
-description: 瞭解Adobe CX Enterprise Co-worker Campaigns，這是一種AI原生行銷應用程式，可將單一提示轉換為可供檢閱的行銷活動。
-title: Adobe CX Enterprise Co-worker概述
+description: 瞭解Adobe CX Enterprise Coworker Campaigns，這是一種AI原生行銷應用程式，可將單一提示轉換為可供檢閱的行銷活動。
+title: Adobe CX Enterprise Coworker概觀
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 21d2304c94d68d7800283b46e2a15012ffe55810
 workflow-type: tm+mt
-source-wordcount: 950
+source-wordcount: '950'
 ht-degree: 0%
-
 ---
-
-# Adobe CX Enterprise同事行銷活動概覽 {#overview}
+# Adobe CX Enterprise Coworker行銷活動概觀 {#overview}
 
 Co-worker Campaigns是AI原生行銷應用程式，可帶您從單一提示前往完成可供檢閱的行銷活動。
 
-目前，與AI的所有互動都會將您導向產生[行銷活動] (./)。 即將推出更多功能。
+目前，與AI的所有互動都會將您導向產生[行銷活動](/help/coworker/campaigns/create-an-email-campaign.md)。 即將推出更多功能。
 
 ## 如何存取
 
 >[!NOTE]
 >
->同事行銷活動可透過免費試用版提供，有效期至2026年10月1日。 在試用期間，所有資產和活動都是使用者專屬的。
+>同事行銷活動可透過免費試用版提供，有效期至2026年12月31日。 在試用期間，所有資產和活動都是使用者專屬的。
 
 1. 請前往coworker-campaigns.experience.adobe.com。
 
@@ -104,7 +104,7 @@ Co-worker Campaigns是AI原生行銷應用程式，可帶您從單一提示前�
 
 「同事行銷活動」是進行中開發中的產品。 以下為進入時的須知事項：
 
-- **試用期**：現在到2026年10月1日。
+- **試用期**：現在到2026年12月31日。
 - **需要接受**：存取產品前，您必須先檢閱並接受試用條款。
 - **地區**：目前僅限北美使用者免費試用。
 - **對象**：對象是透過CSV上傳。 所有受眾都特定於其各自的促銷活動（目前未儲存在您環境的其他任何位置）。

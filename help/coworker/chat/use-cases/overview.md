@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 2f1f6aa3aa3eff13fa932bb8500476371e9be705
+source-git-commit: db8f6b723110d86fc3bd65f2e1f5ab3047157e8f
 workflow-type: tm+mt
-source-wordcount: '4802'
+source-wordcount: '4800'
 ht-degree: 6%
 ---
 # 同事聊天使用案例{#use-cases}
@@ -127,7 +127,7 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 | 作業時間序列與因果分析 | 查詢和分析具有因果歸因的對象、資料集和歷程的歷史時間序列資料 | `operational-stats-causal-analysis` | 所有符合資格的應用程式 | 「顯示過去90天的對象人數趨勢」 <br> 「為什麼我的資料集列計數在3月3日激增？」 |
 | 建立自訂CJA技能 | 將分析模式轉換為可重複使用、且跨工作階段儲存的技能 | `cja-skill-creator` | Customer Journey Analytics (CJA) | 「將此每週收入分析轉換為可重複使用的技能」 <br>「將此儲存為每月funnel報告的技能」 |
 
-## 對象
+## 客群
 
 | 使用案例 | 說明 | 技能 | 應用程式 | 範例提示 |
 | --- | --- | --- | --- | --- |
@@ -149,7 +149,7 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 | 分析自訂動作錯誤 | 識別歷程中自訂動作失敗或錯誤率飆升的時間，並在失敗升級為更廣泛的中斷之前診斷根本原因 | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | 「為什麼自訂動作會在我的熟客註冊歷程中失敗？」 <br> 「在我的歡迎歷程中，顯示自訂動作ExternalPush的錯誤率。」 |
 | 偵測歷程異常 | 偵測並確認歷程登入、退出或傳送計數時依據歷史基準線的非預期尖峰、下降或平線，並找出可能的根本原因 | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | 「昨天為什麼我的歡迎歷程的專案會中斷？」 <br> 「本週購物車放棄歷程的退出次數尖峰嗎？」 |
 
-如需有關歷程的CX Coworker技能的詳細資訊，請參閱[Adobe Journey Optimizer歷程檔案](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/journeys-coworker-skills){target="_blank"}。
+如需有關歷程的CX Coworker技能的詳細資訊，請參閱[Adobe Journey Optimizer歷程檔案](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}。
 
 ## 忠誠度
 
@@ -158,7 +158,7 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 | 建立、編輯及管理忠誠度挑戰 | 簡化並加速熟客方案管理 | `loyalty` | Adobe Journey Optimizer (AJO) | 「建立挑戰，鼓勵會員嘗試新的季節性飲品」 <br> 「以最高的會員流失率向我展示忠誠度挑戰。」 |
 | 分析熟客方案績效 | 使用自然語言查詢和分析熟客點數、成員層級、贖回和收入量度 | `loyalty-insights` | Adobe Journey Optimizer (AJO) | 「2026年8月期間已授與多少忠誠點數？」 <br> 「顯示2026年8月期間依日劃分的熟客方案總收入。」 |
 
-如需有關忠誠度的CX Coworker技能的詳細資訊，請參閱[Adobe Journey Optimizer忠誠度檔案](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/loyalty-coworker-skills){target="_blank"}。
+如需有關忠誠度的CX Coworker技能的詳細資訊，請參閱[Adobe Journey Optimizer忠誠度檔案](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills){target="_blank"}。
 
 ## 最佳化
 

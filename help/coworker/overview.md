@@ -1,31 +1,20 @@
 ---
-title: 關於Adobe CX Enterprise Co-worker
-description: 瞭解如何使用Adobe CX Enterprise Co-worker將您的行銷提升到新的境界。
+title: 關於Adobe CX Enterprise Coworker
+description: 瞭解如何使用Adobe CX Enterprise Coworker將您的行銷提升到新的境界。
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: d408bb6c54e59187382ca120695619c66003bc17
+    internal-label: CX Enterprise Coworker
+source-git-commit: f7d7be4b9574f8d5346a2aa23b1544637231343e
 workflow-type: tm+mt
-source-wordcount: 202
+source-wordcount: '202'
 ht-degree: 3%
-
 ---
-
-# 關於Adobe CX Enterprise Co-worker
+# 關於Adobe CX Enterprise Coworker
 
 Co-worker是AI支援的團隊成員，可重新構想組織、團隊和個人的工作性質。 同事可以優雅地自動化客戶體驗和行銷工作流程，讓組織可以專注於實現業務目標和轉變成果，而非協調工作。 Co-worker作為代理引擎，採用創新的方式自動化業務流程。 藉由將資料、智慧、共同作業和代理程式技能執行與內建的企業情境、治理和人為監督整合在一起，它可提升AI模型效能和準確性。
-
-## 行銷活動
-
-「同事行銷活動」是小型敏捷團隊的範本化功能，可供他們站起來執行行銷活動。
-
-* [概觀](./campaigns/overview.md)
-* [建立電子郵件行銷活動](./campaigns/create-an-email-campaign.md)
-* [使用案例](./campaigns/use-cases.md)
-* [提示最佳實務](./campaigns/prompting-best-practices.md)
-* [連線至Marketo Engage](./campaigns/connectors/marketo.md)
-* [連線到Hubspot](./campaigns/connectors/hubspot.md)
 
 ## 聊天
 
@@ -38,3 +27,14 @@ Co-worker是AI支援的團隊成員，可重新構想組織、團隊和個人的
 ## 專案（即將推出）
 
 「同事專案」是統一的工作區，可自動化端對端客戶體驗協調工作流程，協助團隊協調工作、核准及執行，從策略到交付全程推動成果。
+
+## 行銷活動
+
+「同事行銷活動」是小型敏捷團隊的範本化功能，可供他們站起來執行行銷活動。
+
+* [概觀](./campaigns/overview.md)
+* [建立電子郵件行銷活動](./campaigns/create-an-email-campaign.md)
+* [使用案例](./campaigns/use-cases.md)
+* [提示最佳實務](./campaigns/prompting-best-practices.md)
+* [連線至Marketo Engage](./campaigns/connectors/marketo.md)
+* [連線到Hubspot](./campaigns/connectors/hubspot.md)

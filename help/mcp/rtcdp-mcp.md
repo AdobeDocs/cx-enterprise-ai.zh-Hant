@@ -1,20 +1,19 @@
 ---
-title: CX Co-worker Gateway中的Real-Time CDP Tools
+title: CX Coworker Gateway中的Real-Time CDP工具
 description: 瞭解如何使用MCP伺服器將Adobe Real-Time CDP連線至MCP使用者端。
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 3%
-
 ---
+# CX Coworker Gateway中的Real-Time CDP工具 {#rtcdp-mcp}
 
-# CX Co-worker Gateway中的Real-Time CDP工具 {#rtcdp-mcp}
-
-您可以使用Real-Time CDP MCP產品工具，從相容於MCP的使用者端檢查對象、目的地、來源、身分名稱空間及啟用健康狀態。 當您的組織已啟用，且您的使用者帳戶擁有必要的Real-Time CDP許可權時，便可以透過統一的[CX Co-worker Gateway閘道](overview.md)取得這些工具。
+您可以使用Real-Time CDP MCP產品工具，從相容於MCP的使用者端檢查對象、目的地、來源、身分名稱空間及啟用健康狀態。 當您的組織已啟用，且您的使用者帳戶擁有必要的Real-Time CDP許可權時，便可以透過統一的[CX Coworker閘道閘道](overview.md)使用這些工具。
 
 >[!AVAILABILITY]
 >
->Real-Time CDP產品工具位於Beta。 存取許可權僅限透過邀請，且需要Adobe組織啟用。 請參閱[存取CX Co-worker Gateway工具](access.md)。
+>Real-Time CDP產品工具位於Beta。 存取許可權僅限透過邀請，且需要Adobe組織啟用。 請參閱[存取CX Coworker閘道工具](access.md)。
 
 ## 主要功能 {#mcp-capabilities}
 
