@@ -6,7 +6,7 @@ description: 瞭解CX企業中的AI工具。 在CX Enterprise中使用AI來改�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: f7d7be4b9574f8d5346a2aa23b1544637231343e
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 18%
@@ -87,18 +87,18 @@ ht-degree: 18%
   - 資料工程 {#data-engineering}
     - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
 - MCP {#mcp}
-  - [Adobe CX Coworker閘道](./mcp/overview.md)
+  - {hide-from-toc}[Adobe CX Coworker閘道](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP測試版](./mcp/beta/rtcdp-mcp.md)
   - 開始使用 {#mcp-get-started}
-    - [存取CX Coworker閘道工具](./mcp/access.md)
-    - [安裝CX Coworker Gateway](./mcp/install.md)
-    - [CX Coworker Gateway中的工作階段內容工具](./mcp/context-tools.md)
+    - {hide-from-toc}[存取CX Coworker閘道工具](./mcp/access.md)
+    - {hide-from-toc}[安裝CX Coworker閘道](./mcp/install.md)
+    - {hide-from-toc}[CX Coworker Gateway中的工作階段內容工具](./mcp/context-tools.md)
   - 產品工具 {#mcp-product-tools}
-    - [Real-Time CDP工具](./mcp/rtcdp-mcp.md)
-    - [Experience Platform工具](./mcp/aep-mcp.md)
-    - [Journey Optimizer工具](./mcp/ajo-mcp.md)
-    - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
-    - [Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [目標](https://experienceleague.adobe.com/zh-hant/docs/target/using/mcp/target-mcp)
+    - {hide-from-toc}[Real-Time CDP工具](./mcp/rtcdp-mcp.md)
+    - {hide-from-toc}[Experience Platform工具](./mcp/aep-mcp.md)
+    - {hide-from-toc}[Journey Optimizer工具](./mcp/ajo-mcp.md)
+    - {hide-from-toc}[Customer Journey Analytics工具](./mcp/cja-mcp.md)
+    - {hide-from-toc}[Adobe Analytics工具](./mcp/analytics-mcp.md)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [目標](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 

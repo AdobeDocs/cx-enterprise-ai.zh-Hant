@@ -1,20 +1,19 @@
 ---
-title: CX Co-worker Gateway中的工作階段內容工具
-description: 瞭解為核心工具設定所有CX Co-worker Gateway工具呼叫的組織、沙箱和資料檢視內容。
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+title: CX Coworker Gateway中的工作階段內容工具
+description: 瞭解為所有CX Coworker閘道工具呼叫設定組織、沙箱和資料檢視內容的核心工具。
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%
-
 ---
+# Adobe CX Coworker Gateway中的工作階段內容工具 {#mcp-core}
 
-# Adobe CX Co-worker Gateway中的工作階段內容工具 {#mcp-core}
-
-Adobe CX Co-worker Gateway包含一組工作階段內容工具，可建立Adobe組織、Adobe Experience Platform沙箱和Customer Journey Analytics資料檢視，以供所有其他產品工具在其中運作。 不需要額外的授權或啟用 — 這些工具在連線至[CX Co-worker Gateway伺服器](overview.md)後，可供所有已驗證的使用者使用。
+Adobe CX Coworker Gateway包含一組工作階段內容工具，可建立Adobe組織、Adobe Experience Platform沙箱和Customer Journey Analytics資料檢視，以供所有其他產品工具在其中運作。 不需要額外的授權或啟用 — 這些工具在連線至[CX Coworker閘道伺服器](overview.md)後，可供所有已驗證身分的使用者使用。
 
 ## 上下文的運作方式 {#mcp-core-how}
 
-CX Co-worker Gateway會針對每個工具呼叫定義一個作用中Adobe組織的範圍。 除此之外，內容需求取決於產品：
+CX Coworker閘道會定義每個工具呼叫到一個使用中的Adobe組織的範圍。 除此之外，內容需求取決於產品：
 
 - **Experience Platform產品** — [Real-Time CDP](rtcdp-mcp.md)、[Experience Platform](aep-mcp.md)和[Journey Optimizer](ajo-mcp.md)工具會在Experience Platform沙箱中運作。 與`core-set_sandbox`的每個工作階段設定一次沙箱；這三個工作階段都會共用沙箱。
 - **其他產品** — 未在Experience Platform上建置的產品不使用沙箱內容。 例如，[Customer Journey Analytics](cja-mcp.md)工具針對資料檢視進行解析，而[Adobe Analytics](analytics-mcp.md)工具針對報表套裝進行解析。
@@ -64,5 +63,5 @@ CX Co-worker Gateway會針對每個工具呼叫定義一個作用中Adobe組織�
 
 ## 相關頁面 {#mcp-core-related}
 
-- [安裝Adobe CX Co-worker閘道](install.md) — 如何連線您的MCP使用者端，包括產品內容設定區段。
-- [存取CX Co-worker Gateway工具](access.md) — 存取需求（依產品而定）。
+- [安裝Adobe CX Coworker閘道](install.md) — 如何連線您的MCP使用者端，包括產品內容設定區段。
+- [存取CX Coworker閘道工具](access.md) — 依產品區分存取需求。
