@@ -2,6 +2,9 @@
 title: CX Enterprise 應用程式中的 AI
 description: 瞭解CX Enterprise應用程式如何使用generative AI (GenAI)、CX Enterprise Coworker、AI Assistant、agentic AI和MCP工具。
 TQID: 'https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds'
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -22,14 +25,14 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 76356e79bb8608a65c3140c9990a5a4fcbc76a0e
+source-git-commit: fccf9111460413fe5b89229564a682827152b1ab
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 3%
+source-wordcount: '962'
+ht-degree: 2%
 ---
-# CX Enterprise 中的 AI
+# CX Enterprise應用程式中的AI
 
-本指南涵蓋Adobe CX Enterprise中的AI功能：generative AI、CX Enterprise Coworker、AI Assistant、Agent Orchestrator、Experience Platform Agents和MCP。
+本指南涵蓋Adobe CX Enterprise中的AI功能：generative AI、CX Enterprise Coworker、AI Assistant、Agent Orchestrator和MCP。
 
 ## AI功能概觀
 
@@ -44,12 +47,12 @@ ht-degree: 3%
 
 ## Coworker
 
-Co-worker是AI Assistant的代理程式優先演化，可自動化客戶體驗和行銷工作流程，讓您的團隊可專注於業務目標而非例行執行。 您描述的目標不是一次詢問一個問題。 同事計畫、執行、驗證及傳回已完成的工作以供您核准。 深入瞭解[Adobe for Business](https://business.adobe.com/tw/products/cx-enterprise-coworker.html)。
+Co-worker是AI Assistant的代理程式優先演化，可自動化客戶體驗和行銷工作流程，讓您的團隊可專注於業務目標而非例行執行。 您描述的目標不是一次詢問一個問題。 同事計畫、執行、驗證及傳回已完成的工作以供您核准。 深入瞭解[Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker.html)。
 
 同事包括：
 
-- **[同事聊天](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**：探索您的資料、驗證對象和歷程以及完成跨CX Enterprise應用程式的多步驟工作的對話式介面。
-- **[適用於團隊的同事服務](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)** （先前稱為&#x200B;_同事行銷活動_）：一種AI原生應用程式，可將行銷活動簡報、對象建立、內容產生、歷程設計和校訂整合為單一對話體驗。 它使用內建範本、最佳實務和提示性指引，協助小型敏捷團隊快速啟動行銷活動。 深入瞭解[Adobe for Business](https://business.adobe.com/tw/products/cx-enterprise-coworker/teams.html)。
+- **[同事聊天](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**：探索您的資料、驗證對象和歷程以及完成跨CX Enterprise應用程式的多步驟工作的對話式介面。
+- **[適用於團隊的同事服務](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)** （先前稱為&#x200B;_同事行銷活動_）：一種AI原生應用程式，可將行銷活動簡報、對象建立、內容產生、歷程設計和校訂整合為單一對話體驗。 它使用內建範本、最佳實務和提示性指引，協助小型敏捷團隊快速啟動行銷活動。 深入瞭解[Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker/teams.html)。
 - **同事專案** （即將推出）：統一的工作區可自動化端對端客戶體驗協調工作流程，協助團隊協調工作、核准及執行，以推動策略到傳遞的結果。 專案的檔案即將推出。
 
 符合資格的客戶正逐步從AI助理和Experience Platform代理程式轉換為同事聊天。 閱讀[同事試用版](./agents/trial.md)，了解試用資格、AI信用使用情況，以及如何取得存取權。
@@ -91,20 +94,12 @@ Co-worker是AI Assistant的代理程式優先演化，可自動化客戶體驗�
 - [Journey Optimizer工具](./mcp/ajo-mcp.md)
 - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
 - [Adobe Analytics工具](./mcp/analytics-mcp.md)
-- [!DNL Workfront]工具，記錄在[Workfront MCP伺服器指南](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)中
-- [!DNL Target]工具，記錄在[目標MCP伺服器指南](https://experienceleague.adobe.com/zh-hant/docs/target/using/mcp/target-mcp)中
+- [!DNL Workfront]工具，記錄在[Workfront MCP伺服器指南](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)中
+- [!DNL Target]工具，記錄在[目標MCP伺服器指南](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)中
 
 第一次使用CX Coworker Gateway？ 請參閱[存取CX Coworker閘道工具](./mcp/access.md)和[安裝CX Coworker閘道](./mcp/install.md)以連線。 連線之後，在呼叫產品工具之前，請使用[工作階段內容工具](./mcp/context-tools.md)來設定作用中的組織、沙箱和資料檢視。
 
-## 開始使用
-
-### 存取需求
-
-您的Adobe管理員必須授與適當的許可權，您才能使用AI助理和Experience Platform代理程式。 需求因應用程式而異；如需詳細資訊，請參閱Agent Orchestrator指南中的[存取](./agents/agent-orchestrator.md#access)。
-
-### 隱私權與安全性
-
-AI Assistant和Experience Platform代理程式會優先處理隱私權、安全性和治理，包括沙箱特定的資料隔離和您現有的存取控制政策。 如需完整詳細資訊，請閱讀[AI助理的隱私、安全性和治理](./ai-assistant/privacy.md)。
+在使用任何這些工具之前，請參閱[開始之前](./overview/overview-ai-cxe.md#before-you-begin)有關存取要求、隱私權及安全性考量事項。
 
 ## 最佳實務
 
