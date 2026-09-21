@@ -6,9 +6,9 @@ description: 瞭解CX企業中的AI工具。 在CX Enterprise中使用AI來改�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
+source-git-commit: bc838ba25ec0c7fad8d32cbd5f0ed888bb63a73e
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '353'
 ht-degree: 18%
 ---
 
@@ -36,6 +36,8 @@ ht-degree: 18%
         - [探索趨勢和根本原因](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [升級時驗證AA至CJA資料](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [驗證CJA報表的資料集品質](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
+      - 資料管理 {#data-management}
+        - [管理資料湖保留](./coworker/chat/use-cases/data-management/manage-data-lake-retention.md)
       - 客群 {#audiences}
         - [評估平台運作狀況並建置對象](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - 歷程 {#journeys}
@@ -77,6 +79,7 @@ ht-degree: 18%
   - [Agent Orchestrator](./agents/agent-orchestrator.md)
   - [Audience 代理](./agents/audience.md)
   - [Data Insights Agent](./agents/cja-data-insights-agent.md)
+  - [資料管理代理程式](./agents/data-management.md)
   - [實驗代理程式](./agents/agent-experiment.md)
   - [欄位探索代理程式](./agents/field-discovery-agent.md)
   - [Journey Agent](./agents/ajo-agent.md)
@@ -100,6 +103,6 @@ ht-degree: 18%
     - {hide-from-toc}[Journey Optimizer工具](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [目標](https://experienceleague.adobe.com/zh-hant/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [目標](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
