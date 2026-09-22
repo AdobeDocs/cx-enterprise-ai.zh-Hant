@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 92553b9b27ee38ba31ccd00b443502e990e625be
+source-git-commit: bc838ba25ec0c7fad8d32cbd5f0ed888bb63a73e
 workflow-type: tm+mt
-source-wordcount: '4876'
+source-wordcount: '5040'
 ht-degree: 6%
 ---
 # 同事聊天使用案例{#use-cases}
@@ -216,6 +216,13 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 | 監控串流容量和違規情形 | 檢查沙箱間目前和歷史串流使用情況、容量和違規狀態 | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | 「我目前的沙箱中目前的串流容量是多少？」 <br> 「我目前的沙箱在上星期是否超過容量限制？」 |
 | [檢視健康情況檢查評估結果](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/run-and-operate/health-checks/overview) | 檢視沙箱的最新健康情況檢查評估、深入研究失敗檢查，並檢視受影響的實體 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | 「我的沙箱有什麼問題？」 <br> 「告訴我關於我最新的健康情況檢查評估」 <br> 「自訂名稱空間描述檢查有哪些問題？」 |
 | 修正健康情況檢查問題 | 在進行任何變更之前，只要您核准，即可直接從聊天中修正標幟的身分名稱空間、合併原則和結構描述問題 | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | 「修正身分名稱空間說明」 <br> 「修正重複的合併原則名稱」 <br> 「修正缺少稽核欄位群組的結構描述」 <br> 「修正預設的合併原則命名」 |
+
+## 資料管理
+
+| 使用案例 | 說明 | 技能 | 應用程式 | 範例提示 |
+| --- | --- | --- | --- | --- |
+| [尋找值得最佳化或清理的資料](./data-management/manage-data-lake-retention.md#find-data-worth-optimizing) | 瞭解您是否可透過將最大、最少使用或忘記的資料集顯示為候選資料集來進行清理或資料湖保留原則，以最佳化您的Experience Event資料 | `List datasets` | Adobe Experience Platform | 「我感覺我的資料可以最佳化」 <br> 「協助我瞭解我的資料的價值」 <br> 「最佳化我的沙箱資料」 <br> 「清理我的沙箱資料集」 |
+| [調查資料集的使用情況並管理其保留](./data-management/manage-data-lake-retention.md#check-how-actively-a-dataset-is-used) | 一旦您找到值得進一步檢視的資料集，即可瞭解資料集的使用積極性、模型化潛在資料湖保留原則的影響，並在您準備就緒時設定、變更或移除該原則，並在任何變更前完成稽核和核准 | `Analyze dataset usage`, `Analyze dataset retention`, `Manage dataset retention` | Adobe Experience Platform | 「使用我的Web事件資料集的積極性如何？」 <br> 「如果對此資料集設定60天的保留期，會有什麼影響？」 |
 
 ## 沙箱工具
 
