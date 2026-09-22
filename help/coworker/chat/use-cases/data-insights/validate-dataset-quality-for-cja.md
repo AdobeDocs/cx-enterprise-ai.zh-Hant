@@ -8,7 +8,7 @@ doc-type: Feature Video
 duration: 330
 last-substantial-update: 2026-09-16
 jira: KT-22622
-source-git-commit: c60304b2c4efa512ca1ca90ba68b5fa97ea25e0b
+source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 0%
@@ -110,3 +110,4 @@ Customer Journey Analytics的可靠性取決於其背後的資料。
 - 更有效率地疑難排解非預期的量度
 
 使用Co-worker，可以使用自然語言提示來啟動這些檢查，讓技術和非技術使用者更容易存取資料驗證。
+
