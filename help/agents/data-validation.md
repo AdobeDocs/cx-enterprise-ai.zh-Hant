@@ -1,13 +1,11 @@
 ---
 title: 在AI助理中驗證資料
 description: 瞭解如何在AI Assistant中使用Agent Orchestrator支援的資料驗證，對資料集執行統計和語意驗證。
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1602'
 ht-degree: 0%
-
 ---
-
 # 在AI助理中驗證您的資料
 
 您可以使用AI Assistant來驗證Adobe Experience Platform資料集的資料品質。 由Agent Orchestrator支援的資料驗證功能可以對資料集執行統計和語意驗證、分析資料集欄位、識別資料品質問題，並傳回自然語言摘要，其中包含可操作的深入分析。 資料工程師、分析人員和資料管理員可以透過AI Assistant使用此功能來執行快速資料品質評估，而無需撰寫SQL查詢或導覽複雜的結構描述階層。
@@ -24,6 +22,10 @@ ht-degree: 0%
 >
 >AI助理是此工作流程的對話介面。 Agent Orchestrator會在背景執行推理並協調驗證步驟。
 
+>[!NOTE]
+>
+>資料驗證也可作為同事技能使用。 檢視[與同事驗證您的Experience Platform資料](/help/coworker/chat/use-cases/data-insights/data-validation-aep.md)。
+
 ## 使用案例
 
 | 使用案例 | 說明 |
@@ -34,7 +36,7 @@ ht-degree: 0%
 
 ## UI指南
 
-在Adobe CX Enterprise中使用&#x200B;**AI Assistant**&#x200B;驗證您的資料。 AI Assistant是對話式介面，而Agent Orchestrator則在幕後協調驗證工作流程。 下列步驟依照您將看到的主要畫面進行。
+在Adobe CX Enterprise中使用&#x200B;**AI小幫手**&#x200B;驗證您的資料。 AI Assistant是對話式介面，而Agent Orchestrator則在幕後協調驗證工作流程。 下列步驟依照您將看到的主要畫面進行。
 
 ### 開始驗證
 
