@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: bc838ba25ec0c7fad8d32cbd5f0ed888bb63a73e
+source-git-commit: a1954d0dfe6a0db091e69725676e1da23a509e03
 workflow-type: tm+mt
-source-wordcount: '5040'
-ht-degree: 6%
+source-wordcount: '5256'
+ht-degree: 5%
 ---
 # 同事聊天使用案例{#use-cases}
 
@@ -24,7 +24,7 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 >
 >所有符合資格的客戶將可輪流在Co-worker中存取Adobe Experience Manager代理功能。
 >
->另請參閱AEM中的[AI - AEM代理功能概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)。
+>另請參閱AEM中的[AI - AEM代理功能概觀](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)。
 
 ## 品牌體驗
 
@@ -43,9 +43,9 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 
 **相關資訊**
 
-* [AEM中的代理程式功能：品牌體驗 — 體驗生產 — 網站](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [AEM中的代理程式功能：品牌體驗 — 體驗生產 — 網站](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
-* [AEM的代理程式功能：品牌體驗 — 體驗生產 — Forms](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [AEM的代理程式功能：品牌體驗 — 體驗生產 — Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### 開發
 
@@ -58,7 +58,7 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 
 **相關資訊**
 
-* [AEM的代理程式功能：品牌體驗 — 開發](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [AEM的代理程式功能：品牌體驗 — 開發](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### 入門
 
@@ -71,7 +71,7 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 
 **相關資訊**
 
-* [AEM的代理功能：品牌體驗 — 入門](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [AEM的代理功能：品牌體驗 — 入門](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## 內容顧問
 
@@ -86,7 +86,7 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 
 **相關資訊**
 
-* [AEM的代理程式功能：內容顧問 — 內容探索](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [AEM的代理程式功能：內容顧問 — 內容探索](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### 內容最佳化
 
@@ -98,7 +98,7 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 
 **相關資訊**
 
-* [AEM中的代理程式功能：內容警告器 — 內容最佳化](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [AEM中的代理程式功能：內容警告器 — 內容最佳化](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## 品牌控管
 
@@ -110,7 +110,7 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 
 **相關資訊**
 
-* [AEM的代理程式功能：品牌控管](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [AEM的代理程式功能：品牌控管](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## 資料深入分析
 
@@ -149,13 +149,16 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 | 分析自訂動作錯誤 | 識別歷程中自訂動作失敗或錯誤率飆升的時間，並在失敗升級為更廣泛的中斷之前診斷根本原因 | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | 「為什麼自訂動作會在我的熟客註冊歷程中失敗？」 <br> 「在我的歡迎歷程中，顯示自訂動作ExternalPush的錯誤率。」 |
 | 偵測歷程異常 | 偵測並確認歷程登入、退出或傳送計數時依據歷史基準線的非預期尖峰、下降或平線，並找出可能的根本原因 | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | 「昨天為什麼我的歡迎歷程的專案會中斷？」 <br> 「本週購物車放棄歷程的退出次數尖峰嗎？」 |
 
-如需有關歷程的CX Coworker技能的詳細資訊，請參閱[Adobe Journey Optimizer歷程檔案](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}。
+如需有關歷程的CX Coworker技能的詳細資訊，請參閱[Adobe Journey Optimizer歷程檔案](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}。
 
 ## 行銷方案
 
 | 使用案例 | 說明 | 技能 | 應用程式 | 範例提示 |
-|---|---|---|---|---|
-| 建置計畫 | 將現有方案範本調整至新方案，從純語言行銷活動說明或上傳的行銷活動簡訊產生智慧行銷活動、排程和預留位置電子郵件 | `build-programs` | Adobe Marketo Engage | 「為我們8月產品示範建立網路研討會註冊計畫」<br><br>「建立當潛在客戶點選50分時觸發的計畫」<br><br>「為未作用中的90天潛在客戶建立3封電子郵件的重新參與系列」 |
+| --- | --- | --- | --- | --- |
+| 建置計畫 | 將現有的方案範本調整至新方案，利用從簡單語言說明或上傳的簡報產生的Smart Campaigns、排程和預留位置電子郵件 | `build-programs` | Adobe Marketo Engage | 「為我們8月產品示範建立網路研討會註冊計畫」<br><br>「建立當潛在客戶點選50分時觸發的計畫」<br><br>「為未作用中的90天潛在客戶建立3封電子郵件的重新參與系列」 |
+| 從簡短的演講中站起程式 | 將純語言簡介或上傳的行銷活動檔案轉換為有效程式：複製最接近的相符範本、保留Smart Campaigns和Token，並更新事件詳細資料。 新的Smart Campaigns保持停用以供您檢閱 | `build-programs` | Adobe Marketo Engage | 「我即將於9月10日在芝加哥舉辦網路研討會。 為我設定程式&quot;<br><br>&quot;從此簡報設定下個月的路演程式並更新活動權杖&quot; |
+| 複製並調整現有程式 | 複製新城市、季度或地區的先前方案，並更新日期、代號和命名。 子項智慧型行銷活動會移轉並維持停用狀態，直到您啟動為止 | `build-programs` | Adobe Marketo Engage | 「在10月17日複製我們紐約站的上季活動計畫，並更新日期與代號」<br><br>「複製我們英國受眾的芝加哥路演計畫」 |
+| 使用資格邏輯建置Smart Campaign | 建立觸發器或批次Smart Campaign、新增智慧清單規則（例如「填寫表單」或「達到分數」），並設定流程步驟（例如「傳送電子郵件」） | `build-programs` | Adobe Marketo Engage | 「建立觸發行銷活動，在潛在客戶填寫「聯絡我們」表單時傳送我們的歡迎電子郵件」<br><br>「為點選50分的潛在客戶建立批次行銷活動並新增「傳送電子郵件」步驟」 |
 
 ## 忠誠度
 
@@ -164,7 +167,7 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 | 建立、編輯及管理忠誠度挑戰 | 簡化並加速熟客方案管理 | `loyalty` | Adobe Journey Optimizer (AJO) | 「建立挑戰，鼓勵會員嘗試新的季節性飲品」 <br> 「以最高的會員流失率向我展示忠誠度挑戰。」 |
 | 分析熟客方案績效 | 使用自然語言查詢和分析熟客點數、成員層級、贖回和收入量度 | `loyalty-insights` | Adobe Journey Optimizer (AJO) | 「2026年8月期間已授與多少忠誠點數？」 <br> 「顯示2026年8月期間依日劃分的熟客方案總收入。」 |
 
-如需有關忠誠度的CX Coworker技能的詳細資訊，請參閱[Adobe Journey Optimizer忠誠度檔案](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills){target="_blank"}。
+如需有關忠誠度的CX Coworker技能的詳細資訊，請參閱[Adobe Journey Optimizer忠誠度檔案](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills){target="_blank"}。
 
 ## 最佳化
 
@@ -214,7 +217,7 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 | 實體解析度和連結 | 使用語意和辭彙搜尋來解析對實際Experience Platform實體的實體提及，並探索XDM欄位 | `entity-linking` | Adobe Experience Platform | 「將『節日購物者』解析為實際受眾」<br>「尋找與購買記錄相關的我欄位」 |
 | 管理自訂技能 | 儲存、修改或刪除使用者擁有的可重複使用技能，這些技能會跨工作階段存留 | `manage-skill` | 所有符合資格的應用程式 | 「將工作流程另存為技能」 <br>「刪除我的每週報告技能」 <br>「將此變成可重複使用的技能」 |
 | 監控串流容量和違規情形 | 檢查沙箱間目前和歷史串流使用情況、容量和違規狀態 | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | 「我目前的沙箱中目前的串流容量是多少？」 <br> 「我目前的沙箱在上星期是否超過容量限制？」 |
-| [檢視健康情況檢查評估結果](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/run-and-operate/health-checks/overview) | 檢視沙箱的最新健康情況檢查評估、深入研究失敗檢查，並檢視受影響的實體 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | 「我的沙箱有什麼問題？」 <br> 「告訴我關於我最新的健康情況檢查評估」 <br> 「自訂名稱空間描述檢查有哪些問題？」 |
+| [檢視健康情況檢查評估結果](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | 檢視沙箱的最新健康情況檢查評估、深入研究失敗檢查，並檢視受影響的實體 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | 「我的沙箱有什麼問題？」 <br> 「告訴我關於我最新的健康情況檢查評估」 <br> 「自訂名稱空間描述檢查有哪些問題？」 |
 | 修正健康情況檢查問題 | 在進行任何變更之前，只要您核准，即可直接從聊天中修正標幟的身分名稱空間、合併原則和結構描述問題 | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | 「修正身分名稱空間說明」 <br> 「修正重複的合併原則名稱」 <br> 「修正缺少稽核欄位群組的結構描述」 <br> 「修正預設的合併原則命名」 |
 
 ## 資料管理
