@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: bc838ba25ec0c7fad8d32cbd5f0ed888bb63a73e
+source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
 workflow-type: tm+mt
-source-wordcount: '5040'
-ht-degree: 6%
+source-wordcount: '5301'
+ht-degree: 5%
 ---
 # 同事聊天使用案例{#use-cases}
 
@@ -124,6 +124,7 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 | [根本原因分析](data-insights/root-cause-analysis.md) | 調查量度變更的原因：診斷下降、尖峰和異常 | `cja-root-cause-analysis` | Customer Journey Analytics (CJA) | 「為什麼上週轉換率下降？」 <br> 「是什麼導致1月15日的收入激增？」 |
 | 執行摘要和KPI摘要 | 製作適合利害關係人的效能摘要、規範性建議和投影片組大綱 | `cja-executive-summary`, `cja-bacom-anomaly-tracker-v2`, `cja-cno-weekly-pulse`, `cja-reporting`, `cja`, `dx-api` | Customer Journey Analytics (CJA) | 「給我上個月的執行摘要」<br>「從這個季度的資料建立投影片投影片組大綱」 |
 | [AA ↔ CJA資料驗證](data-insights/data-validation-aa-cja.md) | 在Adobe Analytics和Customer Journey Analytics之間比較、稽核及調解資料，尤其是從Adobe Analytics升級為Customer Journey Analytics時 | `aa-cja-validation`, `cja`, `dx-api` | ADOBE ANALYTICS + CJA | 「比較我的AA報告套裝與CJA資料檢視」 <br>「驗證AA與CJA之間的頁面檢視」 |
+| [驗證資料集和欄位品質](data-insights/data-validation-aep.md) | 對Experience Platform資料集和欄位執行統計和語意驗證，以在實作後或持續進行時擷取資料品質問題<!--TODO: confirm skill ID(s) with engineering before publishing--> | `data-validation` | Adobe Experience Platform | 「驗證資料集Electronics Sample 1000」 <br>「驗證Customers_2024資料集中的電子郵件欄位」 |
 | 作業時間序列與因果分析 | 查詢和分析具有因果歸因的對象、資料集和歷程的歷史時間序列資料 | `operational-stats-causal-analysis` | 所有符合資格的應用程式 | 「顯示過去90天的對象人數趨勢」 <br> 「為什麼我的資料集列計數在3月3日激增？」 |
 | 建立自訂CJA技能 | 將分析模式轉換為可重複使用、且跨工作階段儲存的技能 | `cja-skill-creator` | Customer Journey Analytics (CJA) | 「將此每週收入分析轉換為可重複使用的技能」 <br>「將此儲存為每月funnel報告的技能」 |
 
@@ -154,8 +155,11 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 ## 行銷方案
 
 | 使用案例 | 說明 | 技能 | 應用程式 | 範例提示 |
-|---|---|---|---|---|
-| 建置計畫 | 將現有方案範本調整至新方案，從純語言行銷活動說明或上傳的行銷活動簡訊產生智慧行銷活動、排程和預留位置電子郵件 | `build-programs` | Adobe Marketo Engage | 「為我們8月產品示範建立網路研討會註冊計畫」<br><br>「建立當潛在客戶點選50分時觸發的計畫」<br><br>「為未作用中的90天潛在客戶建立3封電子郵件的重新參與系列」 |
+| --- | --- | --- | --- | --- |
+| 建置計畫 | 將現有的方案範本調整至新方案，利用從簡單語言說明或上傳的簡報產生的Smart Campaigns、排程和預留位置電子郵件 | `build-programs` | Adobe Marketo Engage | 「為我們8月產品示範建立網路研討會註冊計畫」<br><br>「建立當潛在客戶點選50分時觸發的計畫」<br><br>「為未作用中的90天潛在客戶建立3封電子郵件的重新參與系列」 |
+| 從簡短的演講中站起程式 | 將純語言簡介或上傳的行銷活動檔案轉換為有效程式：複製最接近的相符範本、保留Smart Campaigns和Token，並更新事件詳細資料。 新的Smart Campaigns保持停用以供您檢閱 | `build-programs` | Adobe Marketo Engage | 「我即將於9月10日在芝加哥舉辦網路研討會。 為我設定程式&quot;<br><br>&quot;從此簡報設定下個月的路演程式並更新活動權杖&quot; |
+| 複製並調整現有程式 | 複製新城市、季度或地區的先前方案，並更新日期、代號和命名。 子項智慧型行銷活動會移轉並維持停用狀態，直到您啟動為止 | `build-programs` | Adobe Marketo Engage | 「在10月17日複製我們紐約站的上季活動計畫，並更新日期與代號」<br><br>「複製我們英國受眾的芝加哥路演計畫」 |
+| 使用資格邏輯建置Smart Campaign | 建立觸發器或批次Smart Campaign、新增智慧清單規則（例如「填寫表單」或「達到分數」），並設定流程步驟（例如「傳送電子郵件」） | `build-programs` | Adobe Marketo Engage | 「建立觸發行銷活動，在潛在客戶填寫「聯絡我們」表單時傳送我們的歡迎電子郵件」<br><br>「為點選50分的潛在客戶建立批次行銷活動並新增「傳送電子郵件」步驟」 |
 
 ## 忠誠度
 
