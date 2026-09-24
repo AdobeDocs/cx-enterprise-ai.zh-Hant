@@ -1,6 +1,6 @@
 ---
 title: Target與同事 — 分析、診斷及啟動Adobe Target活動
-description: 瞭解CX Enterprise Coworker為您的最佳化程式帶來的價值。
+description: 瞭解同事如何將代理式人工智慧帶入Adobe Target，幫助您分析效能、診斷問題以及啟動最佳化計畫的活動。
 feature: AI Tools
 role: User
 level: Beginner, Intermediate, Experienced
@@ -15,9 +15,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 4cb104d919b71cb8c0e71ec5c747b23020c102ca
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '87'
 ht-degree: 0%
 ---
 
