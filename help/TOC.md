@@ -6,10 +6,10 @@ description: 瞭解CX企業中的AI工具。 在CX Enterprise中使用AI來改�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 7b3e62eed184e54e03e61ea3e46b611d0ab46394
+source-git-commit: 27b08d0b2176aee18d39d5d3cd408273e34e0efc
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 16%
+source-wordcount: '374'
+ht-degree: 17%
 ---
 
 # CX Enterprise 中的 AI {#experience-cloud-ai}
@@ -55,6 +55,7 @@ ht-degree: 16%
         - [產生行銷資產](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [品牌法規遵循檢查](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
   - 自訂 {#customizations}
+    - [概觀](./coworker/customizations/overview.md)
     - 技能 {#skills}
       - [什麼是技能？](./coworker/customizations/skills/what-are-skills.md)
       - [建立您的第一項技能](./coworker/customizations/skills/create-your-first-skill.md)
@@ -110,5 +111,5 @@ ht-degree: 16%
     - {hide-from-toc}[Journey Optimizer工具](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [目標](https://experienceleague.adobe.com/zh-hant/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [目標](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
