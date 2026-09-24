@@ -6,7 +6,7 @@ description: 瞭解CX企業中的AI工具。 在CX Enterprise中使用AI來改�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 9934334f20d6632b4a390a39522b6bc3c4999c36
+source-git-commit: 7b3e62eed184e54e03e61ea3e46b611d0ab46394
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 16%
@@ -24,7 +24,7 @@ ht-degree: 16%
   - [代理式工具](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-agentic-tools/using/overview)
   - [Generative AI內容透明度](content-transparency.md)
 - CX Enterprise Coworker指南 {#coworker}
-  - [關於同事](./coworker/overview.md)
+  - [同事概觀](./coworker/overview.md)
   - 聊天 {#chat}
     - [概觀](./coworker/chat/overview.md)
     - [UI指南](./coworker/chat/ui-guide.md)
@@ -110,5 +110,5 @@ ht-degree: 16%
     - {hide-from-toc}[Journey Optimizer工具](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [目標](https://experienceleague.adobe.com/zh-hant/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [目標](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
