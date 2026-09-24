@@ -1,19 +1,19 @@
 ---
 title: 管理和疊代同事的技能
-description: 瞭解如何透過備受肯定的治理工作流程管理可重複使用的AI技能。 瞭解如何建立基準、進行受控的技能更新、比較結果、驗證改進，以及安全淘汰過時的技能，同時維護一致且可靠的輸出。
+description: 瞭解如何使用治理工作流程管理可重複使用的AI技能、建立基準、進行受控更新、驗證改進並淘汰過時的技能。
 role: User, Developer
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 258
 last-substantial-update: 2026-09-16
 jira: KT-22445
-source-git-commit: 8dc520b5e24ab07cb117fb36e70b5b5cfb4b6a5b
+source-git-commit: 3c68c4d087141956c290a1d665d6f9eeaca3300f
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '462'
 ht-degree: 0%
 ---
 
-# 在[!DNL Coworker]中管理和反複處理技能
+# 在[!DNL Coworker]中管理及反複處理技能
 
 可重複使用的AI技能可協助團隊執行一致、可重複的工作。 然而，隨著業務需求不斷演化，這些技能也需要隨之演化。 這部影片示範如何以實用的方式，管理以治理為中心的AI技能的完整生命週期，從評估和改善，到驗證和淘汰。
 

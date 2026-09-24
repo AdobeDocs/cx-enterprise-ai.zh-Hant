@@ -1,6 +1,6 @@
 ---
 title: 什麼是技能？
-description: 瞭解Adobe CX Co-worker中的技能如何協助團隊標準化客戶體驗協調、自動化循環工作流程，以及使用可重複使用的AI支援行動手冊提供一致的結果。
+description: 瞭解Adobe CX Coworker中的技能，這些是可重複使用的教戰手冊，可標準化工作流程，並在各種交談和使用者之間提供一致的結果。
 role: User
 level: Beginner
 doc-type: Feature Video
@@ -9,17 +9,16 @@ last-substantial-update: 2026-08-26T00:00:00.000Z
 jira: KT-22377
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+    internal-label: CX Enterprise Coworker
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: 220
+source-wordcount: '215'
 ht-degree: 0%
-
 ---
 
+# 同事中有哪些技能？
 
-# 同事有哪些技能？
-
-技能是可重複使用的教戰手冊，可協助Adobe CX Co-worker以一致且有效率的方式執行客戶體驗協調工作。 團隊可以使用「技能」來標準化跨交談和使用者的通用工作流程、報告方法和分析方法，而不是重複說明相同的流程。
+技能是可重複使用的教戰手冊，可協助Adobe CX Coworker以一致且有效率的方式執行客戶體驗協調任務。 團隊可以使用「技能」來標準化跨交談和使用者的通用工作流程、報告方法和分析方法，而不是重複說明相同的流程。
  
 在本影片中，您將會瞭解技能如何運作、何時使用，以及它們如何協助團隊擴展可重複的客戶體驗實務。
 

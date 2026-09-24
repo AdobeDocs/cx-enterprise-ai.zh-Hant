@@ -1,23 +1,21 @@
 ---
 title: 客戶警示技能
-description: 瞭解如何使用CX Co-worker中的客戶警示技能來檢閱警示、分析警示活動、管理訂閱，以及透過自然語言對話來排定營運問題的優先順序。
-source-git-commit: 6d2ed4b1ab956faf844ab3f517b52c6a2bd2b2dd
+description: 瞭解如何使用CX Coworker中的客戶警示技能，透過自然語言對話來檢閱、分析和排定警示活動的優先順序。
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1022'
 ht-degree: 4%
-
 ---
-
 
 # 客戶警示技能
 
 >[!AVAILABILITY]
 >
-> 所有可存取Adobe CX Enterprise Co-worker的客戶皆可使用客戶警示技能。
+> 所有具有Adobe CX Enterprise Coworker存取權的客戶皆可使用客戶警報技能。
 >
 > 若要使用客戶警示技能，您必須能存取Adobe Experience Platform警示以及與這些警示相關聯的資源。
 
-使用CX Co-worker中的客戶警示技能，將警示活動轉換為個人化的營運簡報。 檢閱最近的警示、識別高優先順序的問題、瞭解哪些資源受到影響，並透過自然語言對話集中調查工作。
+使用CX Coworker中的客戶警示技能，將警示活動轉換為個人化的營運簡報。 檢閱最近的警示、識別高優先順序的問題、瞭解哪些資源受到影響，並透過自然語言對話集中調查工作。
 
 「客戶警示技能」可協助您從警示訊號轉變為可操作的深入分析，無需手動檢閱警示檢視或在多個介面間建立資訊關聯。 從有關最近警示活動的廣泛問題開始，然後使用後續問題來識別週期性警示模式、分析受影響的物件，並專注於您擁有的警示。
 
@@ -29,23 +27,23 @@ ht-degree: 4%
 
 - 存取Adobe Experience Platform。
 - 檢視組織相關警示的許可權。
-- 安裝在CX Co-worker中的Adobe CXO外掛程式。
+- CX Coworker中安裝的Adobe CXO外掛程式。
 
 如需安裝外掛程式的指示，請參閱https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide。
 
 ## 使用客戶警示技能 {#use-customer-alert-skills}
 
-使用自然語言要求，透過CX Co-worker與客戶警示技能互動。 提出有關警示活動、訂閱、警示趨勢或受影響物件的問題。 透過後續問題繼續對話，以精簡結果並聚焦於您的分析。
+使用自然語言要求，透過CX Coworker與客戶警報技能互動。 提出有關警示活動、訂閱、警示趨勢或受影響物件的問題。 透過後續問題繼續對話，以精簡結果並聚焦於您的分析。
 
 若要使用客戶警示技能，請執行下列步驟：
 
-1. 瀏覽至&#x200B;**[!UICONTROL CX Co-worker]**。
+1. 導覽至&#x200B;**[!UICONTROL CX Coworker]**。
 
 1. 輸入有關警示的問題或請求。 例如：
 
    *「列出過去24小時內觸發的所有警示？」*
 
-   ![&#x200B; CX Co-worker中提出的第一個問題](./assets/alerts/initial-question.png)
+   ![CX Coworker中詢問的第一個問題](./assets/alerts/initial-question.png)
 
 1. 複查客戶警示技能傳回的結果。
 
@@ -186,6 +184,6 @@ ht-degree: 4%
 
 ## 後續步驟 {#next-steps}
 
-閱讀本指南後，您應該瞭解如何使用CX Co-worker中的客戶警示技能來檢閱警示活動、分析警示趨勢、管理警示訂閱，以及透過自然語言對話調查營運問題。
+閱讀本指南後，您應該瞭解如何使用CX Coworker中的客戶警示技能來檢閱警示活動、分析警示趨勢、管理警示訂閱，以及透過自然語言對話調查營運問題。
 
 如需警示的詳細資訊，請參閱[客戶警示概述](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/observability/alerts/overview)。

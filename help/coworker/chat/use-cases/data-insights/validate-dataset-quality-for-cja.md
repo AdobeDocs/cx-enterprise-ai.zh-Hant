@@ -1,6 +1,6 @@
 ---
 title: 使用Co-worker的資料驗證技能驗證Customer Journey Analytics資料
-description: 瞭解如何使用Co-worker中的資料驗證技能驗證Customer Journey Analytics資料。 識別CJA資料集，並在建立儀表板、區段和客戶歷程之前發現資料問題。
+description: 瞭解如何使用Co-worker中的資料驗證技能驗證Customer Journey Analytics資料，並在建立儀表板之前解決問題。
 feature: AI Tools
 role: User
 level: Beginner, Intermediate
@@ -8,9 +8,9 @@ doc-type: Feature Video
 duration: 330
 last-substantial-update: 2026-09-16
 jira: KT-22622
-source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '625'
 ht-degree: 0%
 ---
 # 使用[!DNL Coworker]中的資料驗證技能驗證Customer Journey Analytics資料

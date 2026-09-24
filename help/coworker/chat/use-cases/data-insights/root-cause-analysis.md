@@ -1,6 +1,6 @@
 ---
 title: Customer Journey Analytics與同事 — 根本原因分析
-description: 瞭解同事如何以自然語言回答分析問題、視覺化趨勢、揭示模式以及執行根本原因分析，而無需手動查詢。
+description: 瞭解如何使用自然語言和同事來探索分析資料中的趨勢和根本原因，而無需編寫手動查詢。
 feature: AI Tools
 role: User
 level: Beginner
@@ -10,15 +10,15 @@ last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22082
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: 106
+source-wordcount: '106'
 ht-degree: 0%
-
 ---
-
 
 # Customer Journey Analytics與同事 — 使用自然語言探索趨勢和根本原因
 
