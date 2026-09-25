@@ -6,9 +6,9 @@ description: 瞭解CX企業中的AI工具。 在CX Enterprise中使用AI來改�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 27b08d0b2176aee18d39d5d3cd408273e34e0efc
+source-git-commit: 60ed766e62bf5822244abdfc4e944ff71aaa0d57
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '385'
 ht-degree: 17%
 ---
 
@@ -54,6 +54,9 @@ ht-degree: 17%
       - 內容顧問 {#content-advisor}
         - [產生行銷資產](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [品牌法規遵循檢查](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+      - 工作流程與規劃 {#workflow-and-planning}
+        - [規劃數位行銷活動啟動](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
+        - [撰寫AEM Sites頁面](./coworker/chat/use-cases/content-advisor/author-web-pages.md)
   - 自訂 {#customizations}
     - [概觀](./coworker/customizations/overview.md)
     - 技能 {#skills}
@@ -73,7 +76,7 @@ ht-degree: 17%
     - [啟動及管理行銷活動](./coworker/campaigns/launch-manage-campaign.md)
     - [使用案例](./coworker/campaigns/use-cases.md)
     - [提示最佳實務](./coworker/campaigns/prompting-best-practices.md)
-    - [C2PA中繼資料](./coworker/campaigns/c2pa-metadata.md)
+    - [C2PA 中繼資料](./coworker/campaigns/c2pa-metadata.md)
     - 連接器 {#connectors}
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
