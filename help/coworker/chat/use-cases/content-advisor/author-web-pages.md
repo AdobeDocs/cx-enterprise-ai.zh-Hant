@@ -13,16 +13,14 @@ product_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 93cccf40d67507df59e07ed016253dbf1d6b3b2e
+source-git-commit: a599e1533e586b256ffc4d3253b51e3c3fafabce
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '103'
 ht-degree: 0%
 ---
 # 與同事共同撰寫AEM Sites頁面
 
-使用Adobe的對話式AI [Co-worker](./overview.md)，以簡單的語言描述您想要的內容，而非點進頁面編輯器，來撰寫AEM Sites頁面。
-
-在此影片中，Co-worker使用聊天提示將新促銷活動新增到WKND首頁（從視覺內容片段建置）。
+使用Adobe CX Enterprise Coworker以簡單的語言描述您想要的內容，進而撰寫AEM Sites頁面。 在此影片中，Co-worker使用聊天提示將新促銷活動新增到WKND首頁（從視覺內容片段建置）。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3503863/?learn=on)
 
@@ -30,4 +28,3 @@ ht-degree: 0%
 >
 >此影片顯示同事在基於頁面編輯器的網站上編寫頁面。 同事在搭配Edge Delivery Services提供的網站上運作的方式相同。
 
-請參閱[同事聊天概述](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)以開始同事聊天。
