@@ -30,4 +30,4 @@ ht-degree: 0%
 >
 >此影片顯示同事在基於頁面編輯器的網站上編寫頁面。 同事在搭配Edge Delivery Services提供的網站上運作的方式相同。
 
-請參閱[同事聊天概述](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)以開始同事聊天。
+請參閱[同事聊天概述](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)以開始同事聊天。
