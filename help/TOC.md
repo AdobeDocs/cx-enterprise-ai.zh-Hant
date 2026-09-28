@@ -6,7 +6,7 @@ description: 瞭解CX企業中的AI工具。 在CX Enterprise中使用AI來改�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 60ed766e62bf5822244abdfc4e944ff71aaa0d57
+source-git-commit: a4beeda8283b677a72ec4e276276998cd0df5b01
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 17%
@@ -25,7 +25,7 @@ ht-degree: 17%
   - [Generative AI內容透明度](content-transparency.md)
 - CX Enterprise Coworker指南 {#coworker}
   - [同事概觀](./coworker/overview.md)
-  - 聊天 {#chat}
+  - Chat {#chat}
     - [概觀](./coworker/chat/overview.md)
     - [UI指南](./coworker/chat/ui-guide.md)
     - {hide-from-toc}[在遊樂場的同事聊天](./coworker/playground-coworker-chat.md)
@@ -54,9 +54,9 @@ ht-degree: 17%
       - 內容顧問 {#content-advisor}
         - [產生行銷資產](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [品牌法規遵循檢查](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+        - [撰寫AEM Sites頁面](./coworker/chat/use-cases/content-advisor/author-web-pages.md)
       - 工作流程與規劃 {#workflow-and-planning}
         - [規劃數位行銷活動啟動](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
-        - [撰寫AEM Sites頁面](./coworker/chat/use-cases/content-advisor/author-web-pages.md)
   - 自訂 {#customizations}
     - [概觀](./coworker/customizations/overview.md)
     - 技能 {#skills}
@@ -114,5 +114,5 @@ ht-degree: 17%
     - {hide-from-toc}[Journey Optimizer工具](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [目標](https://experienceleague.adobe.com/zh-hant/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [目標](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
