@@ -6,7 +6,7 @@ description: 瞭解CX企業中的AI工具。 在CX Enterprise中使用AI來改�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: a4beeda8283b677a72ec4e276276998cd0df5b01
+source-git-commit: 630b2f3ab6812251863ea3b77e1da57c04a4e4d0
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 17%
@@ -51,10 +51,10 @@ ht-degree: 17%
         - [沙箱工具代理程式技能](./agents/sandbox-tooling.md)
       - 警報 {#alerts}
         - [客戶警示技能](./agents/customer-alerts.md)
-      - 內容顧問 {#content-advisor}
-        - [產生行銷資產](./coworker/chat/use-cases/content-advisor/generate-assets.md)
-        - [品牌法規遵循檢查](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
-        - [撰寫AEM Sites頁面](./coworker/chat/use-cases/content-advisor/author-web-pages.md)
+      - Brand Visibility {#brand-visibility}
+        - [產生行銷資產](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
+        - [品牌法規遵循檢查](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
+        - [撰寫AEM Sites頁面](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
       - 工作流程與規劃 {#workflow-and-planning}
         - [規劃數位行銷活動啟動](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
   - 自訂 {#customizations}
@@ -114,5 +114,5 @@ ht-degree: 17%
     - {hide-from-toc}[Journey Optimizer工具](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [目標](https://experienceleague.adobe.com/zh-hant/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [目標](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
