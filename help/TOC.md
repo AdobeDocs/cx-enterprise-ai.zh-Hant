@@ -6,7 +6,7 @@ description: 瞭解CX企業中的AI工具。 在CX Enterprise中使用AI來改�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 60ed766e62bf5822244abdfc4e944ff71aaa0d57
+source-git-commit: 630b2f3ab6812251863ea3b77e1da57c04a4e4d0
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 17%
@@ -25,7 +25,7 @@ ht-degree: 17%
   - [Generative AI內容透明度](content-transparency.md)
 - CX Enterprise Coworker指南 {#coworker}
   - [同事概觀](./coworker/overview.md)
-  - 聊天 {#chat}
+  - Chat {#chat}
     - [概觀](./coworker/chat/overview.md)
     - [UI指南](./coworker/chat/ui-guide.md)
     - {hide-from-toc}[在遊樂場的同事聊天](./coworker/playground-coworker-chat.md)
@@ -51,12 +51,12 @@ ht-degree: 17%
         - [沙箱工具代理程式技能](./agents/sandbox-tooling.md)
       - 警報 {#alerts}
         - [客戶警示技能](./agents/customer-alerts.md)
-      - 內容顧問 {#content-advisor}
-        - [產生行銷資產](./coworker/chat/use-cases/content-advisor/generate-assets.md)
-        - [品牌法規遵循檢查](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+      - Brand Visibility {#brand-visibility}
+        - [產生行銷資產](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
+        - [品牌法規遵循檢查](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
+        - [撰寫AEM Sites頁面](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
       - 工作流程與規劃 {#workflow-and-planning}
         - [規劃數位行銷活動啟動](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
-        - [撰寫AEM Sites頁面](./coworker/chat/use-cases/content-advisor/author-web-pages.md)
   - 自訂 {#customizations}
     - [概觀](./coworker/customizations/overview.md)
     - 技能 {#skills}

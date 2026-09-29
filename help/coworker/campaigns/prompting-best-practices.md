@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
+source-git-commit: d037ab69c5d03cba18dcfcdd8745c8f331765214
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '781'
 ht-degree: 1%
 ---
 # 提示最佳實務 {#best-practices}
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->目前，您只能連線至同事的Campaign支援整合。  如果您有任何現有的Adobe Enterprise應用程式（可儲存對象或建立歷程），我們建議您改用[CX Enterprise Coworker](/help/coworker/chat/use-cases/overview.md)。
+>目前，您只能連線至同事行銷活動支援的整合。 如果您有任何現有的Adobe Enterprise應用程式（可儲存對象或建立歷程），我們建議您改用[CX Enterprise Coworker](/help/coworker/chat/use-cases/overview.md)。
 
-## 使用CO-STAR架構 {#costar-framework}
+## 使用CO-STAR架構
 
 為了獲得最佳結果，請使用CO-STAR框架組織您的提示。 這種結構化方法可確保AI完全瞭解您所需的內容。
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 | **A — 對象** | 您正在定位的對象 | 確保訊息可與適當的人產生共鳴 |
 | **R — 需求** | 特定限制或必備條件 | 定義邊界和關鍵元素 |
 
-## AI提示要點 {#key-takeaways}
+## AI提示要點
 
 ### 做和不做
 
@@ -114,7 +114,7 @@ ht-degree: 1%
 </tbody>
 </table>
 
-### 品質檢查清單 {#quality-checklist}
+### 品質檢查清單
 
 在產生內容之前，請先確定下列事項：
 
@@ -122,7 +122,7 @@ ht-degree: 1%
 
 ✓ **已定義的目標對象**：指定人口統計、角色或區段。
 
-✓ **指派為預設的正確品牌**：已選取適當的品牌准則。
+✓ **指派正確的品牌為預設值**：已選取適當的品牌准則。
 
 ✓ **真實範圍**：避免請求配置變更、樣式或結構編輯。
 
@@ -160,6 +160,22 @@ ht-degree: 1%
 </tr>
 </tbody>
 </table>
+
+## 一般行銷提示概念
+
+### 內容行銷
+
+- 「產生20個部落格主題，回答首次購房者的常見問題。」
+- 「LinkedIn集思廣益，為B2B網路安全初創公司張貼創意。」
+- 「建立三個月的內容行事曆，著重於教育新客戶。」
+- 「建議可重新用於部落格、影片、電子報和社交貼文的內容主題。」
+
+### 電子郵件行銷
+
+- 「為對可持續時尚感興趣的新訂閱者產生歡迎電子郵件序列。」
+- 「腦力激盪主旨行，這些主旨行創造好奇心，聽起來卻不像點選誘餌。」
+- 「建議不活躍客戶重新參與行銷活動的想法。」
+- 「為已完成入門的使用者建立生命週期電子郵件構想。」
 
 >[!MORELIKETHIS]
 >

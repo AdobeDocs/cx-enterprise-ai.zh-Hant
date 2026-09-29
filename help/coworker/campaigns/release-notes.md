@@ -1,22 +1,47 @@
 ---
-description: 瞭解Adobe CX Enterprise Co-worker Campaigns版本注意事項中的功能增強和修正。
-title: CX Enterprise Co-worker Campaigns發行說明
+description: 瞭解Adobe CX Enterprise Coworker Campaigns版本注意事項中的功能增強和修正。
+title: CX Enterprise Coworker Campaigns發行說明
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: dcd2c251357930ae31f78e2d9460d038a0710e3d
+    internal-label: CX Enterprise Coworker
+source-git-commit: 25e4b0b917fec566b7f85f6914817d3d038abf0e
 workflow-type: tm+mt
-source-wordcount: 3291
+source-wordcount: '3590'
 ht-degree: 0%
-
 ---
-
-# Adobe CX Enterprise Co-worker Campaigns發行說明 {#release-notes}
+# Adobe CX Enterprise Coworker Campaigns發行說明 {#release-notes}
 
 Co-worker Campaign版本會在持續傳遞模式上運作，允許以更可縮放、分階段的方法進行功能部署。
 
-## 2026年9月 {#sep-2026}
+## 2026 年 9 月 {#sep-2026}
+
+**發行日期： 2026年9月17日**
+
+* 連線在Azure、GCP或自訂網域上託管的Databricks工作區
+* 直到行銷活動的工作流程完全設定完畢後，才能再啟動行銷活動
+* 行銷活動範本已更新內容
+* 上傳連絡人清單CSV時直接選擇聯結器
+* 修正捲動一長串試用註冊後可能發生的當機問題
+* 修正上傳具有空白或重複標題的CSV對象時，頁面可能當機的問題
+* 修正行銷活動提示中的預留位置文字，該文字在解決後顯示為未填色
+* 修正「技能」頁面上遺失顏色漸層所導致的當機問題
+* 修正在您回答後重複相同問題的聊天卡住
+* 聊天回應不再於您選取的回應前面顯示雜湊ID首碼
+* 現在聊天建議快速下一步回覆，您可以點選以填入撰寫方塊
+* 行銷活動範本現在會以簡化的頁面內檢視開啟，而不是以個別的對話方塊開啟
+* 展開的聊天進度列現在會在內部捲動，而非將您的交談推出檢視
+* Campaign設定現在可更準確地反映最新展示板詳細資料
+* 升級計畫對話方塊現在會使用更一致的外觀和風格
+* 從行銷活動計畫標題中移除多餘的狀態指示器，以提供更乾淨的外觀
+* 快速電子郵件編輯現在會一起儲存為單一版本記錄專案，而非多個
+* 在產生草稿時，修正品牌套件標題偶爾會空白
+* 直接在影像工具列中使用Adobe Express編輯影像
+* 基本代理程式對象資料現在會在行銷活動展示板上保持同步，無需手動重新整理
+* 行銷活動展示板上的品牌圖志裁切更整齊，以符合空間
+* 當您的行銷活動計畫移至行銷活動展示板時，更流暢的視覺切換
 
 **發行日期： 2026年9月3日**
 
@@ -345,7 +370,7 @@ Co-worker Campaign版本會在持續傳遞模式上運作，允許以更可縮�
 
 * 當您工作時，行銷活動展示板和清單會與最新詳細資料保持一致
 * 行銷活動聊天室和Agent Builder中會顯示清楚的產生式AI免責宣告
-* 支援聯絡詳細資料現在使用專屬的CX Co-worker Campaigns電子郵件地址
+* 支援聯絡詳細資料現在使用專用的CX Coworker行銷活動電子郵件地址
 * 行銷首頁會移除輪候表區段，且主圖影片顯示得更清晰
 * 更多畫面會自動採用您的語言和當地日期格式
 * 全方位的效能與可靠性提升功能
