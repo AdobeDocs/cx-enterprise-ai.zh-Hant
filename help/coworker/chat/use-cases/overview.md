@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 630b2f3ab6812251863ea3b77e1da57c04a4e4d0
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
-source-wordcount: '6113'
+source-wordcount: '7039'
 ht-degree: 6%
 ---
 # 同事聊天使用案例 {#use-cases}
@@ -196,6 +196,41 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 
 * [使用AI](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}提供Adobe Journey Optimizer中同事和可用技能的概觀。
 
+## 在Journey Optimizer中建立內容
+
+使用「同事聊天」來規劃、產生、評估和調整行銷活動訊息文案和電子郵件HTML，然後直接將核准的內容儲存或傳遞給Journey Optimizer。
+
+### 訊息復本
+
+| 使用案例 | 說明 | 技能 | 應用程式 | 範例提示 |
+| --- | --- | --- | --- | --- |
+| [擷取行銷簡報](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 擷取行銷活動策略並植入創意簡報。 | `capture-marketing-brief` | Adobe Journey Optimizer (AJO) | 「為季節性產品上市建立行銷簡報」 <br> 「將此行銷活動策略化為行銷簡報」 |
+| [擷取創意簡報](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 建構複製執行規格並建立內容計畫矩陣。 | `capture-creative-brief` | Adobe Journey Optimizer (AJO) | 「從這個核准的行銷簡報建立創意簡報」<br>「為我們的電子郵件和簡訊行銷活動建立內容計畫矩陣」 |
+| [計畫內容策略](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 在產生副本之前腦力激盪訊息地圖、敘述弧和頻道角色。 | `plan-content-strategy` | Adobe Journey Optimizer (AJO) | 「透過電子郵件和推播為我們的產品上市計畫訊息策略」<br>「為我們的歡迎行銷活動提供敘述弧線建議」 |
+| [產生復本](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 為電子郵件、簡訊、推播、WhatsApp、社交和橫幅產生全新的品牌內副本。 | `generate-copy` | Adobe Journey Optimizer (AJO) | 「撰寫品牌內電子郵件，宣告我們新的季節性系列」 <br> 「為擁有放棄購物車之客戶草擬簡訊提醒」 |
+| [產生影像](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 使用Firefly產生、裁切、覆蓋、變更和簽署行銷活動影像。 | `generate-image` | Adobe Journey Optimizer (AJO) | 「為我們的季節性行銷活動電子郵件產生主圖影像」 <br>「從此核准的行銷活動影像建立橫幅變化」 |
+| [評估復本](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 根據品牌和通路標準評估現有的復本並為其評分。 | `evaluate-copy` | Adobe Journey Optimizer (AJO) | 「根據我們的品牌指南評估此電子郵件復本」 <br> 「檢查此推播訊息是否符合我們的頻道標準」 |
+| [編輯復本](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 對現有副本進行就地編輯 — 評估修正、重新定語、翻譯和導向修訂。 | `edit-copy` | Adobe Journey Optimizer (AJO) | 「修訂此電子郵件副本，以處理評估回饋」<br>「將此核准的SMS副本翻譯為法文」 |
+| [展開行銷活動內容](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 跨管道、地區設定、對象和變體，將核准的內容計畫矩陣粉絲化為每個單位的副本。 | `expand-campaign` | Adobe Journey Optimizer (AJO) | 「為此核准的內容計畫中每個管道產生復本」 <br>「將此行銷活動展開為每個對象的英文和法文變體」 |
+| [分析視覺化HTML](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 轉譯複製HTML至熒幕擷圖以供視覺化檢查。 | `analyze-visual-html` | Adobe Journey Optimizer (AJO) | 「在HTML轉譯此電子郵件，以便我檢查版面」 <br> 「顯示此行銷活動HTML的熒幕擷圖」 |
+| [儲存內容](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 將核准的內容儲存回Adobe Journey Optimizer、Adobe Campaign v8或Marketo。 | `save-content` | Adobe Journey Optimizer (AJO) | 「將此核准的電子郵件內容儲存至Journey Optimizer」<br>「將核准的簡訊副本儲存至Journey Optimizer」 |
+
+### 電子郵件設計
+
+| 使用案例 | 說明 | 技能 | 應用程式 | 範例提示 |
+| --- | --- | --- | --- | --- |
+| [撰寫電子郵件](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 計畫會從行銷目標和品牌輸入封鎖結構和樣式。 | `compose-email` | Adobe Journey Optimizer (AJO) | 「使用我們的品牌指南規劃產品發佈的電子郵件版面配置」 <br> 「使用主圖區段、產品重點和call to action撰寫歡迎電子郵件」 |
+| [建置電子郵件](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 從版面配置計畫、熒幕擷圖或Figma設計連結建立、調整、編輯及改良電子郵件HTML。 | `build-email` | Adobe Journey Optimizer (AJO) | 「從這個核准的版面配置計畫建置電子郵件HTML」<br>「從這個Figma設計連結建立電子郵件」 |
+| [維護設計系統](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 維護品牌可重複使用的電子郵件設計系統 — 代號、版面模式及品牌語言。 | `maintain-design-system` | Adobe Journey Optimizer (AJO) | 「使用這些核准的品牌色彩更新我們的電子郵件設計系統」<br>「將此可重複使用的產品配置新增到我們的電子郵件設計系統」 |
+| [檢閱合規性](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 根據品牌和通路指導方針及傳遞能力標準，稽核已組裝的電子郵件。 | `review-compliance` | Adobe Journey Optimizer (AJO) | 「對照我們的品牌和頻道指南檢閱此電子郵件」<br>「在移交前稽核此電子郵件是否有傳遞問題」 |
+| [檢閱設計](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 針對階層、間距、敘述流程和品牌契合度提供主觀設計意見回饋。 | `review-design` | Adobe Journey Optimizer (AJO) | 「檢閱此電子郵件的視覺化階層與間距」 <br> 「評估此電子郵件設計是否符合我們的品牌」 |
+| [檢閱協助工具](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 執行WCAG 2.1 AA協助工具稽核。 | `review-accessibility` | Adobe Journey Optimizer (AJO) | 「稽核此電子郵件以找出WCAG 2.1 AA協助工具問題」<br>「檢查此電子郵件的色彩對比和影像替代文字」 |
+| [交出電子郵件](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | 將核准的HTML匯出並傳遞至Adobe Journey Optimizer或Adobe Campaign。 | `handoff-email` | Adobe Journey Optimizer (AJO) | 「將此核准的電子郵件匯出至HTML至Journey Optimizer」<br>「將核准的電子郵件傳送至Journey Optimizer」 |
+
+**相關資訊**
+
+* [內容管理的同事](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"}提供Adobe Journey Optimizer內容管理工具和可用技能的詳細資訊。
+
 ## 最佳化
 
 使用「同事聊天」來瀏覽、分析和規劃實驗，以及建立、執行和疑難排解Adobe Target活動、對象和建議。
@@ -258,7 +293,7 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 
 | 使用案例 | 說明 | 技能 | 應用程式 | 範例提示 |
 | --- | --- | --- | --- | --- |
-| [跨沙箱移動物件](/help/agents/sandbox-tooling.md) | 透過自動解析的相依性，順暢地跨沙箱移轉結構描述、受眾和其他物件設定 | `sandbox-tooling-workflow` | Adobe Experience Platform | 「將結構描述Luma忠誠會員白金從目前的沙箱移動到生產沙箱」<br>「將美國金級忠誠會員對象提升到中繼」 |
+| [跨沙箱移動物件](/help/coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md) | 透過自動解析的相依性，順暢地跨沙箱移轉結構描述、受眾和其他物件設定 | `sandbox-tooling-workflow` | Adobe Experience Platform | 「將結構描述Luma忠誠會員白金從目前的沙箱移動到生產沙箱」<br>「將美國金級忠誠會員對象提升到中繼」 |
 
 ## 客戶警報
 

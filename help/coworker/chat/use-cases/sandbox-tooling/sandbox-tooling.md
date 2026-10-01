@@ -1,7 +1,7 @@
 ---
 title: 沙箱工具代理程式技能
 description: 瞭解如何使用沙箱工具代理技能，跨沙箱環境複製物件中繼資料。
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%

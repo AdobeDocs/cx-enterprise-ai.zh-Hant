@@ -1,7 +1,7 @@
 ---
 title: 客戶警示技能
 description: 瞭解如何使用CX Coworker中的客戶警示技能，透過自然語言對話來檢閱、分析和排定警示活動的優先順序。
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 4%
