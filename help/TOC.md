@@ -2,11 +2,11 @@
 audience: user
 user-guide-title: CX Enterprise 中的 AI
 user-guide-description: 透過實用檔案、實作指引和參考資料，瞭解如何建立、設定、整合及擴充AI Assistant、同事、代理程式和MCP。
-description: 瞭解CX企業中的AI工具。 在CX Enterprise中使用AI來改善您的產品知識並取得營運深入分析。
+description: 瞭解CX Enterprise中的AI工具。 在CX Enterprise中使用AI來改善您的產品知識並獲得操作見解。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 630b2f3ab6812251863ea3b77e1da57c04a4e4d0
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 17%
@@ -48,9 +48,9 @@ ht-degree: 17%
       - 最佳化 {#optimization}
         - [啟動Target活動](./coworker/chat/use-cases/optimization/target.md)
       - 沙箱工具 {#sandbox-tooling}
-        - [沙箱工具代理程式技能](./agents/sandbox-tooling.md)
+        - [沙箱工具代理程式技能](./coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md)
       - 警報 {#alerts}
-        - [客戶警示技能](./agents/customer-alerts.md)
+        - [客戶警示技能](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
       - Brand Visibility {#brand-visibility}
         - [產生行銷資產](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
         - [品牌法規遵循檢查](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
@@ -114,5 +114,5 @@ ht-degree: 17%
     - {hide-from-toc}[Journey Optimizer工具](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [目標](https://experienceleague.adobe.com/zh-hant/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [目標](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
