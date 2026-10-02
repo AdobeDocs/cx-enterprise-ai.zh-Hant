@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 80dec3229f0855df4b9211858e6e5d27b5974c89
+source-git-commit: eb5a6e3230c31d9938f5ebf40fb08bdaad169866
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '755'
 ht-degree: 5%
 ---
 # CX Enterprise Coworker概觀 {#overview}
@@ -29,18 +29,18 @@ Co-worker是AI支援的團隊成員，可重新構想組織、團隊和個人的
         <div class="card" style="height: 100%; display: flex; flex-direction: column;">
         <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/zh-hant/playlists/coworker-get-started-with-chat" title="開始使用CX Enterprise Coworker Chat" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498576?captions=chi_hant&format=jpeg" alt="Experience League LIVE：Co-worker中的Audience和Journey B2C功能" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" title="開始使用CX Enterprise Coworker Chat" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498558?format=jpeg" alt="開始使用同事聊天" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
             </div>
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/zh-hant/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="開始使用CX Enterprise Coworker Chat">開始使用CX Enterprise Coworker Chat</a>
+                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="開始使用CX Enterprise Coworker Chat">開始使用CX Enterprise Coworker Chat</a>
                     </p>
                 </div>
-                <a href="https://experienceleague.adobe.com/zh-hant/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">播放清單</span>
                 </a>
             </div>
@@ -51,17 +51,17 @@ Co-worker是AI支援的團隊成員，可重新構想組織、團隊和個人的
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="ttps://experienceleague.adobe.com/en/playlists/coworker-customize-chat" title="開始使用CX Enterprise Coworker Chat" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502332?captions=chi_hant&format=jpeg" alt="Experience League LIVE：Co-worker中的Audience和Journey B2C功能" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" title="開始使用CX Enterprise Coworker Chat" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502322?format=jpeg" alt="自訂CX Coworker Chat" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
             </div>
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/zh-hant/playlists/coworker-customize-chat" target="_blank" rel="referrer" title="自訂CX Enterprise Coworker Chat">自訂CX Enterprise Coworker聊天</a>
+                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" title="自訂CX Enterprise Coworker Chat">自訂CX Enterprise Coworker聊天</a>
                     </p>
                 </div>
-                <a href="https://experienceleague.adobe.com/zh-hant/playlists/coworker-customize-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">播放清單</span>
                 </a>
             </div>
@@ -79,7 +79,7 @@ Co-worker是AI支援的團隊成員，可重新構想組織、團隊和個人的
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-09-24-26" title="使用Adobe CX Enterprise Coworker轉換CX工作流程" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/exl-live-20260924.png" alt="Experience League LIVE：使用Adobe CX Enterprise Coworker轉換CX工作流程" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                        <img class="is-bordered-r-small" src="../assets/exl-live-20260924.png" alt="使用Adobe CX Enterprise Coworker轉換CX工作流程" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
             </div>
@@ -101,7 +101,7 @@ Co-worker是AI支援的團隊成員，可重新構想組織、團隊和個人的
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://engage.adobe.com/ExpLeagueLive-261008.html?cid=cwkr-ovw-20261008" title="同事中的對象和歷程B2C功能" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/exl-live-20261008.png" alt="Experience League LIVE：Co-worker中的Audience和Journey B2C功能" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                        <img class="is-bordered-r-small" src="../assets/exl-live-20261008.png" alt="Co-worker中的受眾和歷程B2C功能" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
             </div>
