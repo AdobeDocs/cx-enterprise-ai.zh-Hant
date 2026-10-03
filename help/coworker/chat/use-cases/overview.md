@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
+source-git-commit: 8b900f43168e74cab003eb4bd72d5c18910c882b
 workflow-type: tm+mt
-source-wordcount: '7039'
+source-wordcount: '7086'
 ht-degree: 6%
 ---
 # 同事聊天使用案例 {#use-cases}
@@ -116,14 +116,14 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 
 | 使用案例 | 說明 | 技能 | 應用程式 | 範例提示 |
 | --- | --- | --- | --- | --- |
-| [提取CJA報告與量度](data-insights/analytics-chat.md) | 即時查詢CJA以提取量度、維度、區段和資料檢視 | `cja` | Customer Journey Analytics (CJA) | 「顯示過去30天的頁面檢視」 <br>「列出主要資料檢視中的排名最前的區段」 |
-| 比較分析 | 並排比較不同管道、時段或區段的量度 | `cja-root-cause-analysis`, `cja`, `dx-api`, `knowledge-graph` | Customer Journey Analytics (CJA) | 「依管道月份和月份比較收入」 <br>「本季行動與案頭轉換看起來如何？」 |
-| 行銷活動績效 | 測量在指定期間內行銷活動、管道和Web屬性的執行情形。 | `cja`, `dx-api`, `knowledge-graph` | | 「上個月我們的Acrobat網路行銷活動表現如何？」 |
-| funnel分析 | 逐步瞭解每個階段都有流失的多步驟轉換漏斗 | `cja` | Customer Journey Analytics (CJA) | 「逐步引導我完成結帳funnel」<br>「顯示從PDP到購買的轉換funnel」 |
-| 預測 | 根據歷史CJA資料預測未來的量度值 | `cja` | Customer Journey Analytics (CJA) | 「預測未來30天的工作階段」 <br> 「我們是否可望達成收入目標？」 |
-| [根本原因分析](data-insights/root-cause-analysis.md) | 調查量度變更的原因：診斷下降、尖峰和異常 | `cja-root-cause-analysis` | Customer Journey Analytics (CJA) | 「為什麼上週轉換率下降？」 <br> 「是什麼導致1月15日的收入激增？」 |
-| 執行摘要和KPI摘要 | 製作適合利害關係人的效能摘要、規範性建議和投影片組大綱 | `cja-executive-summary`, `cja-bacom-anomaly-tracker-v2`, `cja-cno-weekly-pulse`, `cja-reporting`, `cja`, `dx-api` | Customer Journey Analytics (CJA) | 「給我上個月的執行摘要」<br>「從這個季度的資料建立投影片投影片組大綱」 |
-| [AA ↔ CJA資料驗證](data-insights/data-validation-aa-cja.md) | 在Adobe Analytics和Customer Journey Analytics之間比較、稽核及調解資料，尤其是從Adobe Analytics升級為Customer Journey Analytics時 | `aa-cja-validation`, `cja`, `dx-api` | ADOBE ANALYTICS + CJA | 「比較我的AA報告套裝與CJA資料檢視」 <br>「驗證AA與CJA之間的頁面檢視」 |
+| [提取CJA和AA報告與量度](data-insights/analytics-chat.md) | 即時查詢CJA或AA以提取量度、維度、區段、資料檢視和報告套裝 | `cja`, `aa` | Customer Journey Analytics (CJA)、Adobe Analytics (AA) | 「顯示過去30天的頁面檢視」 <br>「列出主要資料檢視中的排名最前的區段」 |
+| 比較分析 | 並排比較不同管道、時段或區段的量度 | `cja-root-cause-analysis`, `cja`, `aa-root-cause-analysis`, `aa`, `dx-api`, `knowledge-graph` | Customer Journey Analytics (CJA)、Adobe Analytics (AA) | 「依管道月份和月份比較收入」 <br>「本季行動與案頭轉換看起來如何？」 |
+| 行銷活動績效 | 測量在指定期間內行銷活動、管道和Web屬性的執行情形。 | `cja`, `aa`, `dx-api`, `knowledge-graph` | | 「上個月我們的Acrobat網路行銷活動表現如何？」 |
+| funnel分析 | 逐步瞭解每個階段都有流失的多步驟轉換漏斗 | `cja`, `aa` | Customer Journey Analytics (CJA)、Adobe Analytics (AA) | 「逐步引導我完成結帳funnel」<br>「顯示從PDP到購買的轉換funnel」 |
+| 預測 | 根據歷史CJA或AA資料預測未來的量度值 | `cja`, `aa` | Customer Journey Analytics (CJA)、Adobe Analytics (AA) | 「預測未來30天的工作階段」 <br> 「我們是否可望達成收入目標？」 |
+| [根本原因分析](data-insights/root-cause-analysis.md) | 調查量度變更的原因：診斷下降、尖峰和異常 | `cja-root-cause-analysis`, `aa-root-cause-analysis` | Customer Journey Analytics (CJA)、Adobe Analytics (AA) | 「為什麼上週轉換率下降？」 <br> 「是什麼導致1月15日的收入激增？」 |
+| 執行摘要和KPI摘要 | 製作適合利害關係人的效能摘要、規範性建議和投影片組大綱 | `cja-executive-summary`, `cja-bacom-anomaly-tracker-v2`, `cja-cno-weekly-pulse`, `cja-reporting`, `cja`, `aa`, `dx-api` | Customer Journey Analytics (CJA)、Adobe Analytics (AA) | 「給我上個月的執行摘要」<br>「從這個季度的資料建立投影片投影片組大綱」 |
+| [AA ↔ CJA資料驗證](data-insights/data-validation-aa-cja.md) | 在Adobe Analytics和Customer Journey Analytics之間比較、稽核及調解資料，尤其是從Adobe Analytics升級為Customer Journey Analytics時 | `aa-cja-validation`, `cja`, `aa`, `dx-api` | ADOBE ANALYTICS + CJA | 「比較我的AA報告套裝與CJA資料檢視」 <br>「驗證AA與CJA之間的頁面檢視」 |
 | [驗證資料集和欄位品質](data-insights/data-validation-aep.md) | 對Experience Platform資料集和欄位執行統計和語意驗證，以在實作後或持續進行時擷取資料品質問題<!--TODO: confirm skill ID(s) with engineering before publishing--> | `data-validation` | Adobe Experience Platform | 「驗證資料集Electronics Sample 1000」 <br>「驗證Customers_2024資料集中的電子郵件欄位」 |
 | 作業時間序列與因果分析 | 查詢和分析具有因果歸因的對象、資料集和歷程的歷史時間序列資料 | `operational-stats-causal-analysis` | 所有符合資格的應用程式 | 「顯示過去90天的對象人數趨勢」 <br> 「為什麼我的資料集列計數在3月3日激增？」 |
 | 建立自訂CJA技能 | 將分析模式轉換為可重複使用、且跨工作階段儲存的技能 | `cja-skill-creator` | Customer Journey Analytics (CJA) | 「將此每週收入分析轉換為可重複使用的技能」 <br>「將此儲存為每月funnel報告的技能」 |
