@@ -1,37 +1,37 @@
 ---
 title: 透過同事聊天分析Customer Journey Analytics資料
-description: 瞭解如何使用Adobe CX Enterprise Co-worker Chat分析Customer Journey Analytics資料、建立漏斗，以及找出客戶在歷程中的流失點。
+description: 瞭解如何使用Adobe CX Enterprise Coworker Chat分析Customer Journey Analytics資料、建立漏斗，並找出客戶在歷程中的流失位置。
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: a235d262125070fd8655543d0ae35c6b2465e8cc
 workflow-type: tm+mt
-source-wordcount: 3210
+source-wordcount: '3338'
 ht-degree: 3%
-
 ---
+# 透過同事聊天分析Adobe CX Analytics資料
 
-# 透過同事聊天分析Customer Journey Analytics資料
-
-Adobe CX Enterprise Co-worker Chat可以執行進階資料分析，而以前只能在Analysis Workspace中執行這種分析。 Co-worker Chat會存取您Customer Journey Analytics資料檢視中的資料，讓您探索該資料並獲得自然語言提示的答案。
+Adobe CX Enterprise Coworker Chat可以執行進階資料分析，而以前只在Analysis Workspace中可以執行。 Co-worker Chat會存取您Customer Journey Analytics資料檢視或Adobe Analytics報表套裝中的資料，讓您探索該資料並獲得自然語言提示的答案。
 
 您可以透過兩種方式使用「同事聊天」，視您需要的分析數量而定：
 
 * **快速解答** — 直接詢問簡單語言的問題，並取得立即的答案。 商務使用者經常以這種方式使用同事聊天，而分析師在需要為利害關係人提供快速答案時也會使用聊天。
 * **深思熟慮的工作** — 與同事聊天室進行延伸、多回合的交談，以調查業務問題、排除原因，並取得建議。 分析人員通常會在建議前，使用此方法來深入探索資料。
 
-開始之前，請先瞭解Co-worker Chat介面和設定選項，然後確定Co-worker已連線至Customer Journey Analytics和相關資料檢視。
+開始之前，請先瞭解同事聊天介面和設定選項，然後確定同事已連線至Customer Journey Analytics或Adobe Analytics以及相關資料檢視或報表套裝。
 
 ## 開始使用同事聊天
 
 ### 資料存取與許可權
 
-同事聊天從Customer Journey Analytics繼承許可權。 您只能存取Analysis Workspace中可供您使用的資料檢視、維度、量度和區段。
+同事聊天從Customer Journey Analytics或Adobe Analytics繼承許可權。 您只能存取Analysis Workspace中可供您使用的資料檢視、報表套裝、維度、量度和區段。
 
 ### 介面和設定選項
 
-在使用「同事聊天」處理Customer Journey Analytics資料之前，請先瞭解如何登入及管理下列功能的設定選項：
+在使用「同事聊天」處理Customer Journey Analytics或Adobe Analytics資料之前，請先瞭解如何登入及管理下列功能的設定選項：
 
 * 聊天輸入
 * 對話
@@ -65,7 +65,7 @@ Adobe CX Enterprise Co-worker Chat可以執行進階資料分析，而以前只�
 * 建立提示時，請儘可能具體一些：
 
   * 命名您要分析的維度、量度和日期範圍。
-  * 依元件的確切名稱參考資料檢視元件。
+  * 依元件的確切名稱參照元件。
   * 指定您要包含、排除或比較的任何區段、對象、管道或裝置。
   * 指出您想要特定的視覺效果型別，例如funnel、趨勢或同類群組表格。
   * 如果您希望「同事聊天」提供後續問題的建議，請詢問建議的後續步驟。
@@ -76,7 +76,7 @@ Adobe CX Enterprise Co-worker Chat可以執行進階資料分析，而以前只�
   * 為驗證資料時您想要比較的特定報表套裝和資料檢視命名。
   * 先完成分析，然後要求「同事聊天」將其儲存為技能，提供清楚的描述性名稱，並記下您計畫重複使用分析的頻率。
 
-* 將標準方向新增至Co-worker Chat記憶體。 例如，如果您一律使用相同資料檢視中的資料，請將其新增至記憶體。
+* 將標準方向新增至Co-worker Chat記憶體。 例如，如果您一律使用相同資料檢視或報表套裝的資料，請將其新增至記憶體。
 
 ## 確認同事聊天已連線至Customer Journey Analytics
 
@@ -88,15 +88,15 @@ Adobe CX Enterprise Co-worker Chat可以執行進階資料分析，而以前只�
 
 1. （條件式）如果尚未連線&#x200B;[!UICONTROL **cja-mcp**]，請選取&#x200B;[!UICONTROL **新增MCP伺服器**]，在&#x200B;[!UICONTROL **伺服器名稱**]&#x200B;欄位中指定cja，並在它出現時加以選取，然後選取&#x200B;[!UICONTROL **新增伺服器**]。
 
-## 連線到正確的資料檢視
+## 連線至正確的資料檢視或報表套裝
 
-資料檢視是Customer Journey Analytics中的容器，可決定如何解譯資料。
+資料檢視是Customer Journey Analytics中的容器，可決定如何解譯資料。 報表套裝是Adobe Analytics中的容器，可儲存從您的網站和應用程式收集到的資料。
 
-您可能會存取Customer Journey Analytics中的各種資料檢視，每個檢視都包含Co-worker在分析資料時可使用的不同維度和量度。
+您可以存取Customer Journey Analytics中的各種資料檢視或Adobe Analytics中的報表套裝。 每個都可能包含Co-worker在分析資料時可使用的不同維度和量度。
 
-### 決定您要使用哪些資料檢視
+### 決定您要使用哪些資料檢視或報表套裝
 
-告訴同事您要回答的問題型別，並詢問您有權存取提供該資訊的資料檢視。 您也可以[將資料檢視設定為記憶體](#add-a-data-view-preference-in-memory)中的偏好設定。
+告訴同事您要回答的問題型別，並詢問您有權存取提供該資訊的資料檢視或報表套裝。 您也可以[將資料檢視或報表套裝設定為記憶體中的偏好設定](#add-a-data-view-or-report-suite-preference-in-memory)。
 
 **您：**
 
@@ -130,13 +130,13 @@ Adobe CX Enterprise Co-worker Chat可以執行進階資料分析，而以前只�
 
 >[!ENDSHADEBOX]
 
-### 在記憶體中新增資料檢視偏好設定
+### 在記憶體中新增資料檢視或報表套裝偏好設定
 
-Co-worker Chat包含記憶體功能，可讓您存取跨越所有聊天內容的資訊。 將您偏好的資料檢視新增為同事記憶體中的偏好設定，是建議的做法。
+Co-worker Chat包含記憶體功能，可讓您存取跨越所有聊天內容的資訊。 建議您將偏好的資料檢視或報表套裝新增為同事記憶體的偏好設定。
 
 1. 在「同事聊天」的左側導覽中，選取「記憶體」圖示。
 
-1. 在「記憶體」頁面的&#x200B;[!UICONTROL **儲存的偏好設定**]&#x200B;區段中，指定您希望「同事聊天」在聊天中使用的一或多個資料檢視。
+1. 在「記憶體」頁面的&#x200B;[!UICONTROL **儲存的偏好設定**]&#x200B;區段中，指定您希望「同事聊天」在聊天中使用的一或多個資料檢視或報表套裝。
 
    左側邊欄中的![記憶體區段](../../assets/coworker-memory.png)
 
@@ -146,7 +146,7 @@ Co-worker建立視覺效果後，您可以在Analysis Workspace中開啟該視�
 
 若要在新的Analysis Workspace專案中開啟視覺效果：
 
-1. 選取「在CJA中分析&#x200B;**」（位於在Co-worker中建立的任何視覺效果旁）。**
+1. 選取「在CJA中分析&#x200B;**]」（位於在Co-worker中建立的任何視覺效果旁）。[!UICONTROL **
 
 1. 在Customer Journey Analytics中開啟視覺效果後，您可以使用Analysis Workspace拖放瀏覽器介面進行修改、進一步製作分析、建立對象等。 您甚至可以和您選擇的任何人共用您的Workspace專案。
 
@@ -154,51 +154,57 @@ Co-worker建立視覺效果後，您可以在Analysis Workspace中開啟該視�
 
 ### Customer Journey Analytics的使用案例
 
-從快速解答到深入思考工作調查，您都可以看到從業人員在Adobe CX Enterprise Co-worker Chat中使用的Customer Journey Analytics使用案例和範例提示。 每個提示都是為複製而建置，會根據您自己的資料和內容進行調整，並透過對話進行細化。
+您可以檢視Customer Journey Analytics使用案例和從業人員在Adobe CX Enterprise Coworker Chat中使用的範例提示，從快速解答到深入思考工作調查。 每個提示都是為複製而建置，會根據您自己的資料和內容進行調整，並透過對話進行細化。
 
 如需詳細資訊，請參閱[使用案例](/help/coworker/chat/use-cases/overview.md)。
 
 ## Analytics技能
 
-下列為分析Customer Journey Analytics資料所需的技能。
+下列技能適用於分析Customer Journey Analytics或Adobe Analytics資料。
 
 ### 查詢和分析資料
 
-此技能(`cja`)可讓您即時查詢Customer Journey Analytics並分析結果，而不需在Analysis Workspace中自行建立請求。
+這些技能可讓您即時查詢資料和分析結果，而不需在Analysis Workspace中自行建立請求：
+
+* `cja` — 查詢Customer Journey Analytics資料檢視
+* `aa` — 查詢Adobe Analytics報表套裝
 
 #### 必要權限
 
-* 檢視對您要查詢之資料檢視的存取權
+* 檢視對您要查詢之資料檢視或報表套裝的存取權
 
 #### 主要使用案例
 
 | 使用案例 | 函數 | 範例提示 |
 |---------|----------|---------|
-| **提取報告和量度** | 即時查詢Customer Journey Analytics以提取量度、維度、區段和資料檢視。 | <ul><li>「顯示過去30天的頁面檢視」</li><li>「在主資料檢視中列出排名最前的區段」</li></ul> |
+| **提取報告和量度** | 即時查詢Customer Journey Analytics或Adobe Analytics以提取量度、維度、區段、資料檢視和報表套裝。 | <ul><li>「顯示過去30天的頁面檢視」</li><li>「在主資料檢視中列出排名最前的區段」</li></ul> |
 | **比較分析** | 並排比較不同管道、時段或區段的量度。 | <ul><li>「依管道月份比較收入（月份）」</li><li>「本季行動與桌上型電腦轉換表現如何？」</li></ul> |
 | **Funnel分析** | 逐步瞭解每個階段都含有流失的多步驟轉換漏斗。 | <ul><li>「帶我瀏覽funnel結帳」</li><li>「顯示從PDP到購買的轉換funnel」</li></ul> |
 | **預測** | 根據歷史資料來專案未來的量度值。 | <ul><li>「未來30天的預測工作階段」</li><li>「我們是否可望達成收入目標？」</li></ul> |
 
 #### 在範圍中
 
-* 即時查詢量度、維度、區段和資料檢視
+* 即時查詢量度、維度、區段、資料檢視和報表套裝
 * 跨管道、時段或區段的並排比較
 * 多步驟funnel和流失分析
 * 根據歷史趨勢的量度預測
 
 #### 超出範圍
 
-* 建立或編輯資料檢視元件
-* 在您有權存取的資料檢視之外的資料
+* 建立或編輯資料檢視或報表套裝元件
+* 資料檢視或您有權存取的報告套裝之外的資料
 * 超越量度預測的預測性模型
 
 ### 根本原因分析
 
-此技能(`cja-root-cause-analysis`)會調查量度變更的原因，而非僅報告其已變更。
+這些技能會調查量度變更的原因，而不僅僅是報告其已變更：
+
+* `cja-root-cause-analysis` — 分析Customer Journey Analytics資料檢視中的量度變更
+* `aa-root-cause-analysis` — 分析Adobe Analytics報表套裝中的量度變更
 
 #### 必要權限
 
-* 檢視對所分析資料檢視的存取權
+* 檢視對所分析資料檢視或報表套裝的存取權
 
 #### 主要使用案例
 
@@ -214,15 +220,15 @@ Co-worker建立視覺效果後，您可以在Analysis Workspace中開啟該視�
 #### 超出範圍
 
 * 偵測您未詢問的異常（無自動或即時警報）
-* 針對您有權存取之資料檢視外部量度的根本原因分析
+* 針對您有權存取的資料檢視或報表套裝外部量度的根本原因分析
 
 ### 執行摘要和效能摘要
 
-此技能(`cja-executive-summary`)可產生適用於利害關係人的Customer Journey Analytics資料摘要。
+此技能(`cja-executive-summary`)可產生適用於利害關係人的Customer Journey Analytics或Adobe Analytics資料摘要。
 
 #### 必要權限
 
-* 檢視摘要中涵蓋的資料檢視或資料檢視的存取權
+* 檢視摘要中涵蓋的資料檢視或報表套裝存取權
 
 #### 主要使用案例
 
@@ -239,7 +245,7 @@ Co-worker建立視覺效果後，您可以在Analysis Workspace中開啟該視�
 #### 超出範圍
 
 * 建立最後的投影片單元或簡報檔案
-* 跨越您無權存取之資料檢視的摘要
+* 跨越您無權存取的資料檢視或報表套裝的摘要
 
 ### 使用Adobe Analytics進行資料驗證
 
@@ -287,7 +293,7 @@ Co-worker建立視覺效果後，您可以在Analysis Workspace中開啟該視�
 #### 超出範圍
 
 * 自動與其他使用者共用已儲存的技能（組織層級技能庫需要管理員設定）
-* 將資料檢視元件編輯為技能參照
+* 編輯技能參照的資料檢視或報告套裝元件
 
 ## 範例：尋找客戶流失的位置
 
