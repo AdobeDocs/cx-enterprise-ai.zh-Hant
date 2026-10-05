@@ -8,7 +8,7 @@ ht-degree: 1%
 ---
 # Co-worker中的SQL資料準備
 
-在Co-worker中使用SQL資料準備，以自然語言提示執行一般[資料Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)工作。 您可以產生SQL、疑難排解或最佳化現有查詢、預覽結果，以及排程查詢以循環執行。
+在Co-worker中使用SQL資料準備，以自然語言提示執行一般[資料Distiller](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/data-distiller/overview)工作。 您可以產生SQL、疑難排解或最佳化現有查詢、預覽結果，以及排程查詢以循環執行。
 
 >[!AVAILABILITY]
 >
@@ -56,7 +56,7 @@ Co-worker產生或更新SQL之後，您可以繼續交談以預覽結果、調�
 
 當需要其他資訊時，同事可以詢問後續問題，例如識別適當的資料集或確認排程的時區。
 
-查詢預覽最多可傳回5列。 若要直接在Experience Platform中執行和使用查詢，請參閱[查詢編輯器UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide)。
+查詢預覽最多可傳回5列。 若要直接在Experience Platform中執行和使用查詢，請參閱[查詢編輯器UI指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/ui/user-guide)。
 
 ![顯示五列SQL查詢結果預覽的同事回應，以及可將查詢儲存為範本或排程重複執行的選項。](./assets/sql-data-prep/query-preview.png)
 
@@ -74,7 +74,7 @@ Co-worker會傳回產生的SQL，並可執行查詢以提供結果的預覽。
 
 ![Co-worker回應顯示依據事件型別摘要客戶參與情況的已產生SQL，隨後是事件總數與不重複客戶的表格預覽，以及結果分析。](./assets/sql-data-prep/authoring-result.png)
 
-如需有關直接在Experience Platform中建立和執行查詢的資訊，請參閱[查詢編輯器UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide)。
+如需有關直接在Experience Platform中建立和執行查詢的資訊，請參閱[查詢編輯器UI指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/ui/user-guide)。
 
 ### 最佳化現有SQL {#optimize-sql}
 
@@ -113,7 +113,7 @@ Co-worker會傳回產生的SQL，並可執行查詢以提供結果的預覽。
 
 已最佳化透過SQL編寫功能產生的SQL。 您不需要個別提交新產生的SQL以進行最佳化。
 
-如需SQL語法和支援的命令，請參閱[查詢服務SQL參考](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview)。
+如需SQL語法和支援的命令，請參閱[查詢服務SQL參考](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/sql/overview)。
 
 ### 診斷並修正SQL錯誤 {#diagnose-sql-errors}
 
@@ -156,13 +156,13 @@ Co-worker會分析查詢、識別錯誤原因、說明問題並提供更正的SQ
 
 ![確認已排程SQL查詢的同事回應，包括儲存的範本、排程、時區、結束日期、排程狀態以及失敗警示。](./assets/sql-data-prep/schedule-query.png)
 
-如需有關查詢排程、週期設定、輸出資料集和警示的詳細資訊，請參閱[查詢排程](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/query-schedules)。
+如需有關查詢排程、週期設定、輸出資料集和警示的詳細資訊，請參閱[查詢排程](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/ui/query-schedules)。
 
 ## 後續步驟 {#next-steps}
 
 如需SQL資料準備所使用的資料Distiller和查詢服務功能的詳細資訊，請參閱下列檔案：
 
-- [資料Distiller概觀](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
-- [查詢編輯器UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide)
-- [查詢排程](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/query-schedules)
-- [查詢服務SQL參考](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview)
+- [資料Distiller概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/data-distiller/overview)
+- [查詢編輯器UI指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/ui/user-guide)
+- [查詢排程](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/ui/query-schedules)
+- [查詢服務SQL參考](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/query/sql/overview)
