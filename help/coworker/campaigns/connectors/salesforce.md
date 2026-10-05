@@ -7,14 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 13961eecbb862bf40cf86e892001392c72aae36c
+source-git-commit: 38de8c889dc46760877bc4adca8ba3b79039de98
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '221'
 ht-degree: 0%
 ---
 # 連線至Salesforce {#salesforce}
 
-Adobe Co-worker Campaigns可讓您將您的Salesforce帳戶連結至……
+Adobe同事行銷活動可讓您連線您的Salesforce帳戶，以存取您的銷售機會和聯絡人。
 
 >[!PREREQUISITES]
 >
@@ -52,7 +52,7 @@ Adobe Co-worker Campaigns可讓您將您的Salesforce帳戶連結至……
 
    ![](./assets/salesforce-4.png)
 
-連線後，Salesforce會出現在聯結器清單中，還有什麼問題嗎？
+連線後，Salesforce會出現在聯結器清單中，並可在連結潛在客戶或連絡人清單以從Salesforce同步時選取。
 
 **中斷連線：**
 

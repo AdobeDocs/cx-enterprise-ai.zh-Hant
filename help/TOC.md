@@ -6,9 +6,9 @@ description: 瞭解CX Enterprise中的AI工具。 在CX Enterprise中使用AI來
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
+source-git-commit: 7cab54c87c39994dc07302af62de394cbc6b6df5
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '388'
 ht-degree: 17%
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 17%
 - CX Enterprise Coworker指南 {#coworker}
   - [同事概觀](./coworker/overview.md)
   - Chat {#chat}
-    - [概觀](./coworker/chat/overview.md)
+    - [概覽](./coworker/chat/overview.md)
     - [UI指南](./coworker/chat/ui-guide.md)
     - {hide-from-toc}[在遊樂場的同事聊天](./coworker/playground-coworker-chat.md)
     - 使用案例 {#use-cases}
@@ -58,7 +58,7 @@ ht-degree: 17%
       - 工作流程與規劃 {#workflow-and-planning}
         - [規劃數位行銷活動啟動](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
   - 自訂 {#customizations}
-    - [概觀](./coworker/customizations/overview.md)
+    - [概覽](./coworker/customizations/overview.md)
     - 技能 {#skills}
       - [什麼是技能？](./coworker/customizations/skills/what-are-skills.md)
       - [建立您的第一項技能](./coworker/customizations/skills/create-your-first-skill.md)
@@ -71,7 +71,7 @@ ht-degree: 17%
     - 記憶 {#memory}
       - [什麼是記憶體？](./coworker/customizations/memory/what-is-memory.md)
   - 行銷活動 {#campaigns}
-    - [概觀](./coworker/campaigns/overview.md)
+    - [概覽](./coworker/campaigns/overview.md)
     - [建立電子郵件行銷活動](./coworker/campaigns/create-an-email-campaign.md)
     - [啟動及管理行銷活動](./coworker/campaigns/launch-manage-campaign.md)
     - [使用案例](./coworker/campaigns/use-cases.md)
@@ -95,6 +95,7 @@ ht-degree: 17%
   - [欄位探索代理程式](./agents/field-discovery-agent.md)
   - [Journey Agent](./agents/ajo-agent.md)
   - [產品支援代理](./agents/product-support.md)
+  - [SQL資料準備](./agents/sql-data-prep.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [通知代理](./agents/notifications.md)
   - [同事試用版](./agents/trial.md)
@@ -114,5 +115,5 @@ ht-degree: 17%
     - {hide-from-toc}[Journey Optimizer工具](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [目標](https://experienceleague.adobe.com/zh-hant/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [目標](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
