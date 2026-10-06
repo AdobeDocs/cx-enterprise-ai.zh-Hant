@@ -6,17 +6,17 @@ description: 瞭解CX Enterprise中的AI工具。 在CX Enterprise中使用AI來
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 7cab54c87c39994dc07302af62de394cbc6b6df5
+source-git-commit: 6397e3d8e40511dfc261757046b216fa37e4162e
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 17%
+source-wordcount: '391'
+ht-degree: 19%
 ---
 
 # CX Enterprise 中的 AI {#experience-cloud-ai}
 
 - [CX Enterprise 中的 AI](home.md)
-- 關於CX Enterprise中的AI {#overview}
-  - [關於CX Enterprise中的AI](./overview/overview-ai-cxe.md)
+- 關於 CX Enterprise 中的 AI {#overview}
+  - [關於 CX Enterprise 中的 AI](./overview/overview-ai-cxe.md)
   - [關於產生AI](./overview/generative-ai.md)
   - [關於代理式AI](./overview/agentic-ai.md)
   - [關於AI積分消耗](./overview/ai-credit-consumption.md)
@@ -52,9 +52,10 @@ ht-degree: 17%
       - 警報 {#alerts}
         - [客戶警示技能](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
       - Brand Visibility {#brand-visibility}
-        - [產生行銷資產](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
         - [品牌法規遵循檢查](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
         - [撰寫AEM Sites頁面](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
+        - [上線AEM Assets](./coworker/chat/use-cases/brand-visibility/onboard-aem-assets.md)
+        - [產生行銷資產](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
       - 工作流程與規劃 {#workflow-and-planning}
         - [規劃數位行銷活動啟動](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
   - 自訂 {#customizations}
