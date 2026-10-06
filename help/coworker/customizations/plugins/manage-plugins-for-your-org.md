@@ -7,7 +7,7 @@ doc-type: Feature Video
 duration: 285
 last-substantial-update: 2026-10-06T00:00:00.000Z
 jira: KT-22450
-autotag-review: '2026-10-06T19:34:49.657Z'
+autotag-review: '2026-10-06T19:34:50.127Z'
 TQID: 'https://experienceleague.adobe.com/docSb6NXSCCw15BOSM8A2Zi8h-wGFuCyoNRzAvHvDYQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -44,13 +44,13 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211edcac77ddd5fc88b0e902ef7022ca7d7d988e
+source-git-commit: 9bedb36df415d93548f213555705345ed97940e6
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '240'
 ht-degree: 0%
 ---
 
-# 在[!DNL CX Enterprise Coworker Chat]中管理外掛程式和市集
+# 管理外掛程式和市集
 
 瞭解管理員如何使用核准的外掛程式來擴充Adobe同事聊天、管理市場以及控管對技能和連結工具的存取，同時保持與現有Adobe許可權的一致性。
 
