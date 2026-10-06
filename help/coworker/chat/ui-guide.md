@@ -4,15 +4,15 @@ title: 同事聊天UI指南
 jira: KT-22106
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 38de8c889dc46760877bc4adca8ba3b79039de98
 workflow-type: tm+mt
-source-wordcount: 1719
+source-wordcount: '1719'
 ht-degree: 4%
-
 ---
-
 # UI指南 {#ui-guide}
 
 開始使用同事聊天介面。 本指南涵蓋所有內容，從存取應用程式和導覽工作區，到充份運用交談、管理您的歷程記錄，以及量身打造您的設定。
@@ -27,25 +27,25 @@ ht-degree: 4%
 >
 >產品內的體驗可透過右上角的同事圖示![同事圖示](./assets/icon-coworker.png)存取。 沈浸式體驗詳細資訊如下[&#128279;](#immersive)。
 
-下表擷取每個CX Enterprise應用程式何時提供這些體驗。
+下表擷取這些體驗何時可用於每個CX Enterprise應用程式。
 
-| CX企業應用程式 | 沈浸式體驗 | 產品內體驗 |
+| CX Enterprise應用程式 | 沈浸式體驗 | 產品內體驗 |
 |---|---|---|
 | RTCDP | 現在可用 | 即將推出 |
 | AJO | 現在可用 | 即將推出 |
 | CJA | 現在可用 | 即將推出 |
 | Workfront | 現在可用 | 即將推出：<br><br>* 2026年9月初在預覽執行個體中，針對符合資格的Workfront系統管理員<br><br>* 2026年9月中旬在生產執行個體中，針對符合資格的快速發行Workfront客戶<br><br>* 2026年10月中旬在生產執行個體中，針對符合資格的Workfront季度發行客戶 |
 | 目標 | 現在可用 | 現在可用 |
-| AEM | 現在可用 | 即將推出 |
+| AEM | 現在可用 | 現在可用 |
 | Marketo Engage | 現在可用 | 即將推出 |
 
 ### 沈浸式體驗 {#immersive}
 
 瀏覽至[https://experience.adobe.com/#/coworker](https://experience.adobe.com/#/coworker)並使用您的Adobe憑證登入，即可存取同事聊天。
 
-您也可以從CX Enterprise頂端標題的應用程式選擇器中選取&#x200B;**Co-worker**&#x200B;來存取它。
+您也可以從CX Enterprise頂端標題的應用程式選擇器中選取&#x200B;**Co-worker**，以存取它。
 
-![從CX Enterprise應用程式選擇器存取Co-worker](./assets/ui-guide-1.png)
+![從CX Enterprise應用程式選擇器存取同事](./assets/ui-guide-1.png)
 
 ## 選擇您的組織和沙箱
 
@@ -68,7 +68,7 @@ ht-degree: 4%
 
 ## 瀏覽介面
 
-CX Co-worker介面有兩個主要區域：左側是導覽邊欄，其餘的視窗則有對話畫布。
+CX Coworker介面有兩個主要區域：左側導覽邊欄，以及填滿視窗其餘部分的交談畫布。
 
 ![主畫面](./assets/ui-guide-4.png)
 
@@ -91,7 +91,7 @@ CX Co-worker介面有兩個主要區域：左側是導覽邊欄，其餘的視�
 
 ### 建議的提示
 
-CX Co-worker在「為您建議」下會列出範例工作。 選取任何建議以將其載入輸入方塊，然後在傳送前進行編輯，或依原樣傳送。 建議是檢視Co-worker Chat支援的工作型別的快速方法：在沙箱之間移動方案、尋找歷程中的異常、驗證資料集等。
+CX Coworker會在「建議」下方列出範例工作。 選取任何建議以將其載入輸入方塊，然後在傳送前進行編輯，或依原樣傳送。 建議是檢視Co-worker Chat支援的工作型別的快速方法：在沙箱之間移動方案、尋找歷程中的異常、驗證資料集等。
 
 ### 實體提及
 
