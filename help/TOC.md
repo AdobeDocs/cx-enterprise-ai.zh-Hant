@@ -6,9 +6,9 @@ description: 瞭解CX Enterprise中的AI工具。 在CX Enterprise中使用AI來
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 909dbae2c8abce1c89ae4f8039de04d4f4328d0b
+source-git-commit: d46978f89c75aff6ef16223370ea41a7e74c0525
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '400'
 ht-degree: 20%
 ---
 
@@ -75,6 +75,7 @@ ht-degree: 20%
     - 記憶 {#memory}
       - [什麼是記憶體？](./coworker/customizations/memory/what-is-memory.md)
   - 行銷活動 {#campaigns}
+    - {hide-from-toc}[新團隊體驗](./coworker/campaigns/new-teams-experience.md)
     - [概覽](./coworker/campaigns/overview.md)
     - [建立電子郵件行銷活動](./coworker/campaigns/create-an-email-campaign.md)
     - [啟動及管理行銷活動](./coworker/campaigns/launch-manage-campaign.md)
@@ -119,5 +120,5 @@ ht-degree: 20%
     - {hide-from-toc}[Journey Optimizer工具](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [目標](https://experienceleague.adobe.com/zh-hant/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [目標](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
