@@ -6,10 +6,10 @@ description: 瞭解CX Enterprise中的AI工具。 在CX Enterprise中使用AI來
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 211edcac77ddd5fc88b0e902ef7022ca7d7d988e
+source-git-commit: 76cf3aae7e2749c3d1318625c4938cc8fc2eeec6
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 19%
+source-wordcount: '398'
+ht-degree: 20%
 ---
 
 # CX Enterprise 中的 AI {#experience-cloud-ai}
@@ -32,6 +32,8 @@ ht-degree: 19%
     - 使用案例 {#use-cases}
       - [同事聊天使用案例](./coworker/chat/use-cases/overview.md)
       - 資料分析 {#data-insights}
+        - {hide-from-toc}[概觀](./coworker/chat/use-cases/data-insights/analytics-overview-v2.md)
+        - {hide-from-toc}[概觀](./coworker/chat/use-cases/data-insights/analytics-overview.md)
         - [分析CJA資料](./coworker/chat/use-cases/data-insights/analytics-chat.md)
         - [探索趨勢和根本原因](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [升級時驗證AA至CJA資料](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
@@ -117,5 +119,5 @@ ht-degree: 19%
     - {hide-from-toc}[Journey Optimizer工具](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [目標](https://experienceleague.adobe.com/zh-hant/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [目標](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
