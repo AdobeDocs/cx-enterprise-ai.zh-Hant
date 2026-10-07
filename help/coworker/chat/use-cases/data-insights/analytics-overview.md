@@ -6,9 +6,9 @@ product_v2:
   internal-label: CX Enterprise Coworker
 feature_v2:
   internal-label: CX Enterprise Coworker
-source-git-commit: e153ef2cff7d9140726ebebf6a1869eca6ee3bed
+source-git-commit: 8afbe59635212d29d84e4550a7fbada0563354a9
 workflow-type: tm+mt
-source-wordcount: '2332'
+source-wordcount: '2354'
 ht-degree: 0%
 ---
 
@@ -18,7 +18,9 @@ Adobe CX Enterprise Coworker Chat可讓團隊使用自然語言自動化Adobe產
 
 Co-worker Chat可以執行進階資料分析，而之前僅能在Analysis Workspace中執行。 Co-worker Chat會存取您Customer Journey Analytics資料檢視或Adobe Analytics報表套裝中的資料，讓您探索該資料並獲得自然語言提示的答案。
 
-您可以隨時開啟在「同事聊天」中建立的視覺效果，以進行手動控制。
+當您在同事聊天中建立視覺效果時，您可以隨時在Analysis Workspace中開啟視覺效果，以取得更多手動控制。
+
+下列資訊提供如何在「同事聊天」中分析資料的概觀。
 
 ## 開始在「同事聊天」中分析
 

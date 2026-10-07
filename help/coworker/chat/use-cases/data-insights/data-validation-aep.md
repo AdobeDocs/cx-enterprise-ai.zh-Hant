@@ -10,15 +10,15 @@ jira: PLAT-302857
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 8afbe59635212d29d84e4550a7fbada0563354a9
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1045'
 ht-degree: 0%
 ---
 
 # 與同事驗證您的Experience Platform資料
 
-Co-worker包含資料驗證技能，可檢查Experience Platform資料集的資料品質。 利用它執行資料集的統計和語意驗證、分析資料集欄位，並識別資料品質問題，所有這些都透過一個同事聊天對話完成。
+Adobe CX Enterprise Coworker包含資料驗證技能，可檢查Experience Platform資料集的資料品質。 利用它執行資料集的統計和語意驗證、分析資料集欄位，並識別資料品質問題，所有這些都透過一個同事聊天對話完成。
 
 資料工程師、資料管理員和實作工程師會使用它來進行快速的品質檢查，而不使用SQL查詢或複雜的結構描述階層。
 
@@ -157,4 +157,4 @@ Co-worker包含資料驗證技能，可檢查Experience Platform資料集的資�
 * [升級時驗證Adobe Analytics至Customer Journey Analytics的資料](./data-validation-aa-cja.md)
 * [使用Co-worker中的資料驗證技能驗證Customer Journey Analytics資料](./validate-dataset-quality-for-cja.md)
 * [驗證您的資料（AI助理）](/help/agents/data-validation.md)
-* [信任您的Customer Journey Analytics報告： Adobe CX Coworker中的資料驗證技能](https://www.youtube.com/watch?v=gCSm_QYSYhk) （影片）
+* [信任您的Customer Journey Analytics報告： Adobe CX Enterprise Coworker中的資料驗證技能](https://www.youtube.com/watch?v=gCSm_QYSYhk) （影片）

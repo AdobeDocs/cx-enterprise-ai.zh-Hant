@@ -2,17 +2,15 @@
 title: 在同事專案中產生實作檢查清單
 description: 瞭解Co-worker Projects如何從您的「實作指南」計畫產生預先填入的實作檢查清單，以及您可以指派和追蹤的步驟。
 hold: true
-source-git-commit: 2f110983d77a4e516e4d36ebe85373a490658d5d
+source-git-commit: 8afbe59635212d29d84e4550a7fbada0563354a9
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 1%
-
+source-wordcount: '703'
+ht-degree: 0%
 ---
-
 
 # 產生與同事專案的實作檢查清單
 
-「同事專案」可產生實作檢查清單專案，專案中預先填入了實作指南計畫中針對Customer Journey Analytics、Adobe Analytics到Customer Journey Analytics的升級、Content Analytics (ACA)、Marketing Campaign Analytics (MCA)或串流媒體列出的有序步驟。 在技術層面，同事可儘可能自動執行或協助執行多個步驟，讓您和您的團隊擁有單一且可追蹤的位置，方便您進行實作。
+Adobe CX Enterprise Coworker可在同事專案中產生實作檢查清單專案，預先填入您的Customer Journey Analytics、Adobe Analytics升級至Customer Journey Analytics、Content Analytics (ACA)、Marketing Campaign Analytics (MCA)或串流媒體實作指南計畫中的有序步驟。 在技術層面，同事可儘可能自動執行或協助執行多個步驟，讓您和您的團隊擁有單一且可追蹤的位置，方便您進行實作。
 
 如果您正在領導實作、執行技術步驟，或只是需要瞭解進度，您可以使用此檢查清單指派工作、追蹤狀態並與團隊共同作業，而不需要離開同事。
 
