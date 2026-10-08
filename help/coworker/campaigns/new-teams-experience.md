@@ -7,14 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: d46978f89c75aff6ef16223370ea41a7e74c0525
+source-git-commit: 1b3d66150211994ffefcbf53a5c16585e93b09a5
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '220'
 ht-degree: 0%
 ---
-# 新的團隊體驗 {#new-teams-experience}
+# 即將推出：具有跨團隊行銷活動可見性的預設工作區 {#new-teams-experience}
 
-## 可能需要採取行動：新的團隊體驗將於10月15日推出
+## 可能需要採取行動：新的團隊體驗將於2026年10月15日推出
 
 ### 哪些因素正在改變，且會造成哪些影響？
 
@@ -32,4 +32,10 @@ ht-degree: 0%
 * **行銷活動**：使用行銷活動右上角的下載圖示，將每個行銷活動匯出為PDF或Word檔案。
 * **電子郵件**：使用電子郵件編輯器中的匯出圖示，將電子郵件下載為HTML。
 
-有問題嗎？ 請透過coworkerca@adobe.com聯絡我們。
+**觀看下面的影片以進行逐步解說**
+
+>[!VIDEO](https://video.tv.adobe.com/v/3504225/?learn=on&enablevpops)
+
+### 有任何問題嗎？
+
+請透過coworkerca@adobe.com聯絡我們。
