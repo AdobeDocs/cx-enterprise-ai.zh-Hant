@@ -6,9 +6,9 @@ description: 瞭解CX Enterprise中的AI工具。 在CX Enterprise中使用AI來
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 76cf3aae7e2749c3d1318625c4938cc8fc2eeec6
+source-git-commit: d46978f89c75aff6ef16223370ea41a7e74c0525
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '400'
 ht-degree: 20%
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 20%
       - 資料分析 {#data-insights}
         - {hide-from-toc}[概觀](./coworker/chat/use-cases/data-insights/analytics-overview-v2.md)
         - {hide-from-toc}[概觀](./coworker/chat/use-cases/data-insights/analytics-overview.md)
-        - [分析CJA資料](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - [開始使用](./coworker/chat/use-cases/data-insights/analytics-chat.md)
         - [探索趨勢和根本原因](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [升級時驗證AA至CJA資料](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [驗證CJA報表的資料集品質](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
@@ -75,6 +75,7 @@ ht-degree: 20%
     - 記憶 {#memory}
       - [什麼是記憶體？](./coworker/customizations/memory/what-is-memory.md)
   - 行銷活動 {#campaigns}
+    - {hide-from-toc}[新團隊體驗](./coworker/campaigns/new-teams-experience.md)
     - [概覽](./coworker/campaigns/overview.md)
     - [建立電子郵件行銷活動](./coworker/campaigns/create-an-email-campaign.md)
     - [啟動及管理行銷活動](./coworker/campaigns/launch-manage-campaign.md)
