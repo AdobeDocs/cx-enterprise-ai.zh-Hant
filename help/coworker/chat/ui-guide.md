@@ -5,10 +5,7 @@ jira: KT-22106
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 38de8c889dc46760877bc4adca8ba3b79039de98
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 4%
@@ -17,7 +14,7 @@ ht-degree: 4%
 
 開始使用同事聊天介面。 本指南涵蓋所有內容，從存取應用程式和導覽工作區，到充份運用交談、管理您的歷程記錄，以及量身打造您的設定。
 
->[!VIDEO](https://video.tv.adobe.com/v/3498576?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## 存取同事聊天
 
@@ -25,7 +22,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->產品內的體驗可透過右上角的同事圖示![同事圖示](./assets/icon-coworker.png)存取。 沈浸式體驗詳細資訊如下[&#128279;](#immersive)。
+>產品內的體驗可透過右上角的同事圖示![同事圖示](./assets/icon-coworker.png)存取。 沈浸式體驗詳細資訊如下[](#immersive)。
 
 下表擷取這些體驗何時可用於每個CX Enterprise應用程式。
 
@@ -78,7 +75,7 @@ CX Coworker介面有兩個主要區域：左側導覽邊欄，以及填滿視窗
 
 | 介面元素 | 說明 |
 | --- | --- |
-| 新增對話 | 開始全新的交談。 您目前的聊天內容會儲存到歷程記錄中。 |
+| 新增聊天 | 開始全新的交談。 您目前的聊天內容會儲存到歷程記錄中。 |
 | 首頁 | 返回問候語、輸入方塊和建議的提示。 |
 | 聊天 | 開啟完整的聊天記錄以搜尋、釘選、封存或刪除交談。 |
 | 設定 | 管理技能、MCP伺服器、市場、外掛程式和記憶體。 |
@@ -182,7 +179,7 @@ Co-worker Chat產生的結果（例如對象表格）在回應中會顯示為成
 | 依標題搜尋 | 依名稱尋找過去的交談。 |
 | 顯示已釘選 | 只顯示您已加入的交談。 |
 | 顯示已封存 | 顯示您已封存的交談。 |
-| 新增對話 | 開始新的交談。 |
+| 新增聊天 | 開始新的交談。 |
 | 列功能表(...) | 在任何交談中，啟動（釘選）、重新命名、封存或刪除它。 |
 
 ![聊天頁面](./assets/ui-guide-11.png)
