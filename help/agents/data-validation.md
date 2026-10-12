@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->資料驗證也可作為同事技能使用。 檢視[與同事驗證您的Experience Platform資料](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/data-validation-aep)。
+>資料驗證也可作為同事技能使用。 檢視[與同事驗證您的Experience Platform資料](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/use-cases/data-insights/data-validation-aep)。
 
 ## 使用案例
 

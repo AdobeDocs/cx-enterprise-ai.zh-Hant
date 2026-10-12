@@ -33,14 +33,14 @@ ht-degree: 3%
 
 當您需要尋找和分析體驗事件資料集，以及設定、變更或移除資料湖保留原則時，請使用資料管理代理程式。
 
-如果您不確定資料湖保留原則是否為目標的正確選項，請參閱[選擇正確的資料生命週期管理功能](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/choose-a-capability)，以比較可用的保留和刪除選項。
+如果您不確定資料湖保留原則是否為目標的正確選項，請參閱[選擇正確的資料生命週期管理功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-lifecycle/choose-a-capability)，以比較可用的保留和刪除選項。
 
 這些技能不會管理下列相關功能：
 
 - **設定檔存放區保留原則。** 若要管理體驗事件在設定檔存放區中保留的時長，請針對已啟用設定檔的體驗事件資料集設定體驗事件到期原則。 請參閱[體驗事件有效期](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/event-expirations)。
 - **沙箱範圍的假名設定檔資料到期日。** 如果要在符合設定的條件時，自動刪除沙箱中的假名設定檔資料，請參閱[假名設定檔](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/profile/pseudonymous-profiles)。
-- **資料集到期日。** 若要將整個資料集排程在未來日期刪除，請參閱[資料集到期日](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration)。
-- **刪除記錄。** 若要基於隱私權或衛生理由移除個別設定檔記錄，請參閱[刪除記錄](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/record-delete)。
+- **資料集到期日。** 若要將整個資料集排程在未來日期刪除，請參閱[資料集到期日](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-lifecycle/ui/dataset-expiration)。
+- **刪除記錄。** 若要基於隱私權或衛生理由移除個別設定檔記錄，請參閱[刪除記錄](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/data-lifecycle/ui/record-delete)。
 
 ## 先決條件 {#prerequisites}
 
@@ -50,7 +50,7 @@ ht-degree: 3%
 - 您要使用的資料集和保留動作所需的Adobe Experience Platform許可權。 Data Management Agent會使用您現有的Experience Platform許可權，不會授與額外存取權。 請參閱[存取控制總覽](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/home)，瞭解Adobe Experience Platform許可權和角色的運作方式。
 - CX Coworker中安裝的Adobe CXO外掛程式。
 
-如需有關安裝外掛程式的說明，請參閱[Co-worker UI指南](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide)。
+如需有關安裝外掛程式的說明，請參閱[Co-worker UI指南](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/ui-guide)。
 
 ## 使用資料管理代理程式 {#use-the-data-management-agent}
 
@@ -62,13 +62,13 @@ ht-degree: 3%
 
 若要使用「資料管理代理程式」：
 
-1. 導覽至&#x200B;**[!UICONTROL CX Coworker]**。 如需存取詳細資訊，請參閱[同事使用者介面指南](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide)。
+1. 導覽至&#x200B;**[!UICONTROL CX Coworker]**。 如需存取詳細資訊，請參閱[同事使用者介面指南](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/ui-guide)。
 1. 輸入說明所要完成之工作的要求。
 1. 檢閱結果並使用後續問題繼續您的調查。
 
 如果請求變更資料湖保留原則，資料管理代理程式會顯示建議的影響，並需要您確認後再套用變更。
 
-如需識別資料集、分析使用情況和保留影響，以及管理資料湖保留原則的端對端工作流程，請參閱[管理資料湖保留](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-management/manage-data-lake-retention)。
+如需識別資料集、分析使用情況和保留影響，以及管理資料湖保留原則的端對端工作流程，請參閱[管理資料湖保留](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/use-cases/data-management/manage-data-lake-retention)。
 
 ## 資料管理代理程式的運作方式 {#how-the-data-management-agent-works}
 
@@ -80,6 +80,6 @@ ht-degree: 3%
 
 ## 後續步驟 {#next-steps}
 
-如需使用各項技能來尋找、分析和管理體驗事件資料集上的資料湖保留率的相關指引，請參閱[管理資料湖保留率](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-management/manage-data-lake-retention)。
+如需使用各項技能來尋找、分析和管理體驗事件資料集上的資料湖保留率的相關指引，請參閱[管理資料湖保留率](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/use-cases/data-management/manage-data-lake-retention)。
 
-如需有關Adobe Experience Platform中資料湖保留原則如何運作的詳細資訊，包括保留行為和設定，請參閱[體驗事件資料集保留(TTL)指南](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide)。
+如需有關Adobe Experience Platform中資料湖保留原則如何運作的詳細資訊，包括保留行為和設定，請參閱[體驗事件資料集保留(TTL)指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide)。
