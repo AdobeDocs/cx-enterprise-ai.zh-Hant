@@ -99,7 +99,7 @@ Agentic使用規範試用版可讓合格客戶使用同事聊天（或選取Expe
 
 ### 此試用版包含哪些代理程式？
 
-閱讀CX Enterprise](../overview/agentic-ai.md)中[代理程式AI的指南，以取得試用版中所包含代理程式的完整清單。
+閱讀CX Enterprise[&#128279;](../overview/agentic-ai.md)中代理程式AI的指南，以取得試用版中所包含代理程式的完整清單。
 
 ### 誰可以參與此試用？
 
