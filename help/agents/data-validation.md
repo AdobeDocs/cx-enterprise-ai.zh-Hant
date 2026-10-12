@@ -1,9 +1,9 @@
 ---
 title: 在AI助理中驗證資料
 description: 瞭解如何在AI Assistant中使用Agent Orchestrator支援的資料驗證，對資料集執行統計和語意驗證。
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1616'
 ht-degree: 0%
 ---
 # 在AI助理中驗證您的資料
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->資料驗證也可作為同事技能使用。 檢視[與同事驗證您的Experience Platform資料](/help/coworker/chat/use-cases/data-insights/data-validation-aep.md)。
+>資料驗證也可作為同事技能使用。 檢視[與同事驗證您的Experience Platform資料](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/use-cases/data-insights/data-validation-aep)。
 
 ## 使用案例
 

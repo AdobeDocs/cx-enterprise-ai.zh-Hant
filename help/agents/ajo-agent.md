@@ -48,9 +48,9 @@ topic_v2:
     internal-label: Insights
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: 4bd1bca0d5f967eaf33802b8d955aa89767b662a
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '3820'
+source-wordcount: '3848'
 ht-degree: 9%
 ---
 
@@ -74,11 +74,11 @@ Journey Agent包含四個主要待完成的工作：
 
 ## 歷程建立：使用案例、AI功能和使用手冊 {#journey-create}
 
-## 概觀
+## 概覽
 
 歷程建立可讓Journey Optimizer使用者使用自然語言介面建置和設定行銷歷程。 使用Journey Create，從業人員可以在對話式提示中描述其需求，以快速建立歷程。 此代理程式可簡化歷程建立，讓行銷人員聚焦於策略而非技術設定。
 
-如需詳細資訊，請參閱Adobe Journey Optimizer檔案中的[歷程建立](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-create){target="_blank"}。
+如需詳細資訊，請參閱Adobe Journey Optimizer檔案中的[歷程建立](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-create){target="_blank"}。
 
 >[!AVAILABILITY]
 >
@@ -230,7 +230,7 @@ Journey Create支援下列功能：
 
 管道內容建立可讓Journey Optimizer使用者使用AI支援的內容產生功能，產生、編輯和管理歷程的管道特定內容。
 
-如需詳細資訊，請參閱Adobe Journey Optimizer檔案中的[頻道內容建立](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#channel-content-create){target="_blank"}。
+如需詳細資訊，請參閱Adobe Journey Optimizer檔案中的[頻道內容建立](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#channel-content-create){target="_blank"}。
 
 ## 使用案例
 
@@ -306,13 +306,13 @@ Journey Create支援下列功能：
 
 ## 歷程分析：使用案例、AI功能和使用手冊 {#journey-analyze}
 
-## 概觀
+## 概覽
 
 Journey Analyze可讓Journey Optimizer使用者使用自然語言介面來分析和最佳化歷程。 透過歷程分析，從業人員可快速識別並解決排程和受眾衝突、偵測歷程中的使用者放棄點，以及提出見解或建議以改善效能。
 
 在此[總覽](https://experienceleague.adobe.com/zh-hant/slides/journey-agent-overview)中瞭解更多資訊，並探索代理程式。
 
-如需詳細資訊，請參閱Adobe Journey Optimizer檔案中的[歷程分析](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"}。
+如需詳細資訊，請參閱Adobe Journey Optimizer檔案中的[歷程分析](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"}。
 
 >[!AVAILABILITY]
 >
@@ -349,7 +349,7 @@ Journey Analyze提供一系列可用來最佳化行銷工作的功能：
 1. **歷程排程重疊分析**
 
    - 偵測針對相同客群的已排程歷程之間時機衝突的狀況。
-   - 避免過度通訊並提升排程效率。
+   - 避免過度溝通並提升排程效率。
    - 確保歷程在最佳時間點進行，發揮最大的客群影響力。
 
 1. **運作洞察**
@@ -486,7 +486,7 @@ Journey Analyze支援下列功能：
 
 ## 歷程模擬：使用案例、AI功能和使用手冊 {#journey-simulate}
 
-## 概觀
+## 概覽
 
 >[!BEGINSHADEBOX]
 
@@ -568,5 +568,5 @@ Journey Simulate提供三項功能，可於上線前用來縮短測試時間及�
 
 - [Agent Orchestrator](./agent-orchestrator.md)，支援Journey Agent和其他Experience Platform代理程式的代理程式層。
 - [CX Coworker閘道中的Journey Optimizer工具](../mcp/ajo-mcp.md)，這是行銷活動和頻道設定檢閱的唯讀MCP介面。
-- [從自然語言建立歷程](../coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)和[建立、編輯和管理忠誠度挑戰](../coworker/chat/use-cases/journeys/create-loyalty-challenge.md)，建立在Journey Create上的同事聊天使用案例。
+- [從自然語言建立歷程](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/use-cases/journeys/create-journey-from-natural-language)和[建立、編輯和管理忠誠度挑戰](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/journeys/create-loyalty-challenge)，建立在Journey Create上的同事聊天使用案例。
 - [產品支援代理程式](./product-support.md)，用於疑難排解透過AI助理出現的Journey Optimizer問題。

@@ -3,24 +3,24 @@ title: Generative AI內容透明度
 description: 瞭解Adobe如何在Adobe CX Enterprise應用程式中，自動將C2PA中繼資料附加至GenAI產生和GenAI編輯的內容。
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+    internal-label: AI Tools
   - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
-source-git-commit: 32faffcdcaedc9ae601e601ad92d58b48743af66
+    internal-label: Generative AI
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: 1743
+source-wordcount: '1738'
 ht-degree: 2%
-
 ---
-
 
 # Generative AI內容透明度
 
-在整個2026年8月，Adobe已逐步在Adobe Creative Cloud、Adobe Document Cloud、Adobe Firefly和Adobe CX企業應用程式中推出C2PA中繼資料支援。
+在整個2026年8月，Adobe已逐步在Adobe Creative Cloud、Adobe Document Cloud、Adobe Firefly和Adobe CX Enterprise應用程式中推出C2PA中繼資料支援。
 
 >[!NOTE]
 >
 >推出後，涉及使用AI建立或編輯內容的未來工作流程將自動獲得C2PA中繼資料支援。
 
-本頁包含有關Adobe如何跨Adobe CX Enterprise應用程式處理C2PA中繼資料自動附加的詳細資訊。
+本頁包含Adobe如何處理跨Adobe CX Enterprise應用程式C2PA中繼資料自動附加的詳細資訊。
 
 新法規要求創作AI技術的提供者支援與GenAI產生和GenAI編輯的內容工作流程相關的永續性、機器可讀披露，以擴大透明度。
 
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 ## 變更內容
 
-Adobe將於2026年8月推出，在Adobe Creative Cloud、Adobe Document Cloud、Adobe Firefly和Adobe CX企業應用程式中推出C2PA中繼資料支援。
+Adobe將於2026年8月推出，在Adobe Creative Cloud、Adobe Document Cloud、Adobe Firefly和Adobe CX Enterprise應用程式中推出C2PA中繼資料支援。
 
 此版本包括：
 
@@ -72,7 +72,7 @@ Adobe提供使用Adobe應用程式支援的現有浮水印功能的[指南](http
 
 ## 可用性與版本
 
-這些功能將於整個&#x200B;**2026年8月**&#x200B;日在支援的Adobe CX Enterprise工作流程中推出。
+這些功能將於整個&#x200B;**2026年8月**&#x200B;日在受支援的Adobe CX Enterprise工作流程中推出。
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ Adobe提供[檔案](https://helpx.adobe.com/tw/creative-cloud/apps/generative-ai
 
 ## Adobe CX Enterprise支援的應用程式 {#supported-applications}
 
-下列Adobe應用程式和服務會針對C2PA中繼資料如何及何時附加至特定CX Enterprise應用程式中的合格內容提供詳細資訊。
+下列Adobe應用程式和服務會提供如何及何時將C2PA中繼資料附加到某些CX Enterprise應用程式內的合格內容的額外資訊。
 
 不過，如果適用，所有Adobe CX Enterprise應用程式會在支援的資產透過Adobe工作流程移動時，繼續保留現有的C2PA中繼資料。 這有助於在supply chain內容中維持來源資訊的完整性。
 
@@ -111,7 +111,7 @@ Adobe提供[檔案](https://helpx.adobe.com/tw/creative-cloud/apps/generative-ai
 | GenStudio for Performance Marketing | [文件](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/content/content-credentials) |
 | Adobe Marketo Engage | [文件](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/demand-generation/images-and-files/c2pa-metadata) |
 | Adobe Workfront | [文件](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/documents/c2pa-metadata-overview) |
-| CX Enterprise Co-worker Campaigns （前身為HALO） | [文件](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/c2pa-metadata) |
+| CX Enterprise Coworker Campaigns （前身為HALO） | [文件](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/campaigns/c2pa-metadata) |
 
 ## 相關連結
 
@@ -131,7 +131,7 @@ Adobe提供[檔案](https://helpx.adobe.com/tw/creative-cloud/apps/generative-ai
 
 **Adobe CX中的哪些應用程式會在編輯和發佈期間保留C2PA中繼資料？**
 
-所有Adobe CX Enterprise應用程式的設計目的，都是為了在內容流經相容的Adobe工作流程時保留C2PA中繼資料。 Adobe應用程式外部的儲存取決於外部平台是否支援C2PA中繼資料。
+所有Adobe CX Enterprise應用程式的設計目的，都是為了在內容通過相容的Adobe工作流程時保留C2PA中繼資料。 Adobe應用程式外部的儲存取決於外部平台是否支援C2PA中繼資料。
 
 **將多個GenAI產生的影像合併成單一影像時會發生什麼事？**
 

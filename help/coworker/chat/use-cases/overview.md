@@ -7,24 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 8b900f43168e74cab003eb4bd72d5c18910c882b
+source-git-commit: af2a9b4bc7082fb4813739dc0a2e9ca10f1b8db5
 workflow-type: tm+mt
-source-wordcount: '7086'
+source-wordcount: '7107'
 ht-degree: 6%
 ---
 # 同事聊天使用案例 {#use-cases}
 
 Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL Experience Platform]資料，而不需手動導覽多個UI或撰寫查詢。 此頁面提供從業人員最仰賴的使用案例目錄，並按工作區域整理：資料深入分析、對象、歷程、忠誠度、基本元素和沙箱工具。 每個專案都包含它叫用的技能、它使用的應用程式，以及範例提示，您可以複製、調整您自己的資料，並透過對話調整內容。
-
->[!NOTE]
->
->即將推出：
->
->透過CX Enterprise Coworker的全新AEM代理功能，可協助您更快完成更多工作。
->
->所有符合資格的客戶將可輪流在Co-worker中存取Adobe Experience Manager代理功能。
->
->另請參閱AEM中的[AI - AEM代理功能概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)。
 
 ## 品牌體驗
 
@@ -52,6 +42,7 @@ Co-worker Chat可讓您使用自然語言來查詢、分析和處理您的[!DNL 
 | 使用案例 | 說明 | 技能 | 應用程式 | 範例提示 |
 | --- | --- | --- | --- | --- |
 | 管理Cloud Manager管道 | 建立、執行和監視AEM Cloud Manager管道，包括記錄、成品、變數和設定 | `cloud-manager-pipeline-management` | Adobe Experience Manager (AEM) | 「列出方案12345的管道」<br><br>「我最近管道的狀態如何？」 |
+| 疑難排解失敗的Cloud Manager管道 | 分析失敗的AEM Cloud Manager管道執行，以簡單的語言說明失敗的原因。 支援完整棧疊管道（部署和計畫碼品質）、Web層設定管道和設定管道，例如因無效CDN設定導致的部署失敗 | 實作成為專門的Cloud Manager管道疑難排解代理程式。 | Adobe Experience Manager (AEM) | 「疑難排解我的失敗管道」<br><br>「列出計畫&lt;方案名稱>的失敗管道」<br><br>「分析計畫&lt;方案名稱>中&lt;管道名稱>的最新失敗執行」 |
 | 管理Cloud Manager環境 | 建立、設定和維護AEM Cloud Manager環境，包括RDE、環境變數、記錄檔和備份 | `cloud-manager-environment-management` | Adobe Experience Manager (AEM) | 列出我的計畫12345環境&quot;<br><br>&quot;重設我的RDE&quot; |
 | 管理Cloud Manager計畫 | 列出、檢查和刪除AEM Cloud Manager程式，包括其管道和環境 | `cloud-manager-program-management` | Adobe Experience Manager (AEM) | 「列出我的Cloud Manager程式」<br><br>「取得程式12345的詳細資料」 |
 | 管理AEM版本更新排程 | 設定每日無訊息時間和無更新期間以進行自動維護，並檢視Adobe的全域程式碼凍結視窗 | `cloud-manager-release-management` | Adobe Experience Manager (AEM) | 「我目前的無訊息時間視窗是多少？」<br><br>「排程從12月20日至1月2日的無更新期間」 |

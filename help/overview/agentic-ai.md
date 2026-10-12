@@ -13,9 +13,9 @@ exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
     internal-label: AI Tools
-source-git-commit: 76356e79bb8608a65c3140c9990a5a4fcbc76a0e
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1132'
 ht-degree: 9%
 ---
 # 關於Adobe CX Enterprise中的Agentic AI
@@ -68,7 +68,7 @@ AI優先應用程式是以產生式或代理式AI作為主要元件建置的。 
 
 | 代理程式名稱 | 功能 | 支援的應用程式 |
 |---|----------|----------|
-| [CX Enterprise Coworker](../coworker/overview.md) | 作為agential隊友：從自然語言目標規劃多步驟工作，在您的Adobe和連線系統中執行，驗證結果，以及將完成的工作傳回以供您核准，減少手動協調工作的需要。 | <ul><li>CX Enterprise Coworker （聊天）</li><li>CX Enterprise Coworker （行銷活動）</li></ul> |
+| [CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/home) | 作為agential隊友：從自然語言目標規劃多步驟工作，在您的Adobe和連線系統中執行，驗證結果，以及將完成的工作傳回以供您核准，減少手動協調工作的需要。 | <ul><li>CX Enterprise Coworker （聊天）</li><li>CX Enterprise Coworker （行銷活動）</li></ul> |
 | [Experimentation Agent](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/content-experiment/experiment/experiment-accelerator-security) | 自動化、分析和綜合深入分析，讓您從集中式工作區中快速找出高影響力的實驗和發展機會，同時減少手動程式。 | <ul><li>AJO Experimentation Accelerator</li></ul> |
 | [LLM最佳化代理程式](https://experienceleague.adobe.com/zh-hant/docs/llm-optimizer/using/home) | 增強AI驅動搜尋環境的可見度、準確性和影響力、在AI產生的回答中提供品牌存在感的深入分析、提供規範性的內容建議，以及自動化最佳化修正。 | <ul><li>Adobe LLM Optimizer</li></ul> |
 | [Site Optimization Agent](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-sites-optimizer/content/home) | 透過自動偵測和部署網站增強功能，將業務影響最大化。 使用創作AI和多種監控技術，您可以增加網站流量的獲得、參與度等 | <ul><li>AEM Sites Optimizer</li></ul> |

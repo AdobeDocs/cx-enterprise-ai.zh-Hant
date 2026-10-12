@@ -6,9 +6,9 @@ description: 瞭解CX Enterprise中的AI工具。 在CX Enterprise中使用AI來
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: a761ad545e40707e69538699ef69fbed1022165b
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '222'
 ht-degree: 20%
 ---
 
@@ -23,70 +23,6 @@ ht-degree: 20%
   - [Agentic AI監控儀表板](./overview/monitoring.md)
   - [代理式工具](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-agentic-tools/using/overview)
   - [Generative AI內容透明度](content-transparency.md)
-- CX Enterprise Coworker指南 {#coworker}
-  - [同事概觀](./coworker/overview.md)
-  - Chat {#chat}
-    - [概覽](./coworker/chat/overview.md)
-    - [UI指南](./coworker/chat/ui-guide.md)
-    - {hide-from-toc}[在遊樂場的同事聊天](./coworker/playground-coworker-chat.md)
-    - 使用案例 {#use-cases}
-      - [同事聊天使用案例](./coworker/chat/use-cases/overview.md)
-      - 資料分析 {#data-insights}
-        - {hide-from-toc}[概觀](./coworker/chat/use-cases/data-insights/analytics-overview-v2.md)
-        - {hide-from-toc}[概觀](./coworker/chat/use-cases/data-insights/analytics-overview.md)
-        - [開始使用](./coworker/chat/use-cases/data-insights/analytics-chat.md)
-        - [探索趨勢和根本原因](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
-        - [升級時驗證AA至CJA資料](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
-        - [驗證CJA報表的資料集品質](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
-        - [驗證Experience Platform資料](./coworker/chat/use-cases/data-insights/data-validation-aep.md)
-      - 資料管理 {#data-management}
-        - [管理資料湖保留](./coworker/chat/use-cases/data-management/manage-data-lake-retention.md)
-      - 客群 {#audiences}
-        - [評估平台運作狀況並建置對象](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
-      - 歷程 {#journeys}
-        - [使用自然語言建立歷程](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
-      - 忠誠度 {#loyalty}
-        - [建立忠誠度挑戰並顯示深入分析](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
-      - 最佳化 {#optimization}
-        - [啟動Target活動](./coworker/chat/use-cases/optimization/target.md)
-        - [加速實驗](./coworker/chat/use-cases/optimization/accelerate-experimentation.md)
-      - 沙箱工具 {#sandbox-tooling}
-        - [沙箱工具代理程式技能](./coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md)
-      - 警報 {#alerts}
-        - [客戶警示技能](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
-      - Brand Visibility {#brand-visibility}
-        - [品牌法規遵循檢查](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
-        - [撰寫AEM Sites頁面](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
-        - [上線AEM Assets](./coworker/chat/use-cases/brand-visibility/onboard-aem-assets.md)
-        - [產生行銷資產](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
-      - 工作流程與規劃 {#workflow-and-planning}
-        - [規劃數位行銷活動啟動](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
-  - 自訂 {#customizations}
-    - [概覽](./coworker/customizations/overview.md)
-    - 技能 {#skills}
-      - [什麼是技能？](./coworker/customizations/skills/what-are-skills.md)
-      - [建立您的第一項技能](./coworker/customizations/skills/create-your-first-skill.md)
-      - [建立及執行品質門技能](./coworker/customizations/skills/run-a-quality-gate-skill.md)
-      - [管理和反複處理技能](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
-    - 整合 {#integrations}
-      - [什麼是整合？](./coworker/customizations/integrations/understanding-integrations-in-coworker.md)
-    - 外掛程式 {#plugins}
-      - [什麼是外掛程式？](./coworker/customizations/plugins/what-are-plugins.md)
-      - [管理組織的外掛程式](./coworker/customizations/plugins/manage-plugins-for-your-org.md)
-    - 記憶 {#memory}
-      - [什麼是記憶體？](./coworker/customizations/memory/what-is-memory.md)
-  - 行銷活動 {#campaigns}
-    - {hide-from-toc}[新團隊體驗](./coworker/campaigns/new-teams-experience.md)
-    - [概覽](./coworker/campaigns/overview.md)
-    - [建立電子郵件行銷活動](./coworker/campaigns/create-an-email-campaign.md)
-    - [啟動及管理行銷活動](./coworker/campaigns/launch-manage-campaign.md)
-    - [使用案例](./coworker/campaigns/use-cases.md)
-    - [提示最佳實務](./coworker/campaigns/prompting-best-practices.md)
-    - [C2PA 中繼資料](./coworker/campaigns/c2pa-metadata.md)
-    - 連接器 {#connectors}
-      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
-      - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
-    - [發行說明](./coworker/campaigns/release-notes.md)
 - AI助理指南 {#ai-assistant}
   - [AI助理使用者介面指南](./ai-assistant/ai-assistant-ui.md)
   - [提示程式庫](./ai-assistant/prompt-library.md)

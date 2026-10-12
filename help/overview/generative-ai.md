@@ -13,44 +13,66 @@ autotag-review: '2026-05-11T23:21:25.443Z'
 TQID: 'https://experienceleague.adobe.com/c6o7NcoqRE6juwlyq-SbBk43i9JXNsi6UhXHJOPfPNE'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+    internal-label: AI Tools
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+    internal-label: Content production
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cdf395ef366771780ee549385fa5ed6aaa6bd873
+    internal-label: Privacy
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: 3388
-ht-degree: 13%
-
+source-wordcount: '3412'
+ht-degree: 12%
 ---
-
 # 關於CX Enterprise中的generative AI
 
-CX Enterprise中的Generative AI (genAI)可協助您自動執行創意和認知工作，並提高生產力。 本頁可協助您瞭解[!DNL CX Enterprise]應用程式支援genAI的位置。 它提供連結，讓您進一步瞭解這些功能。
+CX Enterprise中的Generative AI (genAI)可幫助您自動化創意和認知任務並提高生產力。 本頁可協助您瞭解[!DNL CX Enterprise]應用程式支援genAI的位置。 它提供連結，讓您進一步瞭解這些功能。
 
 >[!IMPORTANT]
 >
@@ -70,7 +92,7 @@ GenAI可以&#x200B;_建立_&#x200B;原始內容，或&#x200B;_針對使用者的
 
 [!UICONTROL AI Assistant]是許多CX Enterprise應用程式都支援的對話式genAI工具。 根據您使用的應用程式，使用它來快速取得&#x200B;_產品知識_&#x200B;和&#x200B;_營運深入分析_。
 
-* **產品知識：**&#x200B;產品知識是指以Experience League上的CX Enterprise產品檔案為根據的概念和主題。 例如，使用[目標型提示](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home)快速瞭解Experience Platform。 來自Experience League的所有回應都是可驗證的，並會透過連結引用。
+* **產品知識：**&#x200B;產品知識是指以Experience League上的CX Enterprise產品檔案為基礎的概念和主題。 例如，使用[目標型提示](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home)快速瞭解Experience Platform。 來自Experience League的所有回應都是可驗證的，並會透過連結引用。
 
 * **營運分析：**&#x200B;例如，[營運分析](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/questions#objects-questions)在Experience Platform中，會參考中繼資料物件（屬性、受眾、資料流、資料集等）的相關回應。 透過[!UICONTROL AI小幫手]，您只需幾秒鐘就能完成原本需要數小時或數天的作業。
 
@@ -82,17 +104,17 @@ GenAI可以&#x200B;_建立_&#x200B;原始內容，或&#x200B;_針對使用者的
 
 [!BADGE 隱私權、安全性與治理]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/privacy" tooltip="Adobe的GenAI"}
 
-## 什麼是CX Enterprise Co-worker？
+## 什麼是CX Enterprise Coworker？
 
 [!DNL CX Enterprise Coworker]是AI支援的隊友，可自動化客戶體驗和行銷工作流程。 作為代理引擎，Co-worker將資料、智慧、共同作業和代理技能執行與內建的企業內容、治理和人力監督結合在一起，因此您可以專注於結果而不是協調任務。
 
 同事可透過以下方式取得：
 
-* **[聊天](../coworker/chat/overview.md)**：您以自然語言描述目標的對話式介面，而同事會規劃工作、在Adobe及連線系統中執行、驗證結果，以及將完成的工作傳回給您核准。
+* **[聊天](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/overview)**：您以自然語言描述目標的對話式介面，而同事會規劃工作、在您的Adobe及連線系統中執行、驗證結果，以及將完成的工作傳回給您核准。
 
-* **[行銷活動](../coworker/campaigns/overview.md)**：AI原生應用程式，將行銷活動簡報、對象建立、內容產生、歷程設計和校訂整合為單一對話體驗。
+* **[行銷活動](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/campaigns/overview)**：AI原生應用程式，將行銷活動簡報、對象建立、內容產生、歷程設計和校訂整合為單一對話體驗。
 
-[!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview" tooltip="移至CX Enterprise Co-worker"}
+[!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/coworker/content/home" tooltip="前往CX Enterprise Coworker"}
 
 ## 支援哪些genAI功能？
 
@@ -102,24 +124,24 @@ GenAI可以&#x200B;_建立_&#x200B;原始內容，或&#x200B;_針對使用者的
 
 | **產品名稱** | **重要GenAI功能** | **Firefly相容性** |
 | ------------------ | ------------------------- | ------------------- |
-| [CX Enterprise Coworker](../coworker/overview.md) | GenAI提供於： <ul><li>**[聊天](../coworker/chat/overview.md)**：對話式介面，您可用自然語言描述目標，genAI會規劃工作、在您的Adobe和連線系統中執行、驗證結果，以及將完成的工作傳回給您核准。</li><li>**[行銷活動](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/campaigns/overview)**：AI原生應用程式，將行銷活動簡報、對象建立、內容產生、歷程設計和校訂整合為單一對話體驗。 GenAI會產生行銷活動計畫、建立歷程，並草擬個人化內容，供您反複改進。</li></ul> | 否 |
+| [CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/home) | GenAI提供於： <ul><li>**[聊天](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/overview)**：您以自然語言描述目標的對話式介面，genAI會規劃工作、在Adobe和連線系統中執行、驗證結果，以及將完成的工作傳回給您核准。</li><li>**[行銷活動](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/campaigns/overview)**：AI原生應用程式，將行銷活動簡報、對象建立、內容產生、歷程設計和校訂整合為單一對話體驗。 GenAI會產生行銷活動計畫、建立歷程，並草擬個人化內容，供您反複改進。</li></ul> | 無 |
 | [Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/home) | 使用genAI建立個人化的品牌內內容。 | 是 |
 | [Adobe Experience Manager as a Cloud Service (AEM CS)](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/ai-in-aem/overview) | GenAI提供於： <ul><li>在&#x200B;**AEM Sites**&#x200B;中產生變數（[深入瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)）</li><li>**Sites Optimizer**&#x200B;中的GenAI （[深入瞭解](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-sites-optimizer/content/opportunity-types/overview)）</li><li>**AEM Assets**&#x200B;中的[Content Hub](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview?lang=en)和[智慧標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/smart-tags?lang=en#ai-smart-tags)</li></ul> AI助理用於： <ul><li>Experience Hub概觀頁面</li><li>Edge Delivery Services</li><li>網站</li><li>資產</li><li>表單</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | 是 |
 | [Adobe Experience Manager 6.5](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/ai-assistant/ai-assistant-in-aem) | AI助理用於： <ul><li>Experience Hub概觀頁面</li><li>Edge Delivery Services</li><li>網站</li><li>資產</li><li>表單</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | 是 |
 | [Adobe Experience Manager 6.5 LTS](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65-lts/content/ai-assistant/ai-assistant-in-aem) | AI助理用於： <ul><li>Experience Hub概觀頁面</li><li>Edge Delivery Services</li><li>網站</li><li>資產</li><li>表單</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | 是 |
 | [LLM Optimizer](https://experienceleague.adobe.com/zh-hant/docs/llm-optimizer/using/home) | 創作、AI優先的應用程式，使用AI代理程式來自動識別可見度差距、自動建議改善專案，並在特定情況下自動最佳化您的網站體驗。 | 無 |
 | [Adobe Experience Platform](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/landing) | 用於產品知識和操作見解的AI助理。 | 無 |
-| [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/get-started/ai-assistant) | [!DNL AI Assistant]產品知識與營運深入分析。 | 否 |
+| [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/get-started/ai-assistant) | [!DNL AI Assistant]產品知識與營運深入分析。 | 無 |
 | | _AJO Prime_&#x200B;和&#x200B;_Ultimate_&#x200B;提供[產生內容](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en)的功能，針對文字和影像提供主動式內容變數建議。 | 是 |
-| [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) | 產品知識的AI助理。 | 無 |
+| [Adobe Journey Optimizer B2B Edition](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) | 產品知識的AI助理。 | 無 |
 | [[!DNL Campaign] 受管理的雲端服務](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/content/ai-assistant/generative-gs) | Content Accelerator的AI Assistant可根據電子郵件、簡訊和推播等管道的行銷目標，自動產生個人化、吸引人且有效的內容。 | 是 |
 | **[!DNL Customer Journey Analytics]** | GenAI用於：<ul><li> [智慧型字幕](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en)：深入瞭解最常用的Workspace視覺效果。</li><li>[Content Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/content-analytics/report/report?lang=en#template)：自動指派資產中繼資料。</li></ul> AI助理用於：<ul><li>[產品知識](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) </li><li>[產品支援代理程式](agentic-ai.md) </li><li>[Data Insights Agent](agentic-ai.md)</li></ul> | 無 |
-| [Real-Time CDP](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home) | 來自Experience League的產品知識[!DNL AI Assistant]。 它也能提供營運深入分析。 | 否 |
+| [Real-Time CDP](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home) | 來自Experience League的產品知識[!DNL AI Assistant]。 它也能提供營運深入分析。 | 無 |
 | **[!DNL Marketo]** | GenAI可在電子郵件Designer （搭配Firefly）、[Dynamic Chat](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview?lang=en)和[互動式網路研討會](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai?lang=en)中使用。<br> Marketo Engage的AI助理[電子郵件Designer](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/email-marketing/email-designer/ai-assistant) | 是 |
 | [Adobe Target](https://experienceleague.adobe.com/zh-hant/docs/target/using/introduction/assistant-ai/ai-assistant) | 產品知識的AI助理。 | 無 |
 | [Workfront](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/ai-assistant/ai-assistant-overview) | AI助理以提供應用程式內資訊和建議。 | 是 |
 
-**注意：** [!DNL Experience Platform Agents]已在CX Enterprise中的[AI代理程式](agentic-ai.md)中說明。
+**注意：** [!DNL Experience Platform Agents]已在CX Enterprise中的[AI代理程式中說明](agentic-ai.md)。
 
 ## 如何在CX Enterprise中使用創作AI？
 
@@ -275,7 +297,7 @@ AI助理可在Experience Platform、Real-Time Customer Data Platform、Adobe Jou
 
 +++詳細資料
 
-Journey Optimizer B2B edition使用[!UICONTROL AI助理]協助您瞭解產品知識。
+Journey Optimizer B2B Edition使用[!UICONTROL AI助理]協助您瞭解產品知識。
 
 範例輸入：
 

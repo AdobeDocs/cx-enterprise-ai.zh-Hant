@@ -1,9 +1,9 @@
 ---
 title: Co-worker中的SQL資料準備
 description: 瞭解如何在Co-worker中使用SQL資料準備來產生、最佳化、疑難排解和排程SQL查詢。
-source-git-commit: dff76b520c013554276e72a3e19b5d56c16af5fa
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1126'
 ht-degree: 1%
 ---
 # Co-worker中的SQL資料準備
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 Co-worker產生或更新SQL之後，您可以繼續交談以預覽結果、調整查詢、儲存查詢，或排程重複執行。
 
-如需使用同事介面的指引，請參閱[同事使用者介面指南](../coworker/chat/ui-guide.md)。
+如需使用同事介面的指引，請參閱[同事使用者介面指南](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/ui-guide)。
 
 ## 支援的功能 {#supported-capabilities}
 
