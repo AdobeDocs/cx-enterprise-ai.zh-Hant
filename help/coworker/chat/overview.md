@@ -1,18 +1,15 @@
 ---
-description: 瞭解Co-worker Chat如何使用對話式介面，在幾分鐘內規劃、執行和完成跨Adobe和連線系統的客戶體驗工作。
-title: Adobe CX Enterprise同事聊天總覽
+description: 瞭解 Coworker 聊天如何使用對話介面，在幾分鐘內規劃、執行並完成 Adobe 與連線系統上的客戶體驗工作。
+title: Adobe CX Enterprise Coworker Chat概觀
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 741
-ht-degree: 0%
-
+source-wordcount: '741'
+ht-degree: 3%
 ---
-
-# Adobe CX Enterprise同事聊天總覽 {#overview}
+# Adobe CX Enterprise Coworker Chat概觀 {#overview}
 
 同事聊天是讓客戶體驗工作完成的對話式介面。 您以簡單的語言描述目標（例如「建立春季瑜伽促銷活動的對象」或「告訴我為什麼這個對象上週會收縮」），Co-worker Chat會規劃工作、在Adobe和連線系統上執行、驗證結果，以及將完成的工作交還給您核准。
 
@@ -24,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->同事聊天是Adobe CX Enterprise Co-worker的一個模組。 其他兩個模組則延伸了相同基礎：同事行銷活動（從一場交談中站起來並啟動一個完整的行銷活動）和同事專案（端對端、多團隊工作流程的永遠線上工作區）。 本頁涵蓋「同事聊天」。
+>同事聊天是Adobe CX Enterprise Coworker的一個模組。 其他兩個模組則延伸了相同基礎：同事行銷活動（從一場交談中站起來並啟動一個完整的行銷活動）和同事專案（端對端、多團隊工作流程的永遠線上工作區）。 本頁涵蓋「同事聊天」。
 
 ## AI助理的演變
 
@@ -55,7 +52,7 @@ ht-degree: 0%
 * Workfront
 * Marketo Engage
 * _Real-Time CDP B2B edition （即將推出）_
-* _Adobe Journey Optimizer B2B edition （即將推出）_
+* _Adobe Journey Optimizer B2B Edition （即將推出）_
 * _Customer Journey Analytics B2B edition （即將推出）_
 
 ## 建置區塊
@@ -63,7 +60,7 @@ ht-degree: 0%
 同事聊天由同事建置區塊提供支援。 下列建置區塊目前可供使用。
 
 * **企業環境：**&#x200B;將目標轉換為已完成工作的引擎。 它會執行連續、自我修正的回圈（原因、選取技能、執行、驗證、重複）、從錯誤中復原並並行工作，直到完成工作為止，而不僅僅是嘗試完成。
-* **技能：**&#x200B;可重複使用的教戰手冊，使用Markdown語言輕鬆完成每項工作。 「同事聊天」提供目前最常見客戶體驗工作的相關技能，目標是涵蓋所有Adobe CX Enterprise應用程式在一段時間內進行的工作。
+* **技能：**&#x200B;可重複使用的教戰手冊，使用Markdown語言輕鬆完成每項工作。 「同事聊天」提供現今最常見客戶體驗工作的相關技能，目標是涵蓋所有Adobe CX Enterprise應用程式隨著時間流逝的工作。
 * **MCP聯結器：**&#x200B;已控管存取，可跨Adobe和協力廠商系統運作，並提供現成的聯結器以及您自己的選項。
 * **治理：**&#x200B;核准閘門、從您的Adobe組織繼承的許可權、執行動作前執行的檢查，以及完整的稽核軌跡。
 * **記憶體：**&#x200B;同事聊天會學習您在不同工作階段中的喜好設定、決定和更正內容，範圍從整個組織的規則到您的個人喜好設定，因此當您使用聊天工具時，其內容會更清晰。

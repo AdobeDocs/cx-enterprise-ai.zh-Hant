@@ -1,20 +1,17 @@
 ---
-description: 瀏覽Adobe CX Enterprise Co-worker Campaigns的即時提示模式，依贏取、參與、事件、轉換和保留行銷活動中的使用案例來整理。
+description: 瀏覽Adobe CX Enterprise Coworker行銷活動的實際提示模式，依贏取、參與、事件、轉換和保留行銷活動中的使用案例來整理。
 title: 同事行銷活動使用案例
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 508
+source-wordcount: '508'
 ht-degree: 0%
-
 ---
-
 # 使用案例 {#use-cases}
 
-生命週期與成長行銷人員在Adobe CX Enterprise Co-worker Campaigns中使用的實際提示模式如下。 每個區段都設計為可複製、與您自己的對象和品牌詳細資料交換，並在對話中精簡。
+生命週期和成長行銷人員在Adobe CX Enterprise Coworker行銷活動中使用的實際提示模式如下。 每個區段都設計為可複製、與您自己的對象和品牌詳細資料交換，並在對話中精簡。
 
 ## 使用方式
 

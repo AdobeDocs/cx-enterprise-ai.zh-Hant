@@ -4,10 +4,7 @@ description: 瞭解Adobe CX Enterprise Coworker，這是AI支援的團隊成員�
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 311ee225436219331d7561ec1aeb9a87311649e4
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 15%
@@ -158,7 +155,7 @@ CARDS
 
 「同事團隊」是小型敏捷團隊的範本化功能，可供他們站起來執行行銷活動。
 
-* [概觀](./campaigns/overview.md)
+* [概覽](./campaigns/overview.md)
 * [建立電子郵件行銷活動](./campaigns/create-an-email-campaign.md)
 * [使用案例](./campaigns/use-cases.md)
 * [提示最佳實務](./campaigns/prompting-best-practices.md)

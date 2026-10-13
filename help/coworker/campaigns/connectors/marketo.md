@@ -3,15 +3,12 @@ description: 瞭解如何將您的Marketo Engage帳戶連結至Co-worker Campaig
 title: 連線至Marketo Engage
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 311
+source-wordcount: '311'
 ht-degree: 0%
-
 ---
-
 # 連線至Marketo Engage {#marketo}
 
 Adobe Co-worker Campaigns可讓您連線Marketo Engage帳戶，提取智慧和靜態清單。

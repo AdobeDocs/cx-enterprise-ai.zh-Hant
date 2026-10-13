@@ -5,10 +5,7 @@ jira: KT-22106
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 38de8c889dc46760877bc4adca8ba3b79039de98
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 4%
@@ -78,7 +75,7 @@ CX Coworker介面有兩個主要區域：左側導覽邊欄，以及填滿視窗
 
 | 介面元素 | 說明 |
 | --- | --- |
-| 新增對話 | 開始全新的交談。 您目前的聊天內容會儲存到歷程記錄中。 |
+| 新增聊天 | 開始全新的交談。 您目前的聊天內容會儲存到歷程記錄中。 |
 | 首頁 | 返回問候語、輸入方塊和建議的提示。 |
 | 聊天 | 開啟完整的聊天記錄以搜尋、釘選、封存或刪除交談。 |
 | 設定 | 管理技能、MCP伺服器、市場、外掛程式和記憶體。 |
@@ -182,7 +179,7 @@ Co-worker Chat產生的結果（例如對象表格）在回應中會顯示為成
 | 依標題搜尋 | 依名稱尋找過去的交談。 |
 | 顯示已釘選 | 只顯示您已加入的交談。 |
 | 顯示已封存 | 顯示您已封存的交談。 |
-| 新增對話 | 開始新的交談。 |
+| 新增聊天 | 開始新的交談。 |
 | 列功能表(...) | 在任何交談中，啟動（釘選）、重新命名、封存或刪除它。 |
 
 ![聊天頁面](./assets/ui-guide-11.png)

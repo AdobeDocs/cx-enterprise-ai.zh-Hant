@@ -3,32 +3,43 @@ description: 瞭解如何在Customer Journey Analytics中使用Data Insights Age
 title: 使用Data Insights Agent以視覺效果呈現資料
 role: User, Admin
 solution: Customer Journey Analytics
-TQID: https://experienceleague.adobe.com/UtKIDlN2x7MOAiHNRRQ8b5OO4fIwzV74r1fnfMwblcQ
+TQID: 'https://experienceleague.adobe.com/UtKIDlN2x7MOAiHNRRQ8b5OO4fIwzV74r1fnfMwblcQ'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: b743a5d9-dc51-41ed-8b2f-86a1f8de430f
+    internal-label: Analytics dashboards
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+    internal-label: Data management
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 2686
+source-wordcount: '2686'
 ht-degree: 4%
-
 ---
-
 # 使用Data Insights Agent以視覺效果呈現資料
 
 >[!AVAILABILITY]
@@ -59,7 +70,7 @@ AI助理中的![Data Insights Agent](/help/agents/assets/cja-agent/cja-ai-asst-d
 >[!CONTEXTUALHELP]
 >id="cja-enable-data-insights-data-view"
 >title="啟用供 Data Insights 代理使用"
->abstract="此選項會啟用此資料視圖，用於和 Data Insights 代理搭配使用。 Data Insights 代理是一個生成式 AI 對話代理，可以從 Customer Journey Analytics 中的 AI 助理存取。 它能協助您透過文字提示快速分析資料。 此代理會使用來自您資料視圖的元件以及您的實際資料，在 Analysis Workspace 中建置相關的視覺效果。"
+>abstract="此選項會啟用此資料釋圖，用於和 Data Insights 代理搭配使用。 Data Insights 代理是一個生成式 AI 對話代理，可以從 Customer Journey Analytics 中的 AI 助理存取。 它能協助您透過文字提示快速分析資料。 此代理會使用來自您資料釋圖的元件以及您的實際資料，在 Analysis Workspace 中建置相關的視覺效果。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -123,7 +134,7 @@ AI助理中的![Data Insights Agent](/help/agents/assets/cja-agent/cja-ai-asst-d
 
 1. 前往[experience.adobe.com](https://experience.adobe.com/)並使用您的Adobe ID登入。
 
-2. 從CX Enterprise Home選取&#x200B;**Customer Journey Analytics**。
+2. 從CX Enterprise首頁選取&#x200B;**Customer Journey Analytics**。
 
 3. 在專案頁面頂端的橫幅中選取&#x200B;**[!UICONTROL 空白專案]**&#x200B;以開啟新的空白專案。
 
@@ -189,7 +200,7 @@ AI助理中的![Data Insights Agent](/help/agents/assets/cja-agent/cja-ai-asst-d
 
 ![環形圖](/help/agents/assets/cja-agent/ai-asst-result3.png)
 
-## 存取CX Enterprise應用程式中的Data Insights Agent
+## 跨CX Enterprise應用程式存取Data Insights Agent
 
 Adobe Experience Platform Agent Orchestrator可讓您在多個Adobe CX Enterprise應用程式（例如Adobe Journey Optimizer和Real-Time CDP）中存取Data Insights Agent的功能。
 

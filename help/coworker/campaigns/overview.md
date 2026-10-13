@@ -4,10 +4,7 @@ title: Adobe CX Enterprise Coworker概觀
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 21d2304c94d68d7800283b46e2a15012ffe55810
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 0%
@@ -50,7 +47,7 @@ Co-worker Campaigns是AI原生行銷應用程式，可帶您從單一提示前�
 
 | 左側導覽功能表 | 目的 |
 |---|---|
-| 新增對話 | 開始新交談以產生行銷活動。 |
+| 新增聊天 | 開始新交談以產生行銷活動。 |
 | 首頁 | 您的起點：提示列、最近的行銷活動，以及現成的行銷活動範本。 |
 | 聊天 | 您已開始的每一個交談尚未產生至行銷活動討論區。 |
 | 行銷活動 | 您所有草稿和即時行銷活動的詳細目錄。 |
