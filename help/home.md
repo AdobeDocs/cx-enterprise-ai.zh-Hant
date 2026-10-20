@@ -25,14 +25,14 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6908bfda861a96b10950728a9f83263335f707ea
+source-git-commit: 5810a7f782eaca7c34dda14a1eea12b435329c38
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 2%
+source-wordcount: '809'
+ht-degree: 4%
 ---
 # CX Enterprise應用程式中的AI
 
-本指南涵蓋Adobe CX Enterprise中的AI功能：generative AI、CX Enterprise Coworker、AI Assistant、Agent Orchestrator和MCP。
+本指南涵蓋Adobe CX Enterprise中的AI功能：generative AI、CX Enterprise Coworker、AI Assistant和Agent Orchestrator。
 
 ## AI功能概觀
 
@@ -88,21 +88,23 @@ Co-worker是AI Assistant的代理程式優先演化，可自動化客戶體驗�
 
 如需代理程式、每個支援的應用程式以及資格要求的完整清單，請參閱CX Enterprise中的[代理程式AI](./overview/agentic-ai.md)。
 
+<!--
 ## MCP
 
-[Adobe CX Coworker閘道](./mcp/overview.md)是CX Enterprise的統一模型內容通訊協定(MCP)端點。 它提供與MCP相容的使用者端，例如[!DNL Claude]、[!DNL ChatGPT]和[!DNL Cursor]，與貴組織有權使用的產品工具進行單一控管連線：
+[Adobe CX Coworker Gateway](./mcp/overview.md) is the unified Model Context Protocol (MCP) endpoint for CX Enterprise. It gives MCP-compatible clients, such as [!DNL Claude], [!DNL ChatGPT], and [!DNL Cursor], a single governed connection to the product tools your organization is entitled to use:
 
-- [Real-Time CDP工具](./mcp/rtcdp-mcp.md)
-- [Experience Platform工具](./mcp/aep-mcp.md)
-- [Journey Optimizer工具](./mcp/ajo-mcp.md)
-- [Customer Journey Analytics工具](./mcp/cja-mcp.md)
-- [Adobe Analytics工具](./mcp/analytics-mcp.md)
-- [!DNL Workfront]工具，記錄在[Workfront MCP伺服器指南](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)中
-- [!DNL Target]工具，記錄在[目標MCP伺服器指南](https://experienceleague.adobe.com/zh-hant/docs/target/using/mcp/target-mcp)中
+- [Real-Time CDP tools](./mcp/rtcdp-mcp.md)
+- [Experience Platform tools](./mcp/aep-mcp.md)
+- [Journey Optimizer tools](./mcp/ajo-mcp.md)
+- [Customer Journey Analytics tools](./mcp/cja-mcp.md)
+- [Adobe Analytics tools](./mcp/analytics-mcp.md)
+- [!DNL Workfront] tools, documented in the [Workfront MCP server guide](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+- [!DNL Target] tools, documented in the [Target MCP server guide](https://experienceleague.adobe.com/zh-hant/docs/target/using/mcp/target-mcp)
 
-第一次使用CX Coworker Gateway？ 請參閱[存取CX Coworker閘道工具](./mcp/access.md)和[安裝CX Coworker閘道](./mcp/install.md)以連線。 連線之後，在呼叫產品工具之前，請使用[工作階段內容工具](./mcp/context-tools.md)來設定作用中的組織、沙箱和資料檢視。
+New to CX Coworker Gateway? See [Access CX Coworker Gateway tools](./mcp/access.md) and [Install CX Coworker Gateway](./mcp/install.md) to get connected. Once connected, use the [session context tools](./mcp/context-tools.md) to set the active organization, sandbox, and data view before calling product tools.
 
-在使用任何這些工具之前，請參閱[開始之前](./overview/overview-ai-cxe.md#before-you-begin)有關存取要求、隱私權及安全性考量事項。
+Before you use any of these tools, see [Before you begin](./overview/overview-ai-cxe.md#before-you-begin) for access requirements and privacy and security considerations.
+-->
 
 ## 最佳實務
 
