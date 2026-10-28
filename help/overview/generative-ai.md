@@ -65,10 +65,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
+source-git-commit: 13d4b6e0c41f434786c7e293a4ccbda0c367d7f4
 workflow-type: tm+mt
-source-wordcount: '3412'
-ht-degree: 12%
+source-wordcount: '3411'
+ht-degree: 13%
 ---
 # 關於CX Enterprise中的generative AI
 
@@ -76,7 +76,7 @@ CX Enterprise中的Generative AI (genAI)可幫助您自動化創意和認知任�
 
 >[!IMPORTANT]
 >
->在使用CX Enterprise Generative AI功能之前，您必須瞭解並遵循[Adobe CX Enterprise Generative AI使用者准則](https://www.adobe.com/tw/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。
+>在使用CX Enterprise Generative AI功能之前，您必須瞭解並遵循[Adobe CX Enterprise Generative AI使用者准則](https://www.adobe.com/tw/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)。
 
 **什麼是genAI？**
 
@@ -135,7 +135,7 @@ GenAI可以&#x200B;_建立_&#x200B;原始內容，或&#x200B;_針對使用者的
 | | _AJO Prime_&#x200B;和&#x200B;_Ultimate_&#x200B;提供[產生內容](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en)的功能，針對文字和影像提供主動式內容變數建議。 | 是 |
 | [Adobe Journey Optimizer B2B Edition](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) | 產品知識的AI助理。 | 無 |
 | [[!DNL Campaign] 受管理的雲端服務](https://experienceleague.adobe.com/zh-hant/docs/campaign-web/v8/content/ai-assistant/generative-gs) | Content Accelerator的AI Assistant可根據電子郵件、簡訊和推播等管道的行銷目標，自動產生個人化、吸引人且有效的內容。 | 是 |
-| **[!DNL Customer Journey Analytics]** | GenAI用於：<ul><li> [智慧型字幕](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en)：深入瞭解最常用的Workspace視覺效果。</li><li>[Content Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/content-analytics/report/report?lang=en#template)：自動指派資產中繼資料。</li></ul> AI助理用於：<ul><li>[產品知識](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) </li><li>[產品支援代理程式](agentic-ai.md) </li><li>[Data Insights Agent](agentic-ai.md)</li></ul> | 無 |
+| **[!DNL Customer Journey Analytics]** | GenAI用於：<ul><li> [智慧型字幕](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en)：深入瞭解最常用的Workspace視覺效果。</li><li>[Content Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/content-analytics/report/report?lang=en#template)：自動指派資產中繼資料。</li></ul> AI助理用於：<ul><li>[產品知識](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) </li><li>[產品支援代理程式](agentic-ai.md) </li><li>[Data Insights Agent](agentic-ai.md)</li></ul> | 無 |
 | [Real-Time CDP](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home) | 來自Experience League的產品知識[!DNL AI Assistant]。 它也能提供營運深入分析。 | 無 |
 | **[!DNL Marketo]** | GenAI可在電子郵件Designer （搭配Firefly）、[Dynamic Chat](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview?lang=en)和[互動式網路研討會](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai?lang=en)中使用。<br> Marketo Engage的AI助理[電子郵件Designer](https://experienceleague.adobe.com/zh-hant/docs/marketo/using/product-docs/email-marketing/email-designer/ai-assistant) | 是 |
 | [Adobe Target](https://experienceleague.adobe.com/zh-hant/docs/target/using/introduction/assistant-ai/ai-assistant) | 產品知識的AI助理。 | 無 |
@@ -315,7 +315,7 @@ Journey Optimizer B2B Edition使用[!UICONTROL AI助理]協助您瞭解產品知
 
 Customer Journey Analytics可讓您透過以下方式使用創作AI或AI助理：
 
-* 產品知識的[AI助理](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)。
+* 產品知識的[AI助理](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)。
 * [智慧型字幕](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)可提供自然語言中最常用Workspace視覺效果的關鍵深入分析。
 * [Content Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/content-analytics/report/report#template)自動指派每個資產中繼資料。
 
@@ -327,7 +327,7 @@ Customer Journey Analytics可讓您透過以下方式使用創作AI或AI助理�
 
 經驗豐富的使用者可獲得進階使用案例或學習策略，以更快的速度執行任務。 您可以快速瞭解概念、疑難排解問題或搜尋資訊。
 
-[!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant" tooltip="瞭解CJA中的AI助理"}
+[!BADGE 了解更多]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant" tooltip="瞭解CJA中的AI助理"}
 
 **智慧型字幕**
 
