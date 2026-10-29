@@ -1,11 +1,11 @@
 ---
-title: 關於CX Enterprise中的AI
+title: 關於 CX Enterprise 中的 AI
 description: 瞭解在CX Enterprise應用程式中有何處提供產生式和代理式AI，並在開始前檢閱存取權、隱私權和安全性要求。
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
     internal-label: AI Tools
@@ -16,12 +16,12 @@ role_v2:
     internal-label: Admin
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fccf9111460413fe5b89229564a682827152b1ab
+source-git-commit: b3dc06bee6033c99b8c850e32e0f603be1fb49ed
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 3%
+ht-degree: 5%
 ---
-# 關於CX Enterprise中的AI
+# 關於 CX Enterprise 中的 AI
 
 Adobe CX Enterprise應用程式以兩種互補方式使用AI：**創作AI** （您直接提示建立內容或獲得答案）和&#x200B;**代理AI** （在您的監督下，代表您規劃並執行多步驟工作）。 以下主題廣泛說明各種AI在CX Enterprise中的可用位置。
 
