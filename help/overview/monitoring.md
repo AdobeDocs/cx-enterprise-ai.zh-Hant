@@ -50,7 +50,7 @@ Agentic AI [!UICONTROL 監控]儀表板可讓Center of Excellence (COE)成員和
 | **意見反應** | 回應品質和使用者滿意度訊號 |
 | **AI積分** | 信用沖銷趨勢與餘額 |
 
-Adobe CX Enterprise](agentic-ai.md)檔案中的[Agentic AI列出在現有CX Enterprise應用程式](agentic-ai.md#existing-apps-table)表格中[AI代理程式使用狀況監視範圍內的代理程式。
+Adobe CX Enterprise[&#128279;](agentic-ai.md)檔案中的[Agentic AI列出在現有CX Enterprise應用程式](agentic-ai.md#existing-apps-table)表格中AI代理程式使用狀況監視範圍內的代理程式。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491864?learn=on)
 
