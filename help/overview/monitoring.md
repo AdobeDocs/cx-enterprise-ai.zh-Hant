@@ -22,21 +22,24 @@ subfeature_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
+source-git-commit: aba8260fc0aa8e2df892a985704ae56d4fc62b9a
 workflow-type: tm+mt
-source-wordcount: 996
+source-wordcount: '1024'
 ht-degree: 1%
-
 ---
-
 # Agentic AI監控儀表板
 
-Agentic AI [!UICONTROL 監控]儀表板可讓Center of Excellence (COE)成員和其他治理利害關係人瞭解代理AI的使用和採用。 檢視7天或30天趨勢，以瞭解誰使用[!DNL AI Assistant]或其他表面（例如[Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)）與[!DNL Experience Platform Agents]互動，以及他們收到的值。 這些檢視可協助您使用資料而不是假設來指導代理程式採用。
+Agentic AI [!UICONTROL 監控]儀表板可讓Center of Excellence (COE)成員和其他治理利害關係人瞭解代理AI的使用和採用。 檢視7天或30天趨勢，以瞭解誰使用[!DNL AI Assistant]或其他表面（例如[Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)）與[!DNL Experience Platform Agents]互動，以及他們收到的值。 這些檢視可協助您使用資料而不是假設來指導代理程式採用。
+
+>[!IMPORTANT]
+>
+>此儀表板中的量度未反映[!DNL Coworker]使用狀況。 [!DNL Coworker]監視儀表板正在開發中，當它可用時將進行記錄。
 
 **可用性**
 
 * 目前，任何帳戶只要擁有至少一個Experience Platform原生應用程式（Customer Journey Analytics、Journey Optimizer或Real-Time CDP）的授權，即可存取此儀表板
 * [AI優先應用程式](agentic-ai.md#ai-first-cx-enterprise-applications) （例如Experimentation Accelerator、LLM Optimizer和Sites Optimizer）的使用和採用量度不在此儀表板的範圍內。
+* [!DNL Coworker]儀表板即將推出。
 
 [!UICONTROL 監視]儀表板包含下列檢視：
 
@@ -47,9 +50,9 @@ Agentic AI [!UICONTROL 監控]儀表板可讓Center of Excellence (COE)成員和
 | **意見反應** | 回應品質和使用者滿意度訊號 |
 | **AI積分** | 信用沖銷趨勢與餘額 |
 
-Adobe CX Enterprise [&#128279;](agentic-ai.md)檔案中的[Agentic AI列出在現有CX Enterprise應用程式](agentic-ai.md#existing-apps-table)表格中AI代理程式使用監控範圍內的代理程式。
+Adobe CX Enterprise](agentic-ai.md)檔案中的[Agentic AI列出在現有CX Enterprise應用程式](agentic-ai.md#existing-apps-table)表格中[AI代理程式使用狀況監視範圍內的代理程式。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491877?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491864?learn=on)
 
 ## 啟用儀表板許可權 {#permissions}
 
@@ -104,7 +107,7 @@ Adobe CX Enterprise [&#128279;](agentic-ai.md)檔案中的[Agentic AI列出在�
 * **每個交談的平均提示數：**&#x200B;每個交談的參與深度。
 * **意見：**&#x200B;使用者向上和向下拇指的意見分佈（僅適用於[!DNL AI Assistant]個互動）。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491887?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491865?learn=on)
 
 ### 交談重播
 
@@ -113,7 +116,7 @@ Adobe CX Enterprise [&#128279;](agentic-ai.md)檔案中的[Agentic AI列出在�
 * **提示與回應歷史記錄：**&#x200B;使用者的提示與回應已傳遞。
 * **意見反應訊號：**&#x200B;使用者以豎起或豎下大拇指標示的互動，以識別摩擦、封鎖或啟用需求。 此資訊可協助您的組織改善即時關聯性，並協助Adobe改善長期以來的回應品質。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491896?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491866?learn=on)
 
 ## 使用者儀表板
 
@@ -130,7 +133,7 @@ Adobe CX Enterprise [&#128279;](agentic-ai.md)檔案中的[Agentic AI列出在�
 * **交談活動：**&#x200B;每個使用者的交談和提示數目。
 * **最活躍的使用者：**&#x200B;高度參與的使用者和團隊，推動代理程式採用。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491929?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491868?learn=on)
 
 ## 意見反應儀表板
 
@@ -144,7 +147,7 @@ Adobe CX Enterprise [&#128279;](agentic-ai.md)檔案中的[Agentic AI列出在�
 * **提示和回應歷史記錄：**&#x200B;使用者提示和與提交的意見相關的回應。
 * **意見詳細資料和附註：**&#x200B;使用者在意見提交期間的其他內容與註解。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491920?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491878?learn=on)
 
 ## AI積分儀表板
 
@@ -156,11 +159,11 @@ AI積分儀表板會顯示貴組織使用[!DNL Experience Platform Agents]如何
 * **每日和每月趨勢：**&#x200B;消費模式的尖峰、下降和變更。
 * **AI剩餘信用額度：**&#x200B;剩餘餘額，讓您能夠主動計畫並避免超額。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491911?captions=chi_hant&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491867?learn=on)
 
 ## 有關此主題的更多說明
 
-* 在[!DNL Experience Platform]中的[授權使用量儀表板](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/dashboards/guides/license-usage)
+* 在[!DNL Experience Platform]中的[授權使用量儀表板](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)
 * [Adobe CX Enterprise中的Agentic AI](agentic-ai.md)
 * [代理程式工作和AI信用消耗](ai-credit-consumption.md)
-* [授權使用量儀表板](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [授權使用量儀表板](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
