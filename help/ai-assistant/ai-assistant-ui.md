@@ -17,18 +17,18 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
+source-git-commit: 88ac5904cbf810a32d3cfde06c8ab18ae5f53746
 workflow-type: tm+mt
-source-wordcount: 2162
+source-wordcount: '2219'
 ht-degree: 2%
-
 ---
-
 # AI 助理
+
+本檔案適用於AI Assistant (Next-Gen)。 如需AI助理（舊版）的相關資訊，請參閱Adobe Experience Platform檔案中的[AI助理UI指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home)。
 
 >[!IMPORTANT]
 >
->本檔案適用於AI Assistant (Next-Gen)。 如需AI助理（舊版）的相關資訊，請參閱Adobe Experience Platform檔案中的[AI助理UI指南](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/ai-assistant/home)。
+>Adobe CX Enterprise Coworker是AI Assistant更強大、更強大的演化功能，可協助您的使用者更快速、更輕鬆完成工作。 同事運用您團隊目前運用AI Assistant的所有功能，並加以擴充，協助他們自動化例行工作、提高生產力，並推動更聰明、更有洞察力的決策。 [了解更多](https://business.adobe.com/products/cx-enterprise-coworker.html)。
 
 請參閱下表以取得「AI助理（舊版）」和「AI助理（次世代）」的比較結果：
 
@@ -36,9 +36,9 @@ ht-degree: 2%
 | --- | --- | --- |
 | 使用者體驗 | AI助理（舊版）僅在右邊欄面板中可用。 | AI Assistant (Next-Gen)提供右欄面板和沈浸式全熒幕體驗。 |
 | 功能範圍 | 您可以使用AI助理（舊版）來取得產品知識和營運見解。 | 您可以使用AI Assistant （新一代）來瞭解產品知識、營運深入分析，以及進階代理技能和多步驟任務執行。 |
-| 平台架構 | AI助理（舊版）並非建置在Agent Orchestrator棧疊上。 | AI Assistant (Next-Gen)由[Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/agents/agent-orchestrator)提供技術支援，可擴充性以及各種功能的進階協調。 |
-| 應用程式涵蓋範圍 | AI助理（舊版）是應用程式專用的實作。 | 您可以使用AI Assistant (Next-Gen)，在所有Adobe CX Enterprise應用程式中提供統一的AI Assistant體驗。 |
-| 存取與許可權模型 | 應用程式範圍的存取模型會與個別產品邊界對齊。 | 所有使用者都能存取AI Assistant (Next-Gen)和相關聯的Experience Platform代理程式。 **附註**： <ul><li>**Adobe Experience Manager**：您的管理員必須授予您透過[Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)存取AI小幫手(Next-Gen)的許可權。</li><li>**Customer Journey Analytics**：您的管理員必須透過[Customer Journey Analytics存取控制](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/technotes/access-control?lang=en)授與您存取AI小幫手的許可權。 這可讓您詢問產品知識和資料見解問題。 |
+| 平台架構 | AI助理（舊版）並非建置在Agent Orchestrator棧疊上。 | AI Assistant (Next-Gen)由[Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/agent-orchestrator)提供技術支援，可擴充性以及各種功能的進階協調。 |
+| 應用程式涵蓋範圍 | AI助理（舊版）是應用程式專用的實作。 | 您可以使用AI助理（新一代），在所有Adobe CX Enterprise應用程式中提供統一的AI助理體驗。 |
+| 存取與許可權模型 | 應用程式範圍的存取模型會與個別產品邊界對齊。 | 所有使用者都能存取AI Assistant (Next-Gen)和相關聯的Experience Platform代理程式。 **附註**： <ul><li>**Adobe Experience Manager**：您的管理員必須授予您透過[Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)存取AI小幫手(Next-Gen)的許可權。</li><li>**Customer Journey Analytics**：您的管理員必須透過[Customer Journey Analytics存取控制](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control?lang=en)授與您存取AI小幫手的許可權。 這可讓您詢問產品知識和資料見解問題。 |
 
 AI Assistant是一款智慧型交談、創造性的AI工具，可大幅提升生產力並重新定義Adobe Experience Platform應用程式中的工作。 您可以使用AI助理來存取Adobe Experience Platform代理程式和其他AI功能。
 
@@ -56,11 +56,11 @@ AI Assistant是一款智慧型交談、創造性的AI工具，可大幅提升生
 
 +++選取以檢視
 
-![在左側導覽中選取AI Assistant圖示的CX Enterprise首頁。](./assets/ai-assistant/from-experience-cloud.png)
+![在左側導覽中選取AI助理圖示的CX Enterprise首頁。](./assets/ai-assistant/from-experience-cloud.png)
 
 +++
 
-您也可以從CX Enterprise應用程式（例如Experience Platform、Adobe Journey Optimizer和Customer Journey Analytics）的首頁啟動AI Assistant。 導覽至您的產品首頁，然後從頂端標題選取&#x200B;**AI助理圖示**，以啟動右側邊欄的AI助理聊天面板。
+您也可以從CX Enterprise應用程式（例如Experience Platform、Adobe Journey Optimizer和Customer Journey Analytics）的首頁啟動AI助理。 導覽至您的產品首頁，然後從頂端標題選取&#x200B;**AI助理圖示**，以啟動右側邊欄的AI助理聊天面板。
 
 +++選取以檢視
 
@@ -76,11 +76,11 @@ AI Assistant是一款智慧型交談、創造性的AI工具，可大幅提升生
 
 AI Assistant介麵包含數個關鍵元素，可幫助您有效互動：
 
-1. **[!UICONTROL 交談]**：選取&#x200B;**[!UICONTROL 交談]**&#x200B;圖示以開始新的交談，並從您的歷程記錄存取最近的交談。 如需詳細資訊，請閱讀有關[交談](#conversations)的章節。
-2. **輸入方塊**：選取輸入方塊以輸入AI助理的問題和提示。 如需詳細資訊，請閱讀有關[輸入功能](#input-features)的章節。
-3. **資料與物件自動完成**： — 選取加號圖示以使用資料與物件建議並自動完成。 選取後，您可以使用彈出式視窗來選取建議的實體。 如需詳細資訊，請閱讀有關[資料與物件自動完成](#autocomplete)的章節。
-4. **內容設定**： — 選取[內容設定]圖示來設定AI助理的資訊來源。 您可以使用此工具來設定AI助理參考的應用程式、沙箱和資料檢視，以回答您的查詢。 如需詳細資訊，請閱讀[內容設定](#context-setting)的區段。
-5. **探索**： — 選取&#x200B;**[!UICONTROL 學習]**、**[!UICONTROL 分析]**&#x200B;和&#x200B;**[!UICONTROL 最佳化]**&#x200B;以檢視您可用來開始使用的範例查詢。 如需詳細資訊，請閱讀[可發現性提示](#discoverability-prompts)的區段。
+1. **[!UICONTROL 交談]**：Select **[!UICONTROL 交談]**&#x200B;圖示以開始新的交談，並存取您歷程記錄中最近的交談。 如需詳細資訊，請閱讀有關[交談](#conversations)的章節。
+2. **輸入方塊**：Select輸入方塊，以輸入AI助理的問題和提示。 如需詳細資訊，請閱讀有關[輸入功能](#input-features)的章節。
+3. **資料與物件自動完成**： - Select加號圖示可使用資料與物件建議，並自動完成。 選取後，您可以使用彈出式視窗來選取建議的實體。 如需詳細資訊，請閱讀有關[資料與物件自動完成](#autocomplete)的章節。
+4. **內容設定**： - Select內容設定圖示可設定AI助理的資訊來源。 您可以使用此工具來設定AI助理參考的應用程式、沙箱和資料檢視，以回答您的查詢。 如需詳細資訊，請閱讀[內容設定](#context-setting)的區段。
+5. **探索**： - Select **[!UICONTROL 學習]**、**[!UICONTROL 分析]**&#x200B;和&#x200B;**[!UICONTROL 最佳化]**&#x200B;以檢視您可用來開始使用的範例查詢。 如需詳細資訊，請閱讀[可發現性提示](#discoverability-prompts)的區段。
 
 ![全熒幕的AI小幫手。](./assets/ai-assistant/ui-home.png)
 
@@ -88,13 +88,13 @@ AI Assistant介麵包含數個關鍵元素，可幫助您有效互動：
 
 邊欄檢視可在精簡的面板中快速存取聊天、探索提示、更新、交談和介面控制項。
 
-1. **[!UICONTROL 聊天]**：從標題選取&#x200B;**[!UICONTROL 聊天]**，在您離開時返回您的交談，以存取介面上的不同元素。
-1. **[!UICONTROL 探索]**：選取&#x200B;**[!UICONTROL 探索]**&#x200B;以檢視依類別組織的AI助理提示清單。 您可以使用這些預先設定的提示來填入您的聊天。 此外，您可以調整建議的提示以符合您的特定使用案例。
-1. **[!UICONTROL 新增功能]**：選取&#x200B;**[!UICONTROL 新增功能]**&#x200B;以檢視AI助理可用的最新更新清單。
-1. **[!UICONTROL 交談]**：選取&#x200B;**[!UICONTROL 交談]**&#x200B;圖示以開始新的交談，並從您的歷程記錄存取最近的交談。 如需詳細資訊，請閱讀有關[交談](#conversations)的章節。
-1. **全熒幕檢視**：選取&#x200B;**[!UICONTROL 全熒幕檢視]**&#x200B;圖示，將AI助理介面從右邊欄變更為全熒幕模式。
-1. **資料與物件自動完成**：選取加號圖示以使用資料與物件建議並自動完成。 選取後，您可以使用彈出式視窗來選取建議的實體。 如需詳細資訊，請閱讀有關[資料與物件自動完成](#autocomplete)的章節。
-1. **內容設定**：選取[內容設定]圖示以設定AI助理的資訊來源。 您可以使用此工具來設定AI助理參考的應用程式、沙箱和資料檢視，以回答您的查詢。 如需詳細資訊，請閱讀[內容設定](#context-setting)的區段。
+1. **[!UICONTROL 聊天]**： Select **[!UICONTROL 聊天]**，在您離開以存取介面上的不同元素時，從標題返回您的交談。
+1. **[!UICONTROL 探索]**： Select **[!UICONTROL 探索]**，以檢視依類別組織的AI助理提示清單。 您可以使用這些預先設定的提示來填入您的聊天。 此外，您可以調整建議的提示以符合您的特定使用案例。
+1. **[!UICONTROL 新增功能]**： Select **[!UICONTROL 新增功能]**，檢視AI助理可用的最新更新清單。
+1. **[!UICONTROL 交談]**：Select **[!UICONTROL 交談]**&#x200B;圖示以開始新的交談，並存取您歷程記錄中最近的交談。 如需詳細資訊，請閱讀有關[交談](#conversations)的章節。
+1. **全熒幕檢視**： Select **[!UICONTROL 全熒幕檢視]**&#x200B;圖示，可將您的AI助理介面從右邊欄變更為全熒幕模式。
+1. **資料與物件自動完成**： Select加號圖示可使用資料與物件建議，並自動完成。 選取後，您可以使用彈出式視窗來選取建議的實體。 如需詳細資訊，請閱讀有關[資料與物件自動完成](#autocomplete)的章節。
+1. **內容設定**： Select內容設定圖示可設定AI助理的資訊來源。 您可以使用此工具來設定AI助理參考的應用程式、沙箱和資料檢視，以回答您的查詢。 如需詳細資訊，請閱讀[內容設定](#context-setting)的區段。
 
 ![邊欄檢視中的AI小幫手](./assets/ai-assistant/rail-mode.png)
 
@@ -118,13 +118,13 @@ AI Assistant介麵包含數個關鍵元素，可幫助您有效互動：
 
 >[!TAB 使用邊欄檢視的探索]
 
-從邊欄檢視中選取&#x200B;**[!UICONTROL 探索]**，即可存取廣泛的探索提示清單，供您用來開始使用，並填入AI助理的聊天。
+從邊欄檢視的Select **[!UICONTROL 探索]**，以存取廣泛的探索提示清單，您可以使用這些清單來開始使用，並填入AI助理的聊天。
 
 ![從邊欄檢視探索面板。](./assets/ai-assistant/inputs/discover-rail.png)
 
 >[!ENDTABS]
 
-選取提示以填入輸入方塊。 從這裡，您可以編輯提示以適合您的特定使用案例。 準備就緒後，選取右側的傳送圖示以提交您的查詢。
+Select會提示您填入輸入方塊。 從這裡，您可以編輯提示以適合您的特定使用案例。 準備就緒後，選取右側的傳送圖示以提交您的查詢。
 
 ![輸入方塊中的Discover提示。](./assets/ai-assistant/inputs/question-input.png)
 
@@ -166,7 +166,7 @@ AI Assistant接著會查詢其知識庫並計算答案。 幾分鐘後，AI Assi
 
 >[!TAB 縮圖向上]
 
-選取&#x200B;**[!UICONTROL 向上縮圖]**&#x200B;以提供正面回饋。 您可以選擇從正面意見清單中選取，或使用輸入方塊輸入您自己的特定意見。
+Select **[!UICONTROL 豎起拇指]**&#x200B;以提供正面回饋。 您可以選擇從正面意見清單中選取，或使用輸入方塊輸入您自己的特定意見。
 
 +++選取以檢視
 
@@ -180,7 +180,7 @@ AI Assistant接著會查詢其知識庫並計算答案。 幾分鐘後，AI Assi
 
 >[!TAB 縮圖已關閉]
 
-選取&#x200B;**[!UICONTROL 向下縮圖]**&#x200B;以提供建設性的意見回饋。 您可以選擇性地從建構性意見清單中選取，或使用輸入方塊輸入您自己的特定意見。
+Select **[!UICONTROL 按下拇指]**&#x200B;以提供建設性的意見回饋。 您可以選擇性地從建構性意見清單中選取，或使用輸入方塊輸入您自己的特定意見。
 
 +++選取以檢視
 
@@ -202,7 +202,7 @@ AI Assistant接著會查詢其知識庫並計算答案。 幾分鐘後，AI Assi
 
 ### 對話
 
-您可以使用&#x200B;*[!UICONTROL 所有交談]*&#x200B;面板來重設和重新造訪與AI助理的交談。 選取&#x200B;**[!UICONTROL 交談]**&#x200B;圖示以檢視&#x200B;*[!UICONTROL 所有交談]*&#x200B;視窗。
+您可以使用&#x200B;*[!UICONTROL 所有交談]*&#x200B;面板來重設和重新造訪與AI助理的交談。 Select **[!UICONTROL 交談]**&#x200B;圖示以檢視&#x200B;*[!UICONTROL 所有交談]*&#x200B;視窗。
 
 ![AI助理上的交談視窗。](./assets/ai-assistant/conversations/select-conversations.png)
 
@@ -224,7 +224,7 @@ AI Assistant接著會查詢其知識庫並計算答案。 幾分鐘後，AI Assi
 
 | 資訊來源 | 說明 | 範例 |
 | --- | --- | --- |
-| 應用程式 | 您的查詢所屬的CX企業應用程式。 | Experience Platform、Journey Optimizer、Customer Journey Analytics等 |
+| 應用程式 | 您查詢所屬的CX Enterprise應用程式。 | Experience Platform、Journey Optimizer、Customer Journey Analytics等 |
 | 沙箱 | 包含您的查詢相關資料集或資訊的沙箱。 | 生產(VA7)、開發 |
 | 資料檢視 | 當您搭配使用AI助理與Customer Journey Analytics時，資料檢視設定可協助Data Insights Agent瞭解： <ul><li>要查詢的資料集</li><li>有哪些可用的資料元件</li><li>如何建構有關您資料的回應</li><li>要在Analysis Workspace中建立哪些視覺效果</li></ul> | |
 
@@ -238,11 +238,11 @@ AI Assistant接著會查詢其知識庫並計算答案。 幾分鐘後，AI Assi
 
 ### 驗證回應
 
-您可透過多種方式驗證AI助理的回應。 選取&#x200B;**[!UICONTROL 與物件相符的查詢辭彙]**&#x200B;以檢視查詢中與組織中特定物件相符的辭彙摘要。
+您可透過多種方式驗證AI助理的回應。 Select **[!UICONTROL 查詢辭彙與物件相符]**&#x200B;以檢視查詢中辭彙與組織中特定物件相符的摘要。
 
 ![查詢字詞與您的回應相符。](./assets/ai-assistant/autocomplete/query-terms.png)
 
-選取&#x200B;**[!UICONTROL 以下是我取得結果的方式]**，以檢視AI助理如何取得答案的詳細逐步說明。 此外，您也可以檢視為回答您問題而執行的SQL查詢。 此查詢是唯讀的，不支援用於查詢服務。
+Select **[!UICONTROL 以下是我取得結果的方式]**，以檢視AI助理如何得出答案的詳細逐步說明。 此外，您也可以檢視為回答您問題而執行的SQL查詢。 此查詢是唯讀的，不支援用於查詢服務。
 
 ![AI助理上的SQL驗證工具。](./assets/ai-assistant/autocomplete/verifications.png)
 

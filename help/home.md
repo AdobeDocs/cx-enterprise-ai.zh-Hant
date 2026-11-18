@@ -25,35 +25,30 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: b3dc06bee6033c99b8c850e32e0f603be1fb49ed
+source-git-commit: 9dab42a742d258dd7d3dea3ae555a6f8b3ecac9b
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '800'
 ht-degree: 4%
 ---
 # CX Enterprise應用程式中的AI
 
-本指南涵蓋Adobe CX Enterprise中的AI功能：generative AI、CX Enterprise Coworker、AI Assistant和Agent Orchestrator。
+本指南介紹Adobe CX Enterprise提供的AI功能：同事、AI Assistant和Agent Orchestrator，以及它所支援的Experience Platform代理程式。 從下方的概觀開始，瞭解這些功能如何關聯，然後按照連結來設定存取權、監控使用量，並充分利用每一項功能。
 
-## AI功能概觀
-
-從這裡開始，逐步瞭解在CX Enterprise中使用人工智慧的位置和方式：
-
-- [同事](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/home)是代理第一隊友，負責規劃、執行、驗證及傳回已完成的客戶體驗和行銷工作，以供您核准。
 - [關於產生式AI](./overview/generative-ai.md)說明哪些CX Enterprise應用程式支援產生式AI和AI助理，以及它們之間的比較方式。
 - [關於代理程式AI](./overview/agentic-ai.md)說明代理程式AI如何在現有的CX Enterprise應用程式和AI優先應用程式中運作，並列出每個應用程式中可用的代理程式。
-- [AI監視](./overview/monitoring.md)涵蓋追蹤代理程式採用、使用、回饋和AI信用消耗的控制面板。
+- [AI監視](./overview/monitoring.md)涵蓋AI助理儀表板，這些儀表板會追蹤代理程式採用、使用、回饋和AI信用消耗。
 - [AI積分耗用量](./overview/ai-credit-consumption.md)說明代理程式工作如何耗用AI積分，以及依代理程式和工作型別的預估耗用率。
 - [Generative AI內容透明度](./content-transparency.md)說明Adobe如何跨CX Enterprise應用程式將C2PA中繼資料自動附加至GenAI產生和GenAI編輯的內容。
 - [CX Enterprise代理程式工具](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-agentic-tools/using/overview)涵蓋擴充CX Enterprise代理程式的其他代理程式技能和工具（影片教學課程）。
 
 ## Coworker
 
-Co-worker是AI Assistant的代理程式優先演化，可自動化客戶體驗和行銷工作流程，讓您的團隊可專注於業務目標而非例行執行。 您描述的目標不是一次詢問一個問題。 同事計畫、執行、驗證及傳回已完成的工作以供您核准。 深入瞭解[Adobe for Business](https://business.adobe.com/tw/products/cx-enterprise-coworker.html)。
+Co-worker是AI Assistant的代理程式優先演化，可自動化客戶體驗和行銷工作流程，讓您的團隊可專注於業務目標而非例行執行。 您描述的目標不是一次詢問一個問題。 同事計畫、執行、驗證及傳回已完成的工作以供您核准。 深入瞭解[Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker.html)。
 
 同事包括：
 
-- **[同事聊天](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/overview)**：探索您的資料、驗證對象和歷程以及完成跨CX Enterprise應用程式的多步驟工作的對話式介面。
-- **[同事行銷活動](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/campaigns/overview)**：AI原生應用程式，將行銷活動簡報、對象建立、內容產生、歷程設計和校訂整合為單一對話體驗。 它使用內建範本、最佳實務和提示性指引，協助小型敏捷團隊快速啟動行銷活動。 深入瞭解[Adobe for Business](https://business.adobe.com/tw/products/cx-enterprise-coworker/teams.html)。
+- **[同事聊天](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview)**：探索您的資料、驗證對象和歷程以及完成跨CX Enterprise應用程式的多步驟工作的對話式介面。
+- **[適用於團隊的同事](https://experienceleague.adobe.com/en/docs/coworker/content/campaigns/overview)**：AI原生應用程式，可將行銷活動簡報、對象建立、內容產生、歷程設計和校訂整合為單一對話體驗。 它使用內建範本、最佳實務和提示性指引，協助小型敏捷團隊快速啟動行銷活動。 深入瞭解[Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker/teams.html)。
 - **同事專案** （即將推出）：統一的工作區可自動化端對端客戶體驗協調工作流程，協助團隊協調工作、核准及執行，以推動策略到傳遞的結果。 專案的檔案即將推出。
 
 符合資格的客戶正逐步從AI助理和Experience Platform代理程式轉換為同事聊天。
@@ -62,7 +57,7 @@ Co-worker是AI Assistant的代理程式優先演化，可自動化客戶體驗�
 
 - 閱讀[同事試用版](./agents/trial.md)，了解試用資格、AI信用使用情況，以及如何取得存取權。
 - 如需所有同事的內容，請參閱[同事說明首頁](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/home)。
-- 如需沙箱到沙箱物件復寫，請參閱[沙箱工具代理程式技能](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/use-cases/sandbox-tooling/sandbox-tooling)。
+- 如需沙箱到沙箱物件復寫，請參閱[沙箱工具代理程式技能](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/sandbox-tooling/sandbox-tooling)。
 
 ## AI 助理
 
@@ -98,8 +93,8 @@ Co-worker是AI Assistant的代理程式優先演化，可自動化客戶體驗�
 - [Journey Optimizer tools](./mcp/ajo-mcp.md)
 - [Customer Journey Analytics tools](./mcp/cja-mcp.md)
 - [Adobe Analytics tools](./mcp/analytics-mcp.md)
-- [!DNL Workfront] tools, documented in the [Workfront MCP server guide](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- [!DNL Target] tools, documented in the [Target MCP server guide](https://experienceleague.adobe.com/zh-hant/docs/target/using/mcp/target-mcp)
+- [!DNL Workfront] tools, documented in the [Workfront MCP server guide](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+- [!DNL Target] tools, documented in the [Target MCP server guide](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
 New to CX Coworker Gateway? See [Access CX Coworker Gateway tools](./mcp/access.md) and [Install CX Coworker Gateway](./mcp/install.md) to get connected. Once connected, use the [session context tools](./mcp/context-tools.md) to set the active organization, sandbox, and data view before calling product tools.
 
