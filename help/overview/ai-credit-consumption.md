@@ -1,25 +1,24 @@
 ---
 title: AI信用沖銷
-description: 瞭解CX Enterprise應用程式中的AI積分耗用量。
+description: 瞭解CX Enterprise應用程式中的AI點數消耗。
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
+last-substantial-update: 2026-19-2026
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
     internal-label: AI Tools
-source-git-commit: 28e8b218e0923c9e463cce763a182b56a660d275
+source-git-commit: 47f06af825995d14691816ff1fc3e5592ffd6250
 workflow-type: tm+mt
-source-wordcount: 967
+source-wordcount: '1033'
 ht-degree: 5%
-
 ---
-
 # AI點數消耗
 
-瞭解CX Enterprise應用程式中的AI積分耗用量。
+瞭解CX Enterprise應用程式中的AI點數消耗。
 
 ## AI 點數
 
@@ -28,17 +27,25 @@ _AI評分_&#x200B;是以使用方式為基礎的量度，可量化動作或工�
 ## 使用AI積分的合格服務
 
 * [CX Enterprise Coworker](#cx-enterprise-coworker-credit-rate)
+* [CX Enterprise AI功能](#cx-enterprise-ai-capabilities)
 * [AEP代理程式](#aep-agents-credit-rate)
 
-### CX Enterprise同事信用評分
+### CX Enterprise Coworker信用率
 
 在有限的入門期間，「同事」輸入會以每個輸入25個AI點數的費率沖銷AI點數。 此費率僅適用於有限的時間，且可能會有所變更。
+
+### CX Enterprise AI功能
+
+| 功能 | 說明 | 支援的應用程式 | AI評分 |
+| --- | --- | --- | --- |
+| [品牌感知中繼資料](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/best-practices/brand-aware-metadata-best-practices) | 品牌內自訂中繼資料的產生 | Adobe Experience Manager [!DNL Assets] | 1個AI評分（每10個中繼資料層代） |
+| Digital Rights Management | 使用許可權擷取和管理 | Adobe Experience Manager [!DNL Assets] | 6個AI積分（每個已處理檔案） |
 
 ### AEP Agents信用率
 
 _代理程式工作_&#x200B;是AEP代理程式根據客戶輸入的指示，為達成特定結果所執行的一系列任務和動作。
 
-透過AI助理使用自然語言提示，您可以要求代理程式執行特定工作。 根據這些輸入，Agent Orchestrator會協調適當的代理程式，以便在相關的CX Enterprise應用程式中執行每個步驟。
+透過AI助理使用自然語言提示，您可以要求代理程式執行特定工作。 Agent Orchestrator會根據這些輸入協調適當的代理程式，以在相關的CX Enterprise應用程式中執行每個步驟。
 
 AI評分使用方式可能會因所執行工作的複雜性和價值而異：
 
@@ -46,11 +53,11 @@ AI評分使用方式可能會因所執行工作的複雜性和價值而異：
 * 複雜（通常為多步驟）的工作會消耗更多積分
 * 涉及進階推理、驗證、多代理程式協調或整合的工作會消耗更多評分
 
-若要檢視您的授權CX Enterprise應用程式中有哪些AEP代理程式和代理程式工作可用，請參閱[CX Enterprise Agentic AI功能目錄](https://agentic-capability-explorer.entapp.adproto.com/)。
+若要檢視您授權的AEP應用程式中有哪些CX Enterprise代理程式和代理程式工作可用，請參閱[CX Enterprise Agentic AI功能目錄](https://agentic-capability-explorer.entapp.adproto.com/)。
 
 #### 預估的代理程式工作評分率
 
-| 代理程式 | 工作 | 支援的應用程式 | 預估的AI積分 | 範例提示 |
+| AI 代理 | 工作 | 支援的應用程式 | 預估的AI積分 | 範例提示 |
 | ------ | ----- | ------------------------ | ----------------------- | ----------------- |
 | Audience 代理 | 對象/帳戶概念 | <ul><li>Real-Time CDP （B2B、B2C和B2P版本）</li><li>Adobe Journey Optimizer (B2C Edition)</li></ul> | 50 | <ul><li><em>為我顯示富裕買家的欄位</em></li><li><em>尋找與客戶偏好設定相關的所有欄位</em></li></ul> |
 | Audience 代理 | 對象/帳戶管理 | <ul><li>Real-Time CDP （B2B、B2C和B2P版本）</li><li>Adobe Journey Optimizer (B2C Edition)</li></ul> | 25 | <ul><li><em>我有任何重複的對象嗎？</em></li><li><em>顯示我的5大對象。</em></li><li><em>顯示未啟用至任何目的地的對象</em></li><li><em>列出即時歷程中使用的所有對象</em></li></ul> |
