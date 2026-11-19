@@ -38,7 +38,7 @@ _AI評分_&#x200B;是以使用方式為基礎的量度，可量化動作或工�
 
 | 功能 | 說明 | 支援的應用程式 | AI評分 |
 | --- | --- | --- | --- |
-| [品牌感知中繼資料](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/brand-aware-metadata-best-practices) | 品牌內自訂中繼資料的產生 | Adobe Experience Manager [!DNL Assets] | 1個AI評分（每10個中繼資料層代） |
+| [品牌感知中繼資料](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/best-practices/brand-aware-metadata-best-practices) | 品牌內自訂中繼資料的產生 | Adobe Experience Manager [!DNL Assets] | 1個AI評分（每10個中繼資料層代） |
 | Digital Rights Management | 使用許可權擷取和管理 | Adobe Experience Manager [!DNL Assets] | 6個AI積分（每個已處理檔案） |
 
 ### AEP Agents信用率
@@ -83,4 +83,4 @@ AI評分使用方式可能會因所執行工作的複雜性和價值而異：
 
 * [CX Enterprise中的GenAI](generative-ai.md)
 * [CX Enterprise 中的代理式 AI](agentic-ai.md)
-* [Adobe Experience Platform代理程式使用範圍試用版](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial)
+* [Adobe Experience Platform代理程式使用範圍試用版](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial)
